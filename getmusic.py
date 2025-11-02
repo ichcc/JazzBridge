@@ -253,13 +253,14 @@ class AlbumFetcher:
 
             # Search Apple Music first
             apple_url = self.search_apple_music(artist, album)
+            album_link = None
 
             if apple_url:
                 # Then get album.link URL
                 album_link = self.convert_url_to_album_link(apple_url)
 
-                if album_link:
-                    results.append((artist, album, album_link, apple_url, date_str))
+            # Add to results even if link not found (will show as placeholder)
+            results.append((artist, album, album_link or '', apple_url or '', date_str))
 
         return results
 
@@ -425,10 +426,12 @@ class OutputGenerator:
     <div class="grid-container">
 '''
 
-        # Add album embeds
+        # Add album embeds or placeholders
         for artist, album, album_link, apple_link, date in results:
-            encoded_url = quote(album_link)
-            html_content += f'''        <div class="album-embed">
+            if album_link:
+                # Album found - show embed
+                encoded_url = quote(album_link)
+                html_content += f'''        <div class="album-embed">
             <iframe src="https://song.link/embed?url={encoded_url}"
                     frameborder="0"
                     allowtransparency
@@ -437,13 +440,13 @@ class OutputGenerator:
             </iframe>
         </div>
 '''
-
-        # Add placeholders for remaining slots to fill 20 total
-        remaining = 20 - len(results)
-        for i in range(remaining):
-            html_content += f'''        <div class="album-embed placeholder">
+            else:
+                # Album not found - show placeholder with artist and album name
+                html_content += f'''        <div class="album-embed placeholder">
             <div class="placeholder-icon">🎵</div>
-            <div>Album {len(results) + i + 1}</div>
+            <div><strong>{artist}</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">{album}</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
         </div>
 '''
 
@@ -461,8 +464,12 @@ class OutputGenerator:
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(html_content)
 
+        # Count how many have links vs placeholders
+        with_links = sum(1 for _, _, link, _, _ in results if link)
+        without_links = len(results) - with_links
+
         print(f"HTML output written to: {output_file}")
-        print(f"Generated {len(results)} album embeds with {remaining} placeholders")
+        print(f"Generated {with_links} album embeds and {without_links} placeholders from {len(results)} total albums")
 
 
 def main():
@@ -493,7 +500,13 @@ def main():
     fetcher = AlbumFetcher(verbose=args.verbose)
     results = fetcher.process_feed()
 
-    print(f"\nFound {len(results)} albums with Album.link URLs")
+    # Count results with and without links
+    with_links = sum(1 for _, _, link, _, _ in results if link)
+    without_links = len(results) - with_links
+
+    print(f"\nProcessed {len(results)} albums:")
+    print(f"  - {with_links} found on streaming services")
+    print(f"  - {without_links} not found (will show as placeholders)")
 
     # Generate output
     if args.format == 'markdown':
