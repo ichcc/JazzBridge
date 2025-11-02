@@ -8,9 +8,13 @@ on:
   # Allow manual trigger from GitHub Actions tab
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-albums:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
@@ -30,11 +34,18 @@ jobs:
       - name: Generate jazz albums HTML
         run: |
           python getmusic.py -f html -o jazz_albums.html -v
+        timeout-minutes: 5
 
       - name: Check for changes
         id: check_changes
         run: |
-          git diff --quiet jazz_albums.html || echo "changed=true" >> $GITHUB_OUTPUT
+          if git diff --quiet jazz_albums.html; then
+            echo "No changes detected"
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected"
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Commit and push if changed
         if: steps.check_changes.outputs.changed == 'true'
@@ -45,5 +56,12 @@ jobs:
           TIMESTAMP=$(date +'%Y-%m-%d %H:%M UTC')
           git commit -m "Update jazz albums - $TIMESTAMP"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload artifact on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-logs
+          path: |
+            *.html
+            *.log
