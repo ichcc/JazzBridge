@@ -41,6 +41,7 @@ Thumbs.db
 !allaboutjazz_albumlink.md
 *.csv
 *.html
+!jazz_albums.html
 test_output.*
 sample_output.*
 
