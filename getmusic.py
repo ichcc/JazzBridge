@@ -303,6 +303,27 @@ class OutputGenerator:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🎷 Latest Jazz Albums from All About Jazz</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎷</text></svg>">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jazzbridge.pages.dev/">
+    <meta property="og:title" content="🎷 Latest Jazz Albums from All About Jazz">
+    <meta property="og:description" content="Daily updated collection of new jazz album releases with universal streaming links. Discover ''' + str(len(results)) + ''' albums from All About Jazz reviews.">
+    <meta property="og:image" content="https://jazzbridge.pages.dev/og-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jazzbridge.pages.dev/">
+    <meta property="twitter:title" content="🎷 Latest Jazz Albums from All About Jazz">
+    <meta property="twitter:description" content="Daily updated collection of new jazz album releases with universal streaming links.">
+    <meta property="twitter:image" content="https://jazzbridge.pages.dev/og-image.png">
+
+    <!-- Telegram -->
+    <meta name="description" content="Daily updated collection of ''' + str(len(results)) + ''' new jazz albums from All About Jazz with universal streaming links.">
+
     <style>
         * {
             margin: 0;

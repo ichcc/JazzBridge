@@ -44,6 +44,8 @@ Thumbs.db
 !index.html
 test_output.*
 sample_output.*
+!og-image.svg
+!og-image.png
 
 # Serena
 .serena/
