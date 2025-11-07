@@ -265,6 +265,74 @@ class AlbumFetcher:
         return results
 
 
+class JazzProfilesFetcher(AlbumFetcher):
+    """Handles fetching and processing jazz albums from Jazz Profiles blog."""
+
+    RSS_URL = "https://jazzprofiles.blogspot.com/feeds/posts/default"
+
+    # Jazz Profiles specific patterns (album mentions, reviews, etc.)
+    REMOVE_PATTERNS = [
+        r'\s*album review\s*$',
+        r'\s*review\s*$',
+        r'\s*-\s*album\s*$',
+        r'\s*\[album\]\s*$',
+    ]
+
+    def clean_title(self, title: str) -> Optional[Tuple[str, str]]:
+        """
+        Clean title and extract artist and album from Jazz Profiles format.
+
+        Jazz Profiles may use different formats:
+        - "Artist - Album"
+        - "Artist: Album"
+        - "Album by Artist"
+        - Or just descriptive titles
+
+        Args:
+            title: Raw title from RSS feed
+
+        Returns:
+            Tuple of (artist, album) or None if parsing fails
+        """
+        # Remove common suffixes
+        cleaned = title
+        for pattern in self.REMOVE_PATTERNS:
+            cleaned = re.sub(pattern, '', cleaned, flags=re.IGNORECASE)
+
+        cleaned = cleaned.strip()
+
+        # Try different separator patterns
+        # First try colon (like All About Jazz)
+        if ':' in cleaned:
+            parts = cleaned.split(':', 1)
+            if len(parts) == 2:
+                artist = parts[0].strip()
+                album = parts[1].strip()
+                if artist and album:
+                    return (artist, album)
+
+        # Try hyphen separator
+        if ' - ' in cleaned:
+            parts = cleaned.split(' - ', 1)
+            if len(parts) == 2:
+                artist = parts[0].strip()
+                album = parts[1].strip()
+                if artist and album:
+                    return (artist, album)
+
+        # Try "Album by Artist" format
+        if ' by ' in cleaned.lower():
+            match = re.search(r'^(.+?)\s+by\s+(.+?)$', cleaned, re.IGNORECASE)
+            if match:
+                album = match.group(1).strip()
+                artist = match.group(2).strip()
+                if artist and album:
+                    return (artist, album)
+
+        self.log(f"Skipping title - couldn't parse: {title}")
+        return None
+
+
 class OutputGenerator:
     """Handles output generation in various formats."""
 
@@ -295,14 +363,17 @@ class OutputGenerator:
         print(f"CSV output written to: {output_file}")
 
     @staticmethod
-    def generate_html(results: List[Tuple[str, str, str, str, str]], output_file: str):
-        """Generate HTML output with 4x5 grid of embedded album.link widgets."""
+    def generate_html(results: List[Tuple[str, str, str, str, str]], output_file: str,
+                     jazz_profiles_results: Optional[List[Tuple[str, str, str, str, str]]] = None):
+        """Generate HTML output with embedded album.link widgets from multiple sources."""
+        total_albums = len(results) + (len(jazz_profiles_results) if jazz_profiles_results else 0)
+
         html_content = '''<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🎷 Latest Jazz Albums from All About Jazz</title>
+    <title>🎷 Latest Jazz Albums</title>
 
     <!-- Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎷</text></svg>">
@@ -310,19 +381,19 @@ class OutputGenerator:
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jazzbridge.pages.dev/">
-    <meta property="og:title" content="🎷 Latest Jazz Albums from All About Jazz">
-    <meta property="og:description" content="Daily updated collection of new jazz album releases with universal streaming links. Discover ''' + str(len(results)) + ''' albums from All About Jazz reviews.">
+    <meta property="og:title" content="🎷 Latest Jazz Albums">
+    <meta property="og:description" content="Daily updated collection of new jazz album releases with universal streaming links. Discover ''' + str(total_albums) + ''' albums from All About Jazz and Jazz Profiles.">
     <meta property="og:image" content="https://jazzbridge.pages.dev/og-image.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://jazzbridge.pages.dev/">
-    <meta property="twitter:title" content="🎷 Latest Jazz Albums from All About Jazz">
+    <meta property="twitter:title" content="🎷 Latest Jazz Albums">
     <meta property="twitter:description" content="Daily updated collection of new jazz album releases with universal streaming links.">
     <meta property="twitter:image" content="https://jazzbridge.pages.dev/og-image.png">
 
     <!-- Telegram -->
-    <meta name="description" content="Daily updated collection of ''' + str(len(results)) + ''' new jazz albums from All About Jazz with universal streaming links.">
+    <meta name="description" content="Daily updated collection of ''' + str(total_albums) + ''' new jazz albums with universal streaming links.">
 
     <style>
         * {
@@ -348,9 +419,25 @@ class OutputGenerator:
             margin-bottom: 10px;
         }
 
+        h2 {
+            font-size: 1.5em;
+            margin: 40px 0 20px 0;
+            text-align: center;
+            color: #fff;
+        }
+
+        h2:first-of-type {
+            margin-top: 0;
+        }
+
         .update-time {
             color: #888;
             font-size: 0.9em;
+        }
+
+        .section-container {
+            max-width: 1400px;
+            margin: 0 auto;
         }
 
         .grid-container {
@@ -440,14 +527,16 @@ class OutputGenerator:
 </head>
 <body>
     <header>
-        <h1>🎷 Latest Jazz Albums from All About Jazz</h1>
+        <h1>🎷 Latest Jazz Albums</h1>
         <p class="update-time">Updated: ''' + datetime.now().strftime('%B %d, %Y at %I:%M %p') + '''</p>
     </header>
 
-    <div class="grid-container">
+    <div class="section-container">
+        <h2>🎺 All About Jazz</h2>
+        <div class="grid-container">
 '''
 
-        # Add album embeds or placeholders
+        # Add All About Jazz album embeds or placeholders
         for artist, album, album_link, apple_link, date in results:
             if album_link:
                 # Album found - show embed
@@ -471,10 +560,49 @@ class OutputGenerator:
         </div>
 '''
 
+        html_content += '''        </div>
+'''
+
+        # Add Jazz Profiles section if results provided
+        if jazz_profiles_results:
+            html_content += '''
+        <h2>🎹 Jazz Profiles</h2>
+        <div class="grid-container">
+'''
+            for artist, album, album_link, apple_link, date in jazz_profiles_results:
+                if album_link:
+                    # Album found - show embed
+                    encoded_url = quote(album_link)
+                    html_content += f'''        <div class="album-embed">
+            <iframe src="https://song.link/embed?url={encoded_url}"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    title="{artist} - {album}">
+            </iframe>
+        </div>
+'''
+                else:
+                    # Album not found - show placeholder
+                    html_content += f'''        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>{artist}</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">{album}</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+'''
+            html_content += '''        </div>
+'''
+
         html_content += '''    </div>
 
     <footer>
-        <p>Data from <a href="https://www.allaboutjazz.com/" target="_blank">All About Jazz</a> |
+        <p>Data from <a href="https://www.allaboutjazz.com/" target="_blank">All About Jazz</a>'''
+
+        if jazz_profiles_results:
+            html_content += ''' and <a href="https://jazzprofiles.blogspot.com/" target="_blank">Jazz Profiles</a>'''
+
+        html_content += ''' |
            Links via <a href="https://album.link" target="_blank">Album.link</a></p>
         <p style="margin-top: 10px;">Generated by GetMusic</p>
     </footer>
@@ -486,17 +614,22 @@ class OutputGenerator:
             f.write(html_content)
 
         # Count how many have links vs placeholders
-        with_links = sum(1 for _, _, link, _, _ in results if link)
-        without_links = len(results) - with_links
+        aaj_with_links = sum(1 for _, _, link, _, _ in results if link)
+        aaj_without_links = len(results) - aaj_with_links
 
         print(f"HTML output written to: {output_file}")
-        print(f"Generated {with_links} album embeds and {without_links} placeholders from {len(results)} total albums")
+        print(f"All About Jazz: {aaj_with_links} album embeds and {aaj_without_links} placeholders from {len(results)} total albums")
+
+        if jazz_profiles_results:
+            jp_with_links = sum(1 for _, _, link, _, _ in jazz_profiles_results if link)
+            jp_without_links = len(jazz_profiles_results) - jp_with_links
+            print(f"Jazz Profiles: {jp_with_links} album embeds and {jp_without_links} placeholders from {len(jazz_profiles_results)} total albums")
 
 
 def main():
     """Main entry point."""
     parser = argparse.ArgumentParser(
-        description='Fetch jazz albums from All About Jazz and find them on Album.link'
+        description='Fetch jazz albums from All About Jazz and Jazz Profiles, find them on Album.link'
     )
     parser.add_argument(
         '-o', '--output',
@@ -514,28 +647,52 @@ def main():
         action='store_true',
         help='Enable verbose output'
     )
+    parser.add_argument(
+        '--skip-jazz-profiles',
+        action='store_true',
+        help='Skip fetching from Jazz Profiles (only fetch All About Jazz)'
+    )
 
     args = parser.parse_args()
 
-    # Fetch and process albums
-    fetcher = AlbumFetcher(verbose=args.verbose)
-    results = fetcher.process_feed()
+    # Fetch and process albums from All About Jazz
+    print("\n=== Fetching from All About Jazz ===")
+    aaj_fetcher = AlbumFetcher(verbose=args.verbose)
+    aaj_results = aaj_fetcher.process_feed()
 
-    # Count results with and without links
-    with_links = sum(1 for _, _, link, _, _ in results if link)
-    without_links = len(results) - with_links
+    # Count All About Jazz results
+    aaj_with_links = sum(1 for _, _, link, _, _ in aaj_results if link)
+    aaj_without_links = len(aaj_results) - aaj_with_links
 
-    print(f"\nProcessed {len(results)} albums:")
-    print(f"  - {with_links} found on streaming services")
-    print(f"  - {without_links} not found (will show as placeholders)")
+    print(f"\nAll About Jazz - Processed {len(aaj_results)} albums:")
+    print(f"  - {aaj_with_links} found on streaming services")
+    print(f"  - {aaj_without_links} not found (will show as placeholders)")
+
+    # Fetch and process albums from Jazz Profiles (unless skipped)
+    jp_results = None
+    if not args.skip_jazz_profiles:
+        print("\n=== Fetching from Jazz Profiles ===")
+        jp_fetcher = JazzProfilesFetcher(verbose=args.verbose)
+        jp_results = jp_fetcher.process_feed()
+
+        # Count Jazz Profiles results
+        jp_with_links = sum(1 for _, _, link, _, _ in jp_results if link)
+        jp_without_links = len(jp_results) - jp_with_links
+
+        print(f"\nJazz Profiles - Processed {len(jp_results)} albums:")
+        print(f"  - {jp_with_links} found on streaming services")
+        print(f"  - {jp_without_links} not found (will show as placeholders)")
 
     # Generate output
     if args.format == 'markdown':
-        OutputGenerator.generate_markdown(results, args.output)
+        OutputGenerator.generate_markdown(aaj_results, args.output)
+        print("\nNote: Markdown format only includes All About Jazz results")
     elif args.format == 'csv':
-        OutputGenerator.generate_csv(results, args.output)
+        OutputGenerator.generate_csv(aaj_results, args.output)
+        print("\nNote: CSV format only includes All About Jazz results")
     elif args.format == 'html':
-        OutputGenerator.generate_html(results, args.output)
+        OutputGenerator.generate_html(aaj_results, args.output, jazz_profiles_results=jp_results)
+        print()
 
 
 if __name__ == '__main__':
