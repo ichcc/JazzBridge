@@ -630,81 +630,72 @@ class OutputGenerator:
 
 def main():
     """Main entry point."""
-    try:
-        parser = argparse.ArgumentParser(
-            description='Fetch jazz albums from All About Jazz and Jazz Profiles, find them on Album.link'
-        )
-        parser.add_argument(
-            '-o', '--output',
-            default='jazz_albums.md',
-            help='Output file path (default: jazz_albums.md)'
-        )
-        parser.add_argument(
-            '-f', '--format',
-            choices=['markdown', 'csv', 'html'],
-            default='markdown',
-            help='Output format (default: markdown)'
-        )
-        parser.add_argument(
-            '-v', '--verbose',
-            action='store_true',
-            help='Enable verbose output'
-        )
-        parser.add_argument(
-            '--skip-jazz-profiles',
-            action='store_true',
-            help='Skip fetching from Jazz Profiles (only fetch All About Jazz)'
-        )
+    parser = argparse.ArgumentParser(
+        description='Fetch jazz albums from All About Jazz and Jazz Profiles, find them on Album.link'
+    )
+    parser.add_argument(
+        '-o', '--output',
+        default='jazz_albums.md',
+        help='Output file path (default: jazz_albums.md)'
+    )
+    parser.add_argument(
+        '-f', '--format',
+        choices=['markdown', 'csv', 'html'],
+        default='markdown',
+        help='Output format (default: markdown)'
+    )
+    parser.add_argument(
+        '-v', '--verbose',
+        action='store_true',
+        help='Enable verbose output'
+    )
+    parser.add_argument(
+        '--skip-jazz-profiles',
+        action='store_true',
+        help='Skip fetching from Jazz Profiles (only fetch All About Jazz)'
+    )
 
-        args = parser.parse_args()
+    args = parser.parse_args()
 
-        # Fetch and process albums from All About Jazz
-        print("\n=== Fetching from All About Jazz ===")
-        aaj_fetcher = AlbumFetcher(verbose=args.verbose)
-        aaj_results = aaj_fetcher.process_feed()
+    # Fetch and process albums from All About Jazz
+    print("\n=== Fetching from All About Jazz ===")
+    aaj_fetcher = AlbumFetcher(verbose=args.verbose)
+    aaj_results = aaj_fetcher.process_feed()
 
-        # Count All About Jazz results
-        aaj_with_links = sum(1 for _, _, link, _, _ in aaj_results if link)
-        aaj_without_links = len(aaj_results) - aaj_with_links
+    # Count All About Jazz results
+    aaj_with_links = sum(1 for _, _, link, _, _ in aaj_results if link)
+    aaj_without_links = len(aaj_results) - aaj_with_links
 
-        print(f"\nAll About Jazz - Processed {len(aaj_results)} albums:")
-        print(f"  - {aaj_with_links} found on streaming services")
-        print(f"  - {aaj_without_links} not found (will show as placeholders)")
+    print(f"\nAll About Jazz - Processed {len(aaj_results)} albums:")
+    print(f"  - {aaj_with_links} found on streaming services")
+    print(f"  - {aaj_without_links} not found (will show as placeholders)")
 
-        # Fetch and process albums from Jazz Profiles (unless skipped)
-        jp_results = None
-        if not args.skip_jazz_profiles:
-            print("\n=== Fetching from Jazz Profiles ===")
-            jp_fetcher = JazzProfilesFetcher(verbose=args.verbose)
-            jp_results = jp_fetcher.process_feed()
+    # Fetch and process albums from Jazz Profiles (unless skipped)
+    jp_results = None
+    if not args.skip_jazz_profiles:
+        print("\n=== Fetching from Jazz Profiles ===")
+        jp_fetcher = JazzProfilesFetcher(verbose=args.verbose)
+        jp_results = jp_fetcher.process_feed()
 
-            # Count Jazz Profiles results
-            jp_with_links = sum(1 for _, _, link, _, _ in jp_results if link)
-            jp_without_links = len(jp_results) - jp_with_links
+        # Count Jazz Profiles results
+        jp_with_links = sum(1 for _, _, link, _, _ in jp_results if link)
+        jp_without_links = len(jp_results) - jp_with_links
 
-            print(f"\nJazz Profiles - Processed {len(jp_results)} albums:")
-            print(f"  - {jp_with_links} found on streaming services")
-            print(f"  - {jp_without_links} not found (will show as placeholders)")
+        print(f"\nJazz Profiles - Processed {len(jp_results)} albums:")
+        print(f"  - {jp_with_links} found on streaming services")
+        print(f"  - {jp_without_links} not found (will show as placeholders)")
 
-        # Generate output
-        if args.format == 'markdown':
-            OutputGenerator.generate_markdown(aaj_results, args.output)
-            print("\nNote: Markdown format only includes All About Jazz results")
-        elif args.format == 'csv':
-            OutputGenerator.generate_csv(aaj_results, args.output)
-            print("\nNote: CSV format only includes All About Jazz results")
-        elif args.format == 'html':
-            OutputGenerator.generate_html(aaj_results, args.output, jazz_profiles_results=jp_results)
-            print()
-
-        return 0
-
-    except Exception as e:
-        print(f"\n❌ Fatal error: {e}", file=sys.stderr)
-        import traceback
-        traceback.print_exc()
-        return 1
+    # Generate output
+    if args.format == 'markdown':
+        OutputGenerator.generate_markdown(aaj_results, args.output)
+        print("\nNote: Markdown format only includes All About Jazz results")
+    elif args.format == 'csv':
+        OutputGenerator.generate_csv(aaj_results, args.output)
+        print("\nNote: CSV format only includes All About Jazz results")
+    elif args.format == 'html':
+        OutputGenerator.generate_html(aaj_results, args.output, jazz_profiles_results=jp_results)
+        print()
 
 
 if __name__ == '__main__':
-    sys.exit(main())
+    main()
