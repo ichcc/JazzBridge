@@ -696,10 +696,13 @@ def main():
         OutputGenerator.generate_html(aaj_results, args.output, jazz_profiles_results=jp_results)
         print()
 
+    print(f"✓ Successfully completed - output written to {args.output}")
+
 
 if __name__ == '__main__':
     try:
         main()
+        print("✓ Script completed successfully (exit code 0)")
     except KeyboardInterrupt:
         print("\nInterrupted by user")
         sys.exit(130)
