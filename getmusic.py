@@ -51,11 +51,13 @@ class AlbumFetcher:
         try:
             feed = feedparser.parse(self.RSS_URL)
             if feed.bozo:
-                print(f"Warning: RSS feed parsing had errors", file=sys.stderr)
+                self.log(f"Warning: RSS feed parsing had errors: {feed.get('bozo_exception', 'Unknown error')}")
             self.log(f"Found {len(feed.entries)} entries")
             return feed.entries
         except Exception as e:
-            print(f"Error fetching RSS feed: {e}", file=sys.stderr)
+            self.log(f"Error fetching RSS feed: {e}")
+            import traceback
+            self.log(traceback.format_exc())
             return []
 
     def clean_title(self, title: str) -> Optional[Tuple[str, str]]:
@@ -696,4 +698,13 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\nInterrupted by user")
+        sys.exit(130)
+    except Exception as e:
+        print(f"\n❌ Unexpected error: {e}", file=sys.stderr)
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)
