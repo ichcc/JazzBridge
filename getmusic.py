@@ -350,6 +350,74 @@ class JazzProfilesFetcher(AlbumFetcher):
         return None
 
 
+class JazzChillFetcher(AlbumFetcher):
+    """Handles fetching and processing jazz albums from JazzChill blog."""
+
+    RSS_URL = "https://jazzchill.blogspot.com/feeds/posts/default"
+
+    # JazzChill specific patterns (album mentions, reviews, etc.)
+    REMOVE_PATTERNS = [
+        r'\s*album review\s*$',
+        r'\s*review\s*$',
+        r'\s*-\s*album\s*$',
+        r'\s*\[album\]\s*$',
+    ]
+
+    def clean_title(self, title: str) -> Optional[Tuple[str, str]]:
+        """
+        Clean title and extract artist and album from JazzChill format.
+
+        JazzChill may use different formats:
+        - "Artist - Album"
+        - "Artist: Album"
+        - "Album by Artist"
+        - Or just descriptive titles
+
+        Args:
+            title: Raw title from RSS feed
+
+        Returns:
+            Tuple of (artist, album) or None if parsing fails
+        """
+        # Remove common suffixes
+        cleaned = title
+        for pattern in self.REMOVE_PATTERNS:
+            cleaned = re.sub(pattern, '', cleaned, flags=re.IGNORECASE)
+
+        cleaned = cleaned.strip()
+
+        # Try different separator patterns
+        # First try colon (like All About Jazz)
+        if ':' in cleaned:
+            parts = cleaned.split(':', 1)
+            if len(parts) == 2:
+                artist = parts[0].strip()
+                album = parts[1].strip()
+                if artist and album:
+                    return (artist, album)
+
+        # Try hyphen separator
+        if ' - ' in cleaned:
+            parts = cleaned.split(' - ', 1)
+            if len(parts) == 2:
+                artist = parts[0].strip()
+                album = parts[1].strip()
+                if artist and album:
+                    return (artist, album)
+
+        # Try "Album by Artist" format
+        if ' by ' in cleaned.lower():
+            match = re.search(r'^(.+?)\s+by\s+(.+?)$', cleaned, re.IGNORECASE)
+            if match:
+                album = match.group(1).strip()
+                artist = match.group(2).strip()
+                if artist and album:
+                    return (artist, album)
+
+        self.log(f"Skipping title - couldn't parse: {title}")
+        return None
+
+
 class OutputGenerator:
     """Handles output generation in various formats."""
 
@@ -381,9 +449,12 @@ class OutputGenerator:
 
     @staticmethod
     def generate_html(results: List[Tuple[str, str, str, str, str]], output_file: str,
-                     jazz_profiles_results: Optional[List[Tuple[str, str, str, str, str]]] = None):
+                     jazz_profiles_results: Optional[List[Tuple[str, str, str, str, str]]] = None,
+                     jazz_chill_results: Optional[List[Tuple[str, str, str, str, str]]] = None):
         """Generate HTML output with embedded album.link widgets from multiple sources."""
-        total_albums = len(results) + (len(jazz_profiles_results) if jazz_profiles_results else 0)
+        total_albums = len(results) + \
+                      (len(jazz_profiles_results) if jazz_profiles_results else 0) + \
+                      (len(jazz_chill_results) if jazz_chill_results else 0)
 
         html_content = '''<!DOCTYPE html>
 <html lang="en">
@@ -399,7 +470,7 @@ class OutputGenerator:
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jazzbridge.pages.dev/">
     <meta property="og:title" content="🎷 Latest Jazz Albums">
-    <meta property="og:description" content="Daily updated collection of new jazz album releases with universal streaming links. Discover ''' + str(total_albums) + ''' albums from All About Jazz and Jazz Profiles.">
+    <meta property="og:description" content="Daily updated collection of new jazz album releases with universal streaming links. Discover ''' + str(total_albums) + ''' albums from All About Jazz, Jazz Profiles, and JazzChill.">
     <meta property="og:image" content="https://jazzbridge.pages.dev/og-image.png">
 
     <!-- Twitter -->
@@ -611,13 +682,47 @@ class OutputGenerator:
             html_content += '''        </div>
 '''
 
+        # Add JazzChill section if results provided
+        if jazz_chill_results:
+            html_content += '''
+        <h2>🎶 JazzChill</h2>
+        <div class="grid-container">
+'''
+            for artist, album, album_link, apple_link, date in jazz_chill_results:
+                if album_link:
+                    # Album found - show embed
+                    encoded_url = quote(album_link)
+                    html_content += f'''        <div class="album-embed">
+            <iframe src="https://song.link/embed?url={encoded_url}"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    title="{artist} - {album}">
+            </iframe>
+        </div>
+'''
+                else:
+                    # Album not found - show placeholder
+                    html_content += f'''        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>{artist}</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">{album}</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+'''
+            html_content += '''        </div>
+'''
+
         html_content += '''    </div>
 
     <footer>
         <p>Data from <a href="https://www.allaboutjazz.com/" target="_blank">All About Jazz</a>'''
 
         if jazz_profiles_results:
-            html_content += ''' and <a href="https://jazzprofiles.blogspot.com/" target="_blank">Jazz Profiles</a>'''
+            html_content += ''', <a href="https://jazzprofiles.blogspot.com/" target="_blank">Jazz Profiles</a>'''
+
+        if jazz_chill_results:
+            html_content += ''', and <a href="https://jazzchill.blogspot.com/" target="_blank">JazzChill</a>'''
 
         html_content += ''' |
            Links via <a href="https://album.link" target="_blank">Album.link</a></p>
@@ -642,11 +747,16 @@ class OutputGenerator:
             jp_without_links = len(jazz_profiles_results) - jp_with_links
             print(f"Jazz Profiles: {jp_with_links} album embeds and {jp_without_links} placeholders from {len(jazz_profiles_results)} total albums")
 
+        if jazz_chill_results:
+            jc_with_links = sum(1 for _, _, link, _, _ in jazz_chill_results if link)
+            jc_without_links = len(jazz_chill_results) - jc_with_links
+            print(f"JazzChill: {jc_with_links} album embeds and {jc_without_links} placeholders from {len(jazz_chill_results)} total albums")
+
 
 def main():
     """Main entry point."""
     parser = argparse.ArgumentParser(
-        description='Fetch jazz albums from All About Jazz and Jazz Profiles, find them on Album.link'
+        description='Fetch jazz albums from All About Jazz, Jazz Profiles, and JazzChill, find them on Album.link'
     )
     parser.add_argument(
         '-o', '--output',
@@ -700,6 +810,21 @@ def main():
         print(f"  - {jp_with_links} found on streaming services")
         print(f"  - {jp_without_links} not found (will show as placeholders)")
 
+    # Fetch and process albums from JazzChill (unless skipped)
+    jc_results = None
+    if not args.skip_jazz_profiles:  # Use same flag for now
+        print("\n=== Fetching from JazzChill ===")
+        jc_fetcher = JazzChillFetcher(verbose=args.verbose)
+        jc_results = jc_fetcher.process_feed()
+
+        # Count JazzChill results
+        jc_with_links = sum(1 for _, _, link, _, _ in jc_results if link)
+        jc_without_links = len(jc_results) - jc_with_links
+
+        print(f"\nJazzChill - Processed {len(jc_results)} albums:")
+        print(f"  - {jc_with_links} found on streaming services")
+        print(f"  - {jc_without_links} not found (will show as placeholders)")
+
     # Generate output
     if args.format == 'markdown':
         OutputGenerator.generate_markdown(aaj_results, args.output)
@@ -708,7 +833,9 @@ def main():
         OutputGenerator.generate_csv(aaj_results, args.output)
         print("\nNote: CSV format only includes All About Jazz results")
     elif args.format == 'html':
-        OutputGenerator.generate_html(aaj_results, args.output, jazz_profiles_results=jp_results)
+        OutputGenerator.generate_html(aaj_results, args.output,
+                                      jazz_profiles_results=jp_results,
+                                      jazz_chill_results=jc_results)
         print()
 
     print(f"✓ Successfully completed - output written to {args.output}")
