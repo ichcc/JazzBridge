@@ -239,11 +239,26 @@ class AlbumFetcher:
             date_str = ''
             if pub_date:
                 try:
+                    # Try RSS format first: "Fri, 08 Nov 2025 07:00:00 +0000"
                     date_obj = datetime.strptime(pub_date, '%a, %d %b %Y %H:%M:%S %z')
                     date_str = date_obj.strftime('%Y-%m-%d')
-                except:
-                    date_str = pub_date.split(',')[1].strip().split()[0:3]
-                    date_str = ' '.join(date_str) if isinstance(date_str, list) else pub_date
+                except ValueError:
+                    try:
+                        # Try ISO 8601 format: "2025-11-08T07:00:00.000-08:00"
+                        # Handle both with and without microseconds
+                        if '.' in pub_date:
+                            date_obj = datetime.strptime(pub_date, '%Y-%m-%dT%H:%M:%S.%f%z')
+                        else:
+                            date_obj = datetime.strptime(pub_date, '%Y-%m-%dT%H:%M:%S%z')
+                        date_str = date_obj.strftime('%Y-%m-%d')
+                    except ValueError:
+                        # Fallback: try to extract date from RSS format by splitting
+                        try:
+                            date_parts = pub_date.split(',')[1].strip().split()[0:3]
+                            date_str = ' '.join(date_parts) if date_parts else pub_date
+                        except (IndexError, AttributeError):
+                            # Last resort: just use the raw date string
+                            date_str = pub_date
 
             # Clean and parse title
             parsed = self.clean_title(title)
