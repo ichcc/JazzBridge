@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🎷 Latest Jazz Albums from All About Jazz</title>
+    <title>🎷 Latest Jazz Albums</title>
 
     <!-- Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎷</text></svg>">
@@ -11,21 +11,45 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jazzbridge.pages.dev/">
-    <meta property="og:title" content="🎷 Latest Jazz Albums from All About Jazz">
-    <meta property="og:description" content="Daily updated collection of new jazz album releases with universal streaming links. Discover 20 albums from All About Jazz reviews.">
+    <meta property="og:title" content="🎷 Latest Jazz Albums">
+    <meta property="og:description" content="Daily updated collection of new jazz album releases with universal streaming links. Discover 61 albums from All About Jazz, Jazz Profiles, JazzChill, and JazzWax.">
     <meta property="og:image" content="https://jazzbridge.pages.dev/og-image.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://jazzbridge.pages.dev/">
-    <meta property="twitter:title" content="🎷 Latest Jazz Albums from All About Jazz">
+    <meta property="twitter:title" content="🎷 Latest Jazz Albums">
     <meta property="twitter:description" content="Daily updated collection of new jazz album releases with universal streaming links.">
     <meta property="twitter:image" content="https://jazzbridge.pages.dev/og-image.png">
 
     <!-- Telegram -->
-    <meta name="description" content="Daily updated collection of 20 new jazz albums from All About Jazz with universal streaming links.">
+    <meta name="description" content="Daily updated collection of 61 new jazz albums with universal streaming links.">
 
     <style>
+        :root {
+            /* Light theme (day) */
+            --bg-primary: #f5f5f5;
+            --bg-secondary: #ffffff;
+            --bg-card: #ffffff;
+            --text-primary: #1a1a1a;
+            --text-secondary: #666;
+            --text-muted: #999;
+            --border-color: #e0e0e0;
+            --shadow: rgba(0, 0, 0, 0.1);
+        }
+
+        body.dark-theme {
+            /* Dark theme (night) */
+            --bg-primary: #1a1a1a;
+            --bg-secondary: #2a2a2a;
+            --bg-card: #2a2a2a;
+            --text-primary: #ffffff;
+            --text-secondary: #888;
+            --text-muted: #666;
+            --border-color: #333;
+            --shadow: rgba(0, 0, 0, 0.3);
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -34,9 +58,10 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-            background: #1a1a1a;
-            color: #fff;
+            background: var(--bg-primary);
+            color: var(--text-primary);
             padding: 20px;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
         header {
@@ -49,9 +74,44 @@
             margin-bottom: 10px;
         }
 
+        h2 {
+            font-size: 1.5em;
+            margin: 40px 0 20px 0;
+            text-align: center;
+            color: var(--text-primary);
+        }
+
+        h2:first-of-type {
+            margin-top: 0;
+        }
+
         .update-time {
-            color: #888;
+            color: var(--text-secondary);
             font-size: 0.9em;
+        }
+
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 50px;
+            padding: 8px 16px;
+            cursor: pointer;
+            font-size: 1.2em;
+            box-shadow: 0 2px 8px var(--shadow);
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.1);
+        }
+
+        .section-container {
+            max-width: 1400px;
+            margin: 0 auto;
         }
 
         .grid-container {
@@ -67,8 +127,9 @@
             width: 100%;
             border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-            background: #2a2a2a;
+            box-shadow: 0 4px 6px var(--shadow);
+            background: var(--bg-card);
+            transition: box-shadow 0.3s ease;
         }
 
         .album-embed iframe {
@@ -82,7 +143,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            color: #666;
+            color: var(--text-muted);
             font-size: 0.9em;
             text-align: center;
             padding: 20px;
@@ -97,18 +158,18 @@
             text-align: center;
             margin-top: 40px;
             padding-top: 20px;
-            border-top: 1px solid #333;
-            color: #666;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-muted);
             font-size: 0.85em;
         }
 
         footer a {
-            color: #888;
+            color: var(--text-secondary);
             text-decoration: none;
         }
 
         footer a:hover {
-            color: #fff;
+            color: var(--text-primary);
         }
 
         /* Responsive design */
@@ -136,16 +197,115 @@
             h1 {
                 font-size: 1.2em;
             }
+
+            .theme-toggle {
+                top: 10px;
+                right: 10px;
+                padding: 6px 12px;
+                font-size: 1em;
+            }
         }
     </style>
+    <script>
+        // Auto theme switching based on local time
+        function setThemeByTime() {
+            const hour = new Date().getHours();
+            // Dark theme between 6 PM (18:00) and 6 AM (6:00)
+            const isDarkTime = hour >= 18 || hour < 6;
+
+            // Check if user has manually set a preference
+            const savedTheme = localStorage.getItem('theme');
+
+            if (savedTheme) {
+                // User preference takes priority
+                document.body.className = savedTheme === 'dark' ? 'dark-theme' : '';
+                updateThemeToggle(savedTheme === 'dark');
+            } else {
+                // Auto-set based on time
+                document.body.className = isDarkTime ? 'dark-theme' : '';
+                updateThemeToggle(isDarkTime);
+            }
+        }
+
+        function toggleTheme() {
+            const isDark = document.body.classList.contains('dark-theme');
+            const newTheme = isDark ? 'light' : 'dark';
+
+            document.body.className = newTheme === 'dark' ? 'dark-theme' : '';
+            localStorage.setItem('theme', newTheme);
+            updateThemeToggle(newTheme === 'dark');
+        }
+
+        function updateThemeToggle(isDark) {
+            const toggle = document.getElementById('theme-toggle');
+            if (toggle) {
+                toggle.textContent = isDark ? '☀️' : '🌙';
+                toggle.title = isDark ? 'Switch to light mode' : 'Switch to dark mode';
+            }
+        }
+
+        // Set theme on page load
+        setThemeByTime();
+    </script>
 </head>
 <body>
+    <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()" title="Toggle theme">🌙</button>
     <header>
-        <h1>🎷 Latest Jazz Albums from All About Jazz</h1>
-        <p class="update-time">Updated: November 07, 2025 at 09:07 AM</p>
+        <h1>🎷 Latest Jazz Albums</h1>
+        <p class="update-time">Updated: November 10, 2025 at 05:47 AM</p>
     </header>
 
-    <div class="grid-container">
+    <div class="section-container">
+        <h2>🎺 All About Jazz</h2>
+        <div class="grid-container">
+        <div class="album-embed">
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1833268000"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    title="Atlantis Quartet - Live at Berlin">
+            </iframe>
+        </div>
+        <div class="album-embed">
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1827579724"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    title="John O'Gallagher - Ancestral">
+            </iframe>
+        </div>
+        <div class="album-embed">
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1836130515"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    title="Jan Bang - Arve Henriksen - After The Wildfire">
+            </iframe>
+        </div>
+        <div class="album-embed">
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1845406152"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    title="Carlos Garnett - Cosmos Nucleus">
+            </iframe>
+        </div>
+        <div class="album-embed">
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1829851426"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    title="Martin Nodeland - Tributaries">
+            </iframe>
+        </div>
+        <div class="album-embed">
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1847026210"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    title="Pat Thomas - HIKMAH">
+            </iframe>
+        </div>
         <div class="album-embed placeholder">
             <div class="placeholder-icon">🎵</div>
             <div><strong>WDR Big Band featuring John Goldsby and Bob Mintzer</strong></div>
@@ -188,11 +348,13 @@
                     title="Joe Farnsworth - The Big Room">
             </iframe>
         </div>
-        <div class="album-embed placeholder">
-            <div class="placeholder-icon">🎵</div>
-            <div><strong>Roy Brooks</strong></div>
-            <div style="font-size: 0.85em; margin-top: 5px;">The Free Slave</div>
-            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        <div class="album-embed">
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1845405995"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    title="Roy Brooks - The Free Slave">
+            </iframe>
         </div>
         <div class="album-embed">
             <iframe src="https://song.link/embed?url=https%3A//album.link/i/1814856610"
@@ -232,72 +394,313 @@
                     title="James Suggs - For All We Know">
             </iframe>
         </div>
+        </div>
+
+        <h2>🎹 Jazz Profiles</h2>
+        <div class="grid-container">
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>You Stepped Out A Dream/Chick’s Tune</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">Blue Mitchell</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>Curtis Counce Quintet</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">Landslide</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>Miles Davis - Changes</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">The 1955 Sessions - Simon Spillett Notes [Acrobat ADDCD3148]</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1823958527"
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1462223012"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
-                    title="Fergus McCreadie - The Shieling">
+                    title="Elvin Jones - This Love Of Mine From "Dear John C"">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1829684935"
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1841528168"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
-                    title="Ruby Rushton - Legacy!">
+                    title="Rahsaan Roland Kirk - "Seek & Listen" & "Vibrations in the Village" (Min...">
             </iframe>
         </div>
         <div class="album-embed placeholder">
             <div class="placeholder-icon">🎵</div>
-            <div><strong>Christoph Gallio</strong></div>
-            <div style="font-size: 0.85em; margin-top: 5px;">Stone Is A Rose Is A Stone Is A Stone</div>
+            <div><strong>Nelson Riddle</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">Old Blue Eyes with Cole Porter's From This Moment On (Remastered) Arrangement</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>The Jazztet</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">Hard Bop at Its Refined Best</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>Leo Wright</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">Alto Sax and Flute with Verve and Vigor</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>Nardis</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">Jack DeJohnette [1942-2025] R.I.P.</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>Stan Levey</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">The Beginnings of Bebop</div>
             <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1829851426"
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1425262446"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
-                    title="Martin Nodeland - Tributaries">
+                    title="You Go To My Head - Louis Armstrong and Oscar Peterson">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/208716518"
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/181589129"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
-                    title="David Murray - Hope Scope">
+                    title="Paul Desmond & The Modern Jazz Quartet - Live in New York City ( Full Al...">
+            </iframe>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>This is Hip</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">The Life of Mark Murphy by Peter Jones - A Synopsis</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>Cannonball Adderley</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">Minority [Gigi Gryce composer]</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed">
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1443845755"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    title="Konitz Meets Mulligan - Lee Konitz and The Gerry Mulligan Quartet">
+            </iframe>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>Paul Horn</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">Benny's Buns - The Sound of Paul Horn - 01</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>Neil Tesser</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">A Profile of Bill Evans</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>Chances Are It Swings</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">Shorty Rogers & His Orchestra 1959 Mono (RCA Vic...</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed">
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/877878920"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    title="Art Pepper - Tickle Toe">
+            </iframe>
+        </div>
+        </div>
+
+        <h2>🎶 JazzChill</h2>
+        <div class="grid-container">
+        <div class="album-embed">
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1444100747"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    title="Les Baxter, Harry Revel & Dr. Samuel Hoffman - The Birth of Space Age Sound – Music Out of the Moon / Music for Peace of Mind">
+            </iframe>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>Nina Simone – Let It All Out</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">Selected Singles 1961 to 1978</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>Billy Paul</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">Four Timeless Journeys Through Sophisticated Soul</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>John O’Gallagher’s Ancestral</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">A Landmark Collaboration Between Two Jazz Drum Masters</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>Jack DeJohnette</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">The Rhythmic Soul of Modern Jazz Has Left Us</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>Jakob Dreyer Digs Deep on Roots and Things</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">A Bold Leap Forward in Sound and Swing</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        </div>
+
+        <h2>🎺 JazzWax</h2>
+        <div class="grid-container">
+        <div class="album-embed">
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1543969342"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    title="Ray Charles - The Lost Singles">
+            </iframe>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>Editor's Note</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">Popping Up on a Podcast</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>Chet Baker</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">Birth of the Cool</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>WSJ</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">Zoey Deutch</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>Interview</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">Bruce Weber on Chet Baker</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>Videos</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">Bud Powell in Europe</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed">
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1831143513"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    title="Charles Lloyd - 'Figure in Blue' (2025)">
+            </iframe>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>Editor's Note</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">Updates at JazzWax</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>WSJ</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">Edie Falco</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed">
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/724760207"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    title="Jack DeJohnette - First and Last">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1845921192"
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/193085545"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
-                    title="Teddy Pantelas Trio - Shadow Warrior">
+                    title="Video - Dave Brubeck Quartet in Germany (1966)">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1839980871"
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1599345103"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
-                    title="Dayna Stephens - Monk'D">
+                    title="Chuck Wayne and Joe Puma - 'Interactions' (1973)">
+            </iframe>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>WSJ</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">Paul Simon's 'Still Crazy After All These Years'</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed">
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1830639316"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    title="New Horace Silver - 'Live at the Penthouse' (1965)">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1832769118"
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1837159249"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
-                    title="Sebastian Rochford - Finding Ways">
+                    title="New Doug Raney - 'Never Say Yes' (1986)">
             </iframe>
+        </div>
+        <div class="album-embed">
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/451230789"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    title="Red Garland Track - 'I Can't See for Lookin' ' (1958)">
+            </iframe>
+        </div>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>WSJ</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">Jackie Tohn</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+        <div class="album-embed">
+            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1485768224"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    title="William Green - 'Shades of Green' (1963)">
+            </iframe>
+        </div>
         </div>
     </div>
 
     <footer>
-        <p>Data from <a href="https://www.allaboutjazz.com/" target="_blank">All About Jazz</a> |
+        <p>Data from <a href="https://www.allaboutjazz.com/" target="_blank">All About Jazz</a>, <a href="https://jazzprofiles.blogspot.com/" target="_blank">Jazz Profiles</a>, <a href="https://jazzchill.blogspot.com/" target="_blank">JazzChill</a>, and <a href="https://jazzwax.com/" target="_blank">JazzWax</a> |
            Links via <a href="https://album.link" target="_blank">Album.link</a></p>
         <p style="margin-top: 10px;">Generated by GetMusic</p>
     </footer>
