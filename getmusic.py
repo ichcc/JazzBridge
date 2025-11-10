@@ -554,6 +554,30 @@ class OutputGenerator:
     <meta name="description" content="Daily updated collection of ''' + str(total_albums) + ''' new jazz albums with universal streaming links.">
 
     <style>
+        :root {
+            /* Light theme (day) */
+            --bg-primary: #f5f5f5;
+            --bg-secondary: #ffffff;
+            --bg-card: #ffffff;
+            --text-primary: #1a1a1a;
+            --text-secondary: #666;
+            --text-muted: #999;
+            --border-color: #e0e0e0;
+            --shadow: rgba(0, 0, 0, 0.1);
+        }
+
+        body.dark-theme {
+            /* Dark theme (night) */
+            --bg-primary: #1a1a1a;
+            --bg-secondary: #2a2a2a;
+            --bg-card: #2a2a2a;
+            --text-primary: #ffffff;
+            --text-secondary: #888;
+            --text-muted: #666;
+            --border-color: #333;
+            --shadow: rgba(0, 0, 0, 0.3);
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -562,9 +586,10 @@ class OutputGenerator:
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-            background: #1a1a1a;
-            color: #fff;
+            background: var(--bg-primary);
+            color: var(--text-primary);
             padding: 20px;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
         header {
@@ -581,7 +606,7 @@ class OutputGenerator:
             font-size: 1.5em;
             margin: 40px 0 20px 0;
             text-align: center;
-            color: #fff;
+            color: var(--text-primary);
         }
 
         h2:first-of-type {
@@ -589,8 +614,27 @@ class OutputGenerator:
         }
 
         .update-time {
-            color: #888;
+            color: var(--text-secondary);
             font-size: 0.9em;
+        }
+
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 50px;
+            padding: 8px 16px;
+            cursor: pointer;
+            font-size: 1.2em;
+            box-shadow: 0 2px 8px var(--shadow);
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.1);
         }
 
         .section-container {
@@ -611,8 +655,9 @@ class OutputGenerator:
             width: 100%;
             border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-            background: #2a2a2a;
+            box-shadow: 0 4px 6px var(--shadow);
+            background: var(--bg-card);
+            transition: box-shadow 0.3s ease;
         }
 
         .album-embed iframe {
@@ -626,7 +671,7 @@ class OutputGenerator:
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            color: #666;
+            color: var(--text-muted);
             font-size: 0.9em;
             text-align: center;
             padding: 20px;
@@ -641,18 +686,18 @@ class OutputGenerator:
             text-align: center;
             margin-top: 40px;
             padding-top: 20px;
-            border-top: 1px solid #333;
-            color: #666;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-muted);
             font-size: 0.85em;
         }
 
         footer a {
-            color: #888;
+            color: var(--text-secondary);
             text-decoration: none;
         }
 
         footer a:hover {
-            color: #fff;
+            color: var(--text-primary);
         }
 
         /* Responsive design */
@@ -680,10 +725,59 @@ class OutputGenerator:
             h1 {
                 font-size: 1.2em;
             }
+
+            .theme-toggle {
+                top: 10px;
+                right: 10px;
+                padding: 6px 12px;
+                font-size: 1em;
+            }
         }
     </style>
+    <script>
+        // Auto theme switching based on local time
+        function setThemeByTime() {
+            const hour = new Date().getHours();
+            // Dark theme between 6 PM (18:00) and 6 AM (6:00)
+            const isDarkTime = hour >= 18 || hour < 6;
+
+            // Check if user has manually set a preference
+            const savedTheme = localStorage.getItem('theme');
+
+            if (savedTheme) {
+                // User preference takes priority
+                document.body.className = savedTheme === 'dark' ? 'dark-theme' : '';
+                updateThemeToggle(savedTheme === 'dark');
+            } else {
+                // Auto-set based on time
+                document.body.className = isDarkTime ? 'dark-theme' : '';
+                updateThemeToggle(isDarkTime);
+            }
+        }
+
+        function toggleTheme() {
+            const isDark = document.body.classList.contains('dark-theme');
+            const newTheme = isDark ? 'light' : 'dark';
+
+            document.body.className = newTheme === 'dark' ? 'dark-theme' : '';
+            localStorage.setItem('theme', newTheme);
+            updateThemeToggle(newTheme === 'dark');
+        }
+
+        function updateThemeToggle(isDark) {
+            const toggle = document.getElementById('theme-toggle');
+            if (toggle) {
+                toggle.textContent = isDark ? '☀️' : '🌙';
+                toggle.title = isDark ? 'Switch to light mode' : 'Switch to dark mode';
+            }
+        }
+
+        // Set theme on page load
+        setThemeByTime();
+    </script>
 </head>
 <body>
+    <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()" title="Toggle theme">🌙</button>
     <header>
         <h1>🎷 Latest Jazz Albums</h1>
         <p class="update-time">Updated: ''' + datetime.now().strftime('%B %d, %Y at %I:%M %p') + '''</p>
