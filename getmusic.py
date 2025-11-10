@@ -613,6 +613,16 @@ class OutputGenerator:
             margin-top: 0;
         }
 
+        h2 a {
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: opacity 0.3s ease;
+        }
+
+        h2 a:hover {
+            opacity: 0.7;
+        }
+
         .update-time {
             color: var(--text-secondary);
             font-size: 0.9em;
@@ -784,7 +794,7 @@ class OutputGenerator:
     </header>
 
     <div class="section-container">
-        <h2>🎺 All About Jazz</h2>
+        <h2><a href="https://www.allaboutjazz.com/" target="_blank">🎺 All About Jazz</a></h2>
         <div class="grid-container">
 '''
 
@@ -818,7 +828,7 @@ class OutputGenerator:
         # Add Jazz Profiles section if results provided
         if jazz_profiles_results:
             html_content += '''
-        <h2>🎹 Jazz Profiles</h2>
+        <h2><a href="https://jazzprofiles.blogspot.com/" target="_blank">🎹 Jazz Profiles</a></h2>
         <div class="grid-container">
 '''
             for artist, album, album_link, apple_link, date in jazz_profiles_results:
@@ -849,7 +859,7 @@ class OutputGenerator:
         # Add JazzChill section if results provided
         if jazz_chill_results:
             html_content += '''
-        <h2>🎶 JazzChill</h2>
+        <h2><a href="https://jazzchill.blogspot.com/" target="_blank">🎶 JazzChill</a></h2>
         <div class="grid-container">
 '''
             for artist, album, album_link, apple_link, date in jazz_chill_results:
@@ -880,7 +890,7 @@ class OutputGenerator:
         # Add JazzWax section if results provided
         if jazz_wax_results:
             html_content += '''
-        <h2>🎺 JazzWax</h2>
+        <h2><a href="https://jazzwax.com/" target="_blank">🎺 JazzWax</a></h2>
         <div class="grid-container">
 '''
             for artist, album, album_link, apple_link, date in jazz_wax_results:
