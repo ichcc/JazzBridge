@@ -1253,7 +1253,7 @@ class OutputGenerator:
         # Add Jazz YouTube channel section if results provided
         if jazz_youtube_results:
             html_content += '''
-        <h2><a href="https://www.youtube.com/channel/UCSa-MrfLJ9epUEITf3xHgKg" target="_blank">🎥 Jazz YouTube Channel</a></h2>
+        <h2><a href="https://www.youtube.com/channel/UCSa-MrfLJ9epUEITf3xHgKg" target="_blank">💿 Hard To Find Vinyls</a></h2>
         <div class="grid-container">
 '''
             for artist, album, album_link, apple_link, date in jazz_youtube_results:
@@ -1299,7 +1299,7 @@ class OutputGenerator:
             html_content += ''', <a href="https://www.youtube.com/@hardtofindvinyls" target="_blank">Hard To Find Vinyls</a>'''
 
         if jazz_youtube_results:
-            html_content += ''', and <a href="https://www.youtube.com/channel/UCSa-MrfLJ9epUEITf3xHgKg" target="_blank">Jazz YouTube Channel</a>'''
+            html_content += ''', and <a href="https://www.youtube.com/channel/UCSa-MrfLJ9epUEITf3xHgKg" target="_blank">Hard To Find Vinyls</a>'''
 
         html_content += ''' |
            Links via <a href="https://album.link" target="_blank">Album.link</a></p>
@@ -1342,7 +1342,7 @@ class OutputGenerator:
         if jazz_youtube_results:
             jy_with_links = sum(1 for _, _, link, _, _ in jazz_youtube_results if link)
             jy_without_links = len(jazz_youtube_results) - jy_with_links
-            print(f"Jazz YouTube Channel: {jy_with_links} album embeds and {jy_without_links} placeholders from {len(jazz_youtube_results)} total albums")
+            print(f"Hard To Find Vinyls: {jy_with_links} album embeds and {jy_without_links} placeholders from {len(jazz_youtube_results)} total albums")
 
 
 def main():
