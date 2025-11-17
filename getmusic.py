@@ -15,8 +15,10 @@ import csv
 import sys
 import re
 import time
+import json
+import os
 from datetime import datetime
-from typing import List, Tuple, Optional
+from typing import List, Tuple, Optional, Dict
 
 
 class AlbumFetcher:
@@ -24,6 +26,7 @@ class AlbumFetcher:
 
     RSS_URL = "https://www.allaboutjazz.com/rss_reviews.xml"
     ALBUM_LINK_SEARCH = "https://album.link/search?q={}"
+    CACHE_FILE = "album_cache.json"
 
     # Patterns to remove from titles
     REMOVE_PATTERNS = [
@@ -39,11 +42,99 @@ class AlbumFetcher:
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
         })
+        self.cache: Dict[str, Dict] = {}
+        self.load_cache()
 
     def log(self, message: str):
         """Print message if verbose mode is enabled."""
         if self.verbose:
             print(f"[INFO] {message}")
+
+    def normalize_cache_key(self, artist: str, album: str) -> str:
+        """
+        Create a normalized cache key from artist and album.
+
+        Args:
+            artist: Artist name
+            album: Album title
+
+        Returns:
+            Normalized cache key
+        """
+        # Lowercase and strip whitespace for consistent matching
+        return f"{artist.lower().strip()}||{album.lower().strip()}"
+
+    def load_cache(self):
+        """Load the album cache from disk."""
+        if os.path.exists(self.CACHE_FILE):
+            try:
+                with open(self.CACHE_FILE, 'r', encoding='utf-8') as f:
+                    self.cache = json.load(f)
+                self.log(f"Loaded {len(self.cache)} entries from cache")
+            except Exception as e:
+                self.log(f"Error loading cache: {e}")
+                self.cache = {}
+        else:
+            self.log("No cache file found, starting with empty cache")
+            self.cache = {}
+
+    def save_cache(self):
+        """Save the album cache to disk."""
+        try:
+            with open(self.CACHE_FILE, 'w', encoding='utf-8') as f:
+                json.dump(self.cache, f, indent=2, ensure_ascii=False)
+            self.log(f"Saved {len(self.cache)} entries to cache")
+        except Exception as e:
+            self.log(f"Error saving cache: {e}")
+
+    def get_from_cache(self, artist: str, album: str) -> Optional[Tuple[Optional[str], Optional[str]]]:
+        """
+        Get album links from cache if available.
+
+        Args:
+            artist: Artist name
+            album: Album title
+
+        Returns:
+            Tuple of (album_link, apple_music_link) or None if not in cache
+        """
+        key = self.normalize_cache_key(artist, album)
+        if key in self.cache:
+            entry = self.cache[key]
+            self.log(f"Cache hit for: {artist} - {album}")
+            return (entry.get('album_link'), entry.get('apple_music_link'))
+        return None
+
+    def add_to_cache(self, artist: str, album: str, album_link: Optional[str], apple_music_link: Optional[str]):
+        """
+        Add or update album in cache.
+
+        Args:
+            artist: Artist name
+            album: Album title
+            album_link: Album.link URL (or None if not found)
+            apple_music_link: Apple Music URL (or None if not found)
+        """
+        key = self.normalize_cache_key(artist, album)
+        today = datetime.now().strftime('%Y-%m-%d')
+
+        if key in self.cache:
+            # Update existing entry
+            self.cache[key]['album_link'] = album_link
+            self.cache[key]['apple_music_link'] = apple_music_link
+            self.cache[key]['last_checked'] = today
+        else:
+            # Create new entry
+            self.cache[key] = {
+                'artist': artist,
+                'album': album,
+                'album_link': album_link,
+                'apple_music_link': apple_music_link,
+                'first_seen': today,
+                'last_checked': today
+            }
+
+        self.log(f"Added to cache: {artist} - {album}")
 
     def fetch_rss(self) -> List[dict]:
         """Fetch and parse the All About Jazz RSS feed."""
@@ -268,16 +359,28 @@ class AlbumFetcher:
             artist, album = parsed
             self.log(f"Processing: {artist} - {album}")
 
-            # Search Apple Music first
-            apple_url = self.search_apple_music(artist, album)
-            album_link = None
+            # Check cache first
+            cached_result = self.get_from_cache(artist, album)
+            if cached_result is not None:
+                album_link, apple_url = cached_result
+                self.log(f"Using cached result for: {artist} - {album}")
+            else:
+                # Not in cache, search Apple Music first
+                apple_url = self.search_apple_music(artist, album)
+                album_link = None
 
-            if apple_url:
-                # Then get album.link URL
-                album_link = self.convert_url_to_album_link(apple_url)
+                if apple_url:
+                    # Then get album.link URL
+                    album_link = self.convert_url_to_album_link(apple_url)
+
+                # Add to cache
+                self.add_to_cache(artist, album, album_link, apple_url)
 
             # Add to results even if link not found (will show as placeholder)
             results.append((artist, album, album_link or '', apple_url or '', date_str))
+
+        # Save cache after processing all entries
+        self.save_cache()
 
         return results
 
