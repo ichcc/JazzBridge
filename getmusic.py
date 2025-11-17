@@ -601,6 +601,10 @@ class HardToFindVinylsFetcher(AlbumFetcher):
         r'\s*\(full\s+album\)\s*$',
         r'\s*\[full\s+album\]\s*$',
         r'\s*-\s*full\s+album\s*$',
+        r'\s*\(\d{4}\)\s*$',  # Remove year like (2024)
+        r'\s*\[\d{4}\]\s*$',  # Remove year like [2024]
+        r'\s*\(.*?\s+records?\)\s*$',  # Remove record label like (Blue Note Records)
+        r'\s*\[.*?\s+records?\]\s*$',  # Remove record label like [Blue Note Records]
     ]
 
     def clean_title(self, title: str) -> Optional[Tuple[str, str]]:
@@ -679,6 +683,10 @@ class JazzYouTubeFetcher(AlbumFetcher):
         r'\s*\(full\s+album\)\s*$',
         r'\s*\[full\s+album\]\s*$',
         r'\s*-\s*full\s+album\s*$',
+        r'\s*\(\d{4}\)\s*$',  # Remove year like (2024)
+        r'\s*\[\d{4}\]\s*$',  # Remove year like [2024]
+        r'\s*\(.*?\s+records?\)\s*$',  # Remove record label like (Blue Note Records)
+        r'\s*\[.*?\s+records?\]\s*$',  # Remove record label like [Blue Note Records]
     ]
 
     def clean_title(self, title: str) -> Optional[Tuple[str, str]]:
