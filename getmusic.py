@@ -596,15 +596,30 @@ class HardToFindVinylsFetcher(AlbumFetcher):
 
     # YouTube video title patterns
     REMOVE_PATTERNS = [
+        # Remove everything from opening parenthesis to end (country, year, etc)
+        # e.g., (US, 1974), (USA, 1982), (Senegal, 1975)
+        r'\s*\([^)]*\d{4}[^)]*\).*$',  # Remove (location, year) and everything after
+        r'\s*\(US,?\s*\d{4}\).*$',  # Specifically handle (US, 1974) format
+        r'\s*\(USA,?\s*\d{4}\).*$',  # Specifically handle (USA, 1982) format
+
+        # Remove square brackets with any content
+        r'\s*\[[^\]]+\].*$',  # Remove [Full LP], [Full Album], etc and everything after
+
+        # Remove curly braces with genre tags
+        r'\s*\{[^}]+\}.*$',  # Remove {Jazz-Funk, Soul-Jazz} and everything after
+
+        # Remove star ratings and descriptions
+        r'\s*★+[^★]*★+.*$',  # Remove ★★BANGER★★ and everything after
+        r'\s*★[^★]+★.*$',  # Remove ★MASTERPIECE★ and everything after
+
+        # Remove hashtags and everything after
+        r'\s*#\w+.*$',  # Remove #vinyl and everything after
+
+        # Original patterns (as fallback for simpler cases)
         r'\s*\(official\s+video\)\s*$',
         r'\s*\(official\s+audio\)\s*$',
         r'\s*\(full\s+album\)\s*$',
-        r'\s*\[full\s+album\]\s*$',
         r'\s*-\s*full\s+album\s*$',
-        r'\s*\(\d{4}\)\s*$',  # Remove year like (2024)
-        r'\s*\[\d{4}\]\s*$',  # Remove year like [2024]
-        r'\s*\(.*?\s+records?\)\s*$',  # Remove record label like (Blue Note Records)
-        r'\s*\[.*?\s+records?\]\s*$',  # Remove record label like [Blue Note Records]
     ]
 
     def clean_title(self, title: str) -> Optional[Tuple[str, str]]:
@@ -678,15 +693,30 @@ class JazzYouTubeFetcher(AlbumFetcher):
 
     # YouTube video title patterns
     REMOVE_PATTERNS = [
+        # Remove everything from opening parenthesis to end (country, year, etc)
+        # e.g., (US, 1974), (USA, 1982), (Senegal, 1975)
+        r'\s*\([^)]*\d{4}[^)]*\).*$',  # Remove (location, year) and everything after
+        r'\s*\(US,?\s*\d{4}\).*$',  # Specifically handle (US, 1974) format
+        r'\s*\(USA,?\s*\d{4}\).*$',  # Specifically handle (USA, 1982) format
+
+        # Remove square brackets with any content
+        r'\s*\[[^\]]+\].*$',  # Remove [Full LP], [Full Album], etc and everything after
+
+        # Remove curly braces with genre tags
+        r'\s*\{[^}]+\}.*$',  # Remove {Jazz-Funk, Soul-Jazz} and everything after
+
+        # Remove star ratings and descriptions
+        r'\s*★+[^★]*★+.*$',  # Remove ★★BANGER★★ and everything after
+        r'\s*★[^★]+★.*$',  # Remove ★MASTERPIECE★ and everything after
+
+        # Remove hashtags and everything after
+        r'\s*#\w+.*$',  # Remove #vinyl and everything after
+
+        # Original patterns (as fallback for simpler cases)
         r'\s*\(official\s+video\)\s*$',
         r'\s*\(official\s+audio\)\s*$',
         r'\s*\(full\s+album\)\s*$',
-        r'\s*\[full\s+album\]\s*$',
         r'\s*-\s*full\s+album\s*$',
-        r'\s*\(\d{4}\)\s*$',  # Remove year like (2024)
-        r'\s*\[\d{4}\]\s*$',  # Remove year like [2024]
-        r'\s*\(.*?\s+records?\)\s*$',  # Remove record label like (Blue Note Records)
-        r'\s*\[.*?\s+records?\]\s*$',  # Remove record label like [Blue Note Records]
     ]
 
     def clean_title(self, title: str) -> Optional[Tuple[str, str]]:
