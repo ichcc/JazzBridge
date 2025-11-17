@@ -667,6 +667,84 @@ class HardToFindVinylsFetcher(AlbumFetcher):
         return None
 
 
+class JazzYouTubeFetcher(AlbumFetcher):
+    """Handles fetching and processing jazz albums from YouTube channel (UCSa-MrfLJ9epUEITf3xHgKg)."""
+
+    RSS_URL = "https://www.youtube.com/feeds/videos.xml?channel_id=UCSa-MrfLJ9epUEITf3xHgKg"
+
+    # YouTube video title patterns
+    REMOVE_PATTERNS = [
+        r'\s*\(official\s+video\)\s*$',
+        r'\s*\(official\s+audio\)\s*$',
+        r'\s*\(full\s+album\)\s*$',
+        r'\s*\[full\s+album\]\s*$',
+        r'\s*-\s*full\s+album\s*$',
+    ]
+
+    def clean_title(self, title: str) -> Optional[Tuple[str, str]]:
+        """
+        Clean title and extract artist and album from YouTube video title.
+
+        YouTube channels may use formats like:
+        - "Artist - Album"
+        - "Artist: Album"
+        - "Album by Artist"
+        - "Artist | Album"
+
+        Args:
+            title: Raw title from YouTube RSS feed
+
+        Returns:
+            Tuple of (artist, album) or None if parsing fails
+        """
+        # Remove common suffixes
+        cleaned = title
+        for pattern in self.REMOVE_PATTERNS:
+            cleaned = re.sub(pattern, '', cleaned, flags=re.IGNORECASE)
+
+        cleaned = cleaned.strip()
+
+        # Try different separator patterns
+        # First try hyphen (most common for YouTube)
+        if ' - ' in cleaned:
+            parts = cleaned.split(' - ', 1)
+            if len(parts) == 2:
+                artist = parts[0].strip()
+                album = parts[1].strip()
+                if artist and album:
+                    return (artist, album)
+
+        # Try pipe separator
+        if ' | ' in cleaned:
+            parts = cleaned.split(' | ', 1)
+            if len(parts) == 2:
+                artist = parts[0].strip()
+                album = parts[1].strip()
+                if artist and album:
+                    return (artist, album)
+
+        # Try colon separator
+        if ':' in cleaned:
+            parts = cleaned.split(':', 1)
+            if len(parts) == 2:
+                artist = parts[0].strip()
+                album = parts[1].strip()
+                if artist and album:
+                    return (artist, album)
+
+        # Try "Album by Artist" format
+        if ' by ' in cleaned.lower():
+            match = re.search(r'^(.+?)\s+by\s+(.+?)$', cleaned, re.IGNORECASE)
+            if match:
+                album = match.group(1).strip()
+                artist = match.group(2).strip()
+                if artist and album:
+                    return (artist, album)
+
+        self.log(f"Skipping title - couldn't parse: {title}")
+        return None
+
+
 class OutputGenerator:
     """Handles output generation in various formats."""
 
@@ -701,13 +779,15 @@ class OutputGenerator:
                      jazz_profiles_results: Optional[List[Tuple[str, str, str, str, str]]] = None,
                      jazz_chill_results: Optional[List[Tuple[str, str, str, str, str]]] = None,
                      jazz_wax_results: Optional[List[Tuple[str, str, str, str, str]]] = None,
-                     htfv_results: Optional[List[Tuple[str, str, str, str, str]]] = None):
+                     htfv_results: Optional[List[Tuple[str, str, str, str, str]]] = None,
+                     jazz_youtube_results: Optional[List[Tuple[str, str, str, str, str]]] = None):
         """Generate HTML output with embedded album.link widgets from multiple sources."""
         total_albums = len(results) + \
                       (len(jazz_profiles_results) if jazz_profiles_results else 0) + \
                       (len(jazz_chill_results) if jazz_chill_results else 0) + \
                       (len(jazz_wax_results) if jazz_wax_results else 0) + \
-                      (len(htfv_results) if htfv_results else 0)
+                      (len(htfv_results) if htfv_results else 0) + \
+                      (len(jazz_youtube_results) if jazz_youtube_results else 0)
 
         html_content = '''<!DOCTYPE html>
 <html lang="en">
@@ -1132,6 +1212,37 @@ class OutputGenerator:
             html_content += '''        </div>
 '''
 
+        # Add Jazz YouTube channel section if results provided
+        if jazz_youtube_results:
+            html_content += '''
+        <h2><a href="https://www.youtube.com/channel/UCSa-MrfLJ9epUEITf3xHgKg" target="_blank">🎥 Jazz YouTube Channel</a></h2>
+        <div class="grid-container">
+'''
+            for artist, album, album_link, apple_link, date in jazz_youtube_results:
+                if album_link:
+                    # Album found - show embed
+                    encoded_url = quote(album_link)
+                    html_content += f'''        <div class="album-embed">
+            <iframe src="https://song.link/embed?url={encoded_url}"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    title="{artist} - {album}">
+            </iframe>
+        </div>
+'''
+                else:
+                    # Album not found - show placeholder
+                    html_content += f'''        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>{artist}</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">{album}</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        </div>
+'''
+            html_content += '''        </div>
+'''
+
         html_content += '''    </div>
 
     <footer>
@@ -1147,7 +1258,10 @@ class OutputGenerator:
             html_content += ''', <a href="https://jazzwax.com/" target="_blank">JazzWax</a>'''
 
         if htfv_results:
-            html_content += ''', and <a href="https://www.youtube.com/@hardtofindvinyls" target="_blank">Hard To Find Vinyls</a>'''
+            html_content += ''', <a href="https://www.youtube.com/@hardtofindvinyls" target="_blank">Hard To Find Vinyls</a>'''
+
+        if jazz_youtube_results:
+            html_content += ''', and <a href="https://www.youtube.com/channel/UCSa-MrfLJ9epUEITf3xHgKg" target="_blank">Jazz YouTube Channel</a>'''
 
         html_content += ''' |
            Links via <a href="https://album.link" target="_blank">Album.link</a></p>
@@ -1187,11 +1301,16 @@ class OutputGenerator:
             htfv_without_links = len(htfv_results) - htfv_with_links
             print(f"Hard To Find Vinyls: {htfv_with_links} album embeds and {htfv_without_links} placeholders from {len(htfv_results)} total albums")
 
+        if jazz_youtube_results:
+            jy_with_links = sum(1 for _, _, link, _, _ in jazz_youtube_results if link)
+            jy_without_links = len(jazz_youtube_results) - jy_with_links
+            print(f"Jazz YouTube Channel: {jy_with_links} album embeds and {jy_without_links} placeholders from {len(jazz_youtube_results)} total albums")
+
 
 def main():
     """Main entry point."""
     parser = argparse.ArgumentParser(
-        description='Fetch jazz albums from All About Jazz, Jazz Profiles, JazzChill, JazzWax, and Hard To Find Vinyls YouTube, find them on Album.link'
+        description='Fetch jazz albums from All About Jazz, Jazz Profiles, JazzChill, JazzWax, Hard To Find Vinyls YouTube, and other YouTube channels, find them on Album.link'
     )
     parser.add_argument(
         '-o', '--output',
@@ -1290,6 +1409,21 @@ def main():
         print(f"  - {htfv_with_links} found on streaming services")
         print(f"  - {htfv_without_links} not found (will show as placeholders)")
 
+    # Fetch and process albums from Jazz YouTube Channel (unless skipped)
+    jy_results = None
+    if not args.skip_jazz_profiles:  # Use same flag for now
+        print("\n=== Fetching from Jazz YouTube Channel ===")
+        jy_fetcher = JazzYouTubeFetcher(verbose=args.verbose)
+        jy_results = jy_fetcher.process_feed()
+
+        # Count Jazz YouTube Channel results
+        jy_with_links = sum(1 for _, _, link, _, _ in jy_results if link)
+        jy_without_links = len(jy_results) - jy_with_links
+
+        print(f"\nJazz YouTube Channel - Processed {len(jy_results)} albums:")
+        print(f"  - {jy_with_links} found on streaming services")
+        print(f"  - {jy_without_links} not found (will show as placeholders)")
+
     # Generate output
     if args.format == 'markdown':
         OutputGenerator.generate_markdown(aaj_results, args.output)
@@ -1302,7 +1436,8 @@ def main():
                                       jazz_profiles_results=jp_results,
                                       jazz_chill_results=jc_results,
                                       jazz_wax_results=jw_results,
-                                      htfv_results=htfv_results)
+                                      htfv_results=htfv_results,
+                                      jazz_youtube_results=jy_results)
         print()
 
     print(f"✓ Successfully completed - output written to {args.output}")
