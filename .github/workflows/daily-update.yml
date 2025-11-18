@@ -55,7 +55,7 @@ jobs:
           git add index.html
           TIMESTAMP=$(date +'%Y-%m-%d %H:%M UTC')
           git commit -m "Update jazz albums - $TIMESTAMP"
-          git push
+          git push origin main
 
       - name: Upload artifact on failure
         if: failure()
