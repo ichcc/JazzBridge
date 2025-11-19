@@ -47,9 +47,6 @@ sample_output.*
 !og-image.svg
 !og-image.png
 
-# Cache files
-album_cache.json
-
 # Serena
 .serena/
 
