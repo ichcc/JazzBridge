@@ -133,6 +133,7 @@
         }
 
         .album-embed {
+            position: relative;
             aspect-ratio: 480/199;
             width: 100%;
             border-radius: 8px;
@@ -181,10 +182,6 @@
         @keyframes loading {
             0% { background-position: 200% 0; }
             100% { background-position: -200% 0; }
-        }
-
-        .album-embed {
-            position: relative;
         }
 
         .placeholder {
@@ -325,7 +322,7 @@
     <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()" title="Toggle theme">🌙</button>
     <header>
         <h1>🎷 Latest Jazz Albums</h1>
-        <p class="update-time">Updated: November 19, 2025 at 07:53 PM</p>
+        <p class="update-time">Updated: November 19, 2025 at 07:58 PM</p>
     </header>
 
     <div class="section-container">
@@ -590,11 +587,14 @@
                     title="Elvin Jones - This Love Of Mine From "Dear John C"">
             </iframe>
         </div>
-        <div class="album-embed placeholder">
-            <div class="placeholder-icon">🎵</div>
-            <div><strong>Rahsaan Roland Kirk</strong></div>
-            <div style="font-size: 0.85em; margin-top: 5px;">"Seek & Listen" & "Vibrations in the Village" (Min...</div>
-            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
+        <div class="album-embed">
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1841528168"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    loading="lazy"
+                    title="Rahsaan Roland Kirk - "Seek & Listen" & "Vibrations in the Village" (Min...">
+            </iframe>
         </div>
         <div class="album-embed placeholder">
             <div class="placeholder-icon">🎵</div>
