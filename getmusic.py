@@ -864,7 +864,7 @@ class OutputGenerator:
         for artist, album, album_link, _, _ in found:
             encoded_url = quote(album_link)
             html += f'''        <div class="album-embed">
-            <iframe data-src="https://song.link/embed?url={encoded_url}"
+            <iframe src="https://song.link/embed?url={encoded_url}"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
@@ -1237,53 +1237,8 @@ class OutputGenerator:
         // Set theme on page load
         setThemeByTime();
 
-        // Lazy load iframes with Intersection Observer
-        document.addEventListener('DOMContentLoaded', function() {
-            // Load iframe function
-            function loadIframe(iframe) {
-                const dataSrc = iframe.getAttribute('data-src');
-                if (dataSrc && !iframe.getAttribute('src')) {
-                    iframe.setAttribute('src', dataSrc);
-                }
-            }
-
-            const allIframes = document.querySelectorAll('iframe[data-src]');
-
-            // Immediately load first 20 iframes for instant visibility
-            // (covers first screen on mobile and desktop)
-            allIframes.forEach((iframe, index) => {
-                if (index < 20) {
-                    loadIframe(iframe);
-                }
-            });
-
-            // Use Intersection Observer for remaining iframes
-            if ('IntersectionObserver' in window) {
-                const iframeObserver = new IntersectionObserver((entries, observer) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            const iframe = entry.target;
-                            loadIframe(iframe);
-                            observer.unobserve(iframe);
-                        }
-                    });
-                }, {
-                    rootMargin: '200px' // Start loading 200px before iframe is visible
-                });
-
-                // Observe iframes after the first 20
-                allIframes.forEach((iframe, index) => {
-                    if (index >= 20) {
-                        iframeObserver.observe(iframe);
-                    }
-                });
-            } else {
-                // Fallback for browsers without IntersectionObserver
-                allIframes.forEach((iframe) => {
-                    loadIframe(iframe);
-                });
-            }
-        });
+        // Native lazy loading is handled by loading="lazy" attribute on iframes
+        // No additional JavaScript needed - browsers handle it automatically
     </script>
 </head>
 <body>
@@ -1306,7 +1261,7 @@ class OutputGenerator:
         for artist, album, album_link, apple_link, date in found_albums:
             encoded_url = quote(album_link)
             html_content += f'''        <div class="album-embed">
-            <iframe data-src="https://song.link/embed?url={encoded_url}"
+            <iframe src="https://song.link/embed?url={encoded_url}"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
