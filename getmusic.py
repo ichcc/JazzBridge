@@ -1008,6 +1008,45 @@ class OutputGenerator:
             width: 100%;
             height: 100%;
             border: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .album-embed iframe.loaded {
+            opacity: 1;
+        }
+
+        /* Loading skeleton for iframes */
+        .album-embed:not(.placeholder)::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                90deg,
+                var(--bg-card) 0%,
+                var(--bg-secondary) 50%,
+                var(--bg-card) 100%
+            );
+            background-size: 200% 100%;
+            animation: loading 1.5s ease-in-out infinite;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .album-embed iframe.loaded ~ ::before {
+            display: none;
+        }
+
+        @keyframes loading {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+
+        .album-embed {
+            position: relative;
         }
 
         .placeholder {
@@ -1118,6 +1157,30 @@ class OutputGenerator:
 
         // Set theme on page load
         setThemeByTime();
+
+        // Lazy load iframes with Intersection Observer
+        document.addEventListener('DOMContentLoaded', function() {
+            const iframeObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const iframe = entry.target;
+                        const dataSrc = iframe.getAttribute('data-src');
+                        if (dataSrc && !iframe.getAttribute('src')) {
+                            iframe.setAttribute('src', dataSrc);
+                            iframe.classList.add('loaded');
+                        }
+                        observer.unobserve(iframe);
+                    }
+                });
+            }, {
+                rootMargin: '50px' // Start loading 50px before iframe is visible
+            });
+
+            // Observe all iframes with data-src
+            document.querySelectorAll('iframe[data-src]').forEach(iframe => {
+                iframeObserver.observe(iframe);
+            });
+        });
     </script>
 </head>
 <body>
@@ -1138,10 +1201,11 @@ class OutputGenerator:
                 # Album found - show embed
                 encoded_url = quote(album_link)
                 html_content += f'''        <div class="album-embed">
-            <iframe src="https://song.link/embed?url={encoded_url}"
+            <iframe data-src="https://song.link/embed?url={encoded_url}"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="{artist} - {album}">
             </iframe>
         </div>
@@ -1170,10 +1234,11 @@ class OutputGenerator:
                     # Album found - show embed
                     encoded_url = quote(album_link)
                     html_content += f'''        <div class="album-embed">
-            <iframe src="https://song.link/embed?url={encoded_url}"
+            <iframe data-src="https://song.link/embed?url={encoded_url}"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="{artist} - {album}">
             </iframe>
         </div>
@@ -1201,10 +1266,11 @@ class OutputGenerator:
                     # Album found - show embed
                     encoded_url = quote(album_link)
                     html_content += f'''        <div class="album-embed">
-            <iframe src="https://song.link/embed?url={encoded_url}"
+            <iframe data-src="https://song.link/embed?url={encoded_url}"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="{artist} - {album}">
             </iframe>
         </div>
@@ -1232,10 +1298,11 @@ class OutputGenerator:
                     # Album found - show embed
                     encoded_url = quote(album_link)
                     html_content += f'''        <div class="album-embed">
-            <iframe src="https://song.link/embed?url={encoded_url}"
+            <iframe data-src="https://song.link/embed?url={encoded_url}"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="{artist} - {album}">
             </iframe>
         </div>
@@ -1263,10 +1330,11 @@ class OutputGenerator:
                     # Album found - show embed
                     encoded_url = quote(album_link)
                     html_content += f'''        <div class="album-embed">
-            <iframe src="https://song.link/embed?url={encoded_url}"
+            <iframe data-src="https://song.link/embed?url={encoded_url}"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="{artist} - {album}">
             </iframe>
         </div>
@@ -1294,10 +1362,11 @@ class OutputGenerator:
                     # Album found - show embed
                     encoded_url = quote(album_link)
                     html_content += f'''        <div class="album-embed">
-            <iframe src="https://song.link/embed?url={encoded_url}"
+            <iframe data-src="https://song.link/embed?url={encoded_url}"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="{artist} - {album}">
             </iframe>
         </div>
