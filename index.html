@@ -146,6 +146,45 @@
             width: 100%;
             height: 100%;
             border: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .album-embed iframe.loaded {
+            opacity: 1;
+        }
+
+        /* Loading skeleton for iframes */
+        .album-embed:not(.placeholder)::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                90deg,
+                var(--bg-card) 0%,
+                var(--bg-secondary) 50%,
+                var(--bg-card) 100%
+            );
+            background-size: 200% 100%;
+            animation: loading 1.5s ease-in-out infinite;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .album-embed iframe.loaded ~ ::before {
+            display: none;
+        }
+
+        @keyframes loading {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+
+        .album-embed {
+            position: relative;
         }
 
         .placeholder {
@@ -256,23 +295,48 @@
 
         // Set theme on page load
         setThemeByTime();
+
+        // Lazy load iframes with Intersection Observer
+        document.addEventListener('DOMContentLoaded', function() {
+            const iframeObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const iframe = entry.target;
+                        const dataSrc = iframe.getAttribute('data-src');
+                        if (dataSrc && !iframe.getAttribute('src')) {
+                            iframe.setAttribute('src', dataSrc);
+                            iframe.classList.add('loaded');
+                        }
+                        observer.unobserve(iframe);
+                    }
+                });
+            }, {
+                rootMargin: '50px' // Start loading 50px before iframe is visible
+            });
+
+            // Observe all iframes with data-src
+            document.querySelectorAll('iframe[data-src]').forEach(iframe => {
+                iframeObserver.observe(iframe);
+            });
+        });
     </script>
 </head>
 <body>
     <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()" title="Toggle theme">🌙</button>
     <header>
         <h1>🎷 Latest Jazz Albums</h1>
-        <p class="update-time">Updated: November 19, 2025 at 07:13 PM</p>
+        <p class="update-time">Updated: November 19, 2025 at 07:53 PM</p>
     </header>
 
     <div class="section-container">
         <h2><a href="https://www.allaboutjazz.com/" target="_blank">🎺 All About Jazz</a></h2>
         <div class="grid-container">
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1826820460"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1826820460"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Tommaso Iacoviello - Birds">
             </iframe>
         </div>
@@ -283,34 +347,38 @@
             <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1794412200"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1794412200"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Bugge Wesseltoft - Am Are">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1841527979"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1841527979"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Rahsaan Roland Kirk - Seek and Listen: Live At The Penthouse">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1831330378"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1831330378"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Will Barnes Quartet - Outside the Light">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1706565893"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1706565893"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Benoit LeBlanc - Mô kouzin mô kouzinn">
             </iframe>
         </div>
@@ -327,98 +395,110 @@
             <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1838060398"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1838060398"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Marcin Bożek and Danny Kamins - Ignorantka">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1825694793"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1825694793"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Grant Stewart - Next Spring">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1840750002"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1840750002"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Rasmus Kjær - Underlake">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/65046681"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/65046681"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Pepper Adams - Pepper Adams Quintet">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1828617957"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1828617957"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Joe Magnarelli - Concord">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1836130515"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1836130515"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Jan Bang and Arve Henriksen - After The Wildfire">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1837175310"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1837175310"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Bob Holz - Honoring Larry Coryell">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1827356621"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1827356621"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Mike Clark - Itai Doshin">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1807147045"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1807147045"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Allison Philips - Make it Better">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1840689003"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1840689003"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Rolling Stones - Black and Blue (2CD)">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1833268000"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1833268000"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Atlantis Quartet - Live at Berlin">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1834231270"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1834231270"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="High Society New Orleans Jazz Band - Live at Birdland">
             </iframe>
         </div>
@@ -427,10 +507,11 @@
         <h2><a href="https://jazzprofiles.blogspot.com/" target="_blank">🎹 Jazz Profiles</a></h2>
         <div class="grid-container">
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1336770882"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1336770882"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Mellophonium Memoirs - The Stan Kenton Orchestra">
             </iframe>
         </div>
@@ -453,10 +534,11 @@
             <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1443794321"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1443794321"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="You've Changed - Sarah Vaughan">
             </iframe>
         </div>
@@ -473,10 +555,11 @@
             <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1450530111"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1450530111"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Yusef Lateef - Live At Pep's Volume Two (Full Album)">
             </iframe>
         </div>
@@ -499,20 +582,19 @@
             <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1462223012"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1462223012"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Elvin Jones - This Love Of Mine From "Dear John C"">
             </iframe>
         </div>
-        <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1841528168"
-                    frameborder="0"
-                    allowtransparency
-                    allowfullscreen
-                    title="Rahsaan Roland Kirk - "Seek & Listen" & "Vibrations in the Village" (Min...">
-            </iframe>
+        <div class="album-embed placeholder">
+            <div class="placeholder-icon">🎵</div>
+            <div><strong>Rahsaan Roland Kirk</strong></div>
+            <div style="font-size: 0.85em; margin-top: 5px;">"Seek & Listen" & "Vibrations in the Village" (Min...</div>
+            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
         </div>
         <div class="album-embed placeholder">
             <div class="placeholder-icon">🎵</div>
@@ -567,10 +649,11 @@
             <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1444100747"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1444100747"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Les Baxter, Harry Revel & Dr. Samuel Hoffman - The Birth of Space Age Sound – Music Out of the Moon / Music for Peace of Mind">
             </iframe>
         </div>
@@ -597,10 +680,11 @@
             <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1847407030"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1847407030"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="'Swedish Cool and Modern Jazz - 1949-1959'">
             </iframe>
         </div>
@@ -623,18 +707,20 @@
             <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1680568635"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1680568635"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="New Ted Brown - 'Just You, Just Me'">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1543969342"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1543969342"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Ray Charles - The Lost Singles">
             </iframe>
         </div>
@@ -669,10 +755,11 @@
             <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1831143513"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1831143513"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Charles Lloyd - 'Figure in Blue' (2025)">
             </iframe>
         </div>
@@ -689,10 +776,11 @@
             <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/724760207"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/724760207"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Jack DeJohnette - First and Last">
             </iframe>
         </div>
@@ -707,26 +795,29 @@
             <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1530392005"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1530392005"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Billy Brooks - Windows Of The Mind">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1621384497"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1621384497"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Gil Scott-Heron - Pieces Of A Man">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/885338467"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/885338467"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Keni Burke - Changes">
             </iframe>
         </div>
@@ -743,18 +834,20 @@
             <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/724403605"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/724403605"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="David Axelrod - Song Of Innocence">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1790739432"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1790739432"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="J.O.B. Orquestra - Open The Doors To Your Heart">
             </iframe>
         </div>
@@ -777,26 +870,29 @@
             <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1440922274"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1440922274"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Roy Ayers - Ubiquity">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1626420931"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1626420931"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Joe Bataan - I Wish You Love (Part 2)">
             </iframe>
         </div>
         <div class="album-embed">
-            <iframe src="https://song.link/embed?url=https%3A//album.link/i/1439686185"
+            <iframe data-src="https://song.link/embed?url=https%3A//album.link/i/1439686185"
                     frameborder="0"
                     allowtransparency
                     allowfullscreen
+                    loading="lazy"
                     title="Joe Bataan - Aftershower Funk">
             </iframe>
         </div>

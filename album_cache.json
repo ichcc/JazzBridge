@@ -158,5 +158,117 @@
     "apple_music_link": "https://music.apple.com/us/album/live-at-birdland/1834231270?uo=4",
     "first_seen": "2025-11-19",
     "last_checked": "2025-11-19"
+  },
+  "cortex||automne (colchiques)": {
+    "artist": "Cortex",
+    "album": "Automne (Colchiques)",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-11-19",
+    "last_checked": "2025-11-19"
+  },
+  "billy brooks||windows of the mind": {
+    "artist": "Billy Brooks",
+    "album": "Windows Of The Mind",
+    "album_link": "https://album.link/i/1530392005",
+    "apple_music_link": "https://music.apple.com/us/album/windows-of-the-mind/1530392005?uo=4",
+    "first_seen": "2025-11-19",
+    "last_checked": "2025-11-19"
+  },
+  "gil scott-heron||pieces of a man": {
+    "artist": "Gil Scott-Heron",
+    "album": "Pieces Of A Man",
+    "album_link": "https://album.link/i/1621384497",
+    "apple_music_link": "https://music.apple.com/us/album/pieces-of-a-man/1621384497?uo=4",
+    "first_seen": "2025-11-19",
+    "last_checked": "2025-11-19"
+  },
+  "keni burke||changes": {
+    "artist": "Keni Burke",
+    "album": "Changes",
+    "album_link": "https://album.link/i/885338467",
+    "apple_music_link": "https://music.apple.com/us/album/changes-expanded/885338467?uo=4",
+    "first_seen": "2025-11-19",
+    "last_checked": "2025-11-19"
+  },
+  "ardonus||got to take a chance": {
+    "artist": "Ardonus",
+    "album": "Got To Take A Chance",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-11-19",
+    "last_checked": "2025-11-19"
+  },
+  "roy ayers presents ethel beatty||it’s your love": {
+    "artist": "Roy Ayers presents Ethel Beatty",
+    "album": "It’s Your Love",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-11-19",
+    "last_checked": "2025-11-19"
+  },
+  "david axelrod||song of innocence": {
+    "artist": "David Axelrod",
+    "album": "Song Of Innocence",
+    "album_link": "https://album.link/i/724403605",
+    "apple_music_link": "https://music.apple.com/us/album/song-of-innocence/724403605?uo=4",
+    "first_seen": "2025-11-19",
+    "last_checked": "2025-11-19"
+  },
+  "j.o.b. orquestra||open the doors to your heart": {
+    "artist": "J.O.B. Orquestra",
+    "album": "Open The Doors To Your Heart",
+    "album_link": "https://album.link/i/1790739432",
+    "apple_music_link": "https://music.apple.com/us/album/open-the-doors-to-your-heart/1790739432?uo=4",
+    "first_seen": "2025-11-19",
+    "last_checked": "2025-11-19"
+  },
+  "orchestre du bawobab||bure yaay damaan": {
+    "artist": "Orchestre Du Bawobab",
+    "album": "Bure Yaay Damaan",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-11-19",
+    "last_checked": "2025-11-19"
+  },
+  "orchestre du bawobab||kelen ati len": {
+    "artist": "Orchestre Du Bawobab",
+    "album": "Kelen Ati Len",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-11-19",
+    "last_checked": "2025-11-19"
+  },
+  "orchestre du bawobab||ndeleng ndeleng": {
+    "artist": "Orchestre Du Bawobab",
+    "album": "Ndeleng Ndeleng",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-11-19",
+    "last_checked": "2025-11-19"
+  },
+  "roy ayers||ubiquity": {
+    "artist": "Roy Ayers",
+    "album": "Ubiquity",
+    "album_link": "https://album.link/i/1440922274",
+    "apple_music_link": "https://music.apple.com/us/album/the-best-of-roy-ayers-love-fantasy/1440922274?uo=4",
+    "first_seen": "2025-11-19",
+    "last_checked": "2025-11-19"
+  },
+  "joe bataan||i wish you love (part 2)": {
+    "artist": "Joe Bataan",
+    "album": "I Wish You Love (Part 2)",
+    "album_link": "https://album.link/i/1626420931",
+    "apple_music_link": "https://music.apple.com/us/album/i-wish-you-love-pt-21-feat-joe-bataan-orestes-vilat%C3%B3/1626420931?uo=4",
+    "first_seen": "2025-11-19",
+    "last_checked": "2025-11-19"
+  },
+  "joe bataan||aftershower funk": {
+    "artist": "Joe Bataan",
+    "album": "Aftershower Funk",
+    "album_link": "https://album.link/i/1439686185",
+    "apple_music_link": "https://music.apple.com/us/album/tropical-classics-joe-bataan-2013-remaster/1439686185?uo=4",
+    "first_seen": "2025-11-19",
+    "last_checked": "2025-11-19"
   }
 }
