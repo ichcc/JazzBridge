@@ -14,7 +14,7 @@ permissions:
 jobs:
   update-albums:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repository
@@ -36,7 +36,7 @@ jobs:
       - name: Generate jazz albums HTML
         run: |
           python getmusic.py -f html -o index.html -v
-        timeout-minutes: 5
+        timeout-minutes: 15
 
       - name: Check for changes
         id: check_changes

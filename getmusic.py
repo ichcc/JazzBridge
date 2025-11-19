@@ -19,6 +19,35 @@ import json
 import os
 from datetime import datetime
 from typing import List, Tuple, Optional, Dict
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import threading
+
+
+# Global rate limiter for song.link API (10 requests/minute)
+# This ensures all threads respect the same rate limit
+_rate_limit_lock = threading.Lock()
+_last_api_call_time = 0
+
+def rate_limited_sleep():
+    """
+    Sleep to respect song.link API rate limit (10 requests/minute).
+    This is thread-safe and shared across all fetchers.
+    """
+    global _last_api_call_time
+    with _rate_limit_lock:
+        current_time = time.time()
+        time_since_last_call = current_time - _last_api_call_time
+
+        # Ensure at least 6 seconds between API calls (10 req/min)
+        if time_since_last_call < 6:
+            sleep_time = 6 - time_since_last_call
+            time.sleep(sleep_time)
+
+        _last_api_call_time = time.time()
+
+
+# Shared cache lock for thread-safe cache operations
+_cache_lock = threading.Lock()
 
 
 class AlbumFetcher:
@@ -65,31 +94,33 @@ class AlbumFetcher:
         return f"{artist.lower().strip()}||{album.lower().strip()}"
 
     def load_cache(self):
-        """Load the album cache from disk."""
-        if os.path.exists(self.CACHE_FILE):
-            try:
-                with open(self.CACHE_FILE, 'r', encoding='utf-8') as f:
-                    self.cache = json.load(f)
-                self.log(f"Loaded {len(self.cache)} entries from cache")
-            except Exception as e:
-                self.log(f"Error loading cache: {e}")
+        """Load the album cache from disk (thread-safe)."""
+        with _cache_lock:
+            if os.path.exists(self.CACHE_FILE):
+                try:
+                    with open(self.CACHE_FILE, 'r', encoding='utf-8') as f:
+                        self.cache = json.load(f)
+                    self.log(f"Loaded {len(self.cache)} entries from cache")
+                except Exception as e:
+                    self.log(f"Error loading cache: {e}")
+                    self.cache = {}
+            else:
+                self.log("No cache file found, starting with empty cache")
                 self.cache = {}
-        else:
-            self.log("No cache file found, starting with empty cache")
-            self.cache = {}
 
     def save_cache(self):
-        """Save the album cache to disk."""
-        try:
-            with open(self.CACHE_FILE, 'w', encoding='utf-8') as f:
-                json.dump(self.cache, f, indent=2, ensure_ascii=False)
-            self.log(f"Saved {len(self.cache)} entries to cache")
-        except Exception as e:
-            self.log(f"Error saving cache: {e}")
+        """Save the album cache to disk (thread-safe)."""
+        with _cache_lock:
+            try:
+                with open(self.CACHE_FILE, 'w', encoding='utf-8') as f:
+                    json.dump(self.cache, f, indent=2, ensure_ascii=False)
+                self.log(f"Saved {len(self.cache)} entries to cache")
+            except Exception as e:
+                self.log(f"Error saving cache: {e}")
 
     def get_from_cache(self, artist: str, album: str) -> Optional[Tuple[Optional[str], Optional[str]]]:
         """
-        Get album links from cache if available.
+        Get album links from cache if available (thread-safe).
 
         Args:
             artist: Artist name
@@ -99,15 +130,16 @@ class AlbumFetcher:
             Tuple of (album_link, apple_music_link) or None if not in cache
         """
         key = self.normalize_cache_key(artist, album)
-        if key in self.cache:
-            entry = self.cache[key]
-            self.log(f"Cache hit for: {artist} - {album}")
-            return (entry.get('album_link'), entry.get('apple_music_link'))
+        with _cache_lock:
+            if key in self.cache:
+                entry = self.cache[key]
+                self.log(f"Cache hit for: {artist} - {album}")
+                return (entry.get('album_link'), entry.get('apple_music_link'))
         return None
 
     def add_to_cache(self, artist: str, album: str, album_link: Optional[str], apple_music_link: Optional[str]):
         """
-        Add or update album in cache.
+        Add or update album in cache (thread-safe).
 
         Args:
             artist: Artist name
@@ -118,21 +150,22 @@ class AlbumFetcher:
         key = self.normalize_cache_key(artist, album)
         today = datetime.now().strftime('%Y-%m-%d')
 
-        if key in self.cache:
-            # Update existing entry
-            self.cache[key]['album_link'] = album_link
-            self.cache[key]['apple_music_link'] = apple_music_link
-            self.cache[key]['last_checked'] = today
-        else:
-            # Create new entry
-            self.cache[key] = {
-                'artist': artist,
-                'album': album,
-                'album_link': album_link,
-                'apple_music_link': apple_music_link,
-                'first_seen': today,
-                'last_checked': today
-            }
+        with _cache_lock:
+            if key in self.cache:
+                # Update existing entry
+                self.cache[key]['album_link'] = album_link
+                self.cache[key]['apple_music_link'] = apple_music_link
+                self.cache[key]['last_checked'] = today
+            else:
+                # Create new entry
+                self.cache[key] = {
+                    'artist': artist,
+                    'album': album,
+                    'album_link': album_link,
+                    'apple_music_link': apple_music_link,
+                    'first_seen': today,
+                    'last_checked': today
+                }
 
         self.log(f"Added to cache: {artist} - {album}")
 
@@ -255,8 +288,8 @@ class AlbumFetcher:
         self.log(f"Converting to Album.link via API...")
 
         # Rate limiting: 10 requests/minute without API key
-        # Sleep 6 seconds between requests to stay safe
-        time.sleep(6)
+        # Use global rate limiter to coordinate across all threads
+        rate_limited_sleep()
 
         try:
             response = self.session.get(api_url, timeout=10)
@@ -1374,93 +1407,67 @@ def main():
 
     args = parser.parse_args()
 
-    # Fetch and process albums from All About Jazz
-    print("\n=== Fetching from All About Jazz ===")
-    aaj_fetcher = AlbumFetcher(verbose=args.verbose)
-    aaj_results = aaj_fetcher.process_feed()
+    # Helper function to fetch from a single source
+    def fetch_from_source(fetcher_class, source_name):
+        """Fetch albums from a single source."""
+        print(f"\n=== Fetching from {source_name} ===")
+        fetcher = fetcher_class(verbose=args.verbose)
+        results = fetcher.process_feed()
 
-    # Count All About Jazz results
-    aaj_with_links = sum(1 for _, _, link, _, _ in aaj_results if link)
-    aaj_without_links = len(aaj_results) - aaj_with_links
+        # Count results
+        with_links = sum(1 for _, _, link, _, _ in results if link)
+        without_links = len(results) - with_links
 
-    print(f"\nAll About Jazz - Processed {len(aaj_results)} albums:")
-    print(f"  - {aaj_with_links} found on streaming services")
-    print(f"  - {aaj_without_links} not found (will show as placeholders)")
+        print(f"\n{source_name} - Processed {len(results)} albums:")
+        print(f"  - {with_links} found on streaming services")
+        print(f"  - {without_links} not found (will show as placeholders)")
 
-    # Fetch and process albums from Jazz Profiles (unless skipped)
-    jp_results = None
+        return source_name, results
+
+    # Define all sources to fetch
+    sources = [
+        (AlbumFetcher, "All About Jazz"),
+    ]
+
     if not args.skip_jazz_profiles:
-        print("\n=== Fetching from Jazz Profiles ===")
-        jp_fetcher = JazzProfilesFetcher(verbose=args.verbose)
-        jp_results = jp_fetcher.process_feed()
+        sources.extend([
+            (JazzProfilesFetcher, "Jazz Profiles"),
+            (JazzChillFetcher, "JazzChill"),
+            (JazzWaxFetcher, "JazzWax"),
+            (HardToFindVinylsFetcher, "Hard To Find Vinyls YouTube"),
+            (JazzYouTubeFetcher, "Jazz YouTube Channel"),
+        ])
 
-        # Count Jazz Profiles results
-        jp_with_links = sum(1 for _, _, link, _, _ in jp_results if link)
-        jp_without_links = len(jp_results) - jp_with_links
+    # Process all sources in parallel
+    print(f"\n{'='*60}")
+    print(f"Processing {len(sources)} sources in parallel...")
+    print(f"{'='*60}")
 
-        print(f"\nJazz Profiles - Processed {len(jp_results)} albums:")
-        print(f"  - {jp_with_links} found on streaming services")
-        print(f"  - {jp_without_links} not found (will show as placeholders)")
+    results_dict = {}
+    with ThreadPoolExecutor(max_workers=len(sources)) as executor:
+        # Submit all fetch tasks
+        future_to_source = {
+            executor.submit(fetch_from_source, fetcher_class, source_name): source_name
+            for fetcher_class, source_name in sources
+        }
 
-    # Fetch and process albums from JazzChill (unless skipped)
-    jc_results = None
-    if not args.skip_jazz_profiles:  # Use same flag for now
-        print("\n=== Fetching from JazzChill ===")
-        jc_fetcher = JazzChillFetcher(verbose=args.verbose)
-        jc_results = jc_fetcher.process_feed()
+        # Collect results as they complete
+        for future in as_completed(future_to_source):
+            source_name = future_to_source[future]
+            try:
+                name, results = future.result()
+                results_dict[name] = results
+            except Exception as e:
+                print(f"\n❌ Error fetching from {source_name}: {e}")
+                results_dict[source_name] = []
 
-        # Count JazzChill results
-        jc_with_links = sum(1 for _, _, link, _, _ in jc_results if link)
-        jc_without_links = len(jc_results) - jc_with_links
-
-        print(f"\nJazzChill - Processed {len(jc_results)} albums:")
-        print(f"  - {jc_with_links} found on streaming services")
-        print(f"  - {jc_without_links} not found (will show as placeholders)")
-
-    # Fetch and process albums from JazzWax (unless skipped)
-    jw_results = None
-    if not args.skip_jazz_profiles:  # Use same flag for now
-        print("\n=== Fetching from JazzWax ===")
-        jw_fetcher = JazzWaxFetcher(verbose=args.verbose)
-        jw_results = jw_fetcher.process_feed()
-
-        # Count JazzWax results
-        jw_with_links = sum(1 for _, _, link, _, _ in jw_results if link)
-        jw_without_links = len(jw_results) - jw_with_links
-
-        print(f"\nJazzWax - Processed {len(jw_results)} albums:")
-        print(f"  - {jw_with_links} found on streaming services")
-        print(f"  - {jw_without_links} not found (will show as placeholders)")
-
-    # Fetch and process albums from Hard To Find Vinyls YouTube (unless skipped)
-    htfv_results = None
-    if not args.skip_jazz_profiles:  # Use same flag for now
-        print("\n=== Fetching from Hard To Find Vinyls YouTube ===")
-        htfv_fetcher = HardToFindVinylsFetcher(verbose=args.verbose)
-        htfv_results = htfv_fetcher.process_feed()
-
-        # Count Hard To Find Vinyls results
-        htfv_with_links = sum(1 for _, _, link, _, _ in htfv_results if link)
-        htfv_without_links = len(htfv_results) - htfv_with_links
-
-        print(f"\nHard To Find Vinyls - Processed {len(htfv_results)} albums:")
-        print(f"  - {htfv_with_links} found on streaming services")
-        print(f"  - {htfv_without_links} not found (will show as placeholders)")
-
-    # Fetch and process albums from Jazz YouTube Channel (unless skipped)
-    jy_results = None
-    if not args.skip_jazz_profiles:  # Use same flag for now
-        print("\n=== Fetching from Jazz YouTube Channel ===")
-        jy_fetcher = JazzYouTubeFetcher(verbose=args.verbose)
-        jy_results = jy_fetcher.process_feed()
-
-        # Count Jazz YouTube Channel results
-        jy_with_links = sum(1 for _, _, link, _, _ in jy_results if link)
-        jy_without_links = len(jy_results) - jy_with_links
-
-        print(f"\nJazz YouTube Channel - Processed {len(jy_results)} albums:")
-        print(f"  - {jy_with_links} found on streaming services")
-        print(f"  - {jy_without_links} not found (will show as placeholders)")
+    # Extract results for each source
+    aaj_results = results_dict.get("All About Jazz", [])
+    jp_results = results_dict.get("Jazz Profiles")
+    jc_results = results_dict.get("JazzChill")
+    jw_results = results_dict.get("JazzWax")
+    htfv_results = results_dict.get("Hard To Find Vinyls YouTube")
+    jy_results = results_dict.get("Jazz YouTube Channel")
 
     # Generate output
     if args.format == 'markdown':
