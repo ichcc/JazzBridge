@@ -1247,33 +1247,42 @@ class OutputGenerator:
                 }
             }
 
-            // Immediately load first 8 iframes for instant visibility
             const allIframes = document.querySelectorAll('iframe[data-src]');
+
+            // Immediately load first 20 iframes for instant visibility
+            // (covers first screen on mobile and desktop)
             allIframes.forEach((iframe, index) => {
-                if (index < 8) {
+                if (index < 20) {
                     loadIframe(iframe);
                 }
             });
 
             // Use Intersection Observer for remaining iframes
-            const iframeObserver = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const iframe = entry.target;
-                        loadIframe(iframe);
-                        observer.unobserve(iframe);
+            if ('IntersectionObserver' in window) {
+                const iframeObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const iframe = entry.target;
+                            loadIframe(iframe);
+                            observer.unobserve(iframe);
+                        }
+                    });
+                }, {
+                    rootMargin: '200px' // Start loading 200px before iframe is visible
+                });
+
+                // Observe iframes after the first 20
+                allIframes.forEach((iframe, index) => {
+                    if (index >= 20) {
+                        iframeObserver.observe(iframe);
                     }
                 });
-            }, {
-                rootMargin: '100px' // Start loading 100px before iframe is visible
-            });
-
-            // Observe iframes after the first 8
-            allIframes.forEach((iframe, index) => {
-                if (index >= 8) {
-                    iframeObserver.observe(iframe);
-                }
-            });
+            } else {
+                // Fallback for browsers without IntersectionObserver
+                allIframes.forEach((iframe) => {
+                    loadIframe(iframe);
+                });
+            }
         });
     </script>
 </head>
