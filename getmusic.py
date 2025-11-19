@@ -995,6 +995,7 @@ class OutputGenerator:
         }
 
         .album-embed {
+            position: relative;
             aspect-ratio: 480/199;
             width: 100%;
             border-radius: 8px;
@@ -1043,10 +1044,6 @@ class OutputGenerator:
         @keyframes loading {
             0% { background-position: 200% 0; }
             100% { background-position: -200% 0; }
-        }
-
-        .album-embed {
-            position: relative;
         }
 
         .placeholder {
