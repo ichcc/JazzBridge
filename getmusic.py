@@ -1157,25 +1157,41 @@ class OutputGenerator:
 
         // Lazy load iframes with Intersection Observer
         document.addEventListener('DOMContentLoaded', function() {
+            // Load iframe function
+            function loadIframe(iframe) {
+                const dataSrc = iframe.getAttribute('data-src');
+                if (dataSrc && !iframe.getAttribute('src')) {
+                    iframe.setAttribute('src', dataSrc);
+                    iframe.classList.add('loaded');
+                }
+            }
+
+            // Immediately load first 8 iframes for instant visibility
+            const allIframes = document.querySelectorAll('iframe[data-src]');
+            allIframes.forEach((iframe, index) => {
+                if (index < 8) {
+                    loadIframe(iframe);
+                }
+            });
+
+            // Use Intersection Observer for remaining iframes
             const iframeObserver = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
                         const iframe = entry.target;
-                        const dataSrc = iframe.getAttribute('data-src');
-                        if (dataSrc && !iframe.getAttribute('src')) {
-                            iframe.setAttribute('src', dataSrc);
-                            iframe.classList.add('loaded');
-                        }
+                        loadIframe(iframe);
                         observer.unobserve(iframe);
                     }
                 });
             }, {
-                rootMargin: '50px' // Start loading 50px before iframe is visible
+                rootMargin: '100px' // Start loading 100px before iframe is visible
             });
 
-            // Observe all iframes with data-src
-            document.querySelectorAll('iframe[data-src]').forEach(iframe => {
-                iframeObserver.observe(iframe);
+            // Observe iframes after the first 8
+            allIframes.forEach((iframe, index) => {
+                if (index >= 8) {
+                    iframeObserver.observe(iframe);
+                }
             });
         });
     </script>
