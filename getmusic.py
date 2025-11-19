@@ -846,6 +846,60 @@ class OutputGenerator:
         print(f"CSV output written to: {output_file}")
 
     @staticmethod
+    def _generate_source_section(source_name: str, source_url: str, emoji: str, results: List[Tuple[str, str, str, str, str]]) -> str:
+        """Helper to generate HTML for a single source section with collapsible not-found albums."""
+        if not results:
+            return ""
+
+        # Separate found and not found
+        found = [(a, b, c, d, e) for a, b, c, d, e in results if c]
+        not_found = [(a, b, c, d, e) for a, b, c, d, e in results if not c]
+
+        html = f'''
+        <h2><a href="{source_url}" target="_blank">{emoji} {source_name}</a></h2>
+        <div class="grid-container">
+'''
+
+        # Add found albums
+        for artist, album, album_link, _, _ in found:
+            encoded_url = quote(album_link)
+            html += f'''        <div class="album-embed">
+            <iframe data-src="https://song.link/embed?url={encoded_url}"
+                    frameborder="0"
+                    allowtransparency
+                    allowfullscreen
+                    loading="lazy"
+                    title="{artist} - {album}">
+            </iframe>
+        </div>
+'''
+
+        html += '''        </div>
+'''
+
+        # Add collapsible not-found section
+        if not_found:
+            html += f'''
+        <details class="not-found-section">
+            <summary>📂 Albums not on streaming services ({len(not_found)})</summary>
+            <div class="not-found-list">
+'''
+            for artist, album, _, _, _ in not_found:
+                html += f'''                <div class="not-found-item">
+                    <span class="not-found-icon">🎵</span>
+                    <div>
+                        <strong>{artist}</strong>
+                        <span class="album-title">{album}</span>
+                    </div>
+                </div>
+'''
+            html += '''            </div>
+        </details>
+'''
+
+        return html
+
+    @staticmethod
     def generate_html(results: List[Tuple[str, str, str, str, str]], output_file: str,
                      jazz_profiles_results: Optional[List[Tuple[str, str, str, str, str]]] = None,
                      jazz_chill_results: Optional[List[Tuple[str, str, str, str, str]]] = None,
@@ -1027,6 +1081,69 @@ class OutputGenerator:
             margin-bottom: 10px;
         }
 
+        /* Not found albums section */
+        .not-found-section {
+            margin: 30px auto;
+            max-width: 1400px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 15px;
+            background: var(--bg-card);
+        }
+
+        .not-found-section summary {
+            cursor: pointer;
+            font-size: 1.1em;
+            font-weight: 500;
+            color: var(--text-secondary);
+            padding: 10px;
+            list-style: none;
+            user-select: none;
+        }
+
+        .not-found-section summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .not-found-section summary:hover {
+            color: var(--text-primary);
+        }
+
+        .not-found-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+            padding: 10px;
+        }
+
+        .not-found-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            background: var(--bg-primary);
+            border-radius: 6px;
+            font-size: 0.9em;
+        }
+
+        .not-found-icon {
+            font-size: 1.5em;
+            opacity: 0.5;
+        }
+
+        .not-found-item strong {
+            display: block;
+            color: var(--text-primary);
+        }
+
+        .album-title {
+            display: block;
+            color: var(--text-secondary);
+            font-size: 0.9em;
+            margin-top: 3px;
+        }
+
         footer {
             text-align: center;
             margin-top: 40px;
@@ -1172,12 +1289,14 @@ class OutputGenerator:
         <div class="grid-container">
 '''
 
-        # Add All About Jazz album embeds or placeholders
-        for artist, album, album_link, apple_link, date in results:
-            if album_link:
-                # Album found - show embed
-                encoded_url = quote(album_link)
-                html_content += f'''        <div class="album-embed">
+        # Separate albums with and without links
+        found_albums = [(a, b, c, d, e) for a, b, c, d, e in results if c]
+        not_found_albums = [(a, b, c, d, e) for a, b, c, d, e in results if not c]
+
+        # Add All About Jazz album embeds
+        for artist, album, album_link, apple_link, date in found_albums:
+            encoded_url = quote(album_link)
+            html_content += f'''        <div class="album-embed">
             <iframe data-src="https://song.link/embed?url={encoded_url}"
                     frameborder="0"
                     allowtransparency
@@ -1185,180 +1304,76 @@ class OutputGenerator:
                     loading="lazy"
                     title="{artist} - {album}">
             </iframe>
-        </div>
-'''
-            else:
-                # Album not found - show placeholder with artist and album name
-                html_content += f'''        <div class="album-embed placeholder">
-            <div class="placeholder-icon">🎵</div>
-            <div><strong>{artist}</strong></div>
-            <div style="font-size: 0.85em; margin-top: 5px;">{album}</div>
-            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
         </div>
 '''
 
         html_content += '''        </div>
 '''
 
+        # Add not found albums in collapsible section if any
+        if not_found_albums:
+            html_content += f'''
+        <details class="not-found-section">
+            <summary>📂 Albums not on streaming services ({len(not_found_albums)})</summary>
+            <div class="not-found-list">
+'''
+            for artist, album, _, _, _ in not_found_albums:
+                html_content += f'''                <div class="not-found-item">
+                    <span class="not-found-icon">🎵</span>
+                    <div>
+                        <strong>{artist}</strong>
+                        <span class="album-title">{album}</span>
+                    </div>
+                </div>
+'''
+            html_content += '''            </div>
+        </details>
+'''
+
         # Add Jazz Profiles section if results provided
         if jazz_profiles_results:
-            html_content += '''
-        <h2><a href="https://jazzprofiles.blogspot.com/" target="_blank">🎹 Jazz Profiles</a></h2>
-        <div class="grid-container">
-'''
-            for artist, album, album_link, apple_link, date in jazz_profiles_results:
-                if album_link:
-                    # Album found - show embed
-                    encoded_url = quote(album_link)
-                    html_content += f'''        <div class="album-embed">
-            <iframe data-src="https://song.link/embed?url={encoded_url}"
-                    frameborder="0"
-                    allowtransparency
-                    allowfullscreen
-                    loading="lazy"
-                    title="{artist} - {album}">
-            </iframe>
-        </div>
-'''
-                else:
-                    # Album not found - show placeholder
-                    html_content += f'''        <div class="album-embed placeholder">
-            <div class="placeholder-icon">🎵</div>
-            <div><strong>{artist}</strong></div>
-            <div style="font-size: 0.85em; margin-top: 5px;">{album}</div>
-            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
-        </div>
-'''
-            html_content += '''        </div>
-'''
+            html_content += OutputGenerator._generate_source_section(
+                "Jazz Profiles",
+                "https://jazzprofiles.blogspot.com/",
+                "🎹",
+                jazz_profiles_results
+            )
 
         # Add JazzChill section if results provided
         if jazz_chill_results:
-            html_content += '''
-        <h2><a href="https://jazzchill.blogspot.com/" target="_blank">🎶 JazzChill</a></h2>
-        <div class="grid-container">
-'''
-            for artist, album, album_link, apple_link, date in jazz_chill_results:
-                if album_link:
-                    # Album found - show embed
-                    encoded_url = quote(album_link)
-                    html_content += f'''        <div class="album-embed">
-            <iframe data-src="https://song.link/embed?url={encoded_url}"
-                    frameborder="0"
-                    allowtransparency
-                    allowfullscreen
-                    loading="lazy"
-                    title="{artist} - {album}">
-            </iframe>
-        </div>
-'''
-                else:
-                    # Album not found - show placeholder
-                    html_content += f'''        <div class="album-embed placeholder">
-            <div class="placeholder-icon">🎵</div>
-            <div><strong>{artist}</strong></div>
-            <div style="font-size: 0.85em; margin-top: 5px;">{album}</div>
-            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
-        </div>
-'''
-            html_content += '''        </div>
-'''
+            html_content += OutputGenerator._generate_source_section(
+                "JazzChill",
+                "https://jazzchill.blogspot.com/",
+                "🎶",
+                jazz_chill_results
+            )
 
         # Add JazzWax section if results provided
         if jazz_wax_results:
-            html_content += '''
-        <h2><a href="https://jazzwax.com/" target="_blank">🎺 JazzWax</a></h2>
-        <div class="grid-container">
-'''
-            for artist, album, album_link, apple_link, date in jazz_wax_results:
-                if album_link:
-                    # Album found - show embed
-                    encoded_url = quote(album_link)
-                    html_content += f'''        <div class="album-embed">
-            <iframe data-src="https://song.link/embed?url={encoded_url}"
-                    frameborder="0"
-                    allowtransparency
-                    allowfullscreen
-                    loading="lazy"
-                    title="{artist} - {album}">
-            </iframe>
-        </div>
-'''
-                else:
-                    # Album not found - show placeholder
-                    html_content += f'''        <div class="album-embed placeholder">
-            <div class="placeholder-icon">🎵</div>
-            <div><strong>{artist}</strong></div>
-            <div style="font-size: 0.85em; margin-top: 5px;">{album}</div>
-            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
-        </div>
-'''
-            html_content += '''        </div>
-'''
+            html_content += OutputGenerator._generate_source_section(
+                "JazzWax",
+                "https://jazzwax.com/",
+                "🎺",
+                jazz_wax_results
+            )
 
         # Add Hard To Find Vinyls YouTube section if results provided
         if htfv_results:
-            html_content += '''
-        <h2><a href="https://www.youtube.com/@hardtofindvinyls" target="_blank">📺 Hard To Find Vinyls</a></h2>
-        <div class="grid-container">
-'''
-            for artist, album, album_link, apple_link, date in htfv_results:
-                if album_link:
-                    # Album found - show embed
-                    encoded_url = quote(album_link)
-                    html_content += f'''        <div class="album-embed">
-            <iframe data-src="https://song.link/embed?url={encoded_url}"
-                    frameborder="0"
-                    allowtransparency
-                    allowfullscreen
-                    loading="lazy"
-                    title="{artist} - {album}">
-            </iframe>
-        </div>
-'''
-                else:
-                    # Album not found - show placeholder
-                    html_content += f'''        <div class="album-embed placeholder">
-            <div class="placeholder-icon">🎵</div>
-            <div><strong>{artist}</strong></div>
-            <div style="font-size: 0.85em; margin-top: 5px;">{album}</div>
-            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
-        </div>
-'''
-            html_content += '''        </div>
-'''
+            html_content += OutputGenerator._generate_source_section(
+                "Hard To Find Vinyls",
+                "https://www.youtube.com/@hardtofindvinyls",
+                "📺",
+                htfv_results
+            )
 
         # Add Jazz YouTube channel section if results provided
         if jazz_youtube_results:
-            html_content += '''
-        <h2><a href="https://www.youtube.com/channel/UCSa-MrfLJ9epUEITf3xHgKg" target="_blank">💿 Hard To Find Vinyls</a></h2>
-        <div class="grid-container">
-'''
-            for artist, album, album_link, apple_link, date in jazz_youtube_results:
-                if album_link:
-                    # Album found - show embed
-                    encoded_url = quote(album_link)
-                    html_content += f'''        <div class="album-embed">
-            <iframe data-src="https://song.link/embed?url={encoded_url}"
-                    frameborder="0"
-                    allowtransparency
-                    allowfullscreen
-                    loading="lazy"
-                    title="{artist} - {album}">
-            </iframe>
-        </div>
-'''
-                else:
-                    # Album not found - show placeholder
-                    html_content += f'''        <div class="album-embed placeholder">
-            <div class="placeholder-icon">🎵</div>
-            <div><strong>{artist}</strong></div>
-            <div style="font-size: 0.85em; margin-top: 5px;">{album}</div>
-            <div style="font-size: 0.75em; color: #555; margin-top: 10px;">Not available on streaming</div>
-        </div>
-'''
-            html_content += '''        </div>
-'''
+            html_content += OutputGenerator._generate_source_section(
+                "Jazz YouTube",
+                "https://www.youtube.com/channel/UCSa-MrfLJ9epUEITf3xHgKg",
+                "💿",
+                jazz_youtube_results
+            )
 
         html_content += '''    </div>
 
