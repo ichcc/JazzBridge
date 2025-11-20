@@ -598,5 +598,37 @@
     "apple_music_link": null,
     "first_seen": "2025-11-19",
     "last_checked": "2025-11-19"
+  },
+  "ian shaw||stephensong": {
+    "artist": "Ian Shaw",
+    "album": "Stephensong",
+    "album_link": "https://album.link/i/1848983980",
+    "apple_music_link": "https://music.apple.com/us/album/stephensong-ian-shaw-sings-stephen-sondheim-feat-barry/1848983980?uo=4",
+    "first_seen": "2025-11-20",
+    "last_checked": "2025-11-20"
+  },
+  "eshaan sood/the sonic alchemists||dream river": {
+    "artist": "Eshaan Sood/The Sonic Alchemists",
+    "album": "Dream River",
+    "album_link": "https://album.link/i/1837469371",
+    "apple_music_link": "https://music.apple.com/us/album/the-sonic-alchemists-i-dream-river/1837469371?uo=4",
+    "first_seen": "2025-11-20",
+    "last_checked": "2025-11-20"
+  },
+  "dominik wania||my life: preisner's music": {
+    "artist": "Dominik Wania",
+    "album": "My Life: Preisner's Music",
+    "album_link": "https://album.link/i/1814323490",
+    "apple_music_link": "https://music.apple.com/us/album/my-life-preisners-music-live-in-bielsko-bia%C5%82a/1814323490?uo=4",
+    "first_seen": "2025-11-20",
+    "last_checked": "2025-11-20"
+  },
+  "john scofield and dave holland||memories of home": {
+    "artist": "John Scofield and Dave Holland",
+    "album": "Memories Of Home",
+    "album_link": "https://album.link/i/1838915539",
+    "apple_music_link": "https://music.apple.com/us/album/memories-of-home/1838915539?uo=4",
+    "first_seen": "2025-11-20",
+    "last_checked": "2025-11-20"
   }
 }
