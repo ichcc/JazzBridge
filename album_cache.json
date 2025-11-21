@@ -630,5 +630,37 @@
     "apple_music_link": "https://music.apple.com/us/album/memories-of-home/1838915539?uo=4",
     "first_seen": "2025-11-20",
     "last_checked": "2025-11-20"
+  },
+  "omar sosa||sendas": {
+    "artist": "Omar Sosa",
+    "album": "Sendas",
+    "album_link": "https://album.link/i/1845252967",
+    "apple_music_link": "https://music.apple.com/us/album/sendas/1845252967?uo=4",
+    "first_seen": "2025-11-21",
+    "last_checked": "2025-11-21"
+  },
+  "al muirhead||still cookin' at 90: the canada sessions, volume ii": {
+    "artist": "Al Muirhead",
+    "album": "Still Cookin' at 90: The Canada Sessions, Volume II",
+    "album_link": "https://album.link/i/1841905782",
+    "apple_music_link": "https://music.apple.com/us/album/still-cookin-at-90-the-canada-sessions-vol-2/1841905782?uo=4",
+    "first_seen": "2025-11-21",
+    "last_checked": "2025-11-21"
+  },
+  "lori williams||here we are": {
+    "artist": "Lori Williams",
+    "album": "Here We Are",
+    "album_link": "https://album.link/i/1819711258",
+    "apple_music_link": "https://music.apple.com/us/album/here-we-are-feat-bernhard-wiesinger-christian-havel/1819711258?uo=4",
+    "first_seen": "2025-11-21",
+    "last_checked": "2025-11-21"
+  },
+  "the beatles||anthology 4": {
+    "artist": "The Beatles",
+    "album": "Anthology 4",
+    "album_link": "https://album.link/i/1834473847",
+    "apple_music_link": "https://music.apple.com/us/album/anthology-4/1834473847?uo=4",
+    "first_seen": "2025-11-21",
+    "last_checked": "2025-11-21"
   }
 }
