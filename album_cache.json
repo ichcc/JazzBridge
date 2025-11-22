@@ -662,5 +662,29 @@
     "apple_music_link": "https://music.apple.com/us/album/anthology-4/1834473847?uo=4",
     "first_seen": "2025-11-21",
     "last_checked": "2025-11-21"
+  },
+  "editor's note||thanksgiving begins": {
+    "artist": "Editor's Note",
+    "album": "Thanksgiving Begins",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-11-22",
+    "last_checked": "2025-11-22"
+  },
+  "wsj||ali larter": {
+    "artist": "WSJ",
+    "album": "Ali Larter",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-11-22",
+    "last_checked": "2025-11-22"
+  },
+  "thelonious monk||'bremen, 1965'": {
+    "artist": "Thelonious Monk",
+    "album": "'Bremen, 1965'",
+    "album_link": "https://album.link/i/1846211853",
+    "apple_music_link": "https://music.apple.com/us/album/bremen-1965-live-at-sendesaal-radio-bremen-germany/1846211853?uo=4",
+    "first_seen": "2025-11-22",
+    "last_checked": "2025-11-22"
   }
 }
