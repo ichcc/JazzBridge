@@ -734,5 +734,29 @@
     "apple_music_link": null,
     "first_seen": "2025-11-23",
     "last_checked": "2025-11-23"
+  },
+  "markus rutz||many moons": {
+    "artist": "Markus Rutz",
+    "album": "Many Moons",
+    "album_link": "https://album.link/i/1810126274",
+    "apple_music_link": "https://music.apple.com/us/album/many-moons/1810126274?uo=4",
+    "first_seen": "2025-11-24",
+    "last_checked": "2025-11-24"
+  },
+  "satoko fujii quartet||burning wick": {
+    "artist": "Satoko Fujii Quartet",
+    "album": "Burning Wick",
+    "album_link": "https://album.link/i/1854039753",
+    "apple_music_link": "https://music.apple.com/us/album/burning-wick/1854039753?uo=4",
+    "first_seen": "2025-11-24",
+    "last_checked": "2025-11-24"
+  },
+  "hanna paulsberg concept and elin rosseland||himmel over hav": {
+    "artist": "Hanna Paulsberg Concept and Elin Rosseland",
+    "album": "Himmel Over Hav",
+    "album_link": "https://album.link/i/1822772152",
+    "apple_music_link": "https://music.apple.com/us/album/himmel-over-hav/1822772152?uo=4",
+    "first_seen": "2025-11-24",
+    "last_checked": "2025-11-24"
   }
 }
