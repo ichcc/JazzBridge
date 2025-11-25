@@ -758,5 +758,29 @@
     "apple_music_link": "https://music.apple.com/us/album/himmel-over-hav/1822772152?uo=4",
     "first_seen": "2025-11-24",
     "last_checked": "2025-11-24"
+  },
+  "spinifex||maxximus": {
+    "artist": "Spinifex",
+    "album": "Maxximus",
+    "album_link": "https://album.link/i/1767040262",
+    "apple_music_link": "https://music.apple.com/us/album/pontifex-maximus-single/1767040262?uo=4",
+    "first_seen": "2025-11-25",
+    "last_checked": "2025-11-25"
+  },
+  "linda dachtyl||full steam ahead": {
+    "artist": "Linda Dachtyl",
+    "album": "Full Steam Ahead",
+    "album_link": "https://album.link/i/1822568893",
+    "apple_music_link": "https://music.apple.com/us/album/full-steam-ahead-feat-don-hales-cary-dachtyl/1822568893?uo=4",
+    "first_seen": "2025-11-25",
+    "last_checked": "2025-11-25"
+  },
+  "yogev shetrit||way of tradition": {
+    "artist": "Yogev Shetrit",
+    "album": "Way of Tradition",
+    "album_link": "https://album.link/i/1804042538",
+    "apple_music_link": "https://music.apple.com/us/album/way-of-tradition-single/1804042538?uo=4",
+    "first_seen": "2025-11-25",
+    "last_checked": "2025-11-25"
   }
 }
