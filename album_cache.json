@@ -782,5 +782,29 @@
     "apple_music_link": "https://music.apple.com/us/album/way-of-tradition-single/1804042538?uo=4",
     "first_seen": "2025-11-25",
     "last_checked": "2025-11-25"
+  },
+  "zurhub||countryside motorways": {
+    "artist": "ZurHub",
+    "album": "Countryside Motorways",
+    "album_link": "https://album.link/i/1823858547",
+    "apple_music_link": "https://music.apple.com/us/album/countryside-motorways/1823858547?uo=4",
+    "first_seen": "2025-11-26",
+    "last_checked": "2025-11-26"
+  },
+  "kenny barron||songbook": {
+    "artist": "Kenny Barron",
+    "album": "Songbook",
+    "album_link": "https://album.link/i/358133823",
+    "apple_music_link": "https://music.apple.com/us/album/songbook/358133823?uo=4",
+    "first_seen": "2025-11-26",
+    "last_checked": "2025-11-26"
+  },
+  "enoch smith jr.||the book of enoch vol. 1": {
+    "artist": "Enoch Smith Jr.",
+    "album": "The Book of Enoch Vol. 1",
+    "album_link": "https://album.link/i/1821257522",
+    "apple_music_link": "https://music.apple.com/us/album/the-book-of-enoch-vol-1/1821257522?uo=4",
+    "first_seen": "2025-11-26",
+    "last_checked": "2025-11-26"
   }
 }
