@@ -806,5 +806,61 @@
     "apple_music_link": "https://music.apple.com/us/album/the-book-of-enoch-vol-1/1821257522?uo=4",
     "first_seen": "2025-11-26",
     "last_checked": "2025-11-26"
+  },
+  "thanksgiving||'music for dreaming'": {
+    "artist": "Thanksgiving",
+    "album": "'Music for Dreaming'",
+    "album_link": "https://album.link/i/1640380743",
+    "apple_music_link": "https://music.apple.com/us/album/dreaming-of-a-christmas-with-you-highway-home/1640380743?uo=4",
+    "first_seen": "2025-11-27",
+    "last_checked": "2025-11-27"
+  },
+  "wsj||patti smith's 'horses' turns 50": {
+    "artist": "WSJ",
+    "album": "Patti Smith's 'Horses' Turns 50",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-11-27",
+    "last_checked": "2025-11-27"
+  },
+  "'west coast jazz à la française||1954-1956'": {
+    "artist": "'West Coast Jazz à la Française",
+    "album": "1954-1956'",
+    "album_link": "https://album.link/i/1843928309",
+    "apple_music_link": "https://music.apple.com/us/album/west-coast-jazz-%C3%A0-la-fran%C3%A7aise/1843928309?uo=4",
+    "first_seen": "2025-11-27",
+    "last_checked": "2025-11-27"
+  },
+  "wsj||phil rosenthal": {
+    "artist": "WSJ",
+    "album": "Phil Rosenthal",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-11-27",
+    "last_checked": "2025-11-27"
+  },
+  "john mclaughlin||'music for abandoned heights'": {
+    "artist": "John McLaughlin",
+    "album": "'Music for Abandoned Heights'",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-11-27",
+    "last_checked": "2025-11-27"
+  },
+  "wsj||remembering jimmy cliff": {
+    "artist": "WSJ",
+    "album": "Remembering Jimmy Cliff",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-11-27",
+    "last_checked": "2025-11-27"
+  },
+  "bill evans||'portraits at the penthouse,' 1966": {
+    "artist": "Bill Evans",
+    "album": "'Portraits at the Penthouse,' 1966",
+    "album_link": "https://album.link/i/1841947807",
+    "apple_music_link": "https://music.apple.com/us/album/i-should-care-live-at-the-penthouse-in-seattle-may-19/1841947807?uo=4",
+    "first_seen": "2025-11-27",
+    "last_checked": "2025-11-27"
   }
 }
