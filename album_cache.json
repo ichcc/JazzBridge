@@ -862,5 +862,53 @@
     "apple_music_link": "https://music.apple.com/us/album/i-should-care-live-at-the-penthouse-in-seattle-may-19/1841947807?uo=4",
     "first_seen": "2025-11-27",
     "last_checked": "2025-11-27"
+  },
+  "nugara trio||the last question": {
+    "artist": "Nugara Trio",
+    "album": "The Last Question",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-11-28",
+    "last_checked": "2025-11-28"
+  },
+  "rahsaan roland kirk||vibrations in the village: live at the village gate": {
+    "artist": "Rahsaan Roland Kirk",
+    "album": "Vibrations In The Village: Live At The Village Gate",
+    "album_link": "https://album.link/i/1841528168",
+    "apple_music_link": "https://music.apple.com/us/album/vibrations-in-the-village-live-at-the-village-gate/1841528168?uo=4",
+    "first_seen": "2025-11-28",
+    "last_checked": "2025-11-28"
+  },
+  "neil young||tonight's the night 50th anniversary deluxe": {
+    "artist": "Neil Young",
+    "album": "Tonight's The Night 50th Anniversary Deluxe",
+    "album_link": "https://album.link/i/1852937116",
+    "apple_music_link": "https://music.apple.com/us/album/christmas-in-tahoe-10th-anniversary-deluxe-edition/1852937116?uo=4",
+    "first_seen": "2025-11-28",
+    "last_checked": "2025-11-28"
+  },
+  "jakob dreyer||roots and things": {
+    "artist": "Jakob Dreyer",
+    "album": "Roots and Things",
+    "album_link": "https://album.link/i/1840738835",
+    "apple_music_link": "https://music.apple.com/us/album/roots-and-things-feat-tivon-pennicott-sasha-berliner/1840738835?uo=4",
+    "first_seen": "2025-11-28",
+    "last_checked": "2025-11-28"
+  },
+  "loren schoenberg and his jazz orchestra||so many memories": {
+    "artist": "Loren Schoenberg and His Jazz Orchestra",
+    "album": "So Many Memories",
+    "album_link": "https://album.link/i/1845212620",
+    "apple_music_link": "https://music.apple.com/us/album/so-many-memories/1845212620?uo=4",
+    "first_seen": "2025-11-28",
+    "last_checked": "2025-11-28"
+  },
+  "antoine läng||lâcher les chiens tant qu'on y est": {
+    "artist": "Antoine Läng",
+    "album": "Lâcher Les Chiens Tant Qu'on Y Est",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-11-28",
+    "last_checked": "2025-11-28"
   }
 }
