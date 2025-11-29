@@ -910,5 +910,45 @@
     "apple_music_link": null,
     "first_seen": "2025-11-28",
     "last_checked": "2025-11-28"
+  },
+  "latin escapade||george shearing": {
+    "artist": "LATIN ESCAPADE",
+    "album": "George Shearing",
+    "album_link": "https://album.link/i/1392599144",
+    "apple_music_link": "https://music.apple.com/us/album/latin-escapade/1392599144?uo=4",
+    "first_seen": "2025-11-29",
+    "last_checked": "2025-11-29"
+  },
+  "gerry mulligan, 'rebirth of the cool'||1991": {
+    "artist": "Gerry Mulligan, 'Rebirth of the Cool'",
+    "album": "1991",
+    "album_link": "https://album.link/i/1443923534",
+    "apple_music_link": "https://music.apple.com/us/album/re-birth-of-the-cool/1443923534?uo=4",
+    "first_seen": "2025-11-29",
+    "last_checked": "2025-11-29"
+  },
+  "thomas moeckel & ronnie cuber||jazz in concert 1990 (part2)": {
+    "artist": "THOMAS MOECKEL & RONNIE CUBER",
+    "album": "JAZZ IN CONCERT 1990 (Part2)",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-11-29",
+    "last_checked": "2025-11-29"
+  },
+  "chuck cecil||the swingin’ years   [from the archives]": {
+    "artist": "Chuck Cecil",
+    "album": "The Swingin’ Years   [From The Archives]",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-11-29",
+    "last_checked": "2025-11-29"
+  },
+  "dizzy gillespie (1946) [night in tunisia]||in the beginning": {
+    "artist": "Dizzy Gillespie (1946) [NIGHT IN TUNISIA]",
+    "album": "In the beginning",
+    "album_link": "https://album.link/i/209983758",
+    "apple_music_link": "https://music.apple.com/us/album/night-in-tunisia-the-very-best-of-dizzy/209983758?uo=4",
+    "first_seen": "2025-11-29",
+    "last_checked": "2025-11-29"
   }
 }
