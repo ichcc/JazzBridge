@@ -990,5 +990,45 @@
     "apple_music_link": "https://music.apple.com/us/album/just-you-just-me-live/1852516374?uo=4",
     "first_seen": "2025-11-30",
     "last_checked": "2025-11-30"
+  },
+  "the 3 pieces||vibes of truth": {
+    "artist": "The 3 Pieces",
+    "album": "Vibes Of Truth",
+    "album_link": "https://album.link/i/1442279437",
+    "apple_music_link": "https://music.apple.com/us/album/vibes-of-truth/1442279437?uo=4",
+    "first_seen": "2025-12-01",
+    "last_checked": "2025-12-01"
+  },
+  "doug carn ft. jean carn||revelation": {
+    "artist": "Doug Carn Ft. Jean Carn",
+    "album": "Revelation",
+    "album_link": "https://album.link/i/1494387703",
+    "apple_music_link": "https://music.apple.com/us/album/revelation-feat-jean-carn/1494387703?uo=4",
+    "first_seen": "2025-12-01",
+    "last_checked": "2025-12-01"
+  },
+  "pure release||i’ll know it’s love for sure": {
+    "artist": "Pure Release",
+    "album": "I’ll Know It’s Love For Sure",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-01",
+    "last_checked": "2025-12-01"
+  },
+  "jade||tomorrow may be too late": {
+    "artist": "Jade",
+    "album": "Tomorrow May Be Too Late",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-01",
+    "last_checked": "2025-12-01"
+  },
+  "the awakening||hear, sense and feel": {
+    "artist": "The Awakening",
+    "album": "Hear, Sense And Feel",
+    "album_link": "https://album.link/i/1507452242",
+    "apple_music_link": "https://music.apple.com/us/album/hear-sense-and-feel/1507452242?uo=4",
+    "first_seen": "2025-12-01",
+    "last_checked": "2025-12-01"
   }
 }
