@@ -1030,5 +1030,45 @@
     "apple_music_link": "https://music.apple.com/us/album/hear-sense-and-feel/1507452242?uo=4",
     "first_seen": "2025-12-01",
     "last_checked": "2025-12-01"
+  },
+  "david g white||while you were sleeping": {
+    "artist": "David G White",
+    "album": "While You Were Sleeping",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-02",
+    "last_checked": "2025-12-02"
+  },
+  "wycliffe gordon||holiday fun!": {
+    "artist": "Wycliffe Gordon",
+    "album": "Holiday Fun!",
+    "album_link": "https://album.link/i/1837732956",
+    "apple_music_link": "https://music.apple.com/us/album/holiday-fun/1837732956?uo=4",
+    "first_seen": "2025-12-02",
+    "last_checked": "2025-12-02"
+  },
+  "kenneth dahl knudsen||anti robotic dance music": {
+    "artist": "Kenneth Dahl Knudsen",
+    "album": "Anti Robotic Dance Music",
+    "album_link": "https://album.link/i/1848428179",
+    "apple_music_link": "https://music.apple.com/us/album/anti-robotic-dance-music-feat-casper-hejlesen-matias/1848428179?uo=4",
+    "first_seen": "2025-12-02",
+    "last_checked": "2025-12-02"
+  },
+  "rachel eckroth and john hadfield, featuring petros klampanis||olhos de gato": {
+    "artist": "Rachel Eckroth and John Hadfield, featuring Petros Klampanis",
+    "album": "Olhos de Gato",
+    "album_link": "https://album.link/i/1835450738",
+    "apple_music_link": "https://music.apple.com/us/album/olhos-de-gato-feat-petros-klampanis-single/1835450738?uo=4",
+    "first_seen": "2025-12-02",
+    "last_checked": "2025-12-02"
+  },
+  "faces||early steps": {
+    "artist": "Faces",
+    "album": "Early Steps",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-02",
+    "last_checked": "2025-12-02"
   }
 }
