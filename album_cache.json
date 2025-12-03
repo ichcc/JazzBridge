@@ -1070,5 +1070,29 @@
     "apple_music_link": null,
     "first_seen": "2025-12-02",
     "last_checked": "2025-12-02"
+  },
+  "josh nelson/kevin van den elzen||west coast echoes": {
+    "artist": "Josh Nelson/Kevin Van Den Elzen",
+    "album": "West Coast Echoes",
+    "album_link": "https://album.link/i/1785048513",
+    "apple_music_link": "https://music.apple.com/us/album/west-coast-echoes/1785048513?uo=4",
+    "first_seen": "2025-12-03",
+    "last_checked": "2025-12-03"
+  },
+  "patricia brennan||of the near and far": {
+    "artist": "Patricia Brennan",
+    "album": "Of the Near and Far",
+    "album_link": "https://album.link/i/1822369319",
+    "apple_music_link": "https://music.apple.com/us/album/of-the-near-and-far/1822369319?uo=4",
+    "first_seen": "2025-12-03",
+    "last_checked": "2025-12-03"
+  },
+  "niia||v": {
+    "artist": "Niia",
+    "album": "V",
+    "album_link": "https://album.link/i/1771609861",
+    "apple_music_link": "https://music.apple.com/us/album/stupid-love-feat-nia-v-single/1771609861?uo=4",
+    "first_seen": "2025-12-03",
+    "last_checked": "2025-12-03"
   }
 }
