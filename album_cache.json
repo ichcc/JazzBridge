@@ -1094,5 +1094,37 @@
     "apple_music_link": "https://music.apple.com/us/album/stupid-love-feat-nia-v-single/1771609861?uo=4",
     "first_seen": "2025-12-03",
     "last_checked": "2025-12-03"
+  },
+  "ubunye||tell me the truth or don't tell me anything": {
+    "artist": "Ubunye",
+    "album": "Tell Me The Truth Or Don't Tell Me Anything",
+    "album_link": "https://album.link/i/1849885321",
+    "apple_music_link": "https://music.apple.com/us/album/tell-me-the-truth-or-dont-tell-me-anything/1849885321?uo=4",
+    "first_seen": "2025-12-04",
+    "last_checked": "2025-12-04"
+  },
+  "the scott silbert quartet||dream dancing": {
+    "artist": "The Scott Silbert Quartet",
+    "album": "Dream Dancing",
+    "album_link": "https://album.link/i/1851779257",
+    "apple_music_link": "https://music.apple.com/us/album/dream-dancing-celebrating-zoot-sims-at-100/1851779257?uo=4",
+    "first_seen": "2025-12-04",
+    "last_checked": "2025-12-04"
+  },
+  "steve lodder||2 sorts of 3": {
+    "artist": "Steve Lodder",
+    "album": "2 sorts of 3",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-04",
+    "last_checked": "2025-12-04"
+  },
+  "josh nelson / kevin van den elzen||west coast echoes": {
+    "artist": "Josh Nelson / Kevin Van Den Elzen",
+    "album": "West Coast Echoes",
+    "album_link": "https://album.link/i/1785048513",
+    "apple_music_link": "https://music.apple.com/us/album/west-coast-echoes/1785048513?uo=4",
+    "first_seen": "2025-12-04",
+    "last_checked": "2025-12-04"
   }
 }
