@@ -1126,5 +1126,29 @@
     "apple_music_link": "https://music.apple.com/us/album/west-coast-echoes/1785048513?uo=4",
     "first_seen": "2025-12-04",
     "last_checked": "2025-12-04"
+  },
+  "thelonious monk||bremen 1965": {
+    "artist": "Thelonious Monk",
+    "album": "Bremen 1965",
+    "album_link": "https://album.link/i/1846211853",
+    "apple_music_link": "https://music.apple.com/us/album/bremen-1965-live-at-sendesaal-radio-bremen-germany/1846211853?uo=4",
+    "first_seen": "2025-12-05",
+    "last_checked": "2025-12-05"
+  },
+  "chad lb||the shadow of your smile": {
+    "artist": "Chad LB",
+    "album": "The Shadow Of Your Smile",
+    "album_link": "https://album.link/i/1809448441",
+    "apple_music_link": "https://music.apple.com/us/album/the-shadow-of-your-smile/1809448441?uo=4",
+    "first_seen": "2025-12-05",
+    "last_checked": "2025-12-05"
+  },
+  "david sneider||introducing david sneider": {
+    "artist": "David Sneider",
+    "album": "Introducing David Sneider",
+    "album_link": "https://album.link/i/1829803680",
+    "apple_music_link": "https://music.apple.com/us/album/introducing/1829803680?uo=4",
+    "first_seen": "2025-12-05",
+    "last_checked": "2025-12-05"
   }
 }
