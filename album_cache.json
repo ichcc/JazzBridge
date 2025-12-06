@@ -1150,5 +1150,69 @@
     "apple_music_link": "https://music.apple.com/us/album/introducing/1829803680?uo=4",
     "first_seen": "2025-12-05",
     "last_checked": "2025-12-05"
+  },
+  "editor's note||dreaming of venice": {
+    "artist": "Editor's Note",
+    "album": "Dreaming of Venice",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-06",
+    "last_checked": "2025-12-06"
+  },
+  "video||teddy edwards sextet (1962)": {
+    "artist": "Video",
+    "album": "Teddy Edwards Sextet (1962)",
+    "album_link": "https://album.link/i/1775248642",
+    "apple_music_link": "https://music.apple.com/us/album/its-all-right/1775248642?uo=4",
+    "first_seen": "2025-12-06",
+    "last_checked": "2025-12-06"
+  },
+  "wsj||scott galloway": {
+    "artist": "WSJ",
+    "album": "Scott Galloway",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-06",
+    "last_checked": "2025-12-06"
+  },
+  "herb geller||'barcelona session' (1990)": {
+    "artist": "Herb Geller",
+    "album": "'Barcelona Session' (1990)",
+    "album_link": "https://album.link/i/1856288457",
+    "apple_music_link": "https://music.apple.com/us/album/barcelona-session-feat-kenny-drew-niels-henning-%C3%B8rsted/1856288457?uo=4",
+    "first_seen": "2025-12-06",
+    "last_checked": "2025-12-06"
+  },
+  "bill evans and others||monterey jazz festival, 1975": {
+    "artist": "Bill Evans and Others",
+    "album": "Monterey Jazz Festival, 1975",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-06",
+    "last_checked": "2025-12-06"
+  },
+  "louis stewart and brian dunning||'alone together,' 1979": {
+    "artist": "Louis Stewart and Brian Dunning",
+    "album": "'Alone Together,' 1979",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-06",
+    "last_checked": "2025-12-06"
+  },
+  "editor's note||from the fireside": {
+    "artist": "Editor's Note",
+    "album": "From the Fireside",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-06",
+    "last_checked": "2025-12-06"
+  },
+  "steely dan||'black friday' (1975)": {
+    "artist": "Steely Dan",
+    "album": "'Black Friday' (1975)",
+    "album_link": "https://album.link/i/1440724756",
+    "apple_music_link": "https://music.apple.com/us/album/a-decade-of-steely-dan-remastered/1440724756?uo=4",
+    "first_seen": "2025-12-06",
+    "last_checked": "2025-12-06"
   }
 }
