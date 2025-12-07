@@ -1214,5 +1214,53 @@
     "apple_music_link": "https://music.apple.com/us/album/a-decade-of-steely-dan-remastered/1440724756?uo=4",
     "first_seen": "2025-12-06",
     "last_checked": "2025-12-06"
+  },
+  "sylvia bolognesi||jungle duke": {
+    "artist": "Sylvia Bolognesi",
+    "album": "Jungle Duke",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-07",
+    "last_checked": "2025-12-07"
+  },
+  "glenn crytzer||the songbook sessions (volume 1, 1920)": {
+    "artist": "Glenn Crytzer",
+    "album": "The Songbook Sessions (Volume 1, 1920)",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-07",
+    "last_checked": "2025-12-07"
+  },
+  "jason forsythe||it's about time": {
+    "artist": "Jason Forsythe",
+    "album": "It's About Time",
+    "album_link": "https://album.link/i/1827830665",
+    "apple_music_link": "https://music.apple.com/us/album/its-about-time/1827830665?uo=4",
+    "first_seen": "2025-12-07",
+    "last_checked": "2025-12-07"
+  },
+  "art blakey and his jazz messengers||art blakey and the jazz messengers strasbourg 82": {
+    "artist": "Art Blakey And His Jazz Messengers",
+    "album": "Art Blakey And The Jazz Messengers Strasbourg 82",
+    "album_link": "https://album.link/i/1842871930",
+    "apple_music_link": "https://music.apple.com/us/album/strasbourg-82-live/1842871930?uo=4",
+    "first_seen": "2025-12-07",
+    "last_checked": "2025-12-07"
+  },
+  "arkady gotesman||music for an imaginary ballet": {
+    "artist": "Arkady Gotesman",
+    "album": "Music For An Imaginary Ballet",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-07",
+    "last_checked": "2025-12-07"
+  },
+  "albany jazz big band||moonlight rhapsodies": {
+    "artist": "Albany Jazz Big Band",
+    "album": "Moonlight Rhapsodies",
+    "album_link": "https://album.link/i/1811307442",
+    "apple_music_link": "https://music.apple.com/us/album/moonlight-rhapsodies/1811307442?uo=4",
+    "first_seen": "2025-12-07",
+    "last_checked": "2025-12-07"
   }
 }
