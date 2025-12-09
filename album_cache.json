@@ -1342,5 +1342,53 @@
     "apple_music_link": null,
     "first_seen": "2025-12-08",
     "last_checked": "2025-12-08"
+  },
+  "ye olde 2||ye olde 2: at the end of time": {
+    "artist": "Ye Olde 2",
+    "album": "Ye Olde 2: At the End of Time",
+    "album_link": "https://album.link/i/1820032615",
+    "apple_music_link": "https://music.apple.com/us/album/ye-olde-2-at-the-end-of-time/1820032615?uo=4",
+    "first_seen": "2025-12-09",
+    "last_checked": "2025-12-09"
+  },
+  "mark sherman||bop contest": {
+    "artist": "Mark Sherman",
+    "album": "Bop Contest",
+    "album_link": "https://album.link/i/1844815985",
+    "apple_music_link": "https://music.apple.com/us/album/mark-sherman-bop-contest/1844815985?uo=4",
+    "first_seen": "2025-12-09",
+    "last_checked": "2025-12-09"
+  },
+  "dan rosenboom||coordinates": {
+    "artist": "Dan Rosenboom",
+    "album": "Coordinates",
+    "album_link": "https://album.link/i/1821903945",
+    "apple_music_link": "https://music.apple.com/us/album/coordinates/1821903945?uo=4",
+    "first_seen": "2025-12-09",
+    "last_checked": "2025-12-09"
+  },
+  "bill evans trio||haunted heart: the legendary riverside studio recordings (remastered 2025)": {
+    "artist": "Bill Evans Trio",
+    "album": "Haunted Heart: The Legendary Riverside Studio Recordings (Remastered 2025)",
+    "album_link": "https://album.link/i/1827357464",
+    "apple_music_link": "https://music.apple.com/us/album/haunted-heart-the-legendary-riverside-studio/1827357464?uo=4",
+    "first_seen": "2025-12-09",
+    "last_checked": "2025-12-09"
+  },
+  "christian marien quartett||beyond the fingertips": {
+    "artist": "Christian Marien Quartett",
+    "album": "Beyond the Fingertips",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-09",
+    "last_checked": "2025-12-09"
+  },
+  "theo girard||la rivière coulera sans effort": {
+    "artist": "Theo Girard",
+    "album": "La rivière coulera sans effort",
+    "album_link": "https://album.link/i/1822319006",
+    "apple_music_link": "https://music.apple.com/us/album/la-rivi%C3%A8re-coulera-sans-effort/1822319006?uo=4",
+    "first_seen": "2025-12-09",
+    "last_checked": "2025-12-09"
   }
 }
