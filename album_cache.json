@@ -1390,5 +1390,45 @@
     "apple_music_link": "https://music.apple.com/us/album/la-rivi%C3%A8re-coulera-sans-effort/1822319006?uo=4",
     "first_seen": "2025-12-09",
     "last_checked": "2025-12-09"
+  },
+  "billy brooks||fourty days": {
+    "artist": "Billy Brooks",
+    "album": "Fourty Days",
+    "album_link": "https://album.link/i/1530402307",
+    "apple_music_link": "https://music.apple.com/us/album/fourty-days-single/1530402307?uo=4",
+    "first_seen": "2025-12-10",
+    "last_checked": "2025-12-10"
+  },
+  "monty alexander featuring ernest ranglin||rass!": {
+    "artist": "Monty Alexander Featuring Ernest Ranglin",
+    "album": "Rass!",
+    "album_link": "https://album.link/i/873098008",
+    "apple_music_link": "https://music.apple.com/us/album/rass/873098008?uo=4",
+    "first_seen": "2025-12-10",
+    "last_checked": "2025-12-10"
+  },
+  "jan hammer group||melodies": {
+    "artist": "Jan Hammer Group",
+    "album": "Melodies",
+    "album_link": "https://album.link/i/525872012",
+    "apple_music_link": "https://music.apple.com/us/album/melodies/525872012?uo=4",
+    "first_seen": "2025-12-10",
+    "last_checked": "2025-12-10"
+  },
+  "o’donel levy||we’ve only just begun": {
+    "artist": "O’Donel Levy",
+    "album": "We’Ve Only Just Begun",
+    "album_link": "https://album.link/i/1026912454",
+    "apple_music_link": "https://music.apple.com/us/album/breeding-of-mind-2024-remastered-version/1026912454?uo=4",
+    "first_seen": "2025-12-10",
+    "last_checked": "2025-12-10"
+  },
+  "terry callier||gotta get closer to you": {
+    "artist": "Terry Callier",
+    "album": "Gotta Get Closer To You",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-10",
+    "last_checked": "2025-12-10"
   }
 }
