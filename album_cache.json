@@ -1430,5 +1430,53 @@
     "apple_music_link": null,
     "first_seen": "2025-12-10",
     "last_checked": "2025-12-10"
+  },
+  "ore'||matter antimatter": {
+    "artist": "Ore'",
+    "album": "Matter Antimatter",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-11",
+    "last_checked": "2025-12-11"
+  },
+  "triosence||stories of life": {
+    "artist": "Triosence",
+    "album": "Stories Of life",
+    "album_link": "https://album.link/i/1816893681",
+    "apple_music_link": "https://music.apple.com/us/album/stories-of-life/1816893681?uo=4",
+    "first_seen": "2025-12-11",
+    "last_checked": "2025-12-11"
+  },
+  "david virelles||igbó alákọrin (the singer’s grove) vol. iii (director’s cut)": {
+    "artist": "David Virelles",
+    "album": "Igbó Alákọrin (The Singer’s Grove) Vol. III (Director’s Cut)",
+    "album_link": "https://album.link/i/1437915559",
+    "apple_music_link": "https://music.apple.com/us/album/igbo-alakorin-the-singers-grove-vol-i-ii/1437915559?uo=4",
+    "first_seen": "2025-12-11",
+    "last_checked": "2025-12-11"
+  },
+  "lingyuan yang||cursed month": {
+    "artist": "Lingyuan Yang",
+    "album": "Cursed Month",
+    "album_link": "https://album.link/i/1821554577",
+    "apple_music_link": "https://music.apple.com/us/album/cursed-month/1821554577?uo=4",
+    "first_seen": "2025-12-11",
+    "last_checked": "2025-12-11"
+  },
+  "cincinnati contemporary jazz orchestra||the nutcracker remix": {
+    "artist": "Cincinnati Contemporary Jazz Orchestra",
+    "album": "The Nutcracker Remix",
+    "album_link": "https://album.link/i/1712556725",
+    "apple_music_link": "https://music.apple.com/us/album/tchaikovsky-nutcracker-favorite-selections/1712556725?uo=4",
+    "first_seen": "2025-12-11",
+    "last_checked": "2025-12-11"
+  },
+  "paul dunmall||here today gone tomorrow": {
+    "artist": "Paul Dunmall",
+    "album": "Here Today Gone Tomorrow",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-11",
+    "last_checked": "2025-12-11"
   }
 }
