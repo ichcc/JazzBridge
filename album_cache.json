@@ -1478,5 +1478,45 @@
     "apple_music_link": null,
     "first_seen": "2025-12-11",
     "last_checked": "2025-12-11"
+  },
+  "wsj||david baldacci": {
+    "artist": "WSJ",
+    "album": "David Baldacci",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-12",
+    "last_checked": "2025-12-12"
+  },
+  "johnny hartman||'the last balladeer'": {
+    "artist": "Johnny Hartman",
+    "album": "'The Last Balladeer'",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-12",
+    "last_checked": "2025-12-12"
+  },
+  "blossom dearie||'christmas spice so very nice'": {
+    "artist": "Blossom Dearie",
+    "album": "'Christmas Spice So Very Nice'",
+    "album_link": "https://album.link/i/1545671952",
+    "apple_music_link": "https://music.apple.com/us/album/christmas-spice-so-very-nice/1545671952?uo=4",
+    "first_seen": "2025-12-12",
+    "last_checked": "2025-12-12"
+  },
+  "jazz 101||history of improvisation, part 2": {
+    "artist": "Jazz 101",
+    "album": "History of Improvisation, Part 2",
+    "album_link": "https://album.link/i/1454851286",
+    "apple_music_link": "https://music.apple.com/us/album/some-like-it-plucked/1454851286?uo=4",
+    "first_seen": "2025-12-12",
+    "last_checked": "2025-12-12"
+  },
+  "jazz 101||history of improvisation, part 1": {
+    "artist": "Jazz 101",
+    "album": "History of Improvisation, Part 1",
+    "album_link": "https://album.link/i/1454851286",
+    "apple_music_link": "https://music.apple.com/us/album/some-like-it-plucked/1454851286?uo=4",
+    "first_seen": "2025-12-12",
+    "last_checked": "2025-12-12"
   }
 }
