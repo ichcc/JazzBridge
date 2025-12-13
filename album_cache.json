@@ -1518,5 +1518,53 @@
     "apple_music_link": "https://music.apple.com/us/album/some-like-it-plucked/1454851286?uo=4",
     "first_seen": "2025-12-12",
     "last_checked": "2025-12-12"
+  },
+  "dan pitt | noah franche-nolan||arid landscapes": {
+    "artist": "Dan Pitt | Noah Franche-Nolan",
+    "album": "Arid Landscapes",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-13",
+    "last_checked": "2025-12-13"
+  },
+  "carole nelson trio||through the storm": {
+    "artist": "Carole Nelson Trio",
+    "album": "Through The Storm",
+    "album_link": "https://album.link/i/1499022788",
+    "apple_music_link": "https://music.apple.com/us/album/arboreal/1499022788?uo=4",
+    "first_seen": "2025-12-13",
+    "last_checked": "2025-12-13"
+  },
+  "neil gray||in the streets": {
+    "artist": "Neil Gray",
+    "album": "In the Streets",
+    "album_link": "https://album.link/i/1836254790",
+    "apple_music_link": "https://music.apple.com/us/album/in-the-streets-feat-cory-weeds-bruno-hubert-julian/1836254790?uo=4",
+    "first_seen": "2025-12-13",
+    "last_checked": "2025-12-13"
+  },
+  "erb / mayas / hemingway||phyla music": {
+    "artist": "Erb / Mayas / Hemingway",
+    "album": "Phyla music",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-13",
+    "last_checked": "2025-12-13"
+  },
+  "yoshie fruchter's pitom||alive and well": {
+    "artist": "Yoshie Fruchter's Pitom",
+    "album": "Alive and Well",
+    "album_link": "https://album.link/i/1852226720",
+    "apple_music_link": "https://music.apple.com/us/album/alive-and-well/1852226720?uo=4",
+    "first_seen": "2025-12-13",
+    "last_checked": "2025-12-13"
+  },
+  "various artists||swinging in the holidays": {
+    "artist": "Various Artists",
+    "album": "Swinging In The Holidays",
+    "album_link": "https://album.link/i/1442277063",
+    "apple_music_link": "https://music.apple.com/us/album/coco-original-motion-picture-soundtrack-deluxe-edition/1442277063?uo=4",
+    "first_seen": "2025-12-13",
+    "last_checked": "2025-12-13"
   }
 }
