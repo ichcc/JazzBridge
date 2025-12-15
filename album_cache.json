@@ -1590,5 +1590,37 @@
     "apple_music_link": "https://music.apple.com/us/album/20th-anniversary-concert-with-benny-waters/261129312?uo=4",
     "first_seen": "2025-12-14",
     "last_checked": "2025-12-14"
+  },
+  "the best things in life are free||mel powell": {
+    "artist": "The Best Things In Life Are Free",
+    "album": "Mel Powell",
+    "album_link": "https://album.link/i/712131502",
+    "apple_music_link": "https://music.apple.com/us/album/the-best-things-in-life/712131502?uo=4",
+    "first_seen": "2025-12-15",
+    "last_checked": "2025-12-15"
+  },
+  "rob mcconnell and the boss brass||\"peace/blue silver\"": {
+    "artist": "Rob McConnell and The Boss Brass",
+    "album": "\"Peace/Blue Silver\"",
+    "album_link": "https://album.link/i/1443090620",
+    "apple_music_link": "https://music.apple.com/us/album/mel-torm%C3%A9-rob-mcconnell-and-the-boss-brass/1443090620?uo=4",
+    "first_seen": "2025-12-15",
+    "last_checked": "2025-12-15"
+  },
+  "in walked horace||jj johnson sextet [johnson's composition]": {
+    "artist": "In Walked Horace",
+    "album": "JJ Johnson Sextet [Johnson's composition]",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-15",
+    "last_checked": "2025-12-15"
+  },
+  "jess stacy||sing sing sing (piano solo)": {
+    "artist": "Jess Stacy",
+    "album": "Sing sing sing (Piano Solo)",
+    "album_link": "https://album.link/i/1165960587",
+    "apple_music_link": "https://music.apple.com/us/album/glory-train-songs-of-faith-worship-praise/1165960587?uo=4",
+    "first_seen": "2025-12-15",
+    "last_checked": "2025-12-15"
   }
 }
