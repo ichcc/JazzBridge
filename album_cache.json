@@ -1622,5 +1622,53 @@
     "apple_music_link": "https://music.apple.com/us/album/glory-train-songs-of-faith-worship-praise/1165960587?uo=4",
     "first_seen": "2025-12-15",
     "last_checked": "2025-12-15"
+  },
+  "sal mosca||for lennie tristano": {
+    "artist": "Sal Mosca",
+    "album": "For Lennie Tristano",
+    "album_link": "https://album.link/i/1614272820",
+    "apple_music_link": "https://music.apple.com/us/album/sal-mosca-for-lennie-tristano-solo-piano-1970-and-1997/1614272820?uo=4",
+    "first_seen": "2025-12-16",
+    "last_checked": "2025-12-16"
+  },
+  "ivo perelman, nate wooley, matt moran, mark helias, tom rainey||a modicum of the blues": {
+    "artist": "Ivo Perelman, Nate Wooley, Matt Moran, Mark Helias, Tom Rainey",
+    "album": "A Modicum Of The Blues",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-16",
+    "last_checked": "2025-12-16"
+  },
+  "lightning trio||lightning": {
+    "artist": "Lightning Trio",
+    "album": "Lightning",
+    "album_link": "https://album.link/i/1829414743",
+    "apple_music_link": "https://music.apple.com/us/album/lightning/1829414743?uo=4",
+    "first_seen": "2025-12-16",
+    "last_checked": "2025-12-16"
+  },
+  "benjamin jephta||homecoming revisited": {
+    "artist": "Benjamin Jephta",
+    "album": "Homecoming Revisited",
+    "album_link": "https://album.link/i/1815288667",
+    "apple_music_link": "https://music.apple.com/us/album/homecoming-revisited/1815288667?uo=4",
+    "first_seen": "2025-12-16",
+    "last_checked": "2025-12-16"
+  },
+  "pavel hrubý, klaus kugel||going where the wind takes it": {
+    "artist": "Pavel Hrubý, Klaus Kugel",
+    "album": "Going Where The Wind Takes It",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-16",
+    "last_checked": "2025-12-16"
+  },
+  "rempis / adasiewicz / corsano||dial up": {
+    "artist": "Rempis / Adasiewicz / Corsano",
+    "album": "Dial Up",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-16",
+    "last_checked": "2025-12-16"
   }
 }
