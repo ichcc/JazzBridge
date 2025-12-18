@@ -1750,5 +1750,53 @@
     "apple_music_link": null,
     "first_seen": "2025-12-17",
     "last_checked": "2025-12-17"
+  },
+  "jerome sabbagh||stand up!": {
+    "artist": "Jerome Sabbagh",
+    "album": "Stand Up!",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/stand-up-feat-ben-monder-joe-martin-nasheet-waits/1814292747?uo=4",
+    "first_seen": "2025-12-18",
+    "last_checked": "2025-12-18"
+  },
+  "nick storring||mirante": {
+    "artist": "Nick Storring",
+    "album": "Mirante",
+    "album_link": "https://album.link/i/1783816842",
+    "apple_music_link": "https://music.apple.com/us/album/mirante/1783816842?uo=4",
+    "first_seen": "2025-12-18",
+    "last_checked": "2025-12-18"
+  },
+  "peter evans||ars ludicra": {
+    "artist": "Peter Evans",
+    "album": "Ars Ludicra",
+    "album_link": "https://album.link/i/1832791354",
+    "apple_music_link": "https://music.apple.com/us/album/ars-ludicra/1832791354?uo=4",
+    "first_seen": "2025-12-18",
+    "last_checked": "2025-12-18"
+  },
+  "roy powell - lorenzo feliciati - lucrezio de seta||aria": {
+    "artist": "Roy Powell - Lorenzo Feliciati - Lucrezio de Seta",
+    "album": "Aria",
+    "album_link": "https://album.link/i/1844845734",
+    "apple_music_link": "https://music.apple.com/us/album/aria/1844845734?uo=4",
+    "first_seen": "2025-12-18",
+    "last_checked": "2025-12-18"
+  },
+  "mulo francel and rami attallah group||global players": {
+    "artist": "Mulo Francel and Rami Attallah Group",
+    "album": "Global Players",
+    "album_link": "https://album.link/i/1818119284",
+    "apple_music_link": "https://music.apple.com/us/album/global-players/1818119284?uo=4",
+    "first_seen": "2025-12-18",
+    "last_checked": "2025-12-18"
+  },
+  "wanees zarour||silwan": {
+    "artist": "Wanees Zarour",
+    "album": "Silwan",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-18",
+    "last_checked": "2025-12-18"
   }
 }
