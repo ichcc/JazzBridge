@@ -1798,5 +1798,29 @@
     "apple_music_link": null,
     "first_seen": "2025-12-18",
     "last_checked": "2025-12-18"
+  },
+  "mauricio morales and adam hersh||between dreams and twilight": {
+    "artist": "Mauricio Morales and Adam Hersh",
+    "album": "Between Dreams and Twilight",
+    "album_link": "https://album.link/i/1839552261",
+    "apple_music_link": "https://music.apple.com/us/album/between-dreams-twilight-feat-mike-moreno-warren-wolf/1839552261?uo=4",
+    "first_seen": "2025-12-19",
+    "last_checked": "2025-12-19"
+  },
+  "michael sarian||live at cliff bell's - vol. ii": {
+    "artist": "Michael Sarian",
+    "album": "Live at Cliff Bell's - Vol. II",
+    "album_link": "https://album.link/i/1755053039",
+    "apple_music_link": "https://music.apple.com/us/album/live-at-cliff-bells-feat-santiago-leibson-marty-kenney/1755053039?uo=4",
+    "first_seen": "2025-12-19",
+    "last_checked": "2025-12-19"
+  },
+  "sacha boutros||sacha: paris after dark": {
+    "artist": "Sacha Boutros",
+    "album": "Sacha: Paris After Dark",
+    "album_link": "https://album.link/i/1841227264",
+    "apple_music_link": "https://music.apple.com/us/album/sacha-paris-after-dark/1841227264?uo=4",
+    "first_seen": "2025-12-19",
+    "last_checked": "2025-12-19"
   }
 }
