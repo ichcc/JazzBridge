@@ -1822,5 +1822,29 @@
     "apple_music_link": "https://music.apple.com/us/album/sacha-paris-after-dark/1841227264?uo=4",
     "first_seen": "2025-12-19",
     "last_checked": "2025-12-19"
+  },
+  "the flying horse big band||unbridled": {
+    "artist": "The Flying Horse Big Band",
+    "album": "Unbridled",
+    "album_link": "https://album.link/i/1847725738",
+    "apple_music_link": "https://music.apple.com/us/album/unbridled-the-flying-horse-big-band-meets-george-garzone/1847725738?uo=4",
+    "first_seen": "2025-12-20",
+    "last_checked": "2025-12-20"
+  },
+  "bob schlesinger||falling from earth": {
+    "artist": "Bob Schlesinger",
+    "album": "Falling From Earth",
+    "album_link": "https://album.link/i/1835915564",
+    "apple_music_link": "https://music.apple.com/us/album/falling-from-earth/1835915564?uo=4",
+    "first_seen": "2025-12-20",
+    "last_checked": "2025-12-20"
+  },
+  "sofia borges||the unseen pact": {
+    "artist": "Sofia Borges",
+    "album": "The Unseen Pact",
+    "album_link": "https://album.link/i/1831796021",
+    "apple_music_link": "https://music.apple.com/us/album/the-unseen-pact/1831796021?uo=4",
+    "first_seen": "2025-12-20",
+    "last_checked": "2025-12-20"
   }
 }
