@@ -1846,5 +1846,37 @@
     "apple_music_link": "https://music.apple.com/us/album/the-unseen-pact/1831796021?uo=4",
     "first_seen": "2025-12-20",
     "last_checked": "2025-12-20"
+  },
+  "jimmy mcgriff||soul sugar": {
+    "artist": "Jimmy McGriff",
+    "album": "Soul Sugar",
+    "album_link": "https://album.link/i/1386351410",
+    "apple_music_link": "https://music.apple.com/us/album/soul-sugar/1386351410?uo=4",
+    "first_seen": "2025-12-21",
+    "last_checked": "2025-12-21"
+  },
+  "arthur adams||you hit the nail on the head": {
+    "artist": "Arthur Adams",
+    "album": "You Hit The Nail On The Head",
+    "album_link": "https://album.link/i/1256222147",
+    "apple_music_link": "https://music.apple.com/us/album/its-private-tonight/1256222147?uo=4",
+    "first_seen": "2025-12-21",
+    "last_checked": "2025-12-21"
+  },
+  "monk montgomery||fuselage (part ii)": {
+    "artist": "Monk Montgomery",
+    "album": "Fuselage (Part II)",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-21",
+    "last_checked": "2025-12-21"
+  },
+  "gil scott-heron & brian jackson||the bottle": {
+    "artist": "Gil Scott-Heron & Brian Jackson",
+    "album": "The Bottle",
+    "album_link": "https://album.link/i/458037188",
+    "apple_music_link": "https://music.apple.com/us/album/the-bottle-single/458037188?uo=4",
+    "first_seen": "2025-12-21",
+    "last_checked": "2025-12-21"
   }
 }
