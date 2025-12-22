@@ -1878,5 +1878,53 @@
     "apple_music_link": "https://music.apple.com/us/album/the-bottle-single/458037188?uo=4",
     "first_seen": "2025-12-21",
     "last_checked": "2025-12-21"
+  },
+  "bela fleck and the flecktones||jingle all the way": {
+    "artist": "Bela Fleck and the Flecktones",
+    "album": "Jingle All The Way",
+    "album_link": "https://album.link/i/1462955416",
+    "apple_music_link": "https://music.apple.com/us/album/jingle-all-the-way/1462955416?uo=4",
+    "first_seen": "2025-12-22",
+    "last_checked": "2025-12-22"
+  },
+  "max ionata special edition||tivoli": {
+    "artist": "Max Ionata Special Edition",
+    "album": "Tivoli",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-22",
+    "last_checked": "2025-12-22"
+  },
+  "ramona horvath||absinthe": {
+    "artist": "Ramona Horvath",
+    "album": "Absinthe",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/absinthe-feat-nicolas-rageau-antoine-paganotti/1841509368?uo=4",
+    "first_seen": "2025-12-22",
+    "last_checked": "2025-12-22"
+  },
+  "louis stewart and brian dunning||alone together": {
+    "artist": "Louis Stewart and Brian Dunning",
+    "album": "Alone Together",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-22",
+    "last_checked": "2025-12-22"
+  },
+  "brandon sanders||lasting impression": {
+    "artist": "Brandon Sanders",
+    "album": "Lasting Impression",
+    "album_link": "https://album.link/i/1840695827",
+    "apple_music_link": "https://music.apple.com/us/album/lasting-impression/1840695827?uo=4",
+    "first_seen": "2025-12-22",
+    "last_checked": "2025-12-22"
+  },
+  "laura ann singh||mean reds": {
+    "artist": "Laura Ann Singh",
+    "album": "Mean Reds",
+    "album_link": "https://album.link/i/1828576994",
+    "apple_music_link": "https://music.apple.com/us/album/mean-reds/1828576994?uo=4",
+    "first_seen": "2025-12-22",
+    "last_checked": "2025-12-22"
   }
 }
