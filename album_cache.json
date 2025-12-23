@@ -1926,5 +1926,29 @@
     "apple_music_link": "https://music.apple.com/us/album/mean-reds/1828576994?uo=4",
     "first_seen": "2025-12-22",
     "last_checked": "2025-12-22"
+  },
+  "alex hitchcock||letters from afar": {
+    "artist": "Alex Hitchcock",
+    "album": "Letters From Afar",
+    "album_link": "https://album.link/i/1813101394",
+    "apple_music_link": "https://music.apple.com/us/album/letters-from-afar/1813101394?uo=4",
+    "first_seen": "2025-12-23",
+    "last_checked": "2025-12-23"
+  },
+  "bill coon||standard elegance": {
+    "artist": "Bill Coon",
+    "album": "Standard Elegance",
+    "album_link": "https://album.link/i/1829805469",
+    "apple_music_link": "https://music.apple.com/us/album/standard-elegance/1829805469?uo=4",
+    "first_seen": "2025-12-23",
+    "last_checked": "2025-12-23"
+  },
+  "tierney sutton||meets charlier/sourisse: talking to the sun, featuring serge merlaud": {
+    "artist": "Tierney Sutton",
+    "album": "Meets Charlier/Sourisse: Talking to the Sun, featuring Serge Merlaud",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-23",
+    "last_checked": "2025-12-23"
   }
 }
