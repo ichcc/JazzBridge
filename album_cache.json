@@ -1950,5 +1950,61 @@
     "apple_music_link": null,
     "first_seen": "2025-12-23",
     "last_checked": "2025-12-23"
+  },
+  "glenn miller||the december broadcasts": {
+    "artist": "Glenn Miller",
+    "album": "The December Broadcasts",
+    "album_link": "https://album.link/i/252763302",
+    "apple_music_link": "https://music.apple.com/us/album/ex-glenn-miller-men-the-1943-1947-broadcasts-live/252763302?uo=4",
+    "first_seen": "2025-12-24",
+    "last_checked": "2025-12-24"
+  },
+  "wsj||brandon sklenar": {
+    "artist": "WSJ",
+    "album": "Brandon Sklenar",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-24",
+    "last_checked": "2025-12-24"
+  },
+  "gregory herbert||the small groups": {
+    "artist": "Gregory Herbert",
+    "album": "The Small Groups",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-24",
+    "last_checked": "2025-12-24"
+  },
+  "editor's note||holiday on ice": {
+    "artist": "Editor's Note",
+    "album": "Holiday on Ice",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-24",
+    "last_checked": "2025-12-24"
+  },
+  "video||woody herman in europe, 1973": {
+    "artist": "Video",
+    "album": "Woody Herman in Europe, 1973",
+    "album_link": "https://album.link/i/1511616907",
+    "apple_music_link": "https://music.apple.com/us/album/live-in-europe/1511616907?uo=4",
+    "first_seen": "2025-12-24",
+    "last_checked": "2025-12-24"
+  },
+  "paul quinichette||a basie triptych (1957-'59)": {
+    "artist": "Paul Quinichette",
+    "album": "A Basie Triptych (1957-'59)",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-24",
+    "last_checked": "2025-12-24"
+  },
+  "editor's note||jumpin' with my boy sid in the city": {
+    "artist": "Editor's Note",
+    "album": "Jumpin' With My Boy Sid in the City",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-24",
+    "last_checked": "2025-12-24"
   }
 }
