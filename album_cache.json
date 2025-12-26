@@ -2046,5 +2046,29 @@
     "apple_music_link": "https://music.apple.com/us/album/voyage-from-jericho/1854004566?uo=4",
     "first_seen": "2025-12-25",
     "last_checked": "2025-12-25"
+  },
+  "domo branch||hand of gifts": {
+    "artist": "Domo Branch",
+    "album": "Hand of Gifts",
+    "album_link": "https://album.link/i/1842284484",
+    "apple_music_link": "https://music.apple.com/us/album/hand-of-gifts/1842284484?uo=4",
+    "first_seen": "2025-12-26",
+    "last_checked": "2025-12-26"
+  },
+  "harper trio||dialogue of thoughts": {
+    "artist": "Harper Trio",
+    "album": "Dialogue of Thoughts",
+    "album_link": "https://album.link/i/1838809493",
+    "apple_music_link": "https://music.apple.com/us/album/dialogue-of-thoughts/1838809493?uo=4",
+    "first_seen": "2025-12-26",
+    "last_checked": "2025-12-26"
+  },
+  "eh3||close to nothing": {
+    "artist": "EH3",
+    "album": "Close to Nothing",
+    "album_link": "https://album.link/i/1444846235",
+    "apple_music_link": "https://music.apple.com/us/album/wish-that-you-were-here-from-miss-peregrines-home-for/1444846235?uo=4",
+    "first_seen": "2025-12-26",
+    "last_checked": "2025-12-26"
   }
 }
