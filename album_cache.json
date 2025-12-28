@@ -2150,5 +2150,53 @@
     "apple_music_link": null,
     "first_seen": "2025-12-27",
     "last_checked": "2025-12-27"
+  },
+  "john clay||about time": {
+    "artist": "John Clay",
+    "album": "About Time",
+    "album_link": "https://album.link/i/184335550",
+    "apple_music_link": "https://music.apple.com/us/album/continuum/184335550?uo=4",
+    "first_seen": "2025-12-28",
+    "last_checked": "2025-12-28"
+  },
+  "khondzi||first of many": {
+    "artist": "Khondzi",
+    "album": "First of Many",
+    "album_link": "https://album.link/i/1823450327",
+    "apple_music_link": "https://music.apple.com/us/album/first-of-many/1823450327?uo=4",
+    "first_seen": "2025-12-28",
+    "last_checked": "2025-12-28"
+  },
+  "satoko fujii||message": {
+    "artist": "Satoko Fujii",
+    "album": "Message",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-28",
+    "last_checked": "2025-12-28"
+  },
+  "duo réflections||duo réflections": {
+    "artist": "Duo Réflections",
+    "album": "Duo Réflections",
+    "album_link": "https://album.link/i/1563676462",
+    "apple_music_link": "https://music.apple.com/us/album/reflections-single/1563676462?uo=4",
+    "first_seen": "2025-12-28",
+    "last_checked": "2025-12-28"
+  },
+  "noah garabedian||quartets and solos": {
+    "artist": "Noah Garabedian",
+    "album": "Quartets and Solos",
+    "album_link": "https://album.link/i/1828764703",
+    "apple_music_link": "https://music.apple.com/us/album/quartets-and-solos/1828764703?uo=4",
+    "first_seen": "2025-12-28",
+    "last_checked": "2025-12-28"
+  },
+  "shifa شفاء - rachel musson, pat thomas, mark sanders||ecliptic": {
+    "artist": "Shifa شفاء - Rachel Musson, Pat Thomas, Mark Sanders",
+    "album": "Ecliptic",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-28",
+    "last_checked": "2025-12-28"
   }
 }
