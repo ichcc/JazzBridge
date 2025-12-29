@@ -2198,5 +2198,53 @@
     "apple_music_link": null,
     "first_seen": "2025-12-28",
     "last_checked": "2025-12-28"
+  },
+  "giancarlo barigozzi group||rock in the air": {
+    "artist": "Giancarlo Barigozzi Group",
+    "album": "Rock In The Air",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-29",
+    "last_checked": "2025-12-29"
+  },
+  "johnny lytle||gunky": {
+    "artist": "Johnny Lytle",
+    "album": "Gunky",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-29",
+    "last_checked": "2025-12-29"
+  },
+  "hot butter & soul||walk on by": {
+    "artist": "Hot Butter & Soul",
+    "album": "Walk On By",
+    "album_link": "https://album.link/i/1310995099",
+    "apple_music_link": "https://music.apple.com/us/album/cannabliss-streams-hot-butter-ep/1310995099?uo=4",
+    "first_seen": "2025-12-29",
+    "last_checked": "2025-12-29"
+  },
+  "zulema||giving up": {
+    "artist": "Zulema",
+    "album": "Giving Up",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-29",
+    "last_checked": "2025-12-29"
+  },
+  "nancy holloway||hurt so bad": {
+    "artist": "Nancy Holloway",
+    "album": "Hurt So Bad",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-29",
+    "last_checked": "2025-12-29"
+  },
+  "the invaders||spacing out": {
+    "artist": "The Invaders",
+    "album": "Spacing Out",
+    "album_link": "https://album.link/i/1786572386",
+    "apple_music_link": "https://music.apple.com/us/album/spacing-out/1786572386?uo=4",
+    "first_seen": "2025-12-29",
+    "last_checked": "2025-12-29"
   }
 }
