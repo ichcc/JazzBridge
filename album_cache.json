@@ -2246,5 +2246,45 @@
     "apple_music_link": "https://music.apple.com/us/album/spacing-out/1786572386?uo=4",
     "first_seen": "2025-12-29",
     "last_checked": "2025-12-29"
+  },
+  "noah preminger||dark days": {
+    "artist": "Noah Preminger",
+    "album": "Dark Days",
+    "album_link": "https://album.link/i/1852295261",
+    "apple_music_link": "https://music.apple.com/us/album/dark-days-feat-kim-cass-terreon-gully-ely-perlman/1852295261?uo=4",
+    "first_seen": "2025-12-30",
+    "last_checked": "2025-12-30"
+  },
+  "ray barretto||together": {
+    "artist": "Ray Barretto",
+    "album": "Together",
+    "album_link": "https://album.link/i/1566065921",
+    "apple_music_link": "https://music.apple.com/us/album/together/1566065921?uo=4",
+    "first_seen": "2025-12-30",
+    "last_checked": "2025-12-30"
+  },
+  "julius gawlik||it's all in your head": {
+    "artist": "Julius Gawlik",
+    "album": "It's All in Your Head",
+    "album_link": "https://album.link/i/1836274000",
+    "apple_music_link": "https://music.apple.com/us/album/its-all-in-your-head-feat-evi-filippou-phil-donkin-jim-black/1836274000?uo=4",
+    "first_seen": "2025-12-30",
+    "last_checked": "2025-12-30"
+  },
+  "alex skolnick trio||prove you're not a robot": {
+    "artist": "Alex Skolnick Trio",
+    "album": "Prove You're Not a Robot",
+    "album_link": "https://album.link/i/1847501917",
+    "apple_music_link": "https://music.apple.com/us/album/prove-youre-not-a-robot/1847501917?uo=4",
+    "first_seen": "2025-12-30",
+    "last_checked": "2025-12-30"
+  },
+  "wes montgomery||boss guitar": {
+    "artist": "Wes Montgomery",
+    "album": "Boss Guitar",
+    "album_link": "https://album.link/i/1443223791",
+    "apple_music_link": "https://music.apple.com/us/album/boss-guitar-original-jazz-classics-remasters/1443223791?uo=4",
+    "first_seen": "2025-12-30",
+    "last_checked": "2025-12-30"
   }
 }
