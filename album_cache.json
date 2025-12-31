@@ -2286,5 +2286,45 @@
     "apple_music_link": "https://music.apple.com/us/album/boss-guitar-original-jazz-classics-remasters/1443223791?uo=4",
     "first_seen": "2025-12-30",
     "last_checked": "2025-12-30"
+  },
+  "dorothy donegan||four albums, 1957-1961": {
+    "artist": "Dorothy Donegan",
+    "album": "Four Albums, 1957-1961",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-31",
+    "last_checked": "2025-12-31"
+  },
+  "wsj||parliament's 'mothership connection' turns 50": {
+    "artist": "WSJ",
+    "album": "Parliament's 'Mothership Connection' Turns 50",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-31",
+    "last_checked": "2025-12-31"
+  },
+  "editor's note||eyeing the new year": {
+    "artist": "Editor's Note",
+    "album": "Eyeing the New Year",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-31",
+    "last_checked": "2025-12-31"
+  },
+  "holiday, 1971||paul desmond and the mjq": {
+    "artist": "Holiday, 1971",
+    "album": "Paul Desmond and the MJQ",
+    "album_link": "https://album.link/i/181589129",
+    "apple_music_link": "https://music.apple.com/us/album/paul-desmond-the-modern-jazz-quartet-live/181589129?uo=4",
+    "first_seen": "2025-12-31",
+    "last_checked": "2025-12-31"
+  },
+  "wsj||kevin o'leary": {
+    "artist": "WSJ",
+    "album": "Kevin O'Leary",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2025-12-31",
+    "last_checked": "2025-12-31"
   }
 }
