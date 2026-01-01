@@ -2326,5 +2326,53 @@
     "apple_music_link": null,
     "first_seen": "2025-12-31",
     "last_checked": "2025-12-31"
+  },
+  "bill evans||haunted heart: the legendary riverside studio recordings (remastered 2025)": {
+    "artist": "Bill Evans",
+    "album": "Haunted Heart: The Legendary Riverside Studio Recordings (Remastered 2025)",
+    "album_link": "https://album.link/i/1827357464",
+    "apple_music_link": "https://music.apple.com/us/album/haunted-heart-the-legendary-riverside-studio/1827357464?uo=4",
+    "first_seen": "2026-01-01",
+    "last_checked": "2026-01-01"
+  },
+  "norbert stein pata trio||planetentochter": {
+    "artist": "Norbert Stein Pata Trio",
+    "album": "Planetentochter",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-01",
+    "last_checked": "2026-01-01"
+  },
+  "keith oxman||home": {
+    "artist": "Keith Oxman",
+    "album": "Home",
+    "album_link": "https://album.link/i/1846356824",
+    "apple_music_link": "https://music.apple.com/us/album/home/1846356824?uo=4",
+    "first_seen": "2026-01-01",
+    "last_checked": "2026-01-01"
+  },
+  "john scofield dave holland||memories of home": {
+    "artist": "John Scofield Dave Holland",
+    "album": "Memories Of Home",
+    "album_link": "https://album.link/i/1838915539",
+    "apple_music_link": "https://music.apple.com/us/album/memories-of-home/1838915539?uo=4",
+    "first_seen": "2026-01-01",
+    "last_checked": "2026-01-01"
+  },
+  "seth yacovone band||syblings, vol. 2": {
+    "artist": "Seth Yacovone Band",
+    "album": "SYBlings, Vol. 2",
+    "album_link": "https://album.link/i/1849226226",
+    "apple_music_link": "https://music.apple.com/us/album/syblings-vol-2/1849226226?uo=4",
+    "first_seen": "2026-01-01",
+    "last_checked": "2026-01-01"
+  },
+  "rodrigo amado||the healing": {
+    "artist": "Rodrigo Amado",
+    "album": "The Healing",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-01",
+    "last_checked": "2026-01-01"
   }
 }
