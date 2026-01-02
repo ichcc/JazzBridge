@@ -2374,5 +2374,29 @@
     "apple_music_link": null,
     "first_seen": "2026-01-01",
     "last_checked": "2026-01-01"
+  },
+  "amaika rude||the ska and the abstract truth": {
+    "artist": "Amaika Rude",
+    "album": "The Ska and the Abstract Truth",
+    "album_link": "https://album.link/i/1851477222",
+    "apple_music_link": "https://music.apple.com/us/album/the-ska-and-the-abstract-truth-ep/1851477222?uo=4",
+    "first_seen": "2026-01-02",
+    "last_checked": "2026-01-02"
+  },
+  "rafael enciso||crossfade": {
+    "artist": "Rafael Enciso",
+    "album": "Crossfade",
+    "album_link": "https://album.link/i/1846208032",
+    "apple_music_link": "https://music.apple.com/us/album/crossfade/1846208032?uo=4",
+    "first_seen": "2026-01-02",
+    "last_checked": "2026-01-02"
+  },
+  "tim richards trio||four aces": {
+    "artist": "Tim Richards Trio",
+    "album": "Four Aces",
+    "album_link": "https://album.link/i/1849963630",
+    "apple_music_link": "https://music.apple.com/us/album/four-aces/1849963630?uo=4",
+    "first_seen": "2026-01-02",
+    "last_checked": "2026-01-02"
   }
 }
