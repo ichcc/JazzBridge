@@ -2398,5 +2398,29 @@
     "apple_music_link": "https://music.apple.com/us/album/four-aces/1849963630?uo=4",
     "first_seen": "2026-01-02",
     "last_checked": "2026-01-02"
+  },
+  "daniel bennett group||we are the orchestra": {
+    "artist": "Daniel Bennett Group",
+    "album": "We Are the Orchestra",
+    "album_link": "https://album.link/i/1434464178",
+    "apple_music_link": "https://music.apple.com/us/album/we-are-the-orchestra/1434464178?uo=4",
+    "first_seen": "2026-01-03",
+    "last_checked": "2026-01-03"
+  },
+  "gregory groover jr.||old knew": {
+    "artist": "Gregory Groover Jr.",
+    "album": "Old Knew",
+    "album_link": "https://album.link/i/1841852124",
+    "apple_music_link": "https://music.apple.com/us/album/old-knew-feat-joel-ross-paul-cornish-harish-raghavan/1841852124?uo=4",
+    "first_seen": "2026-01-03",
+    "last_checked": "2026-01-03"
+  },
+  "la tanya hall||if not now, when...": {
+    "artist": "La Tanya Hall",
+    "album": "If Not Now, When...",
+    "album_link": "https://album.link/i/1838850736",
+    "apple_music_link": "https://music.apple.com/us/album/if-not-now-when/1838850736?uo=4",
+    "first_seen": "2026-01-03",
+    "last_checked": "2026-01-03"
   }
 }
