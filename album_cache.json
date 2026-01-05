@@ -2454,5 +2454,45 @@
     "apple_music_link": "https://music.apple.com/us/album/touch-my-body-single/1820616758?uo=4",
     "first_seen": "2026-01-04",
     "last_checked": "2026-01-04"
+  },
+  "otherlands trio with stephan crump, darius jones, eric mcpherson||star mountain": {
+    "artist": "Otherlands Trio with Stephan Crump, Darius Jones, Eric McPherson",
+    "album": "Star Mountain",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-05",
+    "last_checked": "2026-01-05"
+  },
+  "alexi tuomarila||departing the wasteland": {
+    "artist": "Alexi Tuomarila",
+    "album": "Departing the Wasteland",
+    "album_link": "https://album.link/i/1767650842",
+    "apple_music_link": "https://music.apple.com/us/album/departing-the-wasteland/1767650842?uo=4",
+    "first_seen": "2026-01-05",
+    "last_checked": "2026-01-05"
+  },
+  "sigurd hole||elvesang": {
+    "artist": "Sigurd Hole",
+    "album": "Elvesang",
+    "album_link": "https://album.link/i/1325167762",
+    "apple_music_link": "https://music.apple.com/us/album/elvesang/1325167762?uo=4",
+    "first_seen": "2026-01-05",
+    "last_checked": "2026-01-05"
+  },
+  "sigurd hole trio||encounters": {
+    "artist": "Sigurd Hole Trio",
+    "album": "Encounters",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-05",
+    "last_checked": "2026-01-05"
+  },
+  "margherita fava||murrina": {
+    "artist": "Margherita Fava",
+    "album": "Murrina",
+    "album_link": "https://album.link/i/1827704762",
+    "apple_music_link": "https://music.apple.com/us/album/murrina/1827704762?uo=4",
+    "first_seen": "2026-01-05",
+    "last_checked": "2026-01-05"
   }
 }
