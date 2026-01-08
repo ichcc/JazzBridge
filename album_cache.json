@@ -2542,5 +2542,29 @@
     "apple_music_link": null,
     "first_seen": "2026-01-07",
     "last_checked": "2026-01-07"
+  },
+  "takuya kuroda||everybody loves the sunshine": {
+    "artist": "Takuya Kuroda",
+    "album": "Everybody Loves The Sunshine",
+    "album_link": "https://album.link/i/1440813868",
+    "apple_music_link": "https://music.apple.com/us/album/rising-son/1440813868?uo=4",
+    "first_seen": "2026-01-08",
+    "last_checked": "2026-01-08"
+  },
+  "milt jackson||enchanted lady": {
+    "artist": "Milt Jackson",
+    "album": "Enchanted Lady",
+    "album_link": "https://album.link/i/1520716473",
+    "apple_music_link": "https://music.apple.com/us/album/memphis-jackson/1520716473?uo=4",
+    "first_seen": "2026-01-08",
+    "last_checked": "2026-01-08"
+  },
+  "the soul searchers||salt of the earth": {
+    "artist": "The Soul Searchers",
+    "album": "Salt Of The Earth",
+    "album_link": "https://album.link/i/1432782085",
+    "apple_music_link": "https://music.apple.com/us/album/salt-of-the-earth/1432782085?uo=4",
+    "first_seen": "2026-01-08",
+    "last_checked": "2026-01-08"
   }
 }
