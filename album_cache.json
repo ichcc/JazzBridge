@@ -2566,5 +2566,53 @@
     "apple_music_link": "https://music.apple.com/us/album/salt-of-the-earth/1432782085?uo=4",
     "first_seen": "2026-01-08",
     "last_checked": "2026-01-08"
+  },
+  "ellen rowe quartet||vinton's cove": {
+    "artist": "Ellen Rowe Quartet",
+    "album": "Vinton's Cove",
+    "album_link": "https://album.link/i/1845596366",
+    "apple_music_link": "https://music.apple.com/us/album/vintons-cove/1845596366?uo=4",
+    "first_seen": "2026-01-09",
+    "last_checked": "2026-01-09"
+  },
+  "dave stryker||blue fire - the van gelder session": {
+    "artist": "Dave Stryker",
+    "album": "Blue Fire - The Van Gelder Session",
+    "album_link": "https://album.link/i/1858565495",
+    "apple_music_link": "https://music.apple.com/us/album/blue-fire-the-van-gelder-session-feat-jared-gold/1858565495?uo=4",
+    "first_seen": "2026-01-09",
+    "last_checked": "2026-01-09"
+  },
+  "ian torres||comprovisation": {
+    "artist": "Ian Torres",
+    "album": "Comprovisation",
+    "album_link": "https://album.link/i/1849572559",
+    "apple_music_link": "https://music.apple.com/us/album/comprovisation/1849572559?uo=4",
+    "first_seen": "2026-01-09",
+    "last_checked": "2026-01-09"
+  },
+  "francesca prihasti||beneath the sun": {
+    "artist": "Francesca Prihasti",
+    "album": "Beneath the Sun",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-09",
+    "last_checked": "2026-01-09"
+  },
+  "darren heinrich||riddle diddle: the prague sessions": {
+    "artist": "Darren Heinrich",
+    "album": "Riddle Diddle: The Prague Sessions",
+    "album_link": "https://album.link/i/1823596172",
+    "apple_music_link": "https://music.apple.com/us/album/riddle-diddle-the-prague-sessions/1823596172?uo=4",
+    "first_seen": "2026-01-09",
+    "last_checked": "2026-01-09"
+  },
+  "ivar grydeland||boyning, brytning": {
+    "artist": "Ivar Grydeland",
+    "album": "Boyning, brytning",
+    "album_link": "https://album.link/i/1818471263",
+    "apple_music_link": "https://music.apple.com/us/album/b%C3%B8yning-brytning/1818471263?uo=4",
+    "first_seen": "2026-01-09",
+    "last_checked": "2026-01-09"
   }
 }
