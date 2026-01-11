@@ -2702,5 +2702,45 @@
     "apple_music_link": null,
     "first_seen": "2026-01-10",
     "last_checked": "2026-01-10"
+  },
+  "sophie agnel / michael zerang||draw bridge": {
+    "artist": "Sophie Agnel / Michael Zerang",
+    "album": "Draw Bridge",
+    "album_link": "https://album.link/i/1771072465",
+    "apple_music_link": "https://music.apple.com/us/album/draw-bridge/1771072465?uo=4",
+    "first_seen": "2026-01-11",
+    "last_checked": "2026-01-11"
+  },
+  "sinsuki fujieda group||fukushima": {
+    "artist": "Sinsuki Fujieda Group",
+    "album": "Fukushima",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-11",
+    "last_checked": "2026-01-11"
+  },
+  "dan bruce||the architects": {
+    "artist": "Dan Bruce",
+    "album": "The Architects",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-11",
+    "last_checked": "2026-01-11"
+  },
+  "tom gershwin||wellspring": {
+    "artist": "Tom Gershwin",
+    "album": "Wellspring",
+    "album_link": "https://album.link/i/1821648012",
+    "apple_music_link": "https://music.apple.com/us/album/wellspring/1821648012?uo=4",
+    "first_seen": "2026-01-11",
+    "last_checked": "2026-01-11"
+  },
+  "misha mengelberg / sabu toyozumi||the analects of confucius": {
+    "artist": "Misha Mengelberg / Sabu Toyozumi",
+    "album": "The Analects Of Confucius",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-11",
+    "last_checked": "2026-01-11"
   }
 }
