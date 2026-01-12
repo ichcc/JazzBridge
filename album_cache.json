@@ -2742,5 +2742,21 @@
     "apple_music_link": null,
     "first_seen": "2026-01-11",
     "last_checked": "2026-01-11"
+  },
+  "paul colombo group||mabrouka": {
+    "artist": "Paul Colombo Group",
+    "album": "Mabrouka",
+    "album_link": "https://album.link/i/1854886582",
+    "apple_music_link": "https://music.apple.com/us/album/mabrouka/1854886582?uo=4",
+    "first_seen": "2026-01-12",
+    "last_checked": "2026-01-12"
+  },
+  "omrum||bringer of light": {
+    "artist": "Omrum",
+    "album": "Bringer of Light",
+    "album_link": "https://album.link/i/1851230203",
+    "apple_music_link": "https://music.apple.com/us/album/bringer-of-light/1851230203?uo=4",
+    "first_seen": "2026-01-12",
+    "last_checked": "2026-01-12"
   }
 }
