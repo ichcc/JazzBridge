@@ -2758,5 +2758,29 @@
     "apple_music_link": "https://music.apple.com/us/album/bringer-of-light/1851230203?uo=4",
     "first_seen": "2026-01-12",
     "last_checked": "2026-01-12"
+  },
+  "keith jarrett||the köln concert": {
+    "artist": "Keith Jarrett",
+    "album": "The Köln Concert",
+    "album_link": "https://album.link/i/1440840566",
+    "apple_music_link": "https://music.apple.com/us/album/the-k%C3%B6ln-concert-live/1440840566?uo=4",
+    "first_seen": "2026-01-13",
+    "last_checked": "2026-01-13"
+  },
+  "yuhan su||over the moons": {
+    "artist": "Yuhan Su",
+    "album": "OVER the MOONs",
+    "album_link": "https://album.link/i/1817266015",
+    "apple_music_link": "https://music.apple.com/us/album/over-the-moons/1817266015?uo=4",
+    "first_seen": "2026-01-13",
+    "last_checked": "2026-01-13"
+  },
+  "michael eaton||stygian gates": {
+    "artist": "Michael Eaton",
+    "album": "Stygian Gates",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-13",
+    "last_checked": "2026-01-13"
   }
 }
