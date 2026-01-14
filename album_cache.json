@@ -2782,5 +2782,29 @@
     "apple_music_link": null,
     "first_seen": "2026-01-13",
     "last_checked": "2026-01-13"
+  },
+  "human being human||being": {
+    "artist": "Human Being Human",
+    "album": "Being",
+    "album_link": "https://album.link/i/1833317800",
+    "apple_music_link": "https://music.apple.com/us/album/being/1833317800?uo=4",
+    "first_seen": "2026-01-14",
+    "last_checked": "2026-01-14"
+  },
+  "usein bekirov||free way deluxe": {
+    "artist": "Usein Bekirov",
+    "album": "Free Way Deluxe",
+    "album_link": "https://album.link/i/1860885695",
+    "apple_music_link": "https://music.apple.com/us/album/free-way-deluxe/1860885695?uo=4",
+    "first_seen": "2026-01-14",
+    "last_checked": "2026-01-14"
+  },
+  "kieran brown||loving you": {
+    "artist": "Kieran Brown",
+    "album": "Loving You",
+    "album_link": "https://album.link/i/1800036288",
+    "apple_music_link": "https://music.apple.com/us/album/loving-you/1800036288?uo=4",
+    "first_seen": "2026-01-14",
+    "last_checked": "2026-01-14"
   }
 }
