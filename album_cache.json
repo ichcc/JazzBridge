@@ -2870,5 +2870,53 @@
     "apple_music_link": null,
     "first_seen": "2026-01-15",
     "last_checked": "2026-01-15"
+  },
+  "kenny reichert||live in chicago": {
+    "artist": "Kenny Reichert",
+    "album": "Live in Chicago",
+    "album_link": "https://album.link/i/1850203223",
+    "apple_music_link": "https://music.apple.com/us/album/live-in-chicago-feat-lenard-simpson-ethan-philion-devin/1850203223?uo=4",
+    "first_seen": "2026-01-16",
+    "last_checked": "2026-01-16"
+  },
+  "michael dease||msu jazz trombones: spartan strong": {
+    "artist": "Michael Dease",
+    "album": "MSU Jazz Trombones: Spartan Strong",
+    "album_link": "https://album.link/i/1855826723",
+    "apple_music_link": "https://music.apple.com/us/album/msu-jazz-trombones-spartan-strong/1855826723?uo=4",
+    "first_seen": "2026-01-16",
+    "last_checked": "2026-01-16"
+  },
+  "larry stabbins||aurora": {
+    "artist": "Larry Stabbins",
+    "album": "Aurora",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-16",
+    "last_checked": "2026-01-16"
+  },
+  "john vanore and abstract truth||easter island suite": {
+    "artist": "John Vanore and Abstract Truth",
+    "album": "Easter Island Suite",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-16",
+    "last_checked": "2026-01-16"
+  },
+  "oak||the third sleep": {
+    "artist": "Oak",
+    "album": "The Third Sleep",
+    "album_link": "https://album.link/i/1533079729",
+    "apple_music_link": "https://music.apple.com/us/album/white-oak-whispers-3-hours/1533079729?uo=4",
+    "first_seen": "2026-01-16",
+    "last_checked": "2026-01-16"
+  },
+  "roomful of blues||steppin' out!": {
+    "artist": "Roomful of Blues",
+    "album": "Steppin' Out!",
+    "album_link": "https://album.link/i/1826861318",
+    "apple_music_link": "https://music.apple.com/us/album/steppin-out/1826861318?uo=4",
+    "first_seen": "2026-01-16",
+    "last_checked": "2026-01-16"
   }
 }
