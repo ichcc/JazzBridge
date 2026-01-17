@@ -2918,5 +2918,53 @@
     "apple_music_link": "https://music.apple.com/us/album/steppin-out/1826861318?uo=4",
     "first_seen": "2026-01-16",
     "last_checked": "2026-01-16"
+  },
+  "o.t. sykes||first love": {
+    "artist": "O.T. Sykes",
+    "album": "First Love",
+    "album_link": "https://album.link/i/356359518",
+    "apple_music_link": "https://music.apple.com/us/album/souvenir-de-san-antonio/356359518?uo=4",
+    "first_seen": "2026-01-17",
+    "last_checked": "2026-01-17"
+  },
+  "masekela||night in tunisia": {
+    "artist": "Masekela",
+    "album": "Night In Tunisia",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-17",
+    "last_checked": "2026-01-17"
+  },
+  "fela kuti||water no get enemy": {
+    "artist": "Fela Kuti",
+    "album": "Water No Get Enemy",
+    "album_link": "https://album.link/i/1783205871",
+    "apple_music_link": "https://music.apple.com/us/album/the-best-of-the-black-president/1783205871?uo=4",
+    "first_seen": "2026-01-17",
+    "last_checked": "2026-01-17"
+  },
+  "geraldo pino||power to the people": {
+    "artist": "Geraldo Pino",
+    "album": "Power To The People",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-17",
+    "last_checked": "2026-01-17"
+  },
+  "revelation||love affairs": {
+    "artist": "Revelation",
+    "album": "Love Affairs",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-17",
+    "last_checked": "2026-01-17"
+  },
+  "larry ridley||sum of the parts": {
+    "artist": "Larry Ridley",
+    "album": "Sum Of The Parts",
+    "album_link": "https://album.link/i/377325219",
+    "apple_music_link": "https://music.apple.com/us/album/sum-of-the-parts/377325219?uo=4",
+    "first_seen": "2026-01-17",
+    "last_checked": "2026-01-17"
   }
 }
