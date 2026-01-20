@@ -3134,5 +3134,53 @@
     "apple_music_link": null,
     "first_seen": "2026-01-19",
     "last_checked": "2026-01-19"
+  },
+  "peter furlan project||live at maureen's jazz cellar": {
+    "artist": "Peter Furlan Project",
+    "album": "Live at Maureen's Jazz Cellar",
+    "album_link": "https://album.link/i/1850254047",
+    "apple_music_link": "https://music.apple.com/us/album/live-at-maureens-jazz-cellar/1850254047?uo=4",
+    "first_seen": "2026-01-20",
+    "last_checked": "2026-01-20"
+  },
+  "lafayette gilchrist and new volcanoes||move with love": {
+    "artist": "Lafayette Gilchrist and New Volcanoes",
+    "album": "Move With Love",
+    "album_link": "https://album.link/i/1835495898",
+    "apple_music_link": "https://music.apple.com/us/album/move-with-love-feat-new-volcanoes/1835495898?uo=4",
+    "first_seen": "2026-01-20",
+    "last_checked": "2026-01-20"
+  },
+  "ivo perelman and wadada leo smith||duologues 5": {
+    "artist": "Ivo Perelman and Wadada Leo Smith",
+    "album": "Duologues 5",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-20",
+    "last_checked": "2026-01-20"
+  },
+  "florian ross/wdr big band||plans and drawers": {
+    "artist": "Florian Ross/WDR Big Band",
+    "album": "Plans and Drawers",
+    "album_link": "https://album.link/i/1848905307",
+    "apple_music_link": "https://music.apple.com/us/album/plans-drawers/1848905307?uo=4",
+    "first_seen": "2026-01-20",
+    "last_checked": "2026-01-20"
+  },
+  "lars fredrik frøislie||gamle mester": {
+    "artist": "Lars Fredrik Frøislie",
+    "album": "Gamle Mester",
+    "album_link": "https://album.link/i/1796502958",
+    "apple_music_link": "https://music.apple.com/us/album/gamle-mester/1796502958?uo=4",
+    "first_seen": "2026-01-20",
+    "last_checked": "2026-01-20"
+  },
+  "ivo perelman/nate wooley||polarity 4": {
+    "artist": "Ivo Perelman/Nate Wooley",
+    "album": "Polarity 4",
+    "album_link": "https://album.link/i/1847053102",
+    "apple_music_link": "https://music.apple.com/us/album/polarity-4/1847053102?uo=4",
+    "first_seen": "2026-01-20",
+    "last_checked": "2026-01-20"
   }
 }
