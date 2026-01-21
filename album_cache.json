@@ -3182,5 +3182,29 @@
     "apple_music_link": "https://music.apple.com/us/album/polarity-4/1847053102?uo=4",
     "first_seen": "2026-01-20",
     "last_checked": "2026-01-20"
+  },
+  "ilona kudina||baltic transit": {
+    "artist": "Ilona Kudina",
+    "album": "Baltic Transit",
+    "album_link": "https://album.link/i/1742232601",
+    "apple_music_link": "https://music.apple.com/us/album/ilona-kudi%C5%86as-baltic-transit-2022/1742232601?uo=4",
+    "first_seen": "2026-01-21",
+    "last_checked": "2026-01-21"
+  },
+  "vancouver jazz orchestra||vancouver jazz orchestra meets brian charette": {
+    "artist": "Vancouver Jazz Orchestra",
+    "album": "Vancouver Jazz Orchestra Meets Brian Charette",
+    "album_link": "https://album.link/i/1837760334",
+    "apple_music_link": "https://music.apple.com/us/album/vancouver-jazz-orchestra-meets-brian-charette-feat/1837760334?uo=4",
+    "first_seen": "2026-01-21",
+    "last_checked": "2026-01-21"
+  },
+  "pipeline||ahead of july": {
+    "artist": "Pipeline",
+    "album": "Ahead Of July",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-21",
+    "last_checked": "2026-01-21"
   }
 }
