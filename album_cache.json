@@ -3206,5 +3206,37 @@
     "apple_music_link": null,
     "first_seen": "2026-01-21",
     "last_checked": "2026-01-21"
+  },
+  "tom scott||today": {
+    "artist": "Tom Scott",
+    "album": "Today",
+    "album_link": "https://album.link/i/169829093",
+    "apple_music_link": "https://music.apple.com/us/album/tom-scott-and-the-l-a-express/169829093?uo=4",
+    "first_seen": "2026-01-22",
+    "last_checked": "2026-01-22"
+  },
+  "the eliminators||love your woman": {
+    "artist": "The Eliminators",
+    "album": "Love Your Woman",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-22",
+    "last_checked": "2026-01-22"
+  },
+  "exit 9||straight up": {
+    "artist": "Exit 9",
+    "album": "Straight Up",
+    "album_link": "https://album.link/i/1361735636",
+    "apple_music_link": "https://music.apple.com/us/album/straight-up/1361735636?uo=4",
+    "first_seen": "2026-01-22",
+    "last_checked": "2026-01-22"
+  },
+  "pacific express||funky sounds": {
+    "artist": "Pacific Express",
+    "album": "Funky Sounds",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-22",
+    "last_checked": "2026-01-22"
   }
 }
