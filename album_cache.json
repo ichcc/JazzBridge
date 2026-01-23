@@ -3238,5 +3238,53 @@
     "apple_music_link": null,
     "first_seen": "2026-01-22",
     "last_checked": "2026-01-22"
+  },
+  "asaf harris||i thought i was ready": {
+    "artist": "Asaf Harris",
+    "album": "I Thought I Was Ready",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/i-thought-i-was-ready/1858939864?uo=4",
+    "first_seen": "2026-01-23",
+    "last_checked": "2026-01-23"
+  },
+  "kris davis and the lutoslawski quartet||the solastalgia suite": {
+    "artist": "Kris Davis and the Lutoslawski Quartet",
+    "album": "The Solastalgia Suite",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-23",
+    "last_checked": "2026-01-23"
+  },
+  "susanne alt||dark horse": {
+    "artist": "Susanne Alt",
+    "album": "Dark Horse",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/dark-horse/1861937960?uo=4",
+    "first_seen": "2026-01-23",
+    "last_checked": "2026-01-23"
+  },
+  "stefano boggiani||andvake": {
+    "artist": "Stefano Boggiani",
+    "album": "Andvake",
+    "album_link": "https://album.link/i/1851322383",
+    "apple_music_link": "https://music.apple.com/us/album/andvake-feat-%C3%B8yvind-mathisen-oskar-goedvriend-lindberget/1851322383?uo=4",
+    "first_seen": "2026-01-23",
+    "last_checked": "2026-01-23"
+  },
+  "kemuel roig||dos almas": {
+    "artist": "Kemuel Roig",
+    "album": "Dos Almas",
+    "album_link": "https://album.link/i/1812481552",
+    "apple_music_link": "https://music.apple.com/us/album/dos-almas/1812481552?uo=4",
+    "first_seen": "2026-01-23",
+    "last_checked": "2026-01-23"
+  },
+  "bobby naughton trio||live at charlie's tap": {
+    "artist": "Bobby Naughton Trio",
+    "album": "Live at Charlie's Tap",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-23",
+    "last_checked": "2026-01-23"
   }
 }
