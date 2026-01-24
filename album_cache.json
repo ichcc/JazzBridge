@@ -3286,5 +3286,21 @@
     "apple_music_link": null,
     "first_seen": "2026-01-23",
     "last_checked": "2026-01-23"
+  },
+  "the ahmad jamal trio||i love music": {
+    "artist": "The Ahmad Jamal Trio",
+    "album": "I Love Music",
+    "album_link": "https://album.link/i/1443878957",
+    "apple_music_link": "https://music.apple.com/us/album/the-awakening/1443878957?uo=4",
+    "first_seen": "2026-01-24",
+    "last_checked": "2026-01-24"
+  },
+  "alice coltrane & pharoah sanders||journey to satchidananda": {
+    "artist": "Alice Coltrane & Pharoah Sanders",
+    "album": "Journey To Satchidananda",
+    "album_link": "https://album.link/i/1440719294",
+    "apple_music_link": "https://music.apple.com/us/album/journey-in-satchidananda/1440719294?uo=4",
+    "first_seen": "2026-01-24",
+    "last_checked": "2026-01-24"
   }
 }
