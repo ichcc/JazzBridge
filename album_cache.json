@@ -3302,5 +3302,29 @@
     "apple_music_link": "https://music.apple.com/us/album/journey-in-satchidananda/1440719294?uo=4",
     "first_seen": "2026-01-24",
     "last_checked": "2026-01-24"
+  },
+  "eddie allen||rhythm people": {
+    "artist": "Eddie Allen",
+    "album": "Rhythm People",
+    "album_link": "https://album.link/i/1856141582",
+    "apple_music_link": "https://music.apple.com/us/album/rhythm-people/1856141582?uo=4",
+    "first_seen": "2026-01-25",
+    "last_checked": "2026-01-25"
+  },
+  "tim brady||for electric guitar": {
+    "artist": "Tim Brady",
+    "album": "For Electric Guitar",
+    "album_link": "https://album.link/i/1851226968",
+    "apple_music_link": "https://music.apple.com/us/album/for-electric-guitar/1851226968?uo=4",
+    "first_seen": "2026-01-25",
+    "last_checked": "2026-01-25"
+  },
+  "betty bryant||nothin' better to do...": {
+    "artist": "Betty Bryant",
+    "album": "Nothin' Better To Do...",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-25",
+    "last_checked": "2026-01-25"
   }
 }
