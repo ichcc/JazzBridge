@@ -3326,5 +3326,21 @@
     "apple_music_link": null,
     "first_seen": "2026-01-25",
     "last_checked": "2026-01-25"
+  },
+  "lonnie smith||drives": {
+    "artist": "Lonnie Smith",
+    "album": "Drives",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/drives/1443821595?uo=4",
+    "first_seen": "2026-01-26",
+    "last_checked": "2026-01-26"
+  },
+  "bobby womack||fly me to the moon": {
+    "artist": "Bobby Womack",
+    "album": "Fly Me To The Moon",
+    "album_link": "https://album.link/i/1713121976",
+    "apple_music_link": "https://music.apple.com/us/album/fly-me-to-the-moon/1713121976?uo=4",
+    "first_seen": "2026-01-26",
+    "last_checked": "2026-01-26"
   }
 }
