@@ -3342,5 +3342,37 @@
     "apple_music_link": "https://music.apple.com/us/album/fly-me-to-the-moon/1713121976?uo=4",
     "first_seen": "2026-01-26",
     "last_checked": "2026-01-26"
+  },
+  "sal la rocca||consenso": {
+    "artist": "Sal La Rocca",
+    "album": "Consenso",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-27",
+    "last_checked": "2026-01-27"
+  },
+  "frantisek uhlir||coming home": {
+    "artist": "Frantisek Uhlir",
+    "album": "Coming Home",
+    "album_link": "https://album.link/i/1843076759",
+    "apple_music_link": "https://music.apple.com/us/album/franti%C5%A1ek-uhl%C3%AD%C5%99-team-coming-home/1843076759?uo=4",
+    "first_seen": "2026-01-27",
+    "last_checked": "2026-01-27"
+  },
+  "yelena eckemoff||lions": {
+    "artist": "Yelena Eckemoff",
+    "album": "Lions",
+    "album_link": "https://album.link/i/979496046",
+    "apple_music_link": "https://music.apple.com/us/album/lions-feat-arild-andersen-billy-hart/979496046?uo=4",
+    "first_seen": "2026-01-27",
+    "last_checked": "2026-01-27"
+  },
+  "jimmy halperin||high and outside": {
+    "artist": "Jimmy Halperin",
+    "album": "High And Outside",
+    "album_link": "https://album.link/i/1489251204",
+    "apple_music_link": "https://music.apple.com/us/album/high-and-outside/1489251204?uo=4",
+    "first_seen": "2026-01-27",
+    "last_checked": "2026-01-27"
   }
 }
