@@ -3438,5 +3438,53 @@
     "apple_music_link": null,
     "first_seen": "2026-01-28",
     "last_checked": "2026-01-28"
+  },
+  "roberto magris / denis razz quartet||in action": {
+    "artist": "Roberto Magris / Denis Razz Quartet",
+    "album": "In Action",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-29",
+    "last_checked": "2026-01-29"
+  },
+  "woody shaw||love dance": {
+    "artist": "Woody Shaw",
+    "album": "Love Dance",
+    "album_link": "https://album.link/i/1438316559",
+    "apple_music_link": "https://music.apple.com/us/album/woody-shaw-live-vol-1/1438316559?uo=4",
+    "first_seen": "2026-01-29",
+    "last_checked": "2026-01-29"
+  },
+  "yelena eckemoff||better than gold and silver": {
+    "artist": "Yelena Eckemoff",
+    "album": "Better Than Gold and Silver",
+    "album_link": "https://album.link/i/1435539937",
+    "apple_music_link": "https://music.apple.com/us/album/better-than-gold-and-silver/1435539937?uo=4",
+    "first_seen": "2026-01-29",
+    "last_checked": "2026-01-29"
+  },
+  "dave mossing||homesteaders": {
+    "artist": "Dave Mossing",
+    "album": "Homesteaders",
+    "album_link": "https://album.link/i/1847734164",
+    "apple_music_link": "https://music.apple.com/us/album/homesteaders/1847734164?uo=4",
+    "first_seen": "2026-01-29",
+    "last_checked": "2026-01-29"
+  },
+  "ray anderson / ivo perelman||12 stages of spritual alchemy": {
+    "artist": "Ray Anderson / Ivo Perelman",
+    "album": "12 Stages of Spritual Alchemy",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-29",
+    "last_checked": "2026-01-29"
+  },
+  "harold mabern||afro blue (10th anniversary edition)": {
+    "artist": "Harold Mabern",
+    "album": "Afro Blue (10th Anniversary Edition)",
+    "album_link": "https://album.link/i/1850810398",
+    "apple_music_link": "https://music.apple.com/us/album/afro-blue-10th-anniversary-edition-remixed-remastered/1850810398?uo=4",
+    "first_seen": "2026-01-29",
+    "last_checked": "2026-01-29"
   }
 }
