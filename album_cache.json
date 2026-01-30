@@ -3486,5 +3486,37 @@
     "apple_music_link": "https://music.apple.com/us/album/afro-blue-10th-anniversary-edition-remixed-remastered/1850810398?uo=4",
     "first_seen": "2026-01-29",
     "last_checked": "2026-01-29"
+  },
+  "marlena shaw||california soul": {
+    "artist": "Marlena Shaw",
+    "album": "California Soul",
+    "album_link": "https://album.link/i/1444860779",
+    "apple_music_link": "https://music.apple.com/us/album/california-soul-remixed-single/1444860779?uo=4",
+    "first_seen": "2026-01-30",
+    "last_checked": "2026-01-30"
+  },
+  "spanky wilson||sunshine of your love": {
+    "artist": "Spanky Wilson",
+    "album": "Sunshine Of Your Love",
+    "album_link": "https://album.link/i/1658893123",
+    "apple_music_link": "https://music.apple.com/us/album/doin-it/1658893123?uo=4",
+    "first_seen": "2026-01-30",
+    "last_checked": "2026-01-30"
+  },
+  "j.j. barnes||you are just a living doll": {
+    "artist": "J.J. Barnes",
+    "album": "You Are Just A Living Doll",
+    "album_link": "https://album.link/i/697251025",
+    "apple_music_link": "https://music.apple.com/us/album/simply-the-best/697251025?uo=4",
+    "first_seen": "2026-01-30",
+    "last_checked": "2026-01-30"
+  },
+  "larry saunders||fly away love bird": {
+    "artist": "Larry Saunders",
+    "album": "Fly Away Love Bird",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-01-30",
+    "last_checked": "2026-01-30"
   }
 }
