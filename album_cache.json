@@ -3590,5 +3590,37 @@
     "apple_music_link": "https://music.apple.com/us/album/in-my-solitude-solo-piano-and-small-group-performances/1555190237?uo=4",
     "first_seen": "2026-02-01",
     "last_checked": "2026-02-01"
+  },
+  "bévort 3||a cup of joe": {
+    "artist": "Bévort 3",
+    "album": "A Cup of Joe",
+    "album_link": "https://album.link/i/1849137114",
+    "apple_music_link": "https://music.apple.com/us/album/a-cup-of-joe/1849137114?uo=4",
+    "first_seen": "2026-02-02",
+    "last_checked": "2026-02-02"
+  },
+  "joel ross||gospel music": {
+    "artist": "Joel Ross",
+    "album": "Gospel Music",
+    "album_link": "https://album.link/i/1853728278",
+    "apple_music_link": "https://music.apple.com/us/album/gospel-music/1853728278?uo=4",
+    "first_seen": "2026-02-02",
+    "last_checked": "2026-02-02"
+  },
+  "jerry weldon||the summit": {
+    "artist": "Jerry Weldon",
+    "album": "The Summit",
+    "album_link": "https://album.link/i/1831361923",
+    "apple_music_link": "https://music.apple.com/us/album/the-summit/1831361923?uo=4",
+    "first_seen": "2026-02-02",
+    "last_checked": "2026-02-02"
+  },
+  "nebbia/banner/andrzejewski||presencia": {
+    "artist": "Nebbia/Banner/Andrzejewski",
+    "album": "Presencia",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-02",
+    "last_checked": "2026-02-02"
   }
 }
