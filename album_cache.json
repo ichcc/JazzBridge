@@ -3622,5 +3622,61 @@
     "apple_music_link": null,
     "first_seen": "2026-02-02",
     "last_checked": "2026-02-02"
+  },
+  "joe magnarelli||decidedly so": {
+    "artist": "Joe Magnarelli",
+    "album": "Decidedly so",
+    "album_link": "https://album.link/i/1845415879",
+    "apple_music_link": "https://music.apple.com/us/album/decidedly-so/1845415879?uo=4",
+    "first_seen": "2026-02-03",
+    "last_checked": "2026-02-03"
+  },
+  "billie davies||2455 (music for the future)": {
+    "artist": "Billie Davies",
+    "album": "2455 (Music for the Future)",
+    "album_link": "https://album.link/i/1867877524",
+    "apple_music_link": "https://music.apple.com/us/album/2455-music-for-the-future/1867877524?uo=4",
+    "first_seen": "2026-02-03",
+    "last_checked": "2026-02-03"
+  },
+  "yelena eckemoff||i am a stranger in this world": {
+    "artist": "Yelena Eckemoff",
+    "album": "I Am a Stranger in This World",
+    "album_link": "https://album.link/i/1618737707",
+    "apple_music_link": "https://music.apple.com/us/album/i-am-a-stranger-in-this-world/1618737707?uo=4",
+    "first_seen": "2026-02-03",
+    "last_checked": "2026-02-03"
+  },
+  "yelena eckemoff||colors live at kito bremen": {
+    "artist": "Yelena Eckemoff",
+    "album": "Colors live at KITO Bremen",
+    "album_link": "https://album.link/i/1663612437",
+    "apple_music_link": "https://music.apple.com/us/album/colors-live-at-kito-bremen/1663612437?uo=4",
+    "first_seen": "2026-02-03",
+    "last_checked": "2026-02-03"
+  },
+  "yelena eckemoff||lonely man and his fish": {
+    "artist": "Yelena Eckemoff",
+    "album": "Lonely Man and His Fish",
+    "album_link": "https://album.link/i/1679838111",
+    "apple_music_link": "https://music.apple.com/us/album/lonely-man-and-his-fish-feat-kirk-knuffke-masaru-koga/1679838111?uo=4",
+    "first_seen": "2026-02-03",
+    "last_checked": "2026-02-03"
+  },
+  "yelena eckemoff||romance of the moon": {
+    "artist": "Yelena Eckemoff",
+    "album": "Romance of the Moon",
+    "album_link": "https://album.link/i/1743851440",
+    "apple_music_link": "https://music.apple.com/us/album/romance-of-the-moon/1743851440?uo=4",
+    "first_seen": "2026-02-03",
+    "last_checked": "2026-02-03"
+  },
+  "yelena eckemoff||scenes from the dark ages": {
+    "artist": "Yelena Eckemoff",
+    "album": "Scenes From the Dark Ages",
+    "album_link": "https://album.link/i/1798271910",
+    "apple_music_link": "https://music.apple.com/us/album/scenes-from-the-dark-ages/1798271910?uo=4",
+    "first_seen": "2026-02-03",
+    "last_checked": "2026-02-03"
   }
 }
