@@ -3678,5 +3678,37 @@
     "apple_music_link": "https://music.apple.com/us/album/scenes-from-the-dark-ages/1798271910?uo=4",
     "first_seen": "2026-02-03",
     "last_checked": "2026-02-03"
+  },
+  "spanky wilson||you": {
+    "artist": "Spanky Wilson",
+    "album": "You",
+    "album_link": "https://album.link/i/1634564756",
+    "apple_music_link": "https://music.apple.com/us/album/i-love-you-live/1634564756?uo=4",
+    "first_seen": "2026-02-04",
+    "last_checked": "2026-02-04"
+  },
+  "marva whitney||it’s my thing": {
+    "artist": "Marva Whitney",
+    "album": "It’s My Thing",
+    "album_link": "https://album.link/i/1437195021",
+    "apple_music_link": "https://music.apple.com/us/album/its-my-thing/1437195021?uo=4",
+    "first_seen": "2026-02-04",
+    "last_checked": "2026-02-04"
+  },
+  "l. v. johnson||we belong together": {
+    "artist": "L. V. Johnson",
+    "album": "We Belong Together",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-04",
+    "last_checked": "2026-02-04"
+  },
+  "joe jones||boogaloo joe": {
+    "artist": "Joe Jones",
+    "album": "Boogaloo Joe",
+    "album_link": "https://album.link/i/1443213415",
+    "apple_music_link": "https://music.apple.com/us/album/legends-of-acid-jazz-boogaloo-joe-jones/1443213415?uo=4",
+    "first_seen": "2026-02-04",
+    "last_checked": "2026-02-04"
   }
 }
