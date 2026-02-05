@@ -3710,5 +3710,37 @@
     "apple_music_link": "https://music.apple.com/us/album/legends-of-acid-jazz-boogaloo-joe-jones/1443213415?uo=4",
     "first_seen": "2026-02-04",
     "last_checked": "2026-02-04"
+  },
+  "elsa nilsson and martin fabricius||glaciers": {
+    "artist": "Elsa Nilsson and Martin Fabricius",
+    "album": "Glaciers",
+    "album_link": "https://album.link/i/1787410437",
+    "apple_music_link": "https://music.apple.com/us/album/glaciers/1787410437?uo=4",
+    "first_seen": "2026-02-05",
+    "last_checked": "2026-02-05"
+  },
+  "patricio morales||la tierra canta": {
+    "artist": "Patricio Morales",
+    "album": "La Tierra Canta",
+    "album_link": "https://album.link/i/1809685751",
+    "apple_music_link": "https://music.apple.com/us/album/la-tierra-canta/1809685751?uo=4",
+    "first_seen": "2026-02-05",
+    "last_checked": "2026-02-05"
+  },
+  "kris davis||the solastalgia suite": {
+    "artist": "Kris Davis",
+    "album": "The Solastalgia Suite",
+    "album_link": "https://album.link/i/1851553844",
+    "apple_music_link": "https://music.apple.com/us/album/the-solastalgia-suite/1851553844?uo=4",
+    "first_seen": "2026-02-05",
+    "last_checked": "2026-02-05"
+  },
+  "negative press project + friction quartet||cycles 1": {
+    "artist": "Negative Press Project + Friction Quartet",
+    "album": "Cycles 1",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-05",
+    "last_checked": "2026-02-05"
   }
 }
