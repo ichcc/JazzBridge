@@ -3742,5 +3742,45 @@
     "apple_music_link": null,
     "first_seen": "2026-02-05",
     "last_checked": "2026-02-05"
+  },
+  "the in crowd||ramsey lewis trio": {
+    "artist": "The In Crowd",
+    "album": "Ramsey Lewis Trio",
+    "album_link": "https://album.link/i/1443201813",
+    "apple_music_link": "https://music.apple.com/us/album/the-in-crowd-expanded-edition/1443201813?uo=4",
+    "first_seen": "2026-02-06",
+    "last_checked": "2026-02-06"
+  },
+  "grant green||the complete quartets with sonny clark": {
+    "artist": "Grant Green",
+    "album": "The Complete Quartets with Sonny Clark",
+    "album_link": "https://album.link/i/724775096",
+    "apple_music_link": "https://music.apple.com/us/album/the-complete-quartets-with-sonny-clark/724775096?uo=4",
+    "first_seen": "2026-02-06",
+    "last_checked": "2026-02-06"
+  },
+  "\"billy boy\"||william \"red\" garland with paul chambers and \"philly\" joe jones": {
+    "artist": "\"Billy Boy\"",
+    "album": "William \"Red\" Garland with Paul Chambers and \"Philly\" Joe Jones",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-06",
+    "last_checked": "2026-02-06"
+  },
+  "red garland||graceful and bluesy": {
+    "artist": "Red Garland",
+    "album": "Graceful and Bluesy",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-06",
+    "last_checked": "2026-02-06"
+  },
+  "from this moment on||diana krall with the clayton hamilton jazz orchestra": {
+    "artist": "From This Moment On",
+    "album": "Diana Krall with The Clayton Hamilton Jazz Orchestra",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-06",
+    "last_checked": "2026-02-06"
   }
 }
