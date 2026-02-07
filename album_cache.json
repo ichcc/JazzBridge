@@ -3782,5 +3782,29 @@
     "apple_music_link": null,
     "first_seen": "2026-02-06",
     "last_checked": "2026-02-06"
+  },
+  "billy martin + matt glassmeyer + jonathan goldberger||state fête": {
+    "artist": "Billy Martin + Matt Glassmeyer + Jonathan Goldberger",
+    "album": "State Fête",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-07",
+    "last_checked": "2026-02-07"
+  },
+  "vance thompson||lost and found": {
+    "artist": "Vance Thompson",
+    "album": "Lost and Found",
+    "album_link": "https://album.link/i/1854041372",
+    "apple_music_link": "https://music.apple.com/us/album/lost-and-found/1854041372?uo=4",
+    "first_seen": "2026-02-07",
+    "last_checked": "2026-02-07"
+  },
+  "john donegan||interfuse": {
+    "artist": "John Donegan",
+    "album": "Interfuse",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/interfuse/1852235899?uo=4",
+    "first_seen": "2026-02-07",
+    "last_checked": "2026-02-07"
   }
 }
