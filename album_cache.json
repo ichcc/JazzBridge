@@ -3806,5 +3806,37 @@
     "apple_music_link": "https://music.apple.com/us/album/interfuse/1852235899?uo=4",
     "first_seen": "2026-02-07",
     "last_checked": "2026-02-07"
+  },
+  "penny goodwin||too soon you’re old": {
+    "artist": "Penny Goodwin",
+    "album": "Too Soon You’re Old",
+    "album_link": "https://album.link/i/1176835298",
+    "apple_music_link": "https://music.apple.com/us/album/too-soon-youre-old-single/1176835298?uo=4",
+    "first_seen": "2026-02-08",
+    "last_checked": "2026-02-08"
+  },
+  "gregory james edition||prophets of soul": {
+    "artist": "Gregory James Edition",
+    "album": "Prophets Of Soul",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-08",
+    "last_checked": "2026-02-08"
+  },
+  "linda clifford||never gonna stop": {
+    "artist": "Linda Clifford",
+    "album": "Never Gonna Stop",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/linda-clifford-greatest-hits/111227550?uo=4",
+    "first_seen": "2026-02-08",
+    "last_checked": "2026-02-08"
+  },
+  "marie queenie lyons||i want my freedom": {
+    "artist": "Marie Queenie Lyons",
+    "album": "I Want My Freedom",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-08",
+    "last_checked": "2026-02-08"
   }
 }
