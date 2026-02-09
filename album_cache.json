@@ -3838,5 +3838,45 @@
     "apple_music_link": null,
     "first_seen": "2026-02-08",
     "last_checked": "2026-02-08"
+  },
+  "jack west/walter strauss||guitars on life": {
+    "artist": "Jack West/Walter Strauss",
+    "album": "Guitars on Life",
+    "album_link": "https://album.link/i/1830557774",
+    "apple_music_link": "https://music.apple.com/us/album/guitars-on-life/1830557774?uo=4",
+    "first_seen": "2026-02-09",
+    "last_checked": "2026-02-09"
+  },
+  "orchestra of the upper atmosphere||theta seven": {
+    "artist": "Orchestra Of The Upper Atmosphere",
+    "album": "Theta Seven",
+    "album_link": "https://album.link/i/1668866531",
+    "apple_music_link": "https://music.apple.com/us/album/theta-six/1668866531?uo=4",
+    "first_seen": "2026-02-09",
+    "last_checked": "2026-02-09"
+  },
+  "edwin corne||spruce and maple": {
+    "artist": "Edwin Corne",
+    "album": "Spruce and Maple",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/spruce-and-maple/1850127566?uo=4",
+    "first_seen": "2026-02-09",
+    "last_checked": "2026-02-09"
+  },
+  "paul marinaro||mood ellington": {
+    "artist": "Paul Marinaro",
+    "album": "Mood Ellington",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/mood-ellington/1844602920?uo=4",
+    "first_seen": "2026-02-09",
+    "last_checked": "2026-02-09"
+  },
+  "charlotte hug||in resonance with elsewhere": {
+    "artist": "Charlotte Hug",
+    "album": "In Resonance With Elsewhere",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-09",
+    "last_checked": "2026-02-09"
   }
 }
