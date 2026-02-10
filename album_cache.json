@@ -3878,5 +3878,21 @@
     "apple_music_link": null,
     "first_seen": "2026-02-09",
     "last_checked": "2026-02-09"
+  },
+  "angelika niescier||chicago tapes": {
+    "artist": "Angelika Niescier",
+    "album": "Chicago Tapes",
+    "album_link": "https://album.link/i/1862901622",
+    "apple_music_link": "https://music.apple.com/us/album/chicago-tapes/1862901622?uo=4",
+    "first_seen": "2026-02-10",
+    "last_checked": "2026-02-10"
+  },
+  "billy marrows||dancing on bentwood chairs": {
+    "artist": "Billy Marrows",
+    "album": "Dancing On Bentwood Chairs",
+    "album_link": "https://album.link/i/1853277081",
+    "apple_music_link": "https://music.apple.com/us/album/dancing-on-bentwood-chairs-single/1853277081?uo=4",
+    "first_seen": "2026-02-10",
+    "last_checked": "2026-02-10"
   }
 }
