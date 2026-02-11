@@ -3894,5 +3894,29 @@
     "apple_music_link": "https://music.apple.com/us/album/dancing-on-bentwood-chairs-single/1853277081?uo=4",
     "first_seen": "2026-02-10",
     "last_checked": "2026-02-10"
+  },
+  "either/orchestra||nalbandian the ethiopian": {
+    "artist": "Either/Orchestra",
+    "album": "Nalbandian The Ethiopian",
+    "album_link": "https://album.link/i/1848833111",
+    "apple_music_link": "https://music.apple.com/us/album/ethiopiques-32-nalbandian-lethiopien-the-ethiopian/1848833111?uo=4",
+    "first_seen": "2026-02-11",
+    "last_checked": "2026-02-11"
+  },
+  "aleph aguiar||sugar on my blackbeans": {
+    "artist": "Aleph Aguiar",
+    "album": "Sugar On My Blackbeans",
+    "album_link": "https://album.link/i/1862581352",
+    "apple_music_link": "https://music.apple.com/us/album/sugar-on-my-blackbeans-single/1862581352?uo=4",
+    "first_seen": "2026-02-11",
+    "last_checked": "2026-02-11"
+  },
+  "red norvo||the secret session": {
+    "artist": "Red Norvo",
+    "album": "The Secret Session",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/the-secret-session/1867752394?uo=4",
+    "first_seen": "2026-02-11",
+    "last_checked": "2026-02-11"
   }
 }
