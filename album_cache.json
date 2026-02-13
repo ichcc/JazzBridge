@@ -4022,5 +4022,45 @@
     "apple_music_link": null,
     "first_seen": "2026-02-12",
     "last_checked": "2026-02-12"
+  },
+  "reuben wilson||orange peel": {
+    "artist": "Reuben Wilson",
+    "album": "Orange Peel",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-13",
+    "last_checked": "2026-02-13"
+  },
+  "pleasure||straight ahead": {
+    "artist": "Pleasure",
+    "album": "Straight Ahead",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-13",
+    "last_checked": "2026-02-13"
+  },
+  "lafayette afro-rock band||voodounon": {
+    "artist": "Lafayette Afro-Rock Band",
+    "album": "Voodounon",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-13",
+    "last_checked": "2026-02-13"
+  },
+  "lafayette afro-rock band||baba hya": {
+    "artist": "Lafayette Afro-Rock Band",
+    "album": "Baba Hya",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-13",
+    "last_checked": "2026-02-13"
+  },
+  "bobby hutcherson||cirrus": {
+    "artist": "Bobby Hutcherson",
+    "album": "Cirrus",
+    "album_link": "https://album.link/i/1444215181",
+    "apple_music_link": "https://music.apple.com/us/album/cirrus/1444215181?uo=4",
+    "first_seen": "2026-02-13",
+    "last_checked": "2026-02-13"
   }
 }
