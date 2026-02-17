@@ -4230,5 +4230,29 @@
     "apple_music_link": null,
     "first_seen": "2026-02-16",
     "last_checked": "2026-02-16"
+  },
+  "mosaic||'classic v-disc big band jazz sessions'": {
+    "artist": "Mosaic",
+    "album": "'Classic V-Disc Big Band Jazz Sessions'",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-17",
+    "last_checked": "2026-02-17"
+  },
+  "editor's note||blue skies, with trepidation": {
+    "artist": "Editor's Note",
+    "album": "Blue Skies, With Trepidation",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-17",
+    "last_checked": "2026-02-17"
+  },
+  "wayne shorter||'juju,' 1964": {
+    "artist": "Wayne Shorter",
+    "album": "'Juju,' 1964",
+    "album_link": "https://album.link/i/1444117518",
+    "apple_music_link": "https://music.apple.com/us/album/juju/1444117518?uo=4",
+    "first_seen": "2026-02-17",
+    "last_checked": "2026-02-17"
   }
 }
