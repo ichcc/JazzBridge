@@ -4310,5 +4310,21 @@
     "apple_music_link": null,
     "first_seen": "2026-02-18",
     "last_checked": "2026-02-18"
+  },
+  "mammal hands||circadia": {
+    "artist": "Mammal Hands",
+    "album": "Circadia",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/circadia/1854428861?uo=4",
+    "first_seen": "2026-02-19",
+    "last_checked": "2026-02-19"
+  },
+  "tilman günther, dominik schürmann||poems": {
+    "artist": "Tilman Günther, Dominik Schürmann",
+    "album": "Poems",
+    "album_link": "https://album.link/i/1874648758",
+    "apple_music_link": "https://music.apple.com/us/album/poems/1874648758?uo=4",
+    "first_seen": "2026-02-19",
+    "last_checked": "2026-02-19"
   }
 }
