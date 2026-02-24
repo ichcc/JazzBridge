@@ -4462,5 +4462,21 @@
     "apple_music_link": "https://music.apple.com/us/album/afro-funk-explosion/1617039561?uo=4",
     "first_seen": "2026-02-23",
     "last_checked": "2026-02-23"
+  },
+  "art pepper||'live at the cellar,' 1959": {
+    "artist": "Art Pepper",
+    "album": "'Live at the Cellar,' 1959",
+    "album_link": "https://album.link/i/1866795675",
+    "apple_music_link": "https://music.apple.com/us/album/everything-happens-to-me-1959-live-at-the-cellar/1866795675?uo=4",
+    "first_seen": "2026-02-24",
+    "last_checked": "2026-02-24"
+  },
+  "editor's note||remember that nor'easter i predicted?": {
+    "artist": "Editor's Note",
+    "album": "Remember That Nor'easter I Predicted?",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-24",
+    "last_checked": "2026-02-24"
   }
 }
