@@ -4526,5 +4526,29 @@
     "apple_music_link": null,
     "first_seen": "2026-02-25",
     "last_checked": "2026-02-25"
+  },
+  "ronnie laws||tidal wave": {
+    "artist": "Ronnie Laws",
+    "album": "Tidal Wave",
+    "album_link": "https://album.link/i/723664773",
+    "apple_music_link": "https://music.apple.com/us/album/pressure-sensitive/723664773?uo=4",
+    "first_seen": "2026-02-26",
+    "last_checked": "2026-02-26"
+  },
+  "paul horn||visions": {
+    "artist": "Paul Horn",
+    "album": "Visions",
+    "album_link": "https://album.link/i/391591751",
+    "apple_music_link": "https://music.apple.com/us/album/visions/391591751?uo=4",
+    "first_seen": "2026-02-26",
+    "last_checked": "2026-02-26"
+  },
+  "earth base one||do you know ?": {
+    "artist": "Earth Base One",
+    "album": "Do You Know ?",
+    "album_link": "https://album.link/i/1452444660",
+    "apple_music_link": "https://music.apple.com/us/album/the-art-of-counter-tenor/1452444660?uo=4",
+    "first_seen": "2026-02-26",
+    "last_checked": "2026-02-26"
   }
 }
