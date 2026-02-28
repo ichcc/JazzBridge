@@ -4598,5 +4598,45 @@
     "apple_music_link": null,
     "first_seen": "2026-02-27",
     "last_checked": "2026-02-27"
+  },
+  "editor's note||why upgrade now": {
+    "artist": "Editor's Note",
+    "album": "Why Upgrade Now",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-28",
+    "last_checked": "2026-02-28"
+  },
+  "new music of note||february": {
+    "artist": "New Music of Note",
+    "album": "February",
+    "album_link": "https://album.link/i/1625914671",
+    "apple_music_link": "https://music.apple.com/us/album/triple-play-dizzy-gillespie-live-at-the-blue-note-new/1625914671?uo=4",
+    "first_seen": "2026-02-28",
+    "last_checked": "2026-02-28"
+  },
+  "wsj||jeremy irons": {
+    "artist": "WSJ",
+    "album": "Jeremy Irons",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-28",
+    "last_checked": "2026-02-28"
+  },
+  "wsj||boz scaggs's 'silk degrees' turns 50": {
+    "artist": "WSJ",
+    "album": "Boz Scaggs's 'Silk Degrees' Turns 50",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-28",
+    "last_checked": "2026-02-28"
+  },
+  "wsj||constance zimmer": {
+    "artist": "WSJ",
+    "album": "Constance Zimmer",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-02-28",
+    "last_checked": "2026-02-28"
   }
 }
