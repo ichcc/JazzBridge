@@ -4638,5 +4638,29 @@
     "apple_music_link": null,
     "first_seen": "2026-02-28",
     "last_checked": "2026-02-28"
+  },
+  "the 3 pieces||backed up against the wall": {
+    "artist": "The 3 Pieces",
+    "album": "Backed Up Against The Wall",
+    "album_link": "https://album.link/i/1442279437",
+    "apple_music_link": "https://music.apple.com/us/album/vibes-of-truth/1442279437?uo=4",
+    "first_seen": "2026-03-01",
+    "last_checked": "2026-03-01"
+  },
+  "leon's creation||this is the beginning": {
+    "artist": "Leon's Creation",
+    "album": "This Is The Beginning",
+    "album_link": "https://album.link/i/1342190370",
+    "apple_music_link": "https://music.apple.com/us/album/this-is-the-beginning/1342190370?uo=4",
+    "first_seen": "2026-03-01",
+    "last_checked": "2026-03-01"
+  },
+  "terry callier||spin spin spin": {
+    "artist": "Terry Callier",
+    "album": "Spin Spin Spin",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-01",
+    "last_checked": "2026-03-01"
   }
 }
