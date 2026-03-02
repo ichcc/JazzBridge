@@ -4662,5 +4662,29 @@
     "apple_music_link": null,
     "first_seen": "2026-03-01",
     "last_checked": "2026-03-01"
+  },
+  "bill on tony||\"i just hear music.\"": {
+    "artist": "Bill on Tony",
+    "album": "\"I just hear music.\"",
+    "album_link": "https://album.link/i/785239139",
+    "apple_music_link": "https://music.apple.com/us/album/master-of-reality/785239139?uo=4",
+    "first_seen": "2026-03-02",
+    "last_checked": "2026-03-02"
+  },
+  "a gerry mulligan reader||writings on a jazz original": {
+    "artist": "A Gerry Mulligan Reader",
+    "album": "Writings on a Jazz Original",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-02",
+    "last_checked": "2026-03-02"
+  },
+  "a bill evans reader||paperback and ebook": {
+    "artist": "A Bill Evans Reader",
+    "album": "Paperback and eBook",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-02",
+    "last_checked": "2026-03-02"
   }
 }
