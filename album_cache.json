@@ -4822,5 +4822,29 @@
     "apple_music_link": "https://music.apple.com/us/album/fortune-telling/1853255238?uo=4",
     "first_seen": "2026-03-03",
     "last_checked": "2026-03-03"
+  },
+  "the blackbyrds||dreaming about you": {
+    "artist": "The Blackbyrds",
+    "album": "Dreaming About You",
+    "album_link": "https://album.link/i/1444019076",
+    "apple_music_link": "https://music.apple.com/us/album/action/1444019076?uo=4",
+    "first_seen": "2026-03-04",
+    "last_checked": "2026-03-04"
+  },
+  "brethren||outside love": {
+    "artist": "Brethren",
+    "album": "Outside Love",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-04",
+    "last_checked": "2026-03-04"
+  },
+  "harold vick||don't look back": {
+    "artist": "Harold Vick",
+    "album": "Don't Look Back",
+    "album_link": "https://album.link/i/1800569355",
+    "apple_music_link": "https://music.apple.com/us/album/dont-look-back/1800569355?uo=4",
+    "first_seen": "2026-03-04",
+    "last_checked": "2026-03-04"
   }
 }
