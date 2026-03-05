@@ -4846,5 +4846,45 @@
     "apple_music_link": "https://music.apple.com/us/album/dont-look-back/1800569355?uo=4",
     "first_seen": "2026-03-04",
     "last_checked": "2026-03-04"
+  },
+  "walter smith iii||twio vol. 2": {
+    "artist": "Walter Smith III",
+    "album": "Twio Vol. 2",
+    "album_link": "https://album.link/i/1866779538",
+    "apple_music_link": "https://music.apple.com/us/album/twio-vol-2/1866779538?uo=4",
+    "first_seen": "2026-03-05",
+    "last_checked": "2026-03-05"
+  },
+  "danny gatton||live at the holiday inn 1987": {
+    "artist": "Danny Gatton",
+    "album": "Live at the Holiday Inn 1987",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-05",
+    "last_checked": "2026-03-05"
+  },
+  "tina carr||moon over mildmay": {
+    "artist": "Tina Carr",
+    "album": "Moon Over Mildmay",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-05",
+    "last_checked": "2026-03-05"
+  },
+  "seth andrew davis and emas||cybersyn: live from the stray cat film center": {
+    "artist": "Seth Andrew Davis and EMAS",
+    "album": "Cybersyn: Live From the Stray Cat Film Center",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-05",
+    "last_checked": "2026-03-05"
+  },
+  "atempo||callejón de la habana": {
+    "artist": "Atempo",
+    "album": "Callejón de la Habana",
+    "album_link": "https://album.link/i/1857608514",
+    "apple_music_link": "https://music.apple.com/us/album/callej%C3%B3n-de-la-habana-single/1857608514?uo=4",
+    "first_seen": "2026-03-05",
+    "last_checked": "2026-03-05"
   }
 }
