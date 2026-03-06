@@ -4886,5 +4886,37 @@
     "apple_music_link": "https://music.apple.com/us/album/callej%C3%B3n-de-la-habana-single/1857608514?uo=4",
     "first_seen": "2026-03-05",
     "last_checked": "2026-03-05"
+  },
+  "string trio of new york with paul kane||intimations": {
+    "artist": "String Trio of New York with Paul Kane",
+    "album": "Intimations",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-06",
+    "last_checked": "2026-03-06"
+  },
+  "leo genovese||solo brooklyn": {
+    "artist": "Leo Genovese",
+    "album": "Solo Brooklyn",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-06",
+    "last_checked": "2026-03-06"
+  },
+  "dave adewumi||the flame beneath the silence": {
+    "artist": "Dave Adewumi",
+    "album": "The Flame Beneath the Silence",
+    "album_link": "https://album.link/i/1871589670",
+    "apple_music_link": "https://music.apple.com/us/album/the-flame-beneath-the-silence-single/1871589670?uo=4",
+    "first_seen": "2026-03-06",
+    "last_checked": "2026-03-06"
+  },
+  "danny gatton||danny gatton and funhouse - live at the holiday inn 1987": {
+    "artist": "Danny Gatton",
+    "album": "Danny Gatton and Funhouse - Live at the Holiday Inn 1987",
+    "album_link": "https://album.link/i/1836571807",
+    "apple_music_link": "https://music.apple.com/us/album/take-the-a-train-single/1836571807?uo=4",
+    "first_seen": "2026-03-06",
+    "last_checked": "2026-03-06"
   }
 }
