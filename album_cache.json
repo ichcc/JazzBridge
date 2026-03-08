@@ -4950,5 +4950,29 @@
     "apple_music_link": "https://music.apple.com/us/album/do-me-right/1733326360?uo=4",
     "first_seen": "2026-03-07",
     "last_checked": "2026-03-07"
+  },
+  "dave mattock||knucklebox": {
+    "artist": "Dave Mattock",
+    "album": "Knucklebox",
+    "album_link": "https://album.link/i/1800295427",
+    "apple_music_link": "https://music.apple.com/us/album/knucklebox/1800295427?uo=4",
+    "first_seen": "2026-03-08",
+    "last_checked": "2026-03-08"
+  },
+  "adam berenson||everything that no one ever saw": {
+    "artist": "Adam Berenson",
+    "album": "Everything That No One Ever Saw",
+    "album_link": "https://album.link/i/1811466208",
+    "apple_music_link": "https://music.apple.com/us/album/adam-berenson-everything-that-no-one-ever-saw/1811466208?uo=4",
+    "first_seen": "2026-03-08",
+    "last_checked": "2026-03-08"
+  },
+  "gebhard ullmann||new conference call": {
+    "artist": "Gebhard Ullmann",
+    "album": "New Conference Call",
+    "album_link": "https://album.link/i/305838679",
+    "apple_music_link": "https://music.apple.com/us/album/conference-call-final-answer/305838679?uo=4",
+    "first_seen": "2026-03-08",
+    "last_checked": "2026-03-08"
   }
 }
