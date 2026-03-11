@@ -5062,5 +5062,61 @@
     "apple_music_link": null,
     "first_seen": "2026-03-10",
     "last_checked": "2026-03-10"
+  },
+  "frode kjekstad qrt||stars aligned": {
+    "artist": "Frode Kjekstad Qrt",
+    "album": "Stars Aligned",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-11",
+    "last_checked": "2026-03-11"
+  },
+  "javier nero jazz orchestra||alkebulan": {
+    "artist": "Javier Nero Jazz Orchestra",
+    "album": "Alkebulan",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-11",
+    "last_checked": "2026-03-11"
+  },
+  "vince guaraldi and bola sete||from all sides": {
+    "artist": "Vince Guaraldi and Bola Sete",
+    "album": "From All Sides",
+    "album_link": "https://album.link/i/1872793031",
+    "apple_music_link": "https://music.apple.com/us/album/from-all-sides-remastered-2026/1872793031?uo=4",
+    "first_seen": "2026-03-11",
+    "last_checked": "2026-03-11"
+  },
+  "anthony branker||manifestations of a diasporic groove and spirit": {
+    "artist": "Anthony Branker",
+    "album": "Manifestations of a Diasporic Groove and Spirit",
+    "album_link": "https://album.link/i/1874049542",
+    "apple_music_link": "https://music.apple.com/us/album/manifestations-of-a-diasporic-groove-spirit/1874049542?uo=4",
+    "first_seen": "2026-03-11",
+    "last_checked": "2026-03-11"
+  },
+  "josh archiron||climbing": {
+    "artist": "Josh Archiron",
+    "album": "Climbing",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-11",
+    "last_checked": "2026-03-11"
+  },
+  "frank lamphere||frank songs, my way: frank lamphere sings sinatra": {
+    "artist": "Frank Lamphere",
+    "album": "Frank Songs, My Way: Frank Lamphere Sings Sinatra",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-11",
+    "last_checked": "2026-03-11"
+  },
+  "kate olson||so it goes": {
+    "artist": "Kate Olson",
+    "album": "So It Goes",
+    "album_link": "https://album.link/i/1855819248",
+    "apple_music_link": "https://music.apple.com/us/album/so-it-goes/1855819248?uo=4",
+    "first_seen": "2026-03-11",
+    "last_checked": "2026-03-11"
   }
 }
