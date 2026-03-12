@@ -5118,5 +5118,21 @@
     "apple_music_link": "https://music.apple.com/us/album/so-it-goes/1855819248?uo=4",
     "first_seen": "2026-03-11",
     "last_checked": "2026-03-11"
+  },
+  "clare fischer||morning": {
+    "artist": "Clare Fischer",
+    "album": "Morning",
+    "album_link": "https://album.link/i/1673901539",
+    "apple_music_link": "https://music.apple.com/us/album/morning/1673901539?uo=4",
+    "first_seen": "2026-03-12",
+    "last_checked": "2026-03-12"
+  },
+  "cal tjader||morning": {
+    "artist": "Cal Tjader",
+    "album": "Morning",
+    "album_link": "https://album.link/i/1444117407",
+    "apple_music_link": "https://music.apple.com/us/album/soul-burst/1444117407?uo=4",
+    "first_seen": "2026-03-12",
+    "last_checked": "2026-03-12"
   }
 }
