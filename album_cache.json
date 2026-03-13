@@ -5134,5 +5134,29 @@
     "apple_music_link": "https://music.apple.com/us/album/soul-burst/1444117407?uo=4",
     "first_seen": "2026-03-12",
     "last_checked": "2026-03-12"
+  },
+  "frank sinatra||'swing easy!,' 1954": {
+    "artist": "Frank Sinatra",
+    "album": "'Swing Easy!,' 1954",
+    "album_link": "https://album.link/i/1442823623",
+    "apple_music_link": "https://music.apple.com/us/album/swing-easy/1442823623?uo=4",
+    "first_seen": "2026-03-13",
+    "last_checked": "2026-03-13"
+  },
+  "wsj||liza minnelli": {
+    "artist": "WSJ",
+    "album": "Liza Minnelli",
+    "album_link": "https://album.link/i/1224513927",
+    "apple_music_link": "https://music.apple.com/us/album/yes-originally-performed-by-liza-minnelli-karaoke-with/1224513927?uo=4",
+    "first_seen": "2026-03-13",
+    "last_checked": "2026-03-13"
+  },
+  "don ellis||'live at montreux,' 1977": {
+    "artist": "Don Ellis",
+    "album": "'Live at Montreux,' 1977",
+    "album_link": "https://album.link/i/76027967",
+    "apple_music_link": "https://music.apple.com/us/album/live-at-montreux/76027967?uo=4",
+    "first_seen": "2026-03-13",
+    "last_checked": "2026-03-13"
   }
 }
