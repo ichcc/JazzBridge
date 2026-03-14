@@ -5158,5 +5158,69 @@
     "apple_music_link": "https://music.apple.com/us/album/live-at-montreux/76027967?uo=4",
     "first_seen": "2026-03-13",
     "last_checked": "2026-03-13"
+  },
+  "dave stapleton||quiet fire": {
+    "artist": "Dave Stapleton",
+    "album": "Quiet Fire",
+    "album_link": "https://album.link/i/1854541308",
+    "apple_music_link": "https://music.apple.com/us/album/quiet-fire/1854541308?uo=4",
+    "first_seen": "2026-03-14",
+    "last_checked": "2026-03-14"
+  },
+  "carolyn trowbridge||found memories": {
+    "artist": "Carolyn Trowbridge",
+    "album": "Found Memories",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-14",
+    "last_checked": "2026-03-14"
+  },
+  "teresa james||bad at being good": {
+    "artist": "Teresa James",
+    "album": "Bad at Being Good",
+    "album_link": "https://album.link/i/1853836949",
+    "apple_music_link": "https://music.apple.com/us/album/bad-at-being-good/1853836949?uo=4",
+    "first_seen": "2026-03-14",
+    "last_checked": "2026-03-14"
+  },
+  "marilyn crispell, anders jormin||memento": {
+    "artist": "Marilyn Crispell, Anders Jormin",
+    "album": "Memento",
+    "album_link": "https://album.link/i/1872686388",
+    "apple_music_link": "https://music.apple.com/us/album/memento/1872686388?uo=4",
+    "first_seen": "2026-03-14",
+    "last_checked": "2026-03-14"
+  },
+  "willy rodriguez||in the unknown ( i will find you)": {
+    "artist": "Willy Rodriguez",
+    "album": "In The Unknown ( I Will Find You)",
+    "album_link": "https://album.link/i/1871032928",
+    "apple_music_link": "https://music.apple.com/us/album/in-the-unknown-i-will-find-you-feat-leo-genovese/1871032928?uo=4",
+    "first_seen": "2026-03-14",
+    "last_checked": "2026-03-14"
+  },
+  "five-way split||modus operandi": {
+    "artist": "Five-Way Split",
+    "album": "Modus Operandi",
+    "album_link": "https://album.link/i/1869189293",
+    "apple_music_link": "https://music.apple.com/us/album/modus-operandi-feat-quentin-collins-vasilis-xenopoulos/1869189293?uo=4",
+    "first_seen": "2026-03-14",
+    "last_checked": "2026-03-14"
+  },
+  "ben rosenblum||the longest way round": {
+    "artist": "Ben Rosenblum",
+    "album": "The Longest Way Round",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-14",
+    "last_checked": "2026-03-14"
+  },
+  "sarah l king||the light ahead": {
+    "artist": "Sarah L King",
+    "album": "The Light Ahead",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-14",
+    "last_checked": "2026-03-14"
   }
 }
