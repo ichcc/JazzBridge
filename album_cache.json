@@ -5222,5 +5222,37 @@
     "apple_music_link": null,
     "first_seen": "2026-03-14",
     "last_checked": "2026-03-14"
+  },
+  "eva novoa||solo (i)": {
+    "artist": "Eva Novoa",
+    "album": "Solo (I)",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-15",
+    "last_checked": "2026-03-15"
+  },
+  "olivia moore and adam fairhall||triangles": {
+    "artist": "Olivia Moore and Adam Fairhall",
+    "album": "Triangles",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-15",
+    "last_checked": "2026-03-15"
+  },
+  "rory gallagher||the best of rory gallagher at the bbc": {
+    "artist": "Rory Gallagher",
+    "album": "The Best of Rory Gallagher At The BBC",
+    "album_link": "https://album.link/i/1756715353",
+    "apple_music_link": "https://music.apple.com/us/album/the-best-of-rory-gallagher-at-the-bbc/1756715353?uo=4",
+    "first_seen": "2026-03-15",
+    "last_checked": "2026-03-15"
+  },
+  "willy rodriguez||in the unknown (i will find you)": {
+    "artist": "Willy Rodriguez",
+    "album": "In The Unknown (I Will Find You)",
+    "album_link": "https://album.link/i/1871032928",
+    "apple_music_link": "https://music.apple.com/us/album/in-the-unknown-i-will-find-you-feat-leo-genovese/1871032928?uo=4",
+    "first_seen": "2026-03-15",
+    "last_checked": "2026-03-15"
   }
 }
