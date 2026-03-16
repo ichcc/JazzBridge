@@ -5254,5 +5254,29 @@
     "apple_music_link": "https://music.apple.com/us/album/in-the-unknown-i-will-find-you-feat-leo-genovese/1871032928?uo=4",
     "first_seen": "2026-03-15",
     "last_checked": "2026-03-15"
+  },
+  "pat metheny||side-eye iii+": {
+    "artist": "Pat Metheny",
+    "album": "Side-Eye III+",
+    "album_link": "https://album.link/i/1855497478",
+    "apple_music_link": "https://music.apple.com/us/album/side-eye-iii/1855497478?uo=4",
+    "first_seen": "2026-03-16",
+    "last_checked": "2026-03-16"
+  },
+  "alicia hall moran||coldblooded": {
+    "artist": "Alicia Hall Moran",
+    "album": "Coldblooded",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-16",
+    "last_checked": "2026-03-16"
+  },
+  "joe block||solo piano vol. 1": {
+    "artist": "Joe Block",
+    "album": "Solo Piano Vol. 1",
+    "album_link": "https://album.link/i/1871580952",
+    "apple_music_link": "https://music.apple.com/us/album/solo-piano-vol-1/1871580952?uo=4",
+    "first_seen": "2026-03-16",
+    "last_checked": "2026-03-16"
   }
 }
