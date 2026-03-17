@@ -5278,5 +5278,29 @@
     "apple_music_link": "https://music.apple.com/us/album/solo-piano-vol-1/1871580952?uo=4",
     "first_seen": "2026-03-16",
     "last_checked": "2026-03-16"
+  },
+  "jasper høiby’s 3elements||conversations of hope": {
+    "artist": "Jasper Høiby’s 3Elements",
+    "album": "Conversations of Hope",
+    "album_link": "https://album.link/i/1868372595",
+    "apple_music_link": "https://music.apple.com/us/album/3elements-conversations-of-hope/1868372595?uo=4",
+    "first_seen": "2026-03-17",
+    "last_checked": "2026-03-17"
+  },
+  "matt greenwood||daybreak": {
+    "artist": "Matt Greenwood",
+    "album": "Daybreak",
+    "album_link": "https://album.link/i/1863189883",
+    "apple_music_link": "https://music.apple.com/us/album/daybreak/1863189883?uo=4",
+    "first_seen": "2026-03-17",
+    "last_checked": "2026-03-17"
+  },
+  "django festival allstars||evolution": {
+    "artist": "Django Festival Allstars",
+    "album": "Evolution",
+    "album_link": "https://album.link/i/1849800006",
+    "apple_music_link": "https://music.apple.com/us/album/evolution/1849800006?uo=4",
+    "first_seen": "2026-03-17",
+    "last_checked": "2026-03-17"
   }
 }
