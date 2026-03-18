@@ -5302,5 +5302,29 @@
     "apple_music_link": "https://music.apple.com/us/album/evolution/1849800006?uo=4",
     "first_seen": "2026-03-17",
     "last_checked": "2026-03-17"
+  },
+  "knats||a great day in newcastle": {
+    "artist": "Knats",
+    "album": "A Great Day In Newcastle",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-18",
+    "last_checked": "2026-03-18"
+  },
+  "art edmaiston / chad fowler||memphis mandala": {
+    "artist": "Art Edmaiston / Chad Fowler",
+    "album": "Memphis Mandala",
+    "album_link": "https://album.link/i/1874775709",
+    "apple_music_link": "https://music.apple.com/us/album/memphis-mandala-feat-chad-fowler-ra-kalam-bob-moses/1874775709?uo=4",
+    "first_seen": "2026-03-18",
+    "last_checked": "2026-03-18"
+  },
+  "dave schumacher and cubeye||agua con gas": {
+    "artist": "Dave Schumacher and Cubeye",
+    "album": "Agua con Gas",
+    "album_link": "https://album.link/i/1870703301",
+    "apple_music_link": "https://music.apple.com/us/album/agua-con-gas-single/1870703301?uo=4",
+    "first_seen": "2026-03-18",
+    "last_checked": "2026-03-18"
   }
 }
