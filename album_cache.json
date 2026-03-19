@@ -5326,5 +5326,21 @@
     "apple_music_link": "https://music.apple.com/us/album/agua-con-gas-single/1870703301?uo=4",
     "first_seen": "2026-03-18",
     "last_checked": "2026-03-18"
+  },
+  "tomeka reid quartet||dance! skip! hop!": {
+    "artist": "Tomeka Reid Quartet",
+    "album": "Dance! Skip! Hop!",
+    "album_link": "https://album.link/i/1038503691",
+    "apple_music_link": "https://music.apple.com/us/album/tomeka-reid-quartet/1038503691?uo=4",
+    "first_seen": "2026-03-19",
+    "last_checked": "2026-03-19"
+  },
+  "dave wilson||when even goes east": {
+    "artist": "Dave Wilson",
+    "album": "When Even Goes East",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/when-even-goes-east/1867315576?uo=4",
+    "first_seen": "2026-03-19",
+    "last_checked": "2026-03-19"
   }
 }
