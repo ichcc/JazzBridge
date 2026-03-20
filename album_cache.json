@@ -5342,5 +5342,29 @@
     "apple_music_link": "https://music.apple.com/us/album/when-even-goes-east/1867315576?uo=4",
     "first_seen": "2026-03-19",
     "last_checked": "2026-03-19"
+  },
+  "ella grace||figments": {
+    "artist": "Ella Grace",
+    "album": "Figments",
+    "album_link": "https://album.link/i/1870678132",
+    "apple_music_link": "https://music.apple.com/us/album/figments-feat-garrett-munz-aval-stanley-marion-mallard/1870678132?uo=4",
+    "first_seen": "2026-03-20",
+    "last_checked": "2026-03-20"
+  },
+  "gregory lewis||organ monk sings": {
+    "artist": "Gregory Lewis",
+    "album": "Organ Monk Sings",
+    "album_link": "https://album.link/i/1866728783",
+    "apple_music_link": "https://music.apple.com/us/album/organ-monk-sings-introducing-ms-raina-feat-raina-welch/1866728783?uo=4",
+    "first_seen": "2026-03-20",
+    "last_checked": "2026-03-20"
+  },
+  "francesca confortini and ryan mackenzie||mosaico": {
+    "artist": "Francesca Confortini and Ryan Mackenzie",
+    "album": "Mosaico",
+    "album_link": "https://album.link/i/1870617513",
+    "apple_music_link": "https://music.apple.com/us/album/mosaico/1870617513?uo=4",
+    "first_seen": "2026-03-20",
+    "last_checked": "2026-03-20"
   }
 }
