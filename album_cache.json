@@ -5366,5 +5366,53 @@
     "apple_music_link": "https://music.apple.com/us/album/mosaico/1870617513?uo=4",
     "first_seen": "2026-03-20",
     "last_checked": "2026-03-20"
+  },
+  "norman connors||you are my starship": {
+    "artist": "Norman Connors",
+    "album": "You Are My Starship",
+    "album_link": "https://album.link/i/904168508",
+    "apple_music_link": "https://music.apple.com/us/album/you-are-my-starship-bonus-track-version/904168508?uo=4",
+    "first_seen": "2026-03-21",
+    "last_checked": "2026-03-21"
+  },
+  "dee felice trio||there was a time": {
+    "artist": "Dee Felice Trio",
+    "album": "There Was A Time",
+    "album_link": "https://album.link/i/257757625",
+    "apple_music_link": "https://music.apple.com/us/album/in-heat/257757625?uo=4",
+    "first_seen": "2026-03-21",
+    "last_checked": "2026-03-21"
+  },
+  "jorge dalto||time for some changes": {
+    "artist": "Jorge Dalto",
+    "album": "Time For Some Changes",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-21",
+    "last_checked": "2026-03-21"
+  },
+  "sylvia striplin||give me your love": {
+    "artist": "Sylvia Striplin",
+    "album": "Give Me Your Love",
+    "album_link": "https://album.link/i/1702886885",
+    "apple_music_link": "https://music.apple.com/us/album/give-me-your-love-single/1702886885?uo=4",
+    "first_seen": "2026-03-21",
+    "last_checked": "2026-03-21"
+  },
+  "clare fischer||las lágrimas de thiers": {
+    "artist": "Clare Fischer",
+    "album": "Las Lágrimas De Thiers",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-21",
+    "last_checked": "2026-03-21"
+  },
+  "feedback||open up": {
+    "artist": "Feedback",
+    "album": "Open Up",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-21",
+    "last_checked": "2026-03-21"
   }
 }
