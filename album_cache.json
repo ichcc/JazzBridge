@@ -5414,5 +5414,37 @@
     "apple_music_link": null,
     "first_seen": "2026-03-21",
     "last_checked": "2026-03-21"
+  },
+  "raphaël pannier quartet||live in saint louis, senegal": {
+    "artist": "Raphaël Pannier Quartet",
+    "album": "Live In Saint Louis, Senegal",
+    "album_link": "https://album.link/i/1831793753",
+    "apple_music_link": "https://music.apple.com/us/album/live-in-saint-louis-senegal-feat-khadim-niang-sabar/1831793753?uo=4",
+    "first_seen": "2026-03-22",
+    "last_checked": "2026-03-22"
+  },
+  "the interplay jazz orchestra||bite your tongue": {
+    "artist": "The Interplay Jazz Orchestra",
+    "album": "Bite Your Tongue",
+    "album_link": "https://album.link/i/1863526081",
+    "apple_music_link": "https://music.apple.com/us/album/bite-your-tongue/1863526081?uo=4",
+    "first_seen": "2026-03-22",
+    "last_checked": "2026-03-22"
+  },
+  "immanuel wilkins quartet||immanuel wilkins quartet: live at the village vanguard": {
+    "artist": "Immanuel Wilkins Quartet",
+    "album": "Immanuel Wilkins Quartet: Live At The Village Vanguard",
+    "album_link": "https://album.link/i/1872550960",
+    "apple_music_link": "https://music.apple.com/us/album/immanuel-wilkins-quartet-live-at-the-village-vanguard/1872550960?uo=4",
+    "first_seen": "2026-03-22",
+    "last_checked": "2026-03-22"
+  },
+  "michael moody||the ecstasy of love": {
+    "artist": "Michael Moody",
+    "album": "The Ecstasy of Love",
+    "album_link": "https://album.link/i/1851618068",
+    "apple_music_link": "https://music.apple.com/us/album/the-ecstasy-of-love/1851618068?uo=4",
+    "first_seen": "2026-03-22",
+    "last_checked": "2026-03-22"
   }
 }
