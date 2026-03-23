@@ -5446,5 +5446,77 @@
     "apple_music_link": "https://music.apple.com/us/album/the-ecstasy-of-love/1851618068?uo=4",
     "first_seen": "2026-03-22",
     "last_checked": "2026-03-22"
+  },
+  "joe henderson||'tetragon,' 1967-'68": {
+    "artist": "Joe Henderson",
+    "album": "'Tetragon,' 1967-'68",
+    "album_link": "https://album.link/i/1442991684",
+    "apple_music_link": "https://music.apple.com/us/album/tetragon/1442991684?uo=4",
+    "first_seen": "2026-03-23",
+    "last_checked": "2026-03-23"
+  },
+  "wsj||kurt russell": {
+    "artist": "WSJ",
+    "album": "Kurt Russell",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-23",
+    "last_checked": "2026-03-23"
+  },
+  "editor's note||bette noire": {
+    "artist": "Editor's Note",
+    "album": "Bette Noire",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-23",
+    "last_checked": "2026-03-23"
+  },
+  "jim hall||'stitt plays bird,' 1963": {
+    "artist": "Jim Hall",
+    "album": "'Stitt Plays Bird,' 1963",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-23",
+    "last_checked": "2026-03-23"
+  },
+  "jim hall||'something's coming!,' 1963": {
+    "artist": "Jim Hall",
+    "album": "'Something's Coming!,' 1963",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-23",
+    "last_checked": "2026-03-23"
+  },
+  "jim hall||'7 pieces,' 1959": {
+    "artist": "Jim Hall",
+    "album": "'7 Pieces,' 1959",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-23",
+    "last_checked": "2026-03-23"
+  },
+  "jim hall||'7 x wilder,' 1961": {
+    "artist": "Jim Hall",
+    "album": "'7 x Wilder,' 1961",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-23",
+    "last_checked": "2026-03-23"
+  },
+  "jim hall||'live at the half-note,' 1963": {
+    "artist": "Jim Hall",
+    "album": "'Live at the Half-Note,' 1963",
+    "album_link": "https://album.link/i/322124494",
+    "apple_music_link": "https://music.apple.com/us/album/live-at-the-half-note-feat-jim-hall/322124494?uo=4",
+    "first_seen": "2026-03-23",
+    "last_checked": "2026-03-23"
+  },
+  "editor's note||the smell of vinyl": {
+    "artist": "Editor's Note",
+    "album": "The Smell of Vinyl",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-23",
+    "last_checked": "2026-03-23"
   }
 }
