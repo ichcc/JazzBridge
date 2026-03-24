@@ -5518,5 +5518,45 @@
     "apple_music_link": null,
     "first_seen": "2026-03-23",
     "last_checked": "2026-03-23"
+  },
+  "maria schneider orchestra||american crow": {
+    "artist": "Maria Schneider Orchestra",
+    "album": "American Crow",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-24",
+    "last_checked": "2026-03-24"
+  },
+  "pat bianchi||confluence": {
+    "artist": "Pat Bianchi",
+    "album": "Confluence",
+    "album_link": "https://album.link/i/1871047066",
+    "apple_music_link": "https://music.apple.com/us/album/confluence-feat-troy-roberts-colin-stranahan/1871047066?uo=4",
+    "first_seen": "2026-03-24",
+    "last_checked": "2026-03-24"
+  },
+  "art pepper||everything happens to me 1959 - live at the cellar": {
+    "artist": "Art Pepper",
+    "album": "Everything Happens to Me 1959 - Live at the Cellar",
+    "album_link": "https://album.link/i/1866795675",
+    "apple_music_link": "https://music.apple.com/us/album/everything-happens-to-me-1959-live-at-the-cellar/1866795675?uo=4",
+    "first_seen": "2026-03-24",
+    "last_checked": "2026-03-24"
+  },
+  "niklas lukassen||still waters": {
+    "artist": "Niklas Lukassen",
+    "album": "Still Waters",
+    "album_link": "https://album.link/i/1857817383",
+    "apple_music_link": "https://music.apple.com/us/album/still-waters-feat-kit-downes-ben-van-gelder-francesco/1857817383?uo=4",
+    "first_seen": "2026-03-24",
+    "last_checked": "2026-03-24"
+  },
+  "brian eley and ashley wales||songs": {
+    "artist": "Brian Eley and Ashley Wales",
+    "album": "Songs",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-24",
+    "last_checked": "2026-03-24"
   }
 }
