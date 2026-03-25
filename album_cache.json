@@ -5558,5 +5558,29 @@
     "apple_music_link": null,
     "first_seen": "2026-03-24",
     "last_checked": "2026-03-24"
+  },
+  "tomorrow’s people||open soul": {
+    "artist": "Tomorrow’s People",
+    "album": "Open Soul",
+    "album_link": "https://album.link/i/1198155968",
+    "apple_music_link": "https://music.apple.com/us/album/open-soul/1198155968?uo=4",
+    "first_seen": "2026-03-25",
+    "last_checked": "2026-03-25"
+  },
+  "the counts||what's up front that-counts": {
+    "artist": "The Counts",
+    "album": "What's Up Front That-Counts",
+    "album_link": "https://album.link/i/1844322138",
+    "apple_music_link": "https://music.apple.com/us/album/whats-up-front-that-counts-2023-remastered/1844322138?uo=4",
+    "first_seen": "2026-03-25",
+    "last_checked": "2026-03-25"
+  },
+  "sapphire||come and dance with me": {
+    "artist": "Sapphire",
+    "album": "Come And Dance With Me",
+    "album_link": "https://album.link/i/1668437008",
+    "apple_music_link": "https://music.apple.com/us/album/come-away-with-esg/1668437008?uo=4",
+    "first_seen": "2026-03-25",
+    "last_checked": "2026-03-25"
   }
 }
