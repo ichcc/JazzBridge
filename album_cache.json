@@ -5582,5 +5582,45 @@
     "apple_music_link": "https://music.apple.com/us/album/come-away-with-esg/1668437008?uo=4",
     "first_seen": "2026-03-25",
     "last_checked": "2026-03-25"
+  },
+  "shawn lovato||biotic": {
+    "artist": "Shawn Lovato",
+    "album": "Biotic",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/biotic/1842199689?uo=4",
+    "first_seen": "2026-03-26",
+    "last_checked": "2026-03-26"
+  },
+  "paul cosentino's boilermaker jazz band||everything is jumpin'": {
+    "artist": "Paul Cosentino's Boilermaker Jazz Band",
+    "album": "Everything is Jumpin'",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-26",
+    "last_checked": "2026-03-26"
+  },
+  "alexa tarantino||the roar and the whisper": {
+    "artist": "Alexa Tarantino",
+    "album": "The Roar and the Whisper",
+    "album_link": "https://album.link/i/1818148340",
+    "apple_music_link": "https://music.apple.com/us/album/the-roar-and-the-whisper/1818148340?uo=4",
+    "first_seen": "2026-03-26",
+    "last_checked": "2026-03-26"
+  },
+  "ona||traces of brazil voices of toronto": {
+    "artist": "Ona",
+    "album": "Traces of Brazil Voices of Toronto",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-26",
+    "last_checked": "2026-03-26"
+  },
+  "paul vornhagen||joy of the mambo": {
+    "artist": "Paul Vornhagen",
+    "album": "Joy of the Mambo",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-26",
+    "last_checked": "2026-03-26"
   }
 }
