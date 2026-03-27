@@ -5622,5 +5622,29 @@
     "apple_music_link": null,
     "first_seen": "2026-03-26",
     "last_checked": "2026-03-26"
+  },
+  "hannah horton||stories on the wind": {
+    "artist": "Hannah Horton",
+    "album": "Stories On The Wind",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/stories-on-the-wind/1870705072?uo=4",
+    "first_seen": "2026-03-27",
+    "last_checked": "2026-03-27"
+  },
+  "javon jackson||jackson plays dylan": {
+    "artist": "Javon Jackson",
+    "album": "Jackson Plays Dylan",
+    "album_link": "https://album.link/i/1872126243",
+    "apple_music_link": "https://music.apple.com/us/album/jackson-plays-dylan/1872126243?uo=4",
+    "first_seen": "2026-03-27",
+    "last_checked": "2026-03-27"
+  },
+  "yelena eckemoff||rosendals garden": {
+    "artist": "Yelena Eckemoff",
+    "album": "Rosendals Garden",
+    "album_link": "https://album.link/i/1838563170",
+    "apple_music_link": "https://music.apple.com/us/album/rosendals-garden-feat-svante-henryson-morgan-%C3%A5gren-single/1838563170?uo=4",
+    "first_seen": "2026-03-27",
+    "last_checked": "2026-03-27"
   }
 }
