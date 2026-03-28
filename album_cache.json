@@ -5646,5 +5646,37 @@
     "apple_music_link": "https://music.apple.com/us/album/rosendals-garden-feat-svante-henryson-morgan-%C3%A5gren-single/1838563170?uo=4",
     "first_seen": "2026-03-27",
     "last_checked": "2026-03-27"
+  },
+  "editor's note||love, 56k modem style": {
+    "artist": "Editor's Note",
+    "album": "Love, 56K Modem Style",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-28",
+    "last_checked": "2026-03-28"
+  },
+  "new music of note||march": {
+    "artist": "New Music of Note",
+    "album": "March",
+    "album_link": "https://album.link/i/479082366",
+    "apple_music_link": "https://music.apple.com/us/album/50-of-the-best-chopin/479082366?uo=4",
+    "first_seen": "2026-03-28",
+    "last_checked": "2026-03-28"
+  },
+  "marion evans||13 killer arrangements": {
+    "artist": "Marion Evans",
+    "album": "13 Killer Arrangements",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-28",
+    "last_checked": "2026-03-28"
+  },
+  "ahmad jamal||'at the jazz showcase,' 1976": {
+    "artist": "Ahmad Jamal",
+    "album": "'At the Jazz Showcase,' 1976",
+    "album_link": "https://album.link/i/1671939452",
+    "apple_music_link": "https://music.apple.com/us/album/chicago-revisited-live-at-joe-segals-jazz-showcase/1671939452?uo=4",
+    "first_seen": "2026-03-28",
+    "last_checked": "2026-03-28"
   }
 }
