@@ -5678,5 +5678,29 @@
     "apple_music_link": "https://music.apple.com/us/album/chicago-revisited-live-at-joe-segals-jazz-showcase/1671939452?uo=4",
     "first_seen": "2026-03-28",
     "last_checked": "2026-03-28"
+  },
+  "right track||stranger in town": {
+    "artist": "Right Track",
+    "album": "Stranger In Town",
+    "album_link": "https://album.link/i/1440888092",
+    "apple_music_link": "https://music.apple.com/us/album/stranger-in-town/1440888092?uo=4",
+    "first_seen": "2026-03-29",
+    "last_checked": "2026-03-29"
+  },
+  "ike quebec||blue & sentimental": {
+    "artist": "Ike Quebec",
+    "album": "Blue & Sentimental",
+    "album_link": "https://album.link/i/1443275178",
+    "apple_music_link": "https://music.apple.com/us/album/blue-sentimental/1443275178?uo=4",
+    "first_seen": "2026-03-29",
+    "last_checked": "2026-03-29"
+  },
+  "100% pure poison||puppet on a chain": {
+    "artist": "100% Pure Poison",
+    "album": "Puppet On A Chain",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-03-29",
+    "last_checked": "2026-03-29"
   }
 }
