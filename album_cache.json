@@ -5886,5 +5886,29 @@
     "apple_music_link": null,
     "first_seen": "2026-04-01",
     "last_checked": "2026-04-01"
+  },
+  "jeremy sassoon||older and wiser": {
+    "artist": "Jeremy Sassoon",
+    "album": "Older And Wiser",
+    "album_link": "https://album.link/i/1876854572",
+    "apple_music_link": "https://music.apple.com/us/album/older-and-wiser/1876854572?uo=4",
+    "first_seen": "2026-04-02",
+    "last_checked": "2026-04-02"
+  },
+  "josh achiron||climbing": {
+    "artist": "Josh Achiron",
+    "album": "Climbing",
+    "album_link": "https://album.link/i/1874507566",
+    "apple_music_link": "https://music.apple.com/us/album/climbing/1874507566?uo=4",
+    "first_seen": "2026-04-02",
+    "last_checked": "2026-04-02"
+  },
+  "caroline davis||fallows": {
+    "artist": "Caroline Davis",
+    "album": "Fallows",
+    "album_link": "https://album.link/i/1868808965",
+    "apple_music_link": "https://music.apple.com/us/album/fallows/1868808965?uo=4",
+    "first_seen": "2026-04-02",
+    "last_checked": "2026-04-02"
   }
 }
