@@ -5910,5 +5910,29 @@
     "apple_music_link": "https://music.apple.com/us/album/fallows/1868808965?uo=4",
     "first_seen": "2026-04-02",
     "last_checked": "2026-04-02"
+  },
+  "ben wendel||barcode": {
+    "artist": "Ben Wendel",
+    "album": "BaRcoDe",
+    "album_link": "https://album.link/i/1868367675",
+    "apple_music_link": "https://music.apple.com/us/album/barcode/1868367675?uo=4",
+    "first_seen": "2026-04-03",
+    "last_checked": "2026-04-03"
+  },
+  "the messthetics and james brandon lewis||deface the currency": {
+    "artist": "The Messthetics and James Brandon Lewis",
+    "album": "Deface the Currency",
+    "album_link": "https://album.link/i/1861987393",
+    "apple_music_link": "https://music.apple.com/us/album/deface-the-currency/1861987393?uo=4",
+    "first_seen": "2026-04-03",
+    "last_checked": "2026-04-03"
+  },
+  "chad mccullough||watch as the echo falls": {
+    "artist": "Chad McCullough",
+    "album": "Watch As The Echo Falls",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-03",
+    "last_checked": "2026-04-03"
   }
 }
