@@ -5934,5 +5934,37 @@
     "apple_music_link": null,
     "first_seen": "2026-04-03",
     "last_checked": "2026-04-03"
+  },
+  "boogaloo joe jones||right on brother": {
+    "artist": "Boogaloo Joe Jones",
+    "album": "Right On Brother",
+    "album_link": "https://album.link/i/1443114097",
+    "apple_music_link": "https://music.apple.com/us/album/right-on-brother-rvg-remaster/1443114097?uo=4",
+    "first_seen": "2026-04-04",
+    "last_checked": "2026-04-04"
+  },
+  "baby huey||hard times": {
+    "artist": "Baby Huey",
+    "album": "Hard Times",
+    "album_link": "https://album.link/i/1552075387",
+    "apple_music_link": "https://music.apple.com/us/album/the-baby-huey-story-the-living-legend-expanded-edition/1552075387?uo=4",
+    "first_seen": "2026-04-04",
+    "last_checked": "2026-04-04"
+  },
+  "coleridge-taylor perkinson||where do i go from here?": {
+    "artist": "Coleridge-Taylor Perkinson",
+    "album": "Where Do I Go From Here?",
+    "album_link": "https://album.link/i/1025032999",
+    "apple_music_link": "https://music.apple.com/us/album/lil-lite-o-mine-flute-music-by-composers-of-african-descent/1025032999?uo=4",
+    "first_seen": "2026-04-04",
+    "last_checked": "2026-04-04"
+  },
+  "bobby hutcherson & harold land||san francisco": {
+    "artist": "Bobby Hutcherson & Harold Land",
+    "album": "San Francisco",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-04",
+    "last_checked": "2026-04-04"
   }
 }
