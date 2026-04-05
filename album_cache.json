@@ -5966,5 +5966,53 @@
     "apple_music_link": null,
     "first_seen": "2026-04-04",
     "last_checked": "2026-04-04"
+  },
+  "lars danielsson liberetto||echomyr": {
+    "artist": "Lars Danielsson Liberetto",
+    "album": "Echomyr",
+    "album_link": "https://album.link/i/1871121990",
+    "apple_music_link": "https://music.apple.com/us/album/liberetto-v-echomyr-with-magnus-%C3%B6str%C3%B6m-gregory-privat/1871121990?uo=4",
+    "first_seen": "2026-04-05",
+    "last_checked": "2026-04-05"
+  },
+  "giovanni hidalgo||jubilation": {
+    "artist": "Giovanni Hidalgo",
+    "album": "Jubilation",
+    "album_link": "https://album.link/i/1763999848",
+    "apple_music_link": "https://music.apple.com/us/album/jubilation/1763999848?uo=4",
+    "first_seen": "2026-04-05",
+    "last_checked": "2026-04-05"
+  },
+  "brian landrus||just when you think you know": {
+    "artist": "Brian Landrus",
+    "album": "Just When You Think You Know",
+    "album_link": "https://album.link/i/1862592660",
+    "apple_music_link": "https://music.apple.com/us/album/just-when-you-think-you-know/1862592660?uo=4",
+    "first_seen": "2026-04-05",
+    "last_checked": "2026-04-05"
+  },
+  "arvind ramdas||here we go": {
+    "artist": "Arvind Ramdas",
+    "album": "Here We Go",
+    "album_link": "https://album.link/i/1867842269",
+    "apple_music_link": "https://music.apple.com/us/album/here-we-go/1867842269?uo=4",
+    "first_seen": "2026-04-05",
+    "last_checked": "2026-04-05"
+  },
+  "bobby selvaggio||red rhinoceros": {
+    "artist": "Bobby Selvaggio",
+    "album": "Red Rhinoceros",
+    "album_link": "https://album.link/i/1890580175",
+    "apple_music_link": "https://music.apple.com/us/album/red-rhinoceros/1890580175?uo=4",
+    "first_seen": "2026-04-05",
+    "last_checked": "2026-04-05"
+  },
+  "bob reynolds||eddie told me so": {
+    "artist": "Bob Reynolds",
+    "album": "Eddie Told Me So",
+    "album_link": "https://album.link/i/1872556748",
+    "apple_music_link": "https://music.apple.com/us/album/eddie-told-me-so/1872556748?uo=4",
+    "first_seen": "2026-04-05",
+    "last_checked": "2026-04-05"
   }
 }
