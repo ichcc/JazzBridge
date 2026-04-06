@@ -6014,5 +6014,61 @@
     "apple_music_link": "https://music.apple.com/us/album/eddie-told-me-so/1872556748?uo=4",
     "first_seen": "2026-04-05",
     "last_checked": "2026-04-05"
+  },
+  "charles tolliver||'right now....and then,' 1968": {
+    "artist": "Charles Tolliver",
+    "album": "'Right Now....and Then,' 1968",
+    "album_link": "https://album.link/i/1798270208",
+    "apple_music_link": "https://music.apple.com/us/album/charles-tolliver-all-stars-right-now-and-then/1798270208?uo=4",
+    "first_seen": "2026-04-06",
+    "last_checked": "2026-04-06"
+  },
+  "editor's note||laura nyro's flaw": {
+    "artist": "Editor's Note",
+    "album": "Laura Nyro's Flaw",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-06",
+    "last_checked": "2026-04-06"
+  },
+  "wsj||fab 5 freddy": {
+    "artist": "WSJ",
+    "album": "Fab 5 Freddy",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-06",
+    "last_checked": "2026-04-06"
+  },
+  "astrud gilberto||7 new videos": {
+    "artist": "Astrud Gilberto",
+    "album": "7 New Videos",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-06",
+    "last_checked": "2026-04-06"
+  },
+  "yusef lateef||'live at the jazz showcase,' 1975": {
+    "artist": "Yusef Lateef",
+    "album": "'Live at the Jazz Showcase,' 1975",
+    "album_link": "https://album.link/i/1876516628",
+    "apple_music_link": "https://music.apple.com/us/album/eboness-live-at-the-jazz-showcase-june-1975-ep/1876516628?uo=4",
+    "first_seen": "2026-04-06",
+    "last_checked": "2026-04-06"
+  },
+  "bill evans||'at the bbc,' 1965": {
+    "artist": "Bill Evans",
+    "album": "'At the BBC,' 1965",
+    "album_link": "https://album.link/i/1463072287",
+    "apple_music_link": "https://music.apple.com/us/album/the-sun-room/1463072287?uo=4",
+    "first_seen": "2026-04-06",
+    "last_checked": "2026-04-06"
+  },
+  "wsj||alex bregman": {
+    "artist": "WSJ",
+    "album": "Alex Bregman",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-06",
+    "last_checked": "2026-04-06"
   }
 }
