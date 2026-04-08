@@ -6118,5 +6118,29 @@
     "apple_music_link": "https://music.apple.com/us/album/very-early-remembering-bill-evans/1832976332?uo=4",
     "first_seen": "2026-04-07",
     "last_checked": "2026-04-07"
+  },
+  "young-holt unlimited||rubber lips": {
+    "artist": "Young-Holt Unlimited",
+    "album": "Rubber Lips",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-08",
+    "last_checked": "2026-04-08"
+  },
+  "gloria scott||what am i gonna do": {
+    "artist": "Gloria Scott",
+    "album": "What Am I Gonna Do",
+    "album_link": "https://album.link/i/1443587870",
+    "apple_music_link": "https://music.apple.com/us/album/what-am-i-gonna-do/1443587870?uo=4",
+    "first_seen": "2026-04-08",
+    "last_checked": "2026-04-08"
+  },
+  "carol anderson||party people (come to life)": {
+    "artist": "Carol Anderson",
+    "album": "Party People (Come To Life)",
+    "album_link": "https://album.link/i/605255925",
+    "apple_music_link": "https://music.apple.com/us/album/joy-to-the-world/605255925?uo=4",
+    "first_seen": "2026-04-08",
+    "last_checked": "2026-04-08"
   }
 }
