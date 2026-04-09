@@ -6142,5 +6142,21 @@
     "apple_music_link": "https://music.apple.com/us/album/joy-to-the-world/605255925?uo=4",
     "first_seen": "2026-04-08",
     "last_checked": "2026-04-08"
+  },
+  "bud shank||'holiday in brazil,' 1958": {
+    "artist": "Bud Shank",
+    "album": "'Holiday in Brazil,' 1958",
+    "album_link": "https://album.link/i/1480731287",
+    "apple_music_link": "https://music.apple.com/us/album/bossa-nova-jazz-samba/1480731287?uo=4",
+    "first_seen": "2026-04-09",
+    "last_checked": "2026-04-09"
+  },
+  "mal waldron||'at the jazz showcase,' 1979": {
+    "artist": "Mal Waldron",
+    "album": "'At the Jazz Showcase,' 1979",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-09",
+    "last_checked": "2026-04-09"
   }
 }
