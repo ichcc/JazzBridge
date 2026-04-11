@@ -6230,5 +6230,29 @@
     "apple_music_link": null,
     "first_seen": "2026-04-10",
     "last_checked": "2026-04-10"
+  },
+  "marilyn crispell / anders jormin||memento": {
+    "artist": "Marilyn Crispell / Anders Jormin",
+    "album": "Memento",
+    "album_link": "https://album.link/i/1872686388",
+    "apple_music_link": "https://music.apple.com/us/album/memento/1872686388?uo=4",
+    "first_seen": "2026-04-11",
+    "last_checked": "2026-04-11"
+  },
+  "manu delago and max zt||deuce": {
+    "artist": "Manu Delago and Max ZT",
+    "album": "Deuce",
+    "album_link": "https://album.link/i/1868563738",
+    "apple_music_link": "https://music.apple.com/us/album/deuce/1868563738?uo=4",
+    "first_seen": "2026-04-11",
+    "last_checked": "2026-04-11"
+  },
+  "gil livni||all in": {
+    "artist": "Gil Livni",
+    "album": "All In",
+    "album_link": "https://album.link/i/1855819590",
+    "apple_music_link": "https://music.apple.com/us/album/all-in/1855819590?uo=4",
+    "first_seen": "2026-04-11",
+    "last_checked": "2026-04-11"
   }
 }
