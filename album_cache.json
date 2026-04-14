@@ -6390,5 +6390,45 @@
     "apple_music_link": "https://music.apple.com/us/album/two-nights-live/1829982092?uo=4",
     "first_seen": "2026-04-13",
     "last_checked": "2026-04-13"
+  },
+  "the har-you percussion group||welcome to the party": {
+    "artist": "The Har-You Percussion Group",
+    "album": "Welcome To The Party",
+    "album_link": "https://album.link/i/1838373819",
+    "apple_music_link": "https://music.apple.com/us/album/welcome-to-the-party-remix-feat-skepta-single/1838373819?uo=4",
+    "first_seen": "2026-04-14",
+    "last_checked": "2026-04-14"
+  },
+  "shades of brown||s.o.b.": {
+    "artist": "Shades Of Brown",
+    "album": "S.O.B.",
+    "album_link": "https://album.link/i/1502492399",
+    "apple_music_link": "https://music.apple.com/us/album/s-o-b/1502492399?uo=4",
+    "first_seen": "2026-04-14",
+    "last_checked": "2026-04-14"
+  },
+  "feedback||gangway": {
+    "artist": "Feedback",
+    "album": "Gangway",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-14",
+    "last_checked": "2026-04-14"
+  },
+  "iliad||sapphire house": {
+    "artist": "Iliad",
+    "album": "Sapphire House",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-14",
+    "last_checked": "2026-04-14"
+  },
+  "labi siffre||i got the": {
+    "artist": "Labi Siffre",
+    "album": "I Got The",
+    "album_link": "https://album.link/i/1389736109",
+    "apple_music_link": "https://music.apple.com/us/album/i-got-the-single/1389736109?uo=4",
+    "first_seen": "2026-04-14",
+    "last_checked": "2026-04-14"
   }
 }
