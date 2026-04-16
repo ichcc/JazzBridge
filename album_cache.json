@@ -6478,5 +6478,37 @@
     "apple_music_link": "https://music.apple.com/us/album/storytellers/1849159446?uo=4",
     "first_seen": "2026-04-15",
     "last_checked": "2026-04-15"
+  },
+  "adam o'farrill||elephant": {
+    "artist": "Adam O'Farrill",
+    "album": "Elephant",
+    "album_link": "https://album.link/i/1856534765",
+    "apple_music_link": "https://music.apple.com/us/album/elephant/1856534765?uo=4",
+    "first_seen": "2026-04-16",
+    "last_checked": "2026-04-16"
+  },
+  "revolutionary snake ensemble||serpentine": {
+    "artist": "Revolutionary Snake Ensemble",
+    "album": "Serpentine",
+    "album_link": "https://album.link/i/1833315380",
+    "apple_music_link": "https://music.apple.com/us/album/serpentine/1833315380?uo=4",
+    "first_seen": "2026-04-16",
+    "last_checked": "2026-04-16"
+  },
+  "hendrik meurkens||samba tonto": {
+    "artist": "Hendrik Meurkens",
+    "album": "Samba Tonto",
+    "album_link": "https://album.link/i/1860636715",
+    "apple_music_link": "https://music.apple.com/us/album/samba-tonto/1860636715?uo=4",
+    "first_seen": "2026-04-16",
+    "last_checked": "2026-04-16"
+  },
+  "michel petrucciani||kuumbwa": {
+    "artist": "Michel Petrucciani",
+    "album": "Kuumbwa",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-16",
+    "last_checked": "2026-04-16"
   }
 }
