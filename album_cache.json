@@ -6510,5 +6510,37 @@
     "apple_music_link": null,
     "first_seen": "2026-04-16",
     "last_checked": "2026-04-16"
+  },
+  "bill evans||at the bbc 1965": {
+    "artist": "Bill Evans",
+    "album": "At The BBC 1965",
+    "album_link": "https://album.link/i/1440926338",
+    "apple_music_link": "https://music.apple.com/us/album/sunday-at-the-village-vanguard-keepnews-collection-live/1440926338?uo=4",
+    "first_seen": "2026-04-17",
+    "last_checked": "2026-04-17"
+  },
+  "mehmet ali sanlikol||the electric oud man speaks and you listen…": {
+    "artist": "Mehmet Ali Sanlikol",
+    "album": "The Electric Oud Man Speaks And You Listen…",
+    "album_link": "https://album.link/i/1866023051",
+    "apple_music_link": "https://music.apple.com/us/album/the-electric-oud-man-speaks-and-you-listen/1866023051?uo=4",
+    "first_seen": "2026-04-17",
+    "last_checked": "2026-04-17"
+  },
+  "oscar peterson trio||the oscar peterson trio at baker's keyboard lounge": {
+    "artist": "Oscar Peterson Trio",
+    "album": "The Oscar Peterson Trio at Baker's Keyboard Lounge",
+    "album_link": "https://album.link/i/1877933860",
+    "apple_music_link": "https://music.apple.com/us/album/at-bakers-keyboard-lounge-the-complete-recordings/1877933860?uo=4",
+    "first_seen": "2026-04-17",
+    "last_checked": "2026-04-17"
+  },
+  "andrés coll||ride to heaven": {
+    "artist": "Andrés Coll",
+    "album": "Ride to Heaven",
+    "album_link": "https://album.link/i/1872341573",
+    "apple_music_link": "https://music.apple.com/us/album/ride-to-heaven/1872341573?uo=4",
+    "first_seen": "2026-04-17",
+    "last_checked": "2026-04-17"
   }
 }
