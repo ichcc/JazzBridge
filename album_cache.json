@@ -6542,5 +6542,69 @@
     "apple_music_link": "https://music.apple.com/us/album/ride-to-heaven/1872341573?uo=4",
     "first_seen": "2026-04-17",
     "last_checked": "2026-04-17"
+  },
+  "editor's note||some other spring": {
+    "artist": "Editor's Note",
+    "album": "Some Other Spring",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-18",
+    "last_checked": "2026-04-18"
+  },
+  "bossa nova||'shank, donato and de valença,' 1965": {
+    "artist": "Bossa Nova",
+    "album": "'Shank, Donato and de Valença,' 1965",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-18",
+    "last_checked": "2026-04-18"
+  },
+  "freddie king||'feeling alright,' 1975": {
+    "artist": "Freddie King",
+    "album": "'Feeling Alright,' 1975",
+    "album_link": "https://album.link/i/1807857921",
+    "apple_music_link": "https://music.apple.com/us/album/live-at-liberty-hall-houston-texas-1971/1807857921?uo=4",
+    "first_seen": "2026-04-18",
+    "last_checked": "2026-04-18"
+  },
+  "bobby sanabria||'arsenio and beyond,' 2026": {
+    "artist": "Bobby Sanabria",
+    "album": "'Arsenio and Beyond,' 2026",
+    "album_link": "https://album.link/i/1876879023",
+    "apple_music_link": "https://music.apple.com/us/album/arsenio-and-beyond-full-album/1876879023?uo=4",
+    "first_seen": "2026-04-18",
+    "last_checked": "2026-04-18"
+  },
+  "shorty rogers||the father of jazzy tv themes": {
+    "artist": "Shorty Rogers",
+    "album": "The Father of Jazzy TV Themes",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-18",
+    "last_checked": "2026-04-18"
+  },
+  "editor's note||spring is near": {
+    "artist": "Editor's Note",
+    "album": "Spring Is Near",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-18",
+    "last_checked": "2026-04-18"
+  },
+  "documentary||ben webster in denmark, 1971": {
+    "artist": "Documentary",
+    "album": "Ben Webster in Denmark, 1971",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-18",
+    "last_checked": "2026-04-18"
+  },
+  "wsj||bryan cranston": {
+    "artist": "WSJ",
+    "album": "Bryan Cranston",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-18",
+    "last_checked": "2026-04-18"
   }
 }
