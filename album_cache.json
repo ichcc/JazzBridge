@@ -6654,5 +6654,37 @@
     "apple_music_link": null,
     "first_seen": "2026-04-19",
     "last_checked": "2026-04-19"
+  },
+  "soren bebe||gratitude": {
+    "artist": "Soren Bebe",
+    "album": "Gratitude",
+    "album_link": "https://album.link/i/1825834451",
+    "apple_music_link": "https://music.apple.com/us/album/gratitude/1825834451?uo=4",
+    "first_seen": "2026-04-20",
+    "last_checked": "2026-04-20"
+  },
+  "lo steele||only a drop": {
+    "artist": "Lo Steele",
+    "album": "Only A Drop",
+    "album_link": "https://album.link/i/1869413354",
+    "apple_music_link": "https://music.apple.com/us/album/only-a-drop/1869413354?uo=4",
+    "first_seen": "2026-04-20",
+    "last_checked": "2026-04-20"
+  },
+  "triple blind||cold walk": {
+    "artist": "Triple Blind",
+    "album": "Cold Walk",
+    "album_link": "https://album.link/i/1875552247",
+    "apple_music_link": "https://music.apple.com/us/album/cold-walk/1875552247?uo=4",
+    "first_seen": "2026-04-20",
+    "last_checked": "2026-04-20"
+  },
+  "the composers' orchestra berlin||telling stories": {
+    "artist": "The Composers' Orchestra Berlin",
+    "album": "Telling Stories",
+    "album_link": "https://album.link/i/1890127096",
+    "apple_music_link": "https://music.apple.com/us/album/telling-stories/1890127096?uo=4",
+    "first_seen": "2026-04-20",
+    "last_checked": "2026-04-20"
   }
 }
