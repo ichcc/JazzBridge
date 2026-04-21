@@ -6686,5 +6686,37 @@
     "apple_music_link": "https://music.apple.com/us/album/telling-stories/1890127096?uo=4",
     "first_seen": "2026-04-20",
     "last_checked": "2026-04-20"
+  },
+  "alain metrailler||heights prospection": {
+    "artist": "Alain Metrailler",
+    "album": "Heights Prospection",
+    "album_link": "https://album.link/i/1848416661",
+    "apple_music_link": "https://music.apple.com/us/album/heights-prospection-feat-elias-stemeseder-chris-tordini/1848416661?uo=4",
+    "first_seen": "2026-04-21",
+    "last_checked": "2026-04-21"
+  },
+  "nabou||indigo": {
+    "artist": "Nabou",
+    "album": "Indigo",
+    "album_link": "https://album.link/i/1845366235",
+    "apple_music_link": "https://music.apple.com/us/album/indigo/1845366235?uo=4",
+    "first_seen": "2026-04-21",
+    "last_checked": "2026-04-21"
+  },
+  "eddie allen's push||rhythm people": {
+    "artist": "Eddie Allen's PUSH",
+    "album": "Rhythm People",
+    "album_link": "https://album.link/i/1856141582",
+    "apple_music_link": "https://music.apple.com/us/album/the-rhythm/1856141582?uo=4",
+    "first_seen": "2026-04-21",
+    "last_checked": "2026-04-21"
+  },
+  "mal waldron||stardust and starlight at the jazz showcase": {
+    "artist": "Mal Waldron",
+    "album": "Stardust and Starlight At The Jazz Showcase",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-21",
+    "last_checked": "2026-04-21"
   }
 }
