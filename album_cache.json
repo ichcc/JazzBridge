@@ -6718,5 +6718,53 @@
     "apple_music_link": null,
     "first_seen": "2026-04-21",
     "last_checked": "2026-04-21"
+  },
+  "l.v. johnson||i don’t really care": {
+    "artist": "L.V. Johnson",
+    "album": "I Don’t Really Care",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-22",
+    "last_checked": "2026-04-22"
+  },
+  "leroy hutson||it’s different": {
+    "artist": "LeRoy Hutson",
+    "album": "It’s Different",
+    "album_link": "https://album.link/i/111222470",
+    "apple_music_link": "https://music.apple.com/us/album/love-oh-love/111222470?uo=4",
+    "first_seen": "2026-04-22",
+    "last_checked": "2026-04-22"
+  },
+  "labi siffre||remember my song": {
+    "artist": "Labi Siffre",
+    "album": "Remember My Song",
+    "album_link": "https://album.link/i/693296466",
+    "apple_music_link": "https://music.apple.com/us/album/remember-my-song/693296466?uo=4",
+    "first_seen": "2026-04-22",
+    "last_checked": "2026-04-22"
+  },
+  "the limelites||killing me softly with this song": {
+    "artist": "The Limelites",
+    "album": "Killing Me Softly With This Song",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-22",
+    "last_checked": "2026-04-22"
+  },
+  "dexter wansel||time is slipping away": {
+    "artist": "Dexter Wansel",
+    "album": "Time Is Slipping Away",
+    "album_link": "https://album.link/i/424895357",
+    "apple_music_link": "https://music.apple.com/us/album/time-is-slipping-away/424895357?uo=4",
+    "first_seen": "2026-04-22",
+    "last_checked": "2026-04-22"
+  },
+  "minority band||journey to the shore": {
+    "artist": "Minority Band",
+    "album": "Journey To The Shore",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-22",
+    "last_checked": "2026-04-22"
   }
 }
