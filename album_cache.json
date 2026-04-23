@@ -6766,5 +6766,61 @@
     "apple_music_link": null,
     "first_seen": "2026-04-22",
     "last_checked": "2026-04-22"
+  },
+  "carlos malta and cliff korman||saudade do paulo": {
+    "artist": "Carlos Malta and Cliff Korman",
+    "album": "Saudade do Paulo",
+    "album_link": "https://album.link/i/1871598759",
+    "apple_music_link": "https://music.apple.com/us/album/saudade-do-paulo/1871598759?uo=4",
+    "first_seen": "2026-04-23",
+    "last_checked": "2026-04-23"
+  },
+  "dana hall/clark sommers/chris madsen||threefold": {
+    "artist": "Dana Hall/Clark Sommers/Chris Madsen",
+    "album": "Threefold",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-23",
+    "last_checked": "2026-04-23"
+  },
+  "didier lockwood||storyboard (vinyl reissue)": {
+    "artist": "Didier Lockwood",
+    "album": "Storyboard (Vinyl Reissue)",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-23",
+    "last_checked": "2026-04-23"
+  },
+  "hilarious disasters||unnatural root": {
+    "artist": "Hilarious Disasters",
+    "album": "Unnatural Root",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/unnatural-root-feat-alex-clov-%C5%82ukasz-jankowski-filip/1853558240?uo=4",
+    "first_seen": "2026-04-23",
+    "last_checked": "2026-04-23"
+  },
+  "bernie senensky||duos": {
+    "artist": "Bernie Senensky",
+    "album": "Duos",
+    "album_link": "https://album.link/i/1867842610",
+    "apple_music_link": "https://music.apple.com/us/album/duos/1867842610?uo=4",
+    "first_seen": "2026-04-23",
+    "last_checked": "2026-04-23"
+  },
+  "erica von kleist||picc pocket": {
+    "artist": "Erica von Kleist",
+    "album": "Picc Pocket",
+    "album_link": "https://album.link/i/1893405943",
+    "apple_music_link": "https://music.apple.com/us/album/picc-pocket/1893405943?uo=4",
+    "first_seen": "2026-04-23",
+    "last_checked": "2026-04-23"
+  },
+  "nicholas mycio||please plant flowers": {
+    "artist": "Nicholas Mycio",
+    "album": "Please Plant Flowers",
+    "album_link": "https://album.link/i/1863166920",
+    "apple_music_link": "https://music.apple.com/us/album/please-plant-flowers/1863166920?uo=4",
+    "first_seen": "2026-04-23",
+    "last_checked": "2026-04-23"
   }
 }
