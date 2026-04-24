@@ -6822,5 +6822,29 @@
     "apple_music_link": "https://music.apple.com/us/album/please-plant-flowers/1863166920?uo=4",
     "first_seen": "2026-04-23",
     "last_checked": "2026-04-23"
+  },
+  "damana||rhizome": {
+    "artist": "DAMANA",
+    "album": "Rhizome",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-24",
+    "last_checked": "2026-04-24"
+  },
+  "sleeping beast||sleeping beast": {
+    "artist": "Sleeping Beast",
+    "album": "Sleeping Beast",
+    "album_link": "https://album.link/i/1677383767",
+    "apple_music_link": "https://music.apple.com/us/album/sleeping-beast-single/1677383767?uo=4",
+    "first_seen": "2026-04-24",
+    "last_checked": "2026-04-24"
+  },
+  "roberto di gioia||web web - kover kover": {
+    "artist": "Roberto Di Gioia",
+    "album": "Web Web - Kover Kover",
+    "album_link": "https://album.link/i/1886690473",
+    "apple_music_link": "https://music.apple.com/us/album/kover-kover/1886690473?uo=4",
+    "first_seen": "2026-04-24",
+    "last_checked": "2026-04-24"
   }
 }
