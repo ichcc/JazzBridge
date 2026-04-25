@@ -6846,5 +6846,37 @@
     "apple_music_link": "https://music.apple.com/us/album/kover-kover/1886690473?uo=4",
     "first_seen": "2026-04-24",
     "last_checked": "2026-04-24"
+  },
+  "collin sherman||ouroborosuite": {
+    "artist": "Collin Sherman",
+    "album": "Ouroborosuite",
+    "album_link": "https://album.link/i/1882933748",
+    "apple_music_link": "https://music.apple.com/us/album/ouroborosuite/1882933748?uo=4",
+    "first_seen": "2026-04-25",
+    "last_checked": "2026-04-25"
+  },
+  "the outskirts - rempis/flaten/rosaly + marta warelis||orbital": {
+    "artist": "The Outskirts - Rempis/Flaten/Rosaly + Marta Warelis",
+    "album": "Orbital",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-25",
+    "last_checked": "2026-04-25"
+  },
+  "sonia ziccardi||driade": {
+    "artist": "Sonia Ziccardi",
+    "album": "Driade",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/driade/1879774771?uo=4",
+    "first_seen": "2026-04-25",
+    "last_checked": "2026-04-25"
+  },
+  "shmeisani jazz massive||shmeisani jazz massive": {
+    "artist": "Shmeisani Jazz Massive",
+    "album": "Shmeisani Jazz Massive",
+    "album_link": "https://album.link/i/1889643132",
+    "apple_music_link": "https://music.apple.com/us/album/shmeisani-jazz-massive/1889643132?uo=4",
+    "first_seen": "2026-04-25",
+    "last_checked": "2026-04-25"
   }
 }
