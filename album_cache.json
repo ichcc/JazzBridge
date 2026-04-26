@@ -6878,5 +6878,37 @@
     "apple_music_link": "https://music.apple.com/us/album/shmeisani-jazz-massive/1889643132?uo=4",
     "first_seen": "2026-04-25",
     "last_checked": "2026-04-25"
+  },
+  "daniel bennett group||the deconstructed songbook": {
+    "artist": "Daniel Bennett Group",
+    "album": "The Deconstructed Songbook",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-26",
+    "last_checked": "2026-04-26"
+  },
+  "noa levy and paul edis trio||portrait in evans": {
+    "artist": "Noa Levy and Paul Edis Trio",
+    "album": "Portrait In Evans",
+    "album_link": "https://album.link/i/1844399529",
+    "apple_music_link": "https://music.apple.com/us/album/portrait-in-evans/1844399529?uo=4",
+    "first_seen": "2026-04-26",
+    "last_checked": "2026-04-26"
+  },
+  "cecil taylor||fragments: the complete 1969 salle pleyel concerts": {
+    "artist": "Cecil Taylor",
+    "album": "Fragments: The Complete 1969 Salle Pleyel Concerts",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-26",
+    "last_checked": "2026-04-26"
+  },
+  "anna elizabeth kendrick||in out of the rain": {
+    "artist": "Anna Elizabeth Kendrick",
+    "album": "In Out Of The Rain",
+    "album_link": "https://album.link/i/628251246",
+    "apple_music_link": "https://music.apple.com/us/album/in-out-of-the-rain/628251246?uo=4",
+    "first_seen": "2026-04-26",
+    "last_checked": "2026-04-26"
   }
 }
