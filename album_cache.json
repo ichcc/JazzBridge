@@ -6910,5 +6910,45 @@
     "apple_music_link": "https://music.apple.com/us/album/in-out-of-the-rain/628251246?uo=4",
     "first_seen": "2026-04-26",
     "last_checked": "2026-04-26"
+  },
+  "bohannon||stop & go": {
+    "artist": "Bohannon",
+    "album": "Stop & Go",
+    "album_link": "https://album.link/i/1567072504",
+    "apple_music_link": "https://music.apple.com/us/album/stop-go/1567072504?uo=4",
+    "first_seen": "2026-04-27",
+    "last_checked": "2026-04-27"
+  },
+  "keni burke||risin’ to the top": {
+    "artist": "Keni Burke",
+    "album": "Risin’ To The Top",
+    "album_link": "https://album.link/i/885338467",
+    "apple_music_link": "https://music.apple.com/us/album/changes-expanded/885338467?uo=4",
+    "first_seen": "2026-04-27",
+    "last_checked": "2026-04-27"
+  },
+  "sonny stitt||mr. bojangles": {
+    "artist": "Sonny Stitt",
+    "album": "Mr. Bojangles",
+    "album_link": "https://album.link/i/1443455064",
+    "apple_music_link": "https://music.apple.com/us/album/mr-bojangles/1443455064?uo=4",
+    "first_seen": "2026-04-27",
+    "last_checked": "2026-04-27"
+  },
+  "j.j. barnes||i just make believe (i’m touching you)": {
+    "artist": "J.J. Barnes",
+    "album": "I Just Make Believe (I’m Touching You)",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-04-27",
+    "last_checked": "2026-04-27"
+  },
+  "lamont dozier||why can’t we be lovers": {
+    "artist": "Lamont Dozier",
+    "album": "Why Can’t We Be Lovers",
+    "album_link": "https://album.link/i/1521792158",
+    "apple_music_link": "https://music.apple.com/us/album/why-cant-we-be-lovers-single/1521792158?uo=4",
+    "first_seen": "2026-04-27",
+    "last_checked": "2026-04-27"
   }
 }
