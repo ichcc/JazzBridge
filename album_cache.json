@@ -7302,5 +7302,37 @@
     "apple_music_link": null,
     "first_seen": "2026-05-01",
     "last_checked": "2026-05-01"
+  },
+  "chris abrahams and dave symes||distant birds, vol. 01 and 02": {
+    "artist": "Chris Abrahams and Dave Symes",
+    "album": "Distant Birds, Vol. 01 and 02",
+    "album_link": "https://album.link/i/1880563493",
+    "apple_music_link": "https://music.apple.com/us/album/drill-ep/1880563493?uo=4",
+    "first_seen": "2026-05-02",
+    "last_checked": "2026-05-02"
+  },
+  "brian citro||keep moving (home)": {
+    "artist": "Brian Citro",
+    "album": "Keep Moving (Home)",
+    "album_link": "https://album.link/i/1891415629",
+    "apple_music_link": "https://music.apple.com/us/album/keep-moving-home/1891415629?uo=4",
+    "first_seen": "2026-05-02",
+    "last_checked": "2026-05-02"
+  },
+  "bennie wallace||french postcard": {
+    "artist": "Bennie Wallace",
+    "album": "French Postcard",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-02",
+    "last_checked": "2026-05-02"
+  },
+  "soft machine||thirteen": {
+    "artist": "Soft Machine",
+    "album": "Thirteen",
+    "album_link": "https://album.link/i/1870336195",
+    "apple_music_link": "https://music.apple.com/us/album/thirteen/1870336195?uo=4",
+    "first_seen": "2026-05-02",
+    "last_checked": "2026-05-02"
   }
 }
