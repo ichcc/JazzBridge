@@ -7334,5 +7334,37 @@
     "apple_music_link": "https://music.apple.com/us/album/thirteen/1870336195?uo=4",
     "first_seen": "2026-05-02",
     "last_checked": "2026-05-02"
+  },
+  "don blackman||holding you, loving you": {
+    "artist": "Don Blackman",
+    "album": "Holding You, Loving You",
+    "album_link": "https://album.link/i/1513465902",
+    "apple_music_link": "https://music.apple.com/us/album/don-blackman/1513465902?uo=4",
+    "first_seen": "2026-05-03",
+    "last_checked": "2026-05-03"
+  },
+  "kaba-diya||musikaba n° 1": {
+    "artist": "Kaba-Diya",
+    "album": "Musikaba N° 1",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-03",
+    "last_checked": "2026-05-03"
+  },
+  "debarge||i like it": {
+    "artist": "DeBarge",
+    "album": "I Like It",
+    "album_link": "https://album.link/i/1443817875",
+    "apple_music_link": "https://music.apple.com/us/album/all-this-love/1443817875?uo=4",
+    "first_seen": "2026-05-03",
+    "last_checked": "2026-05-03"
+  },
+  "the isley brothers||between the sheets": {
+    "artist": "The Isley Brothers",
+    "album": "Between The Sheets",
+    "album_link": "https://album.link/i/1030463060",
+    "apple_music_link": "https://music.apple.com/us/album/between-the-sheets/1030463060?uo=4",
+    "first_seen": "2026-05-03",
+    "last_checked": "2026-05-03"
   }
 }
