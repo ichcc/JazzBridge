@@ -7438,5 +7438,37 @@
     "apple_music_link": "https://music.apple.com/us/album/fearless-feat-andrea-colella-francesco-de-rubeis/1856345706?uo=4",
     "first_seen": "2026-05-05",
     "last_checked": "2026-05-05"
+  },
+  "christian dillingham||as it relates to now": {
+    "artist": "Christian Dillingham",
+    "album": "As It Relates To Now",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-06",
+    "last_checked": "2026-05-06"
+  },
+  "michael formanek||new digs": {
+    "artist": "Michael Formanek",
+    "album": "New Digs",
+    "album_link": "https://album.link/i/1879647921",
+    "apple_music_link": "https://music.apple.com/us/album/new-digs/1879647921?uo=4",
+    "first_seen": "2026-05-06",
+    "last_checked": "2026-05-06"
+  },
+  "sam robinson||'chasin' the dream'": {
+    "artist": "Sam Robinson",
+    "album": "'Chasin' the Dream'",
+    "album_link": "https://album.link/i/1875992602",
+    "apple_music_link": "https://music.apple.com/us/album/chasin-the-dream/1875992602?uo=4",
+    "first_seen": "2026-05-06",
+    "last_checked": "2026-05-06"
+  },
+  "rick roe||wake up call": {
+    "artist": "Rick Roe",
+    "album": "Wake Up Call",
+    "album_link": "https://album.link/i/1856569592",
+    "apple_music_link": "https://music.apple.com/us/album/wake-up-call-the-music-of-gregg-hill/1856569592?uo=4",
+    "first_seen": "2026-05-06",
+    "last_checked": "2026-05-06"
   }
 }
