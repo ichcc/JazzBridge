@@ -7534,5 +7534,29 @@
     "apple_music_link": "https://music.apple.com/us/album/things-are-looking-up/1883362742?uo=4",
     "first_seen": "2026-05-08",
     "last_checked": "2026-05-08"
+  },
+  "asteroid ekosystem||sounds have dreams": {
+    "artist": "Asteroid Ekosystem",
+    "album": "Sounds Have Dreams",
+    "album_link": "https://album.link/i/1873433825",
+    "apple_music_link": "https://music.apple.com/us/album/sounds-have-dreams/1873433825?uo=4",
+    "first_seen": "2026-05-09",
+    "last_checked": "2026-05-09"
+  },
+  "jason stein / damon smith / adam shead||five nights in the midwest": {
+    "artist": "Jason Stein / Damon Smith / Adam Shead",
+    "album": "Five Nights in the Midwest",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/five-nights-in-the-midwest/1894129905?uo=4",
+    "first_seen": "2026-05-09",
+    "last_checked": "2026-05-09"
+  },
+  "charles tolliver||right now... and then": {
+    "artist": "Charles Tolliver",
+    "album": "Right Now... And Then",
+    "album_link": "https://album.link/i/1850073557",
+    "apple_music_link": "https://music.apple.com/us/album/charles-tolliver-all-stars-right-now-and-then/1850073557?uo=4",
+    "first_seen": "2026-05-09",
+    "last_checked": "2026-05-09"
   }
 }
