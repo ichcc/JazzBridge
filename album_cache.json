@@ -7558,5 +7558,37 @@
     "apple_music_link": "https://music.apple.com/us/album/charles-tolliver-all-stars-right-now-and-then/1850073557?uo=4",
     "first_seen": "2026-05-09",
     "last_checked": "2026-05-09"
+  },
+  "jack wilkins||red clay": {
+    "artist": "Jack Wilkins",
+    "album": "Red Clay",
+    "album_link": "https://album.link/i/422609226",
+    "apple_music_link": "https://music.apple.com/us/album/windows/422609226?uo=4",
+    "first_seen": "2026-05-10",
+    "last_checked": "2026-05-10"
+  },
+  "roy ayers ubiquity||a tear to a smile": {
+    "artist": "Roy Ayers Ubiquity",
+    "album": "A Tear To A Smile",
+    "album_link": "https://album.link/i/1444100535",
+    "apple_music_link": "https://music.apple.com/us/album/a-tear-to-a-smile/1444100535?uo=4",
+    "first_seen": "2026-05-10",
+    "last_checked": "2026-05-10"
+  },
+  "harvey mandel||cristo redentor": {
+    "artist": "Harvey Mandel",
+    "album": "Cristo Redentor",
+    "album_link": "https://album.link/i/849106243",
+    "apple_music_link": "https://music.apple.com/us/album/cristo-redentor/849106243?uo=4",
+    "first_seen": "2026-05-10",
+    "last_checked": "2026-05-10"
+  },
+  "the sylvers||yesterday": {
+    "artist": "The Sylvers",
+    "album": "Yesterday",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-10",
+    "last_checked": "2026-05-10"
   }
 }
