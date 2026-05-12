@@ -7646,5 +7646,69 @@
     "apple_music_link": null,
     "first_seen": "2026-05-11",
     "last_checked": "2026-05-11"
+  },
+  "dexter gordon||'stable mable,' 1975": {
+    "artist": "Dexter Gordon",
+    "album": "'Stable Mable,' 1975",
+    "album_link": "https://album.link/i/160609171",
+    "apple_music_link": "https://music.apple.com/us/album/stable-mable/160609171?uo=4",
+    "first_seen": "2026-05-12",
+    "last_checked": "2026-05-12"
+  },
+  "editor's note||artfully inspired": {
+    "artist": "Editor's Note",
+    "album": "Artfully Inspired",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-12",
+    "last_checked": "2026-05-12"
+  },
+  "grant green||'i want to hold your hand,' 1965": {
+    "artist": "Grant Green",
+    "album": "'I Want to Hold Your Hand,' 1965",
+    "album_link": "https://album.link/i/1443212403",
+    "apple_music_link": "https://music.apple.com/us/album/i-want-to-hold-your-hand/1443212403?uo=4",
+    "first_seen": "2026-05-12",
+    "last_checked": "2026-05-12"
+  },
+  "wsj||b.j. novak": {
+    "artist": "WSJ",
+    "album": "B.J. Novak",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-12",
+    "last_checked": "2026-05-12"
+  },
+  "editor's note||so much for yesterday": {
+    "artist": "Editor's Note",
+    "album": "So Much for Yesterday",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-12",
+    "last_checked": "2026-05-12"
+  },
+  "wsj||'ramones' turns 50": {
+    "artist": "WSJ",
+    "album": "'Ramones' Turns 50",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-12",
+    "last_checked": "2026-05-12"
+  },
+  "wsj||lena headey": {
+    "artist": "WSJ",
+    "album": "Lena Headey",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-12",
+    "last_checked": "2026-05-12"
+  },
+  "sambalanço trio||'reencontro (reunion),' 1965": {
+    "artist": "Sambalanço Trio",
+    "album": "'Reencontro (Reunion),' 1965",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-12",
+    "last_checked": "2026-05-12"
   }
 }
