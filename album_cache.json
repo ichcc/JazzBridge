@@ -7710,5 +7710,61 @@
     "apple_music_link": null,
     "first_seen": "2026-05-12",
     "last_checked": "2026-05-12"
+  },
+  "andrew mackelvie||many worlds": {
+    "artist": "Andrew MacKelvie",
+    "album": "Many Worlds",
+    "album_link": "https://album.link/i/1868541845",
+    "apple_music_link": "https://music.apple.com/us/album/many-worlds/1868541845?uo=4",
+    "first_seen": "2026-05-13",
+    "last_checked": "2026-05-13"
+  },
+  "joan fort||hangin' in": {
+    "artist": "Joan Fort",
+    "album": "Hangin' In",
+    "album_link": "https://album.link/i/1883772434",
+    "apple_music_link": "https://music.apple.com/us/album/hangin-in/1883772434?uo=4",
+    "first_seen": "2026-05-13",
+    "last_checked": "2026-05-13"
+  },
+  "oscar peterson||the oscar peterson trio at baker's keyboard lounge": {
+    "artist": "Oscar Peterson",
+    "album": "The Oscar Peterson Trio at Baker's Keyboard Lounge",
+    "album_link": "https://album.link/i/1877933860",
+    "apple_music_link": "https://music.apple.com/us/album/at-bakers-keyboard-lounge-the-complete-recordings/1877933860?uo=4",
+    "first_seen": "2026-05-13",
+    "last_checked": "2026-05-13"
+  },
+  "jamile and vinicius gomes, feat. joe martin||boundless species": {
+    "artist": "Jamile and Vinicius Gomes, feat. Joe Martin",
+    "album": "Boundless Species",
+    "album_link": "https://album.link/i/1849494706",
+    "apple_music_link": "https://music.apple.com/us/album/boundless-species/1849494706?uo=4",
+    "first_seen": "2026-05-13",
+    "last_checked": "2026-05-13"
+  },
+  "yusef lateef||alight upon the lake: live at the jazz showcase": {
+    "artist": "Yusef Lateef",
+    "album": "Alight Upon the Lake: Live at the Jazz Showcase",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-13",
+    "last_checked": "2026-05-13"
+  },
+  "scott routenberg trio||live at merrimans' playhouse: oscar peterson tribute": {
+    "artist": "Scott Routenberg Trio",
+    "album": "Live at Merrimans' Playhouse: Oscar Peterson Tribute",
+    "album_link": "https://album.link/i/1855347878",
+    "apple_music_link": "https://music.apple.com/us/album/scott-routenberg-trio-live-at-merrimans-playhouse-oscar/1855347878?uo=4",
+    "first_seen": "2026-05-13",
+    "last_checked": "2026-05-13"
+  },
+  "jon henriksson||shapeshifter": {
+    "artist": "Jon Henriksson",
+    "album": "Shapeshifter",
+    "album_link": "https://album.link/i/1848997209",
+    "apple_music_link": "https://music.apple.com/us/album/shapeshifter/1848997209?uo=4",
+    "first_seen": "2026-05-13",
+    "last_checked": "2026-05-13"
   }
 }
