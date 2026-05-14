@@ -7766,5 +7766,37 @@
     "apple_music_link": "https://music.apple.com/us/album/shapeshifter/1848997209?uo=4",
     "first_seen": "2026-05-13",
     "last_checked": "2026-05-13"
+  },
+  "ted rosenthal trio||the good old days": {
+    "artist": "Ted Rosenthal Trio",
+    "album": "The Good Old Days",
+    "album_link": "https://album.link/i/1864971132",
+    "apple_music_link": "https://music.apple.com/us/album/the-good-old-days/1864971132?uo=4",
+    "first_seen": "2026-05-14",
+    "last_checked": "2026-05-14"
+  },
+  "peter erskine||peregrine": {
+    "artist": "Peter Erskine",
+    "album": "Peregrine",
+    "album_link": "https://album.link/i/1874692573",
+    "apple_music_link": "https://music.apple.com/us/album/peregrine/1874692573?uo=4",
+    "first_seen": "2026-05-14",
+    "last_checked": "2026-05-14"
+  },
+  "bobby naughton||housatonic rumble - live at charlie's tap": {
+    "artist": "Bobby Naughton",
+    "album": "Housatonic Rumble - Live at Charlie's Tap",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-14",
+    "last_checked": "2026-05-14"
+  },
+  "brian dickinson and the penderecki string quartet||october songs": {
+    "artist": "Brian Dickinson and the Penderecki String Quartet",
+    "album": "October Songs",
+    "album_link": "https://album.link/i/1860941478",
+    "apple_music_link": "https://music.apple.com/us/album/october-songs-feat-kelly-jefferson-jim-vivian/1860941478?uo=4",
+    "first_seen": "2026-05-14",
+    "last_checked": "2026-05-14"
   }
 }
