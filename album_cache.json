@@ -7798,5 +7798,29 @@
     "apple_music_link": "https://music.apple.com/us/album/october-songs-feat-kelly-jefferson-jim-vivian/1860941478?uo=4",
     "first_seen": "2026-05-14",
     "last_checked": "2026-05-14"
+  },
+  "'pet sounds' at 60||a new, spectacular set": {
+    "artist": "'Pet Sounds' at 60",
+    "album": "A New, Spectacular Set",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-15",
+    "last_checked": "2026-05-15"
+  },
+  "john coltrane||'coltrane's sound,' 1960": {
+    "artist": "John Coltrane",
+    "album": "'Coltrane's Sound,' 1960",
+    "album_link": "https://album.link/i/962194510",
+    "apple_music_link": "https://music.apple.com/us/album/coltranes-sound/962194510?uo=4",
+    "first_seen": "2026-05-15",
+    "last_checked": "2026-05-15"
+  },
+  "milton nascimento||'courage,' 1969": {
+    "artist": "Milton Nascimento",
+    "album": "'Courage,' 1969",
+    "album_link": "https://album.link/i/1443853889",
+    "apple_music_link": "https://music.apple.com/us/album/courage/1443853889?uo=4",
+    "first_seen": "2026-05-15",
+    "last_checked": "2026-05-15"
   }
 }
