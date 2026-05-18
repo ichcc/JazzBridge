@@ -7910,5 +7910,45 @@
     "apple_music_link": "https://music.apple.com/us/album/burn-the-house-down/1883648658?uo=4",
     "first_seen": "2026-05-17",
     "last_checked": "2026-05-17"
+  },
+  "monk montgomery||reality": {
+    "artist": "Monk Montgomery",
+    "album": "Reality",
+    "album_link": "https://album.link/i/1558216393",
+    "apple_music_link": "https://music.apple.com/us/album/reality/1558216393?uo=4",
+    "first_seen": "2026-05-18",
+    "last_checked": "2026-05-18"
+  },
+  "creative source||creative source": {
+    "artist": "Creative Source",
+    "album": "Creative Source",
+    "album_link": "https://album.link/i/1590252199",
+    "apple_music_link": "https://music.apple.com/us/album/creative-source/1590252199?uo=4",
+    "first_seen": "2026-05-18",
+    "last_checked": "2026-05-18"
+  },
+  "the invaders||lost time": {
+    "artist": "The Invaders",
+    "album": "Lost Time",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-18",
+    "last_checked": "2026-05-18"
+  },
+  "the soul searchers||ashley’s roachclip": {
+    "artist": "The Soul Searchers",
+    "album": "Ashley’s Roachclip",
+    "album_link": "https://album.link/i/1432782085",
+    "apple_music_link": "https://music.apple.com/us/album/salt-of-the-earth/1432782085?uo=4",
+    "first_seen": "2026-05-18",
+    "last_checked": "2026-05-18"
+  },
+  "ike white||changin' times": {
+    "artist": "Ike White",
+    "album": "Changin' Times",
+    "album_link": "https://album.link/i/1839573672",
+    "apple_music_link": "https://music.apple.com/us/album/changin-times/1839573672?uo=4",
+    "first_seen": "2026-05-18",
+    "last_checked": "2026-05-18"
   }
 }
