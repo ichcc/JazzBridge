@@ -8006,5 +8006,37 @@
     "apple_music_link": "https://music.apple.com/us/album/charles-ruggiero-plays-monk-live-at-the-baked-potato/1875097561?uo=4",
     "first_seen": "2026-05-19",
     "last_checked": "2026-05-19"
+  },
+  "alvaro torres trio||mairena": {
+    "artist": "Alvaro Torres Trio",
+    "album": "Mairena",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-20",
+    "last_checked": "2026-05-20"
+  },
+  "connor bernhard||pathways": {
+    "artist": "Connor Bernhard",
+    "album": "Pathways",
+    "album_link": "https://album.link/i/1884595871",
+    "apple_music_link": "https://music.apple.com/us/album/pathways/1884595871?uo=4",
+    "first_seen": "2026-05-20",
+    "last_checked": "2026-05-20"
+  },
+  "myra melford - satoko fujii||katarahi": {
+    "artist": "Myra Melford - Satoko Fujii",
+    "album": "Katarahi",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-20",
+    "last_checked": "2026-05-20"
+  },
+  "trudy lynn||turning the same ole corners": {
+    "artist": "Trudy Lynn",
+    "album": "Turning the Same Ole Corners",
+    "album_link": "https://album.link/i/1866725152",
+    "apple_music_link": "https://music.apple.com/us/album/turning-the-same-ole-corners/1866725152?uo=4",
+    "first_seen": "2026-05-20",
+    "last_checked": "2026-05-20"
   }
 }
