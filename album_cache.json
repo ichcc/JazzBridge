@@ -8102,5 +8102,61 @@
     "apple_music_link": "https://music.apple.com/us/album/live-at-pompeii/1260000840?uo=4",
     "first_seen": "2026-05-22",
     "last_checked": "2026-05-22"
+  },
+  "editor's note||girl with the high ponytail": {
+    "artist": "Editor's Note",
+    "album": "Girl With the High Ponytail",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-23",
+    "last_checked": "2026-05-23"
+  },
+  "marcos valle||'samba '68,' 1967": {
+    "artist": "Marcos Valle",
+    "album": "'Samba '68,' 1967",
+    "album_link": "https://album.link/i/1434912640",
+    "apple_music_link": "https://music.apple.com/us/album/samba-68/1434912640?uo=4",
+    "first_seen": "2026-05-23",
+    "last_checked": "2026-05-23"
+  },
+  "dexter gordon||'dexter calling...,' 1961": {
+    "artist": "Dexter Gordon",
+    "album": "'Dexter Calling...,' 1961",
+    "album_link": "https://album.link/i/1444098842",
+    "apple_music_link": "https://music.apple.com/us/album/dexter-calling-remastered-2015/1444098842?uo=4",
+    "first_seen": "2026-05-23",
+    "last_checked": "2026-05-23"
+  },
+  "gene ammons||'the happy blues,' 1956": {
+    "artist": "Gene Ammons",
+    "album": "'The Happy Blues,' 1956",
+    "album_link": "https://album.link/i/1442837972",
+    "apple_music_link": "https://music.apple.com/us/album/the-happy-blues-remastered/1442837972?uo=4",
+    "first_seen": "2026-05-23",
+    "last_checked": "2026-05-23"
+  },
+  "editor's note||maxing your joy": {
+    "artist": "Editor's Note",
+    "album": "Maxing Your Joy",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-23",
+    "last_checked": "2026-05-23"
+  },
+  "wsj||orna guralnik": {
+    "artist": "WSJ",
+    "album": "Orna Guralnik",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-23",
+    "last_checked": "2026-05-23"
+  },
+  "wsj||cary elwes": {
+    "artist": "WSJ",
+    "album": "Cary Elwes",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-23",
+    "last_checked": "2026-05-23"
   }
 }
