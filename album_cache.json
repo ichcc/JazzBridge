@@ -8222,5 +8222,45 @@
     "apple_music_link": "https://music.apple.com/us/album/forever-dynamic/1889224962?uo=4",
     "first_seen": "2026-05-24",
     "last_checked": "2026-05-24"
+  },
+  "gap mangione||diana in the autumn wind": {
+    "artist": "Gap Mangione",
+    "album": "Diana In The Autumn Wind",
+    "album_link": "https://album.link/i/1669621770",
+    "apple_music_link": "https://music.apple.com/us/album/sing-along-junk/1669621770?uo=4",
+    "first_seen": "2026-05-25",
+    "last_checked": "2026-05-25"
+  },
+  "har-you percussion group||feed me good": {
+    "artist": "Har-You Percussion Group",
+    "album": "Feed Me Good",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-25",
+    "last_checked": "2026-05-25"
+  },
+  "the gap band||gap band iii": {
+    "artist": "The Gap Band",
+    "album": "Gap Band III",
+    "album_link": "https://album.link/i/1669620120",
+    "apple_music_link": "https://music.apple.com/us/album/the-gap-band-iii/1669620120?uo=4",
+    "first_seen": "2026-05-25",
+    "last_checked": "2026-05-25"
+  },
+  "jackson sisters||miracles": {
+    "artist": "Jackson Sisters",
+    "album": "Miracles",
+    "album_link": "https://album.link/i/1727453870",
+    "apple_music_link": "https://music.apple.com/us/album/jackson-sisters-expanded-edition/1727453870?uo=4",
+    "first_seen": "2026-05-25",
+    "last_checked": "2026-05-25"
+  },
+  "exit 9||miss funky fox": {
+    "artist": "Exit 9",
+    "album": "Miss Funky Fox",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-25",
+    "last_checked": "2026-05-25"
   }
 }
