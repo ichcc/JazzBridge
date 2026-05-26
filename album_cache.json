@@ -8262,5 +8262,61 @@
     "apple_music_link": null,
     "first_seen": "2026-05-25",
     "last_checked": "2026-05-25"
+  },
+  "dave douglas||transcend": {
+    "artist": "Dave Douglas",
+    "album": "Transcend",
+    "album_link": "https://album.link/i/1872416361",
+    "apple_music_link": "https://music.apple.com/us/album/transcend/1872416361?uo=4",
+    "first_seen": "2026-05-26",
+    "last_checked": "2026-05-26"
+  },
+  "simon hanes||gargantua": {
+    "artist": "Simon Hanes",
+    "album": "Gargantua",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-26",
+    "last_checked": "2026-05-26"
+  },
+  "david janeway||david janeway trio/live at blue llama": {
+    "artist": "David Janeway",
+    "album": "David Janeway Trio/Live At Blue Llama",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-26",
+    "last_checked": "2026-05-26"
+  },
+  "callum au||sing seven seas": {
+    "artist": "Callum Au",
+    "album": "Sing Seven Seas",
+    "album_link": "https://album.link/i/6769139318",
+    "apple_music_link": "https://music.apple.com/us/album/sing-seven-seas-vol-1/6769139318?uo=4",
+    "first_seen": "2026-05-26",
+    "last_checked": "2026-05-26"
+  },
+  "matt white||matt white's dolly": {
+    "artist": "Matt White",
+    "album": "Matt White's Dolly",
+    "album_link": "https://album.link/i/1895749833",
+    "apple_music_link": "https://music.apple.com/us/album/matt-whites-dolly/1895749833?uo=4",
+    "first_seen": "2026-05-26",
+    "last_checked": "2026-05-26"
+  },
+  "bobby broom||notes of thanks": {
+    "artist": "Bobby Broom",
+    "album": "Notes of Thanks",
+    "album_link": "https://album.link/i/1880850681",
+    "apple_music_link": "https://music.apple.com/us/album/notes-of-thanks/1880850681?uo=4",
+    "first_seen": "2026-05-26",
+    "last_checked": "2026-05-26"
+  },
+  "darryl alexander||morning calls": {
+    "artist": "Darryl Alexander",
+    "album": "Morning Calls",
+    "album_link": "https://album.link/i/1867542051",
+    "apple_music_link": "https://music.apple.com/us/album/morning-calls/1867542051?uo=4",
+    "first_seen": "2026-05-26",
+    "last_checked": "2026-05-26"
   }
 }
