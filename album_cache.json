@@ -8318,5 +8318,37 @@
     "apple_music_link": "https://music.apple.com/us/album/morning-calls/1867542051?uo=4",
     "first_seen": "2026-05-26",
     "last_checked": "2026-05-26"
+  },
+  "how now brown cow||don't drink the milk - it's spoiled": {
+    "artist": "How Now Brown Cow",
+    "album": "Don't Drink the Milk - It's Spoiled",
+    "album_link": "https://album.link/i/1895528398",
+    "apple_music_link": "https://music.apple.com/us/album/dont-drink-the-milk-its-spoiled-live/1895528398?uo=4",
+    "first_seen": "2026-05-27",
+    "last_checked": "2026-05-27"
+  },
+  "miles davis||ascenseur pour l'échafaud": {
+    "artist": "Miles Davis",
+    "album": "Ascenseur pour l'Échafaud",
+    "album_link": "https://album.link/i/1389716930",
+    "apple_music_link": "https://music.apple.com/us/album/ascenseur-pour-l%C3%A9chafaud/1389716930?uo=4",
+    "first_seen": "2026-05-27",
+    "last_checked": "2026-05-27"
+  },
+  "alexis p. suter band||just stay live, featuring garth hudson, recorded live at the falcon": {
+    "artist": "Alexis P. Suter Band",
+    "album": "Just Stay Live, featuring Garth Hudson, Recorded Live at the Falcon",
+    "album_link": "https://album.link/i/1862550048",
+    "apple_music_link": "https://music.apple.com/us/album/just-stay-live-recorded-live-at-the-falcon-feat-garth-hudson/1862550048?uo=4",
+    "first_seen": "2026-05-27",
+    "last_checked": "2026-05-27"
+  },
+  "jim robitaille||sonic": {
+    "artist": "Jim Robitaille",
+    "album": "Sonic",
+    "album_link": "https://album.link/i/1874684688",
+    "apple_music_link": "https://music.apple.com/us/album/sonic/1874684688?uo=4",
+    "first_seen": "2026-05-27",
+    "last_checked": "2026-05-27"
   }
 }
