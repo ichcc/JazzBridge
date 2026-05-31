@@ -8438,5 +8438,37 @@
     "apple_music_link": "https://music.apple.com/us/album/now-i-imagine-a-place-not-the-same/1880139705?uo=4",
     "first_seen": "2026-05-30",
     "last_checked": "2026-05-30"
+  },
+  "ramon morris||sweet sister funk": {
+    "artist": "Ramon Morris",
+    "album": "Sweet Sister Funk",
+    "album_link": "https://album.link/i/543052953",
+    "apple_music_link": "https://music.apple.com/us/album/best-of-the-funky-blues-from-the-groove-merchant-vault-vol-2/543052953?uo=4",
+    "first_seen": "2026-05-31",
+    "last_checked": "2026-05-31"
+  },
+  "bernard wright||'nard": {
+    "artist": "Bernard Wright",
+    "album": "'Nard",
+    "album_link": "https://album.link/i/541611326",
+    "apple_music_link": "https://music.apple.com/us/album/nard/541611326?uo=4",
+    "first_seen": "2026-05-31",
+    "last_checked": "2026-05-31"
+  },
+  "an american family||time for a change": {
+    "artist": "An American Family",
+    "album": "Time For A Change",
+    "album_link": "https://album.link/i/1594160236",
+    "apple_music_link": "https://music.apple.com/us/album/john-williams-the-berlin-concert/1594160236?uo=4",
+    "first_seen": "2026-05-31",
+    "last_checked": "2026-05-31"
+  },
+  "roy lee johnson||patch it up": {
+    "artist": "Roy Lee Johnson",
+    "album": "Patch It Up",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-05-31",
+    "last_checked": "2026-05-31"
   }
 }
