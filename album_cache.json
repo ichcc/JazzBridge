@@ -8534,5 +8534,61 @@
     "apple_music_link": "https://music.apple.com/us/album/partisan-ship/1881549570?uo=4",
     "first_seen": "2026-06-01",
     "last_checked": "2026-06-01"
+  },
+  "book||steve schapiro's astonishing jazz photos": {
+    "artist": "Book",
+    "album": "Steve Schapiro's Astonishing Jazz Photos",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-02",
+    "last_checked": "2026-06-02"
+  },
+  "kenny dorham||'complete café bohemia,' 1956": {
+    "artist": "Kenny Dorham",
+    "album": "'Complete Café Bohemia,' 1956",
+    "album_link": "https://album.link/i/1443165234",
+    "apple_music_link": "https://music.apple.com/us/album/the-complete-round-about-midnight-at-the-cafe-bohemia-live/1443165234?uo=4",
+    "first_seen": "2026-06-02",
+    "last_checked": "2026-06-02"
+  },
+  "editor's note||in praise of coffee": {
+    "artist": "Editor's Note",
+    "album": "In Praise of Coffee",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-02",
+    "last_checked": "2026-06-02"
+  },
+  "new music of note||may": {
+    "artist": "New Music of Note",
+    "album": "May",
+    "album_link": "https://album.link/i/1613831894",
+    "apple_music_link": "https://music.apple.com/us/album/peaceful-piano-moods-afternoon-peaceful-piano-moods/1613831894?uo=4",
+    "first_seen": "2026-06-02",
+    "last_checked": "2026-06-02"
+  },
+  "eliane elias||'ao vivo,' 2026": {
+    "artist": "Eliane Elias",
+    "album": "'Ao Vivo,' 2026",
+    "album_link": "https://album.link/i/1881714341",
+    "apple_music_link": "https://music.apple.com/us/album/ao-vivo-live/1881714341?uo=4",
+    "first_seen": "2026-06-02",
+    "last_checked": "2026-06-02"
+  },
+  "wsj||geena davis": {
+    "artist": "WSJ",
+    "album": "Geena Davis",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-02",
+    "last_checked": "2026-06-02"
+  },
+  "documentary||'jazz from detroit,' 2025": {
+    "artist": "Documentary",
+    "album": "'Jazz From Detroit,' 2025",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-02",
+    "last_checked": "2026-06-02"
   }
 }
