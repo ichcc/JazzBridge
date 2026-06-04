@@ -8662,5 +8662,37 @@
     "apple_music_link": "https://music.apple.com/us/album/joy-in-rhythm-vol-i/1876383544?uo=4",
     "first_seen": "2026-06-03",
     "last_checked": "2026-06-03"
+  },
+  "alex wintz||collage": {
+    "artist": "Alex Wintz",
+    "album": "Collage",
+    "album_link": "https://album.link/i/1871521994",
+    "apple_music_link": "https://music.apple.com/us/album/collage/1871521994?uo=4",
+    "first_seen": "2026-06-04",
+    "last_checked": "2026-06-04"
+  },
+  "eli howell||steps taken": {
+    "artist": "Eli Howell",
+    "album": "Steps Taken",
+    "album_link": "https://album.link/i/1870432873",
+    "apple_music_link": "https://music.apple.com/us/album/steps-taken/1870432873?uo=4",
+    "first_seen": "2026-06-04",
+    "last_checked": "2026-06-04"
+  },
+  "dawn clement||dear ms. dearie": {
+    "artist": "Dawn Clement",
+    "album": "Dear Ms. Dearie",
+    "album_link": "https://album.link/i/1886787444",
+    "apple_music_link": "https://music.apple.com/us/album/dear-ms-dearie/1886787444?uo=4",
+    "first_seen": "2026-06-04",
+    "last_checked": "2026-06-04"
+  },
+  "satoko fujii-myra melford||katarahi": {
+    "artist": "Satoko Fujii-Myra Melford",
+    "album": "Katarahi",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-04",
+    "last_checked": "2026-06-04"
   }
 }
