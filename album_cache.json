@@ -8694,5 +8694,37 @@
     "apple_music_link": null,
     "first_seen": "2026-06-04",
     "last_checked": "2026-06-04"
+  },
+  "chris potter||alive with ghosts today": {
+    "artist": "Chris Potter",
+    "album": "Alive With Ghosts Today",
+    "album_link": "https://album.link/i/1874650387",
+    "apple_music_link": "https://music.apple.com/us/album/alive-with-ghosts-today-feat-bill-frisell-burniss/1874650387?uo=4",
+    "first_seen": "2026-06-05",
+    "last_checked": "2026-06-05"
+  },
+  "mick goodrick fred hersch||feebles, fables and ferns": {
+    "artist": "Mick Goodrick Fred Hersch",
+    "album": "Feebles, Fables And Ferns",
+    "album_link": "https://album.link/i/1889203827",
+    "apple_music_link": "https://music.apple.com/us/album/feebles-fables-ferns/1889203827?uo=4",
+    "first_seen": "2026-06-05",
+    "last_checked": "2026-06-05"
+  },
+  "elsa nilsson||liminal": {
+    "artist": "Elsa Nilsson",
+    "album": "Liminal",
+    "album_link": "https://album.link/i/1883085515",
+    "apple_music_link": "https://music.apple.com/us/album/liminal/1883085515?uo=4",
+    "first_seen": "2026-06-05",
+    "last_checked": "2026-06-05"
+  },
+  "christine fawson||it could happen to you": {
+    "artist": "Christine Fawson",
+    "album": "It Could Happen to You",
+    "album_link": "https://album.link/i/6776058602",
+    "apple_music_link": "https://music.apple.com/us/album/it-could-happen-to-you/6776058602?uo=4",
+    "first_seen": "2026-06-05",
+    "last_checked": "2026-06-05"
   }
 }
