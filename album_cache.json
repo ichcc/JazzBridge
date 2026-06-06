@@ -8726,5 +8726,45 @@
     "apple_music_link": "https://music.apple.com/us/album/it-could-happen-to-you/6776058602?uo=4",
     "first_seen": "2026-06-05",
     "last_checked": "2026-06-05"
+  },
+  "glorious assembly jazz orchestra||glorious assembly": {
+    "artist": "Glorious Assembly Jazz Orchestra",
+    "album": "Glorious Assembly",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-06",
+    "last_checked": "2026-06-06"
+  },
+  "terry waldo and the gotham city band||treasury volume 3": {
+    "artist": "Terry Waldo and The Gotham City Band",
+    "album": "Treasury Volume 3",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-06",
+    "last_checked": "2026-06-06"
+  },
+  "carlos henriquez||monk con clave": {
+    "artist": "Carlos Henriquez",
+    "album": "Monk Con Clave",
+    "album_link": "https://album.link/i/1887858738",
+    "apple_music_link": "https://music.apple.com/us/album/monk-con-clave-feat-gonzalo-rubalcaba-pedrito-martinez/1887858738?uo=4",
+    "first_seen": "2026-06-06",
+    "last_checked": "2026-06-06"
+  },
+  "siril malmedal hauge and kjetil mulelid||i remember oranges": {
+    "artist": "Siril Malmedal Hauge and Kjetil Mulelid",
+    "album": "I Remember Oranges",
+    "album_link": "https://album.link/i/1885813535",
+    "apple_music_link": "https://music.apple.com/us/album/i-remember-oranges/1885813535?uo=4",
+    "first_seen": "2026-06-06",
+    "last_checked": "2026-06-06"
+  },
+  "mick goodrick and fred hersch||feebles, fables and ferns": {
+    "artist": "Mick Goodrick and Fred Hersch",
+    "album": "Feebles, Fables And Ferns",
+    "album_link": "https://album.link/i/1889203827",
+    "apple_music_link": "https://music.apple.com/us/album/feebles-fables-ferns/1889203827?uo=4",
+    "first_seen": "2026-06-06",
+    "last_checked": "2026-06-06"
   }
 }
