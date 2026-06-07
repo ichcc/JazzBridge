@@ -8766,5 +8766,37 @@
     "apple_music_link": "https://music.apple.com/us/album/feebles-fables-ferns/1889203827?uo=4",
     "first_seen": "2026-06-06",
     "last_checked": "2026-06-06"
+  },
+  "freysteinn gíslason||thoughts": {
+    "artist": "Freysteinn Gíslason",
+    "album": "Thoughts",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-07",
+    "last_checked": "2026-06-07"
+  },
+  "carlos henrique pereira||northern readings": {
+    "artist": "Carlos Henrique Pereira",
+    "album": "Northern Readings",
+    "album_link": "https://album.link/i/1889880619",
+    "apple_music_link": "https://music.apple.com/us/album/northern-readings/1889880619?uo=4",
+    "first_seen": "2026-06-07",
+    "last_checked": "2026-06-07"
+  },
+  "eric person||extra pressure": {
+    "artist": "Eric Person",
+    "album": "Extra Pressure",
+    "album_link": "https://album.link/i/1893435401",
+    "apple_music_link": "https://music.apple.com/us/album/extra-pressure-25th-anniversary-edition/1893435401?uo=4",
+    "first_seen": "2026-06-07",
+    "last_checked": "2026-06-07"
+  },
+  "mathias ruppnig||foam (feat. kurt rosenwinkel)": {
+    "artist": "Mathias Ruppnig",
+    "album": "FOAM (feat. Kurt Rosenwinkel)",
+    "album_link": "https://album.link/i/1693792671",
+    "apple_music_link": "https://music.apple.com/us/album/de-dah-feat-kurt-rosenwinkel-ludwig-hornung-tom/1693792671?uo=4",
+    "first_seen": "2026-06-07",
+    "last_checked": "2026-06-07"
   }
 }
