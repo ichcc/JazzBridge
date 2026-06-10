@@ -8902,5 +8902,53 @@
     "apple_music_link": "https://music.apple.com/us/album/the-ghibli-collection/1874677363?uo=4",
     "first_seen": "2026-06-09",
     "last_checked": "2026-06-09"
+  },
+  "stan kenton||'cuban fire!,' 1956": {
+    "artist": "Stan Kenton",
+    "album": "'Cuban Fire!,' 1956",
+    "album_link": "https://album.link/i/724694299",
+    "apple_music_link": "https://music.apple.com/us/album/cuban-fire/724694299?uo=4",
+    "first_seen": "2026-06-10",
+    "last_checked": "2026-06-10"
+  },
+  "buddy rich||'channel one suite,' 1968": {
+    "artist": "Buddy Rich",
+    "album": "'Channel One Suite,' 1968",
+    "album_link": "https://album.link/i/1822724492",
+    "apple_music_link": "https://music.apple.com/us/album/channel-one-set-live/1822724492?uo=4",
+    "first_seen": "2026-06-10",
+    "last_checked": "2026-06-10"
+  },
+  "editor's note||what goes around": {
+    "artist": "Editor's Note",
+    "album": "What Goes Around",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-10",
+    "last_checked": "2026-06-10"
+  },
+  "herbie mann||a dozen from 1953-1956": {
+    "artist": "Herbie Mann",
+    "album": "A Dozen From 1953-1956",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-10",
+    "last_checked": "2026-06-10"
+  },
+  "chris connor||'sings gershwin,' 1957": {
+    "artist": "Chris Connor",
+    "album": "'Sings Gershwin,' 1957",
+    "album_link": "https://album.link/i/57708243",
+    "apple_music_link": "https://music.apple.com/us/album/chris-connor-sings-the-george-gershwin-almanac-of-song/57708243?uo=4",
+    "first_seen": "2026-06-10",
+    "last_checked": "2026-06-10"
+  },
+  "ed cherry||12 audio and video clips": {
+    "artist": "Ed Cherry",
+    "album": "12 Audio and Video Clips",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-10",
+    "last_checked": "2026-06-10"
   }
 }
