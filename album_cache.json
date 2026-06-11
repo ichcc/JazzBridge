@@ -8950,5 +8950,53 @@
     "apple_music_link": null,
     "first_seen": "2026-06-10",
     "last_checked": "2026-06-10"
+  },
+  "paul silbergleit trio||the stillness of july": {
+    "artist": "Paul Silbergleit Trio",
+    "album": "The Stillness of July",
+    "album_link": "https://album.link/i/1892135574",
+    "apple_music_link": "https://music.apple.com/us/album/the-stillness-of-july/1892135574?uo=4",
+    "first_seen": "2026-06-11",
+    "last_checked": "2026-06-11"
+  },
+  "jaana narsipur||the re-collection": {
+    "artist": "Jaana Narsipur",
+    "album": "The Re-Collection",
+    "album_link": "https://album.link/i/1884836098",
+    "apple_music_link": "https://music.apple.com/us/album/the-re-collection/1884836098?uo=4",
+    "first_seen": "2026-06-11",
+    "last_checked": "2026-06-11"
+  },
+  "janel leppin||slowly melting": {
+    "artist": "Janel Leppin",
+    "album": "Slowly Melting",
+    "album_link": "https://album.link/i/1875048705",
+    "apple_music_link": "https://music.apple.com/us/album/slowly-melting/1875048705?uo=4",
+    "first_seen": "2026-06-11",
+    "last_checked": "2026-06-11"
+  },
+  "oiseau murmure||oiseau murmure": {
+    "artist": "Oiseau Murmure",
+    "album": "Oiseau Murmure",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/oiseau-murmure/1889256413?uo=4",
+    "first_seen": "2026-06-11",
+    "last_checked": "2026-06-11"
+  },
+  "joe syrian motor city jazz octet||a blue time": {
+    "artist": "Joe Syrian Motor City Jazz Octet",
+    "album": "A Blue Time",
+    "album_link": "https://album.link/i/1892571801",
+    "apple_music_link": "https://music.apple.com/us/album/a-blue-time/1892571801?uo=4",
+    "first_seen": "2026-06-11",
+    "last_checked": "2026-06-11"
+  },
+  "richard bliwas with daniel carter||insomnia": {
+    "artist": "Richard Bliwas with Daniel Carter",
+    "album": "Insomnia",
+    "album_link": "https://album.link/i/1886561687",
+    "apple_music_link": "https://music.apple.com/us/album/insomnia-feat-daniel-carter/1886561687?uo=4",
+    "first_seen": "2026-06-11",
+    "last_checked": "2026-06-11"
   }
 }
