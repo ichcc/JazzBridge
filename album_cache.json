@@ -9022,5 +9022,37 @@
     "apple_music_link": "https://music.apple.com/us/album/music-for-a-noisy-environment/1885550899?uo=4",
     "first_seen": "2026-06-12",
     "last_checked": "2026-06-12"
+  },
+  "ron carter and yotam silberstein||duets": {
+    "artist": "Ron Carter and Yotam Silberstein",
+    "album": "Duets",
+    "album_link": "https://album.link/i/1887907192",
+    "apple_music_link": "https://music.apple.com/us/album/duets/1887907192?uo=4",
+    "first_seen": "2026-06-13",
+    "last_checked": "2026-06-13"
+  },
+  "filipa santos ~ miguel moreira||now swim": {
+    "artist": "Filipa Santos ~ Miguel Moreira",
+    "album": "Now Swim",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-13",
+    "last_checked": "2026-06-13"
+  },
+  "rich willey||laid back vol. 1": {
+    "artist": "Rich Willey",
+    "album": "Laid Back Vol. 1",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/laid-back-vol-1-feat-john-swana/1895673060?uo=4",
+    "first_seen": "2026-06-13",
+    "last_checked": "2026-06-13"
+  },
+  "krokofant||6": {
+    "artist": "Krokofant",
+    "album": "6",
+    "album_link": "https://album.link/i/1772958050",
+    "apple_music_link": "https://music.apple.com/us/album/6/1772958050?uo=4",
+    "first_seen": "2026-06-13",
+    "last_checked": "2026-06-13"
   }
 }
