@@ -9086,5 +9086,45 @@
     "apple_music_link": "https://music.apple.com/us/album/laid-back-vol-1-feat-john-swana/1895673060?uo=4",
     "first_seen": "2026-06-14",
     "last_checked": "2026-06-14"
+  },
+  "harvey mason||groovin' you": {
+    "artist": "Harvey Mason",
+    "album": "Groovin' You",
+    "album_link": "https://album.link/i/1299320532",
+    "apple_music_link": "https://music.apple.com/us/album/groovin-you-expanded-edition/1299320532?uo=4",
+    "first_seen": "2026-06-15",
+    "last_checked": "2026-06-15"
+  },
+  "james moody||good sense humor man": {
+    "artist": "James Moody",
+    "album": "Good Sense Humor Man",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-15",
+    "last_checked": "2026-06-15"
+  },
+  "harvey mason||funk in a mason jar": {
+    "artist": "Harvey Mason",
+    "album": "Funk In A Mason Jar",
+    "album_link": "https://album.link/i/551964119",
+    "apple_music_link": "https://music.apple.com/us/album/funk-in-a-mason-jar/551964119?uo=4",
+    "first_seen": "2026-06-15",
+    "last_checked": "2026-06-15"
+  },
+  "willis jackson||a house is not a home": {
+    "artist": "Willis Jackson",
+    "album": "A House Is Not A Home",
+    "album_link": "https://album.link/i/1258326992",
+    "apple_music_link": "https://music.apple.com/us/album/all-my-rowdy-friends-are-coming-over-great-tailgating-songs/1258326992?uo=4",
+    "first_seen": "2026-06-15",
+    "last_checked": "2026-06-15"
+  },
+  "mel brown||stranger on the shore": {
+    "artist": "Mel Brown",
+    "album": "Stranger On The Shore",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-15",
+    "last_checked": "2026-06-15"
   }
 }
