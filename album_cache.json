@@ -9126,5 +9126,69 @@
     "apple_music_link": null,
     "first_seen": "2026-06-15",
     "last_checked": "2026-06-15"
+  },
+  "daniel garcía||the hero's journey": {
+    "artist": "Daniel García",
+    "album": "The Hero's Journey",
+    "album_link": "https://album.link/i/1895850678",
+    "apple_music_link": "https://music.apple.com/us/album/the-heros-journey/1895850678?uo=4",
+    "first_seen": "2026-06-16",
+    "last_checked": "2026-06-16"
+  },
+  "peggy lee, julien wilson, theo carbo, dylan van der schyff||waiting music": {
+    "artist": "Peggy Lee, Julien Wilson, Theo Carbo, Dylan van der Schyff",
+    "album": "Waiting Music",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/waiting-music-feat-julien-wilson-peggy-lee-dylan-van/1882602542?uo=4",
+    "first_seen": "2026-06-16",
+    "last_checked": "2026-06-16"
+  },
+  "joe webb||neath beat": {
+    "artist": "Joe Webb",
+    "album": "Neath Beat",
+    "album_link": "https://album.link/i/1882459939",
+    "apple_music_link": "https://music.apple.com/us/album/neath-beat/1882459939?uo=4",
+    "first_seen": "2026-06-16",
+    "last_checked": "2026-06-16"
+  },
+  "doug macdonald||tribute to south central": {
+    "artist": "Doug MacDonald",
+    "album": "Tribute to South Central",
+    "album_link": "https://album.link/i/1889715702",
+    "apple_music_link": "https://music.apple.com/us/album/tribute-to-south-central/1889715702?uo=4",
+    "first_seen": "2026-06-16",
+    "last_checked": "2026-06-16"
+  },
+  "daniel bennett||the deconstructed songbook": {
+    "artist": "Daniel Bennett",
+    "album": "The Deconstructed Songbook",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-16",
+    "last_checked": "2026-06-16"
+  },
+  "eric demuro||simulacra": {
+    "artist": "Eric Demuro",
+    "album": "Simulacra",
+    "album_link": "https://album.link/i/1881723879",
+    "apple_music_link": "https://music.apple.com/us/album/simulacra/1881723879?uo=4",
+    "first_seen": "2026-06-16",
+    "last_checked": "2026-06-16"
+  },
+  "chris hazelton||in rotation": {
+    "artist": "Chris Hazelton",
+    "album": "In Rotation",
+    "album_link": "https://album.link/i/1894036935",
+    "apple_music_link": "https://music.apple.com/us/album/in-rotation/1894036935?uo=4",
+    "first_seen": "2026-06-16",
+    "last_checked": "2026-06-16"
+  },
+  "sean mcdonald||have mercy!": {
+    "artist": "Sean McDonald",
+    "album": "Have Mercy!",
+    "album_link": "https://album.link/i/1843911970",
+    "apple_music_link": "https://music.apple.com/us/album/have-mercy/1843911970?uo=4",
+    "first_seen": "2026-06-16",
+    "last_checked": "2026-06-16"
   }
 }
