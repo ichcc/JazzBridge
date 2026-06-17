@@ -9190,5 +9190,37 @@
     "apple_music_link": "https://music.apple.com/us/album/have-mercy/1843911970?uo=4",
     "first_seen": "2026-06-16",
     "last_checked": "2026-06-16"
+  },
+  "nduduzo makhathini||the myth we choose": {
+    "artist": "Nduduzo Makhathini",
+    "album": "The Myth We Choose",
+    "album_link": "https://album.link/i/1887405172",
+    "apple_music_link": "https://music.apple.com/us/album/the-myth-we-choose/1887405172?uo=4",
+    "first_seen": "2026-06-17",
+    "last_checked": "2026-06-17"
+  },
+  "mark turner||patternmaster": {
+    "artist": "Mark Turner",
+    "album": "Patternmaster",
+    "album_link": "https://album.link/i/1870849451",
+    "apple_music_link": "https://music.apple.com/us/album/patternmaster/1870849451?uo=4",
+    "first_seen": "2026-06-17",
+    "last_checked": "2026-06-17"
+  },
+  "sean imboden large ensemble||communal heart": {
+    "artist": "Sean Imboden Large Ensemble",
+    "album": "Communal Heart",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/communal-heart/1782384608?uo=4",
+    "first_seen": "2026-06-17",
+    "last_checked": "2026-06-17"
+  },
+  "amalie dahl's dafnie extended||live at moldejazz": {
+    "artist": "Amalie Dahl's Dafnie EXTENDED",
+    "album": "Live at Moldejazz",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/live-at-moldejazz/1867757629?uo=4",
+    "first_seen": "2026-06-17",
+    "last_checked": "2026-06-17"
   }
 }
