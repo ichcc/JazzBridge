@@ -9222,5 +9222,37 @@
     "apple_music_link": "https://music.apple.com/us/album/live-at-moldejazz/1867757629?uo=4",
     "first_seen": "2026-06-17",
     "last_checked": "2026-06-17"
+  },
+  "wolfgang muthspiel||atlas": {
+    "artist": "Wolfgang Muthspiel",
+    "album": "ATLAS",
+    "album_link": "https://album.link/i/1891624261",
+    "apple_music_link": "https://music.apple.com/us/album/atlas-feat-colin-vallon-mario-rom/1891624261?uo=4",
+    "first_seen": "2026-06-18",
+    "last_checked": "2026-06-18"
+  },
+  "bobby wiens||focus": {
+    "artist": "Bobby Wiens",
+    "album": "Focus",
+    "album_link": "https://album.link/i/1889988077",
+    "apple_music_link": "https://music.apple.com/us/album/focus/1889988077?uo=4",
+    "first_seen": "2026-06-18",
+    "last_checked": "2026-06-18"
+  },
+  "smithsonian jazz masterworks orchestra||ellington masterworks": {
+    "artist": "Smithsonian Jazz Masterworks Orchestra",
+    "album": "Ellington Masterworks",
+    "album_link": "https://album.link/i/1888293921",
+    "apple_music_link": "https://music.apple.com/us/album/ellington-masterworks/1888293921?uo=4",
+    "first_seen": "2026-06-18",
+    "last_checked": "2026-06-18"
+  },
+  "robyn spangler||robyn spangler": {
+    "artist": "Robyn Spangler",
+    "album": "Robyn Spangler",
+    "album_link": "https://album.link/i/6775055617",
+    "apple_music_link": "https://music.apple.com/us/album/robyn-spangler/6775055617?uo=4",
+    "first_seen": "2026-06-18",
+    "last_checked": "2026-06-18"
   }
 }
