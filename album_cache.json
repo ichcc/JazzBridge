@@ -9254,5 +9254,37 @@
     "apple_music_link": "https://music.apple.com/us/album/robyn-spangler/6775055617?uo=4",
     "first_seen": "2026-06-18",
     "last_checked": "2026-06-18"
+  },
+  "jun iida||bellflower": {
+    "artist": "Jun Iida",
+    "album": "Bellflower",
+    "album_link": "https://album.link/i/1896202116",
+    "apple_music_link": "https://music.apple.com/us/album/bellflower/1896202116?uo=4",
+    "first_seen": "2026-06-19",
+    "last_checked": "2026-06-19"
+  },
+  "miles davis||miles '56: the prestige recordings": {
+    "artist": "Miles Davis",
+    "album": "Miles '56: The Prestige Recordings",
+    "album_link": "https://album.link/i/1756196611",
+    "apple_music_link": "https://music.apple.com/us/album/miles-54-the-prestige-recordings-remastered-2024/1756196611?uo=4",
+    "first_seen": "2026-06-19",
+    "last_checked": "2026-06-19"
+  },
+  "lucy yeghiazaryan||hey love!": {
+    "artist": "Lucy Yeghiazaryan",
+    "album": "Hey Love!",
+    "album_link": "https://album.link/i/1869451010",
+    "apple_music_link": "https://music.apple.com/us/album/hey-love/1869451010?uo=4",
+    "first_seen": "2026-06-19",
+    "last_checked": "2026-06-19"
+  },
+  "leigh pilzer||keep holding on": {
+    "artist": "Leigh Pilzer",
+    "album": "Keep Holding On",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-19",
+    "last_checked": "2026-06-19"
   }
 }
