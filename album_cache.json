@@ -9350,5 +9350,53 @@
     "apple_music_link": "https://music.apple.com/us/album/gillespiana/1551821314?uo=4",
     "first_seen": "2026-06-20",
     "last_checked": "2026-06-20"
+  },
+  "klang||teiku": {
+    "artist": "Klang",
+    "album": "Teiku",
+    "album_link": "https://album.link/i/6781478568",
+    "apple_music_link": "https://music.apple.com/us/album/klang/6781478568?uo=4",
+    "first_seen": "2026-06-21",
+    "last_checked": "2026-06-21"
+  },
+  "virginia macdonald||in search of...": {
+    "artist": "Virginia MacDonald",
+    "album": "In Search Of...",
+    "album_link": "https://album.link/i/1880140546",
+    "apple_music_link": "https://music.apple.com/us/album/in-search-of/1880140546?uo=4",
+    "first_seen": "2026-06-21",
+    "last_checked": "2026-06-21"
+  },
+  "brad goode||live your dream": {
+    "artist": "Brad Goode",
+    "album": "Live Your Dream",
+    "album_link": "https://album.link/i/1895575212",
+    "apple_music_link": "https://music.apple.com/us/album/live-your-dream-live-at-north-street-cabaret/1895575212?uo=4",
+    "first_seen": "2026-06-21",
+    "last_checked": "2026-06-21"
+  },
+  "satoko fujii||satoko fujii's bunker ulmenwall orchestra": {
+    "artist": "Satoko Fujii",
+    "album": "Satoko Fujii's Bunker Ulmenwall Orchestra",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-21",
+    "last_checked": "2026-06-21"
+  },
+  "jabfung||in real life": {
+    "artist": "JabFung",
+    "album": "In Real Life",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/in-real-life-feat-adam-ofarrill-luis-deniz-rafael-zaldivar/1887598662?uo=4",
+    "first_seen": "2026-06-21",
+    "last_checked": "2026-06-21"
+  },
+  "what you may call it||da qi": {
+    "artist": "What You May Call It",
+    "album": "Da Qi",
+    "album_link": "https://album.link/i/1895263878",
+    "apple_music_link": "https://music.apple.com/us/album/da-qi/1895263878?uo=4",
+    "first_seen": "2026-06-21",
+    "last_checked": "2026-06-21"
   }
 }
