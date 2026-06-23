@@ -9470,5 +9470,53 @@
     "apple_music_link": "https://music.apple.com/us/album/brasileir%C3%ADssimo-para-em%C3%ADlio-santiago/1294926621?uo=4",
     "first_seen": "2026-06-22",
     "last_checked": "2026-06-22"
+  },
+  "jack wilson (uk)||the bear and the wolf": {
+    "artist": "Jack Wilson (UK)",
+    "album": "The Bear And The Wolf",
+    "album_link": "https://album.link/i/1895837245",
+    "apple_music_link": "https://music.apple.com/us/album/the-bear-and-the-wolf/1895837245?uo=4",
+    "first_seen": "2026-06-23",
+    "last_checked": "2026-06-23"
+  },
+  "sam norris||wood/gold - solo saxophone volume 1": {
+    "artist": "Sam Norris",
+    "album": "Wood/Gold - Solo Saxophone Volume 1",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-23",
+    "last_checked": "2026-06-23"
+  },
+  "zen zadravec||new paradigm": {
+    "artist": "Zen Zadravec",
+    "album": "New Paradigm",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-23",
+    "last_checked": "2026-06-23"
+  },
+  "rick vito||slidemaster": {
+    "artist": "Rick Vito",
+    "album": "Slidemaster",
+    "album_link": "https://album.link/i/1879071429",
+    "apple_music_link": "https://music.apple.com/us/album/slidemaster/1879071429?uo=4",
+    "first_seen": "2026-06-23",
+    "last_checked": "2026-06-23"
+  },
+  "david occhipinti||looking glass": {
+    "artist": "David Occhipinti",
+    "album": "Looking Glass",
+    "album_link": "https://album.link/i/1894095128",
+    "apple_music_link": "https://music.apple.com/us/album/looking-glass/1894095128?uo=4",
+    "first_seen": "2026-06-23",
+    "last_checked": "2026-06-23"
+  },
+  "eric vloiemans and will holshouser||back on the road again": {
+    "artist": "Eric Vloiemans and Will Holshouser",
+    "album": "Back On The Road Again",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-23",
+    "last_checked": "2026-06-23"
   }
 }
