@@ -9678,5 +9678,45 @@
     "apple_music_link": null,
     "first_seen": "2026-06-25",
     "last_checked": "2026-06-25"
+  },
+  "james brandon lewis quartet||omni": {
+    "artist": "James Brandon Lewis Quartet",
+    "album": "Omni",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-26",
+    "last_checked": "2026-06-26"
+  },
+  "joe lovano||paramount quartet": {
+    "artist": "Joe Lovano",
+    "album": "Paramount Quartet",
+    "album_link": "https://album.link/i/1878142945",
+    "apple_music_link": "https://music.apple.com/us/album/paramount-quartet-with-julian-lage-asante-santi/1878142945?uo=4",
+    "first_seen": "2026-06-26",
+    "last_checked": "2026-06-26"
+  },
+  "alden hellmuth||tether": {
+    "artist": "Alden Hellmuth",
+    "album": "Tether",
+    "album_link": "https://album.link/i/1891273691",
+    "apple_music_link": "https://music.apple.com/us/album/tether/1891273691?uo=4",
+    "first_seen": "2026-06-26",
+    "last_checked": "2026-06-26"
+  },
+  "chuck bergeron||bass and face": {
+    "artist": "Chuck Bergeron",
+    "album": "Bass and Face",
+    "album_link": "https://album.link/i/6773504363",
+    "apple_music_link": "https://music.apple.com/us/album/bass-face-duets-with-ten-premier-vocalists/6773504363?uo=4",
+    "first_seen": "2026-06-26",
+    "last_checked": "2026-06-26"
+  },
+  "teiku||klang": {
+    "artist": "Teiku",
+    "album": "Klang",
+    "album_link": "https://album.link/i/6781478568",
+    "apple_music_link": "https://music.apple.com/us/album/klang/6781478568?uo=4",
+    "first_seen": "2026-06-26",
+    "last_checked": "2026-06-26"
   }
 }
