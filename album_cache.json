@@ -9806,5 +9806,29 @@
     "apple_music_link": "https://music.apple.com/us/album/the-unplanned-child-ep/6764487223?uo=4",
     "first_seen": "2026-06-28",
     "last_checked": "2026-06-28"
+  },
+  "a taste of honey||boogie oogie oogie": {
+    "artist": "A Taste Of Honey",
+    "album": "Boogie Oogie Oogie",
+    "album_link": "https://album.link/i/326592607",
+    "apple_music_link": "https://music.apple.com/us/album/boogie-oogie-oogie-re-recorded-remastered/326592607?uo=4",
+    "first_seen": "2026-06-29",
+    "last_checked": "2026-06-29"
+  },
+  "darondo||didn’t i": {
+    "artist": "Darondo",
+    "album": "Didn’t I",
+    "album_link": "https://album.link/i/1878056255",
+    "apple_music_link": "https://music.apple.com/us/album/didnt-i-ep/1878056255?uo=4",
+    "first_seen": "2026-06-29",
+    "last_checked": "2026-06-29"
+  },
+  "king curtis||memphis soul stew": {
+    "artist": "King Curtis",
+    "album": "Memphis Soul Stew",
+    "album_link": "https://album.link/i/1421184209",
+    "apple_music_link": "https://music.apple.com/us/album/king-curtis-memphis-soul-stew/1421184209?uo=4",
+    "first_seen": "2026-06-29",
+    "last_checked": "2026-06-29"
   }
 }
