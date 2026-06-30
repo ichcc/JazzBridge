@@ -9830,5 +9830,53 @@
     "apple_music_link": "https://music.apple.com/us/album/king-curtis-memphis-soul-stew/1421184209?uo=4",
     "first_seen": "2026-06-29",
     "last_checked": "2026-06-29"
+  },
+  "peggy lee||too marvelous for words": {
+    "artist": "Peggy Lee",
+    "album": "Too Marvelous for Words",
+    "album_link": "https://album.link/i/6776765974",
+    "apple_music_link": "https://music.apple.com/us/album/too-marvelous-for-words/6776765974?uo=4",
+    "first_seen": "2026-06-30",
+    "last_checked": "2026-06-30"
+  },
+  "camila nebbia||a reflection distorts over water": {
+    "artist": "Camila Nebbia",
+    "album": "A Reflection Distorts Over Water",
+    "album_link": "https://album.link/i/1837271654",
+    "apple_music_link": "https://music.apple.com/us/album/a-reflection-distorts-over-water-feat-marilyn/1837271654?uo=4",
+    "first_seen": "2026-06-30",
+    "last_checked": "2026-06-30"
+  },
+  "kenny barron / ray drummond / ben riley||so many lovely things: live in brecon": {
+    "artist": "Kenny Barron / Ray Drummond / Ben Riley",
+    "album": "So Many Lovely Things: Live in Brecon",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-30",
+    "last_checked": "2026-06-30"
+  },
+  "mary flower and leon cotter||chants of rain": {
+    "artist": "Mary Flower And Leon Cotter",
+    "album": "Chants of Rain",
+    "album_link": "https://album.link/i/6783548527",
+    "apple_music_link": "https://music.apple.com/us/album/chants-of-rain/6783548527?uo=4",
+    "first_seen": "2026-06-30",
+    "last_checked": "2026-06-30"
+  },
+  "schapiro 17||best laid plans": {
+    "artist": "Schapiro 17",
+    "album": "Best Laid Plans",
+    "album_link": "https://album.link/i/1896273580",
+    "apple_music_link": "https://music.apple.com/us/album/best-laid-plans/1896273580?uo=4",
+    "first_seen": "2026-06-30",
+    "last_checked": "2026-06-30"
+  },
+  "marion brown||live in europe 1968 and 1972": {
+    "artist": "Marion Brown",
+    "album": "Live in Europe 1968 and 1972",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-06-30",
+    "last_checked": "2026-06-30"
   }
 }
