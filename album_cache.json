@@ -9878,5 +9878,13 @@
     "apple_music_link": null,
     "first_seen": "2026-06-30",
     "last_checked": "2026-06-30"
+  },
+  "new music of note||june": {
+    "artist": "New Music of Note",
+    "album": "June",
+    "album_link": "https://album.link/i/1820643454",
+    "apple_music_link": "https://music.apple.com/us/album/the-ballad-of-edgar-the-horrible-submission-for/1820643454?uo=4",
+    "first_seen": "2026-07-01",
+    "last_checked": "2026-07-01"
   }
 }
