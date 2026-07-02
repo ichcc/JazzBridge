@@ -9886,5 +9886,53 @@
     "apple_music_link": "https://music.apple.com/us/album/the-ballad-of-edgar-the-horrible-submission-for/1820643454?uo=4",
     "first_seen": "2026-07-01",
     "last_checked": "2026-07-01"
+  },
+  "zoe rahman||hull suite live": {
+    "artist": "Zoe Rahman",
+    "album": "Hull Suite Live",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/hull-suite-live/1891023638?uo=4",
+    "first_seen": "2026-07-02",
+    "last_checked": "2026-07-02"
+  },
+  "ella fitzgerald||ella fitzgerald live at falkoner theatre copnhagen 1966": {
+    "artist": "Ella Fitzgerald",
+    "album": "Ella Fitzgerald Live at Falkoner Theatre Copnhagen 1966",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-02",
+    "last_checked": "2026-07-02"
+  },
+  "ben ferrell||sextet": {
+    "artist": "Ben Ferrell",
+    "album": "Sextet",
+    "album_link": "https://album.link/i/1884327873",
+    "apple_music_link": "https://music.apple.com/us/album/sextet/1884327873?uo=4",
+    "first_seen": "2026-07-02",
+    "last_checked": "2026-07-02"
+  },
+  "steve swallow||winter songs": {
+    "artist": "Steve Swallow",
+    "album": "Winter Songs",
+    "album_link": "https://album.link/i/1894293277",
+    "apple_music_link": "https://music.apple.com/us/album/winter-songs/1894293277?uo=4",
+    "first_seen": "2026-07-02",
+    "last_checked": "2026-07-02"
+  },
+  "sara serpa and matt mitchell||end of something": {
+    "artist": "Sara Serpa and Matt Mitchell",
+    "album": "End of Something",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-02",
+    "last_checked": "2026-07-02"
+  },
+  "gjerstad narvesen schlippenbach||seven tracks": {
+    "artist": "Gjerstad Narvesen Schlippenbach",
+    "album": "Seven Tracks",
+    "album_link": "https://album.link/i/1818377589",
+    "apple_music_link": "https://music.apple.com/us/album/seven-tracks/1818377589?uo=4",
+    "first_seen": "2026-07-02",
+    "last_checked": "2026-07-02"
   }
 }
