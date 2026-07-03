@@ -9934,5 +9934,37 @@
     "apple_music_link": "https://music.apple.com/us/album/seven-tracks/1818377589?uo=4",
     "first_seen": "2026-07-02",
     "last_checked": "2026-07-02"
+  },
+  "norma winstone||a timeless place": {
+    "artist": "Norma Winstone",
+    "album": "A Timeless Place",
+    "album_link": "https://album.link/i/1896425352",
+    "apple_music_link": "https://music.apple.com/us/album/a-timeless-place/1896425352?uo=4",
+    "first_seen": "2026-07-03",
+    "last_checked": "2026-07-03"
+  },
+  "seamus blake||the electrifying seamus blake plays the music of eddie harris eh!": {
+    "artist": "Seamus Blake",
+    "album": "The Electrifying Seamus Blake Plays The Music Of Eddie Harris EH!",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-03",
+    "last_checked": "2026-07-03"
+  },
+  "michael dease big band||return trajectory": {
+    "artist": "Michael Dease Big Band",
+    "album": "Return Trajectory",
+    "album_link": "https://album.link/i/1895574070",
+    "apple_music_link": "https://music.apple.com/us/album/return-trajectory/1895574070?uo=4",
+    "first_seen": "2026-07-03",
+    "last_checked": "2026-07-03"
+  },
+  "gjerstad schlippenbach narvesen||seven tracks": {
+    "artist": "Gjerstad Schlippenbach Narvesen",
+    "album": "Seven Tracks",
+    "album_link": "https://album.link/i/1818377589",
+    "apple_music_link": "https://music.apple.com/us/album/seven-tracks/1818377589?uo=4",
+    "first_seen": "2026-07-03",
+    "last_checked": "2026-07-03"
   }
 }
