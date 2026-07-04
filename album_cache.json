@@ -9966,5 +9966,29 @@
     "apple_music_link": "https://music.apple.com/us/album/seven-tracks/1818377589?uo=4",
     "first_seen": "2026-07-03",
     "last_checked": "2026-07-03"
+  },
+  "poppy ackroyd||liminal": {
+    "artist": "Poppy Ackroyd",
+    "album": "Liminal",
+    "album_link": "https://album.link/i/1873257706",
+    "apple_music_link": "https://music.apple.com/us/album/liminal/1873257706?uo=4",
+    "first_seen": "2026-07-04",
+    "last_checked": "2026-07-04"
+  },
+  "mike caudill||caught at dusk": {
+    "artist": "Mike Caudill",
+    "album": "Caught at Dusk",
+    "album_link": "https://album.link/i/1895507979",
+    "apple_music_link": "https://music.apple.com/us/album/caught-at-dusk/1895507979?uo=4",
+    "first_seen": "2026-07-04",
+    "last_checked": "2026-07-04"
+  },
+  "colin steele||stramash ii": {
+    "artist": "Colin Steele",
+    "album": "Stramash II",
+    "album_link": "https://album.link/i/6770970765",
+    "apple_music_link": "https://music.apple.com/us/album/stramash-ii/6770970765?uo=4",
+    "first_seen": "2026-07-04",
+    "last_checked": "2026-07-04"
   }
 }
