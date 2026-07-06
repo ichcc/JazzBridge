@@ -10038,5 +10038,53 @@
     "apple_music_link": null,
     "first_seen": "2026-07-05",
     "last_checked": "2026-07-05"
+  },
+  "allison cameron and scott thomson||platanus": {
+    "artist": "Allison Cameron and Scott Thomson",
+    "album": "Platanus",
+    "album_link": "https://album.link/i/1887169026",
+    "apple_music_link": "https://music.apple.com/us/album/platanus/1887169026?uo=4",
+    "first_seen": "2026-07-06",
+    "last_checked": "2026-07-06"
+  },
+  "ben patterson||stretch": {
+    "artist": "Ben Patterson",
+    "album": "Stretch",
+    "album_link": "https://album.link/i/1895574965",
+    "apple_music_link": "https://music.apple.com/us/album/stretch/1895574965?uo=4",
+    "first_seen": "2026-07-06",
+    "last_checked": "2026-07-06"
+  },
+  "neves e silva||ladeiras de santa teresa": {
+    "artist": "Neves e Silva",
+    "album": "Ladeiras de Santa Teresa",
+    "album_link": "https://album.link/i/1861514692",
+    "apple_music_link": "https://music.apple.com/us/album/ladeiras-de-santa-teresa-ep/1861514692?uo=4",
+    "first_seen": "2026-07-06",
+    "last_checked": "2026-07-06"
+  },
+  "sebastian plano||solo": {
+    "artist": "Sebastian Plano",
+    "album": "Solo",
+    "album_link": "https://album.link/i/1878083627",
+    "apple_music_link": "https://music.apple.com/us/album/solo/1878083627?uo=4",
+    "first_seen": "2026-07-06",
+    "last_checked": "2026-07-06"
+  },
+  "george||looking for consonance": {
+    "artist": "GEORGE",
+    "album": "Looking for Consonance",
+    "album_link": "https://album.link/i/1877984398",
+    "apple_music_link": "https://music.apple.com/us/album/looking-for-consonance/1877984398?uo=4",
+    "first_seen": "2026-07-06",
+    "last_checked": "2026-07-06"
+  },
+  "columbia icefield||a silence opens": {
+    "artist": "Columbia Icefield",
+    "album": "A Silence Opens",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-06",
+    "last_checked": "2026-07-06"
   }
 }
