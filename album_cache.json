@@ -10086,5 +10086,37 @@
     "apple_music_link": null,
     "first_seen": "2026-07-06",
     "last_checked": "2026-07-06"
+  },
+  "hiroshi suzuki||romance": {
+    "artist": "Hiroshi Suzuki",
+    "album": "Romance",
+    "album_link": "https://album.link/i/1464111606",
+    "apple_music_link": "https://music.apple.com/us/album/cat/1464111606?uo=4",
+    "first_seen": "2026-07-07",
+    "last_checked": "2026-07-07"
+  },
+  "kenny burrell||lost in the stars": {
+    "artist": "Kenny Burrell",
+    "album": "Lost In The Stars",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-07",
+    "last_checked": "2026-07-07"
+  },
+  "herb ellis & remo palmier||triste": {
+    "artist": "Herb Ellis & Remo Palmier",
+    "album": "Triste",
+    "album_link": "https://album.link/i/1671060662",
+    "apple_music_link": "https://music.apple.com/us/album/windflower/1671060662?uo=4",
+    "first_seen": "2026-07-07",
+    "last_checked": "2026-07-07"
+  },
+  "chet baker||but not for me": {
+    "artist": "Chet Baker",
+    "album": "But Not For Me",
+    "album_link": "https://album.link/i/1778505615",
+    "apple_music_link": "https://music.apple.com/us/album/but-not-for-me-live-single/1778505615?uo=4",
+    "first_seen": "2026-07-07",
+    "last_checked": "2026-07-07"
   }
 }
