@@ -10118,5 +10118,45 @@
     "apple_music_link": "https://music.apple.com/us/album/but-not-for-me-live-single/1778505615?uo=4",
     "first_seen": "2026-07-07",
     "last_checked": "2026-07-07"
+  },
+  "jeff rupert quartet||sea spell": {
+    "artist": "Jeff Rupert Quartet",
+    "album": "Sea Spell",
+    "album_link": "https://album.link/i/6775672482",
+    "apple_music_link": "https://music.apple.com/us/album/sea-spell/6775672482?uo=4",
+    "first_seen": "2026-07-08",
+    "last_checked": "2026-07-08"
+  },
+  "michael william gilbert||wheel within the wheel": {
+    "artist": "Michael William Gilbert",
+    "album": "Wheel Within the Wheel",
+    "album_link": "https://album.link/i/6774489547",
+    "apple_music_link": "https://music.apple.com/us/album/wheel-within-the-wheel-ep/6774489547?uo=4",
+    "first_seen": "2026-07-08",
+    "last_checked": "2026-07-08"
+  },
+  "nils petter molvaer||be quiet": {
+    "artist": "Nils Petter Molvaer",
+    "album": "Be Quiet",
+    "album_link": "https://album.link/i/1891306247",
+    "apple_music_link": "https://music.apple.com/us/album/be-quiet/1891306247?uo=4",
+    "first_seen": "2026-07-08",
+    "last_checked": "2026-07-08"
+  },
+  "deirdre cartwright||organik": {
+    "artist": "Deirdre Cartwright",
+    "album": "Organik",
+    "album_link": "https://album.link/i/6768696273",
+    "apple_music_link": "https://music.apple.com/us/album/organik/6768696273?uo=4",
+    "first_seen": "2026-07-08",
+    "last_checked": "2026-07-08"
+  },
+  "john clayton||the two-o duo project": {
+    "artist": "John Clayton",
+    "album": "The Two-o Duo Project",
+    "album_link": "https://album.link/i/6787127402",
+    "apple_music_link": "https://music.apple.com/us/album/two-o-duo/6787127402?uo=4",
+    "first_seen": "2026-07-08",
+    "last_checked": "2026-07-08"
   }
 }
