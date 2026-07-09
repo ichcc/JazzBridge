@@ -10158,5 +10158,37 @@
     "apple_music_link": "https://music.apple.com/us/album/two-o-duo/6787127402?uo=4",
     "first_seen": "2026-07-08",
     "last_checked": "2026-07-08"
+  },
+  "serge rogalski||this is not a blues": {
+    "artist": "Serge Rogalski",
+    "album": "This Is Not a Blues",
+    "album_link": "https://album.link/i/1880695305",
+    "apple_music_link": "https://music.apple.com/us/album/this-is-not-a-blues-ep/1880695305?uo=4",
+    "first_seen": "2026-07-09",
+    "last_checked": "2026-07-09"
+  },
+  "ardeshir||introducing ardeshir": {
+    "artist": "Ardeshir",
+    "album": "Introducing Ardeshir",
+    "album_link": "https://album.link/i/1889562402",
+    "apple_music_link": "https://music.apple.com/us/album/introducing-ardeshir/1889562402?uo=4",
+    "first_seen": "2026-07-09",
+    "last_checked": "2026-07-09"
+  },
+  "contrapunctus||contrapunctus": {
+    "artist": "ContraPunctus",
+    "album": "ContraPunctus",
+    "album_link": "https://album.link/i/663574119",
+    "apple_music_link": "https://music.apple.com/us/album/libera-nos-the-cry-of-the-oppressed/663574119?uo=4",
+    "first_seen": "2026-07-09",
+    "last_checked": "2026-07-09"
+  },
+  "mick goodrick||in pas(s)ing": {
+    "artist": "Mick Goodrick",
+    "album": "In Pas(s)ing",
+    "album_link": "https://album.link/i/1443280552",
+    "apple_music_link": "https://music.apple.com/us/album/in-pas-s-ing/1443280552?uo=4",
+    "first_seen": "2026-07-09",
+    "last_checked": "2026-07-09"
   }
 }
