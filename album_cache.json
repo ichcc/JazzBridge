@@ -10190,5 +10190,53 @@
     "apple_music_link": "https://music.apple.com/us/album/in-pas-s-ing/1443280552?uo=4",
     "first_seen": "2026-07-09",
     "last_checked": "2026-07-09"
+  },
+  "walter wanderley||'chegança,' 1967": {
+    "artist": "Walter Wanderley",
+    "album": "'Chegança,' 1967",
+    "album_link": "https://album.link/i/1442835979",
+    "apple_music_link": "https://music.apple.com/us/album/cheganca/1442835979?uo=4",
+    "first_seen": "2026-07-10",
+    "last_checked": "2026-07-10"
+  },
+  "james moody||'moody with strings,' 1960-'61": {
+    "artist": "James Moody",
+    "album": "'Moody With Strings,' 1960-'61",
+    "album_link": "https://album.link/i/1809205170",
+    "apple_music_link": "https://music.apple.com/us/album/moody-with-strings/1809205170?uo=4",
+    "first_seen": "2026-07-10",
+    "last_checked": "2026-07-10"
+  },
+  "burt bacharach||'knowing when to leave,' 1968": {
+    "artist": "Burt Bacharach",
+    "album": "'Knowing When to Leave,' 1968",
+    "album_link": "https://album.link/i/699708233",
+    "apple_music_link": "https://music.apple.com/us/album/knowing-when-to-leave-single/699708233?uo=4",
+    "first_seen": "2026-07-10",
+    "last_checked": "2026-07-10"
+  },
+  "editor's note||remembering the bicentennial": {
+    "artist": "Editor's Note",
+    "album": "Remembering the Bicentennial",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-10",
+    "last_checked": "2026-07-10"
+  },
+  "henry mancini||'taking it easy,' 1984": {
+    "artist": "Henry Mancini",
+    "album": "'Taking It Easy,' 1984",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-10",
+    "last_checked": "2026-07-10"
+  },
+  "frank sinatra||'at the sands' turns 60": {
+    "artist": "Frank Sinatra",
+    "album": "'At the Sands' Turns 60",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-10",
+    "last_checked": "2026-07-10"
   }
 }
