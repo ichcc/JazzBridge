@@ -10238,5 +10238,45 @@
     "apple_music_link": null,
     "first_seen": "2026-07-10",
     "last_checked": "2026-07-10"
+  },
+  "miles davis' 3rd quintet||reference: bitches brew live 1969 in europe": {
+    "artist": "MIles Davis' 3rd Quintet",
+    "album": "Reference: Bitches Brew Live 1969 In Europe",
+    "album_link": "https://album.link/i/168376392",
+    "apple_music_link": "https://music.apple.com/us/album/bitches-brew/168376392?uo=4",
+    "first_seen": "2026-07-11",
+    "last_checked": "2026-07-11"
+  },
+  "ella and the bossa beat||amare": {
+    "artist": "Ella and The Bossa Beat",
+    "album": "Amare",
+    "album_link": "https://album.link/i/1812699557",
+    "apple_music_link": "https://music.apple.com/us/album/amare-single/1812699557?uo=4",
+    "first_seen": "2026-07-11",
+    "last_checked": "2026-07-11"
+  },
+  "philippe crettien||healthy trail": {
+    "artist": "Philippe Crettien",
+    "album": "Healthy Trail",
+    "album_link": "https://album.link/i/1813490289",
+    "apple_music_link": "https://music.apple.com/us/album/healthy-trail/1813490289?uo=4",
+    "first_seen": "2026-07-11",
+    "last_checked": "2026-07-11"
+  },
+  "james wengrow||emissary": {
+    "artist": "James Wengrow",
+    "album": "Emissary",
+    "album_link": "https://album.link/i/1860711156",
+    "apple_music_link": "https://music.apple.com/us/album/emissary/1860711156?uo=4",
+    "first_seen": "2026-07-11",
+    "last_checked": "2026-07-11"
+  },
+  "kevin kastning||unreal city": {
+    "artist": "Kevin Kastning",
+    "album": "Unreal City",
+    "album_link": "https://album.link/i/6768823819",
+    "apple_music_link": "https://music.apple.com/us/album/unreal-city/6768823819?uo=4",
+    "first_seen": "2026-07-11",
+    "last_checked": "2026-07-11"
   }
 }
