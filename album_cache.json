@@ -10278,5 +10278,45 @@
     "apple_music_link": "https://music.apple.com/us/album/unreal-city/6768823819?uo=4",
     "first_seen": "2026-07-11",
     "last_checked": "2026-07-11"
+  },
+  "ryo fukui||mellow dream": {
+    "artist": "Ryo Fukui",
+    "album": "Mellow Dream",
+    "album_link": "https://album.link/i/1329458465",
+    "apple_music_link": "https://music.apple.com/us/album/mellow-dream/1329458465?uo=4",
+    "first_seen": "2026-07-12",
+    "last_checked": "2026-07-12"
+  },
+  "inoue takayuki band||taiyō ni hoero!": {
+    "artist": "Inoue Takayuki Band",
+    "album": "Taiyō Ni Hoero!",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-12",
+    "last_checked": "2026-07-12"
+  },
+  "claude ciari||the house of the rising sun": {
+    "artist": "Claude Ciari",
+    "album": "The House Of The Rising Sun",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-12",
+    "last_checked": "2026-07-12"
+  },
+  "naoya matsuoka||a season of love": {
+    "artist": "Naoya Matsuoka",
+    "album": "A Season Of Love",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-12",
+    "last_checked": "2026-07-12"
+  },
+  "masayoshi takanaka||malibu": {
+    "artist": "Masayoshi Takanaka",
+    "album": "Malibu",
+    "album_link": "https://album.link/i/1442808423",
+    "apple_music_link": "https://music.apple.com/us/album/takanaka/1442808423?uo=4",
+    "first_seen": "2026-07-12",
+    "last_checked": "2026-07-12"
   }
 }
