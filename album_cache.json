@@ -10366,5 +10366,21 @@
     "apple_music_link": null,
     "first_seen": "2026-07-13",
     "last_checked": "2026-07-13"
+  },
+  "astrud gilberto||pre-'getz/gilberto'": {
+    "artist": "Astrud Gilberto",
+    "album": "Pre-'Getz/Gilberto'",
+    "album_link": "https://album.link/i/1422655717",
+    "apple_music_link": "https://music.apple.com/us/album/getz-gilberto/1422655717?uo=4",
+    "first_seen": "2026-07-14",
+    "last_checked": "2026-07-14"
+  },
+  "editor's note||70 years of elvis presley": {
+    "artist": "Editor's Note",
+    "album": "70 Years of Elvis Presley",
+    "album_link": "https://album.link/i/1662698146",
+    "apple_music_link": "https://music.apple.com/us/album/toxic-las-vegas-jamieson-shaw-remix-from-the-elvis/1662698146?uo=4",
+    "first_seen": "2026-07-14",
+    "last_checked": "2026-07-14"
   }
 }
