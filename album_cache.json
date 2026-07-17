@@ -10438,5 +10438,45 @@
     "apple_music_link": "https://music.apple.com/us/album/i-get-ideas/1819067605?uo=4",
     "first_seen": "2026-07-16",
     "last_checked": "2026-07-16"
+  },
+  "emilio santiago||maria": {
+    "artist": "Emilio Santiago",
+    "album": "Maria",
+    "album_link": "https://album.link/i/1853829274",
+    "apple_music_link": "https://music.apple.com/us/album/micelio/1853829274?uo=4",
+    "first_seen": "2026-07-17",
+    "last_checked": "2026-07-17"
+  },
+  "bebeto castilho||moça flor": {
+    "artist": "Bebeto Castilho",
+    "album": "Moça Flor",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-17",
+    "last_checked": "2026-07-17"
+  },
+  "lúcio alves||lamento no morro": {
+    "artist": "Lúcio Alves",
+    "album": "Lamento No Morro",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-17",
+    "last_checked": "2026-07-17"
+  },
+  "emílio santiago||sessão das 10": {
+    "artist": "Emílio Santiago",
+    "album": "Sessão Das 10",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-17",
+    "last_checked": "2026-07-17"
+  },
+  "takeo moriyama||tooku": {
+    "artist": "Takeo Moriyama",
+    "album": "Tooku",
+    "album_link": "https://album.link/i/1523586113",
+    "apple_music_link": "https://music.apple.com/us/album/smile/1523586113?uo=4",
+    "first_seen": "2026-07-17",
+    "last_checked": "2026-07-17"
   }
 }
