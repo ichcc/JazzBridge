@@ -10478,5 +10478,53 @@
     "apple_music_link": "https://music.apple.com/us/album/smile/1523586113?uo=4",
     "first_seen": "2026-07-17",
     "last_checked": "2026-07-17"
+  },
+  "joey alexander||celestial keeper": {
+    "artist": "Joey Alexander",
+    "album": "Celestial Keeper",
+    "album_link": "https://album.link/i/1892125542",
+    "apple_music_link": "https://music.apple.com/us/album/celestial-keeper/1892125542?uo=4",
+    "first_seen": "2026-07-18",
+    "last_checked": "2026-07-18"
+  },
+  "ma rainey||mother of the blues, the complete paramount recordings, 1923-1928": {
+    "artist": "Ma Rainey",
+    "album": "Mother of the Blues, The Complete Paramount Recordings, 1923-1928",
+    "album_link": "https://album.link/i/6769809350",
+    "apple_music_link": "https://music.apple.com/us/album/selections-from-mother-of-the-blues-the/6769809350?uo=4",
+    "first_seen": "2026-07-18",
+    "last_checked": "2026-07-18"
+  },
+  "fergus mccreadie||the shieling: companion pieces": {
+    "artist": "Fergus McCreadie",
+    "album": "The Shieling: Companion Pieces",
+    "album_link": "https://album.link/i/1887329599",
+    "apple_music_link": "https://music.apple.com/us/album/the-shieling-companion-pieces/1887329599?uo=4",
+    "first_seen": "2026-07-18",
+    "last_checked": "2026-07-18"
+  },
+  "sullivan fortner||leave that in there": {
+    "artist": "Sullivan Fortner",
+    "album": "Leave That In There",
+    "album_link": "https://album.link/i/6769174993",
+    "apple_music_link": "https://music.apple.com/us/album/leave-that-in-there/6769174993?uo=4",
+    "first_seen": "2026-07-18",
+    "last_checked": "2026-07-18"
+  },
+  "udeigwe||four lemmas": {
+    "artist": "UDEiGWE",
+    "album": "Four Lemmas",
+    "album_link": "https://album.link/i/1889795159",
+    "apple_music_link": "https://music.apple.com/us/album/four-lemmas/1889795159?uo=4",
+    "first_seen": "2026-07-18",
+    "last_checked": "2026-07-18"
+  },
+  "kevin mackenzie||prime play standards": {
+    "artist": "Kevin Mackenzie",
+    "album": "PRIME Play Standards",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-18",
+    "last_checked": "2026-07-18"
   }
 }
