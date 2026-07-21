@@ -10582,5 +10582,45 @@
     "apple_music_link": "https://music.apple.com/us/album/non-places/6771224294?uo=4",
     "first_seen": "2026-07-20",
     "last_checked": "2026-07-20"
+  },
+  "arthur verocai||presente grego": {
+    "artist": "Arthur Verocai",
+    "album": "Presente Grego",
+    "album_link": "https://album.link/i/495578530",
+    "apple_music_link": "https://music.apple.com/us/album/arthur-verocai/495578530?uo=4",
+    "first_seen": "2026-07-21",
+    "last_checked": "2026-07-21"
+  },
+  "zé roberto||lotus 72d": {
+    "artist": "Zé Roberto",
+    "album": "Lotus 72D",
+    "album_link": "https://album.link/i/1467429534",
+    "apple_music_link": "https://music.apple.com/us/album/lotus-72-d-single/1467429534?uo=4",
+    "first_seen": "2026-07-21",
+    "last_checked": "2026-07-21"
+  },
+  "wilson das neves||venus": {
+    "artist": "Wilson Das Neves",
+    "album": "Venus",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-21",
+    "last_checked": "2026-07-21"
+  },
+  "hareton salvanini||saint tropez": {
+    "artist": "Hareton Salvanini",
+    "album": "Saint Tropez",
+    "album_link": "https://album.link/i/1043556946",
+    "apple_music_link": "https://music.apple.com/us/album/a-virgem-de-saint-tropez-trilha-sonora-original/1043556946?uo=4",
+    "first_seen": "2026-07-21",
+    "last_checked": "2026-07-21"
+  },
+  "ed lincoln||estranho triângulo": {
+    "artist": "Ed Lincoln",
+    "album": "Estranho Triângulo",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-21",
+    "last_checked": "2026-07-21"
   }
 }
