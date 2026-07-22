@@ -10622,5 +10622,53 @@
     "apple_music_link": null,
     "first_seen": "2026-07-21",
     "last_checked": "2026-07-21"
+  },
+  "richard spaven||light of day": {
+    "artist": "Richard Spaven",
+    "album": "Light Of Day",
+    "album_link": "https://album.link/i/1896036464",
+    "apple_music_link": "https://music.apple.com/us/album/light-of-day/1896036464?uo=4",
+    "first_seen": "2026-07-22",
+    "last_checked": "2026-07-22"
+  },
+  "goran kajfeš subtropic arkestra||goran kajfeš subtropic arkestra and avin omar": {
+    "artist": "Goran Kajfeš Subtropic Arkestra",
+    "album": "Goran Kajfeš Subtropic Arkestra and Avin Omar",
+    "album_link": "https://album.link/i/595931744",
+    "apple_music_link": "https://music.apple.com/us/album/the-reason-why-vol-1/595931744?uo=4",
+    "first_seen": "2026-07-22",
+    "last_checked": "2026-07-22"
+  },
+  "lisa rich||i still rise": {
+    "artist": "Lisa Rich",
+    "album": "I Still Rise",
+    "album_link": "https://album.link/i/1892619604",
+    "apple_music_link": "https://music.apple.com/us/album/i-still-rise/1892619604?uo=4",
+    "first_seen": "2026-07-22",
+    "last_checked": "2026-07-22"
+  },
+  "trish clowes||try me": {
+    "artist": "Trish Clowes",
+    "album": "Try Me",
+    "album_link": "https://album.link/i/6770933880",
+    "apple_music_link": "https://music.apple.com/us/album/try-me/6770933880?uo=4",
+    "first_seen": "2026-07-22",
+    "last_checked": "2026-07-22"
+  },
+  "sanifu hall and cosmos dwellerz arkestra||these are the times": {
+    "artist": "Sanifu Hall and Cosmos Dwellerz Arkestra",
+    "album": "These Are The Times",
+    "album_link": "https://album.link/i/6772649802",
+    "apple_music_link": "https://music.apple.com/us/album/these-are-the-times/6772649802?uo=4",
+    "first_seen": "2026-07-22",
+    "last_checked": "2026-07-22"
+  },
+  "slow tiger||slow tiger": {
+    "artist": "Slow Tiger",
+    "album": "Slow Tiger",
+    "album_link": "https://album.link/i/1887919665",
+    "apple_music_link": "https://music.apple.com/us/album/slow-tiger/1887919665?uo=4",
+    "first_seen": "2026-07-22",
+    "last_checked": "2026-07-22"
   }
 }
