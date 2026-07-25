@@ -10846,5 +10846,85 @@
     "apple_music_link": "https://music.apple.com/us/album/reachin/1536060918?uo=4",
     "first_seen": "2026-07-24",
     "last_checked": "2026-07-24"
+  },
+  "editor's note||kick back, jack": {
+    "artist": "Editor's Note",
+    "album": "Kick Back, Jack",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-25",
+    "last_checked": "2026-07-25"
+  },
+  "wsj||lydia corbett": {
+    "artist": "WSJ",
+    "album": "Lydia Corbett",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-25",
+    "last_checked": "2026-07-25"
+  },
+  "wsj||regina hall": {
+    "artist": "WSJ",
+    "album": "Regina Hall",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-25",
+    "last_checked": "2026-07-25"
+  },
+  "wsj||mary-louise parker": {
+    "artist": "WSJ",
+    "album": "Mary-Louise Parker",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-25",
+    "last_checked": "2026-07-25"
+  },
+  "wsj||millie bobby brown": {
+    "artist": "WSJ",
+    "album": "Millie Bobby Brown",
+    "album_link": "https://album.link/i/1367667802",
+    "apple_music_link": "https://music.apple.com/us/album/millie-bobby-brown-feat-syaman-single/1367667802?uo=4",
+    "first_seen": "2026-07-25",
+    "last_checked": "2026-07-25"
+  },
+  "doc||andré previn interviews oscar peterson": {
+    "artist": "Doc",
+    "album": "André Previn Interviews Oscar Peterson",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-25",
+    "last_checked": "2026-07-25"
+  },
+  "david allyn||sensitive singer": {
+    "artist": "David Allyn",
+    "album": "Sensitive Singer",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-25",
+    "last_checked": "2026-07-25"
+  },
+  "editor's note||the summer of '26": {
+    "artist": "Editor's Note",
+    "album": "The Summer of '26",
+    "album_link": "https://album.link/i/1680508772",
+    "apple_music_link": "https://music.apple.com/us/album/classique-pour-travailler/1680508772?uo=4",
+    "first_seen": "2026-07-25",
+    "last_checked": "2026-07-25"
+  },
+  "discovery||bossa nova at montauk's sail inn": {
+    "artist": "Discovery",
+    "album": "Bossa Nova at Montauk's Sail Inn",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-25",
+    "last_checked": "2026-07-25"
+  },
+  "miles davis||'miles '56: prestige recordings'": {
+    "artist": "Miles Davis",
+    "album": "'Miles '56: Prestige Recordings'",
+    "album_link": "https://album.link/i/1756196611",
+    "apple_music_link": "https://music.apple.com/us/album/miles-54-the-prestige-recordings-remastered-2024/1756196611?uo=4",
+    "first_seen": "2026-07-25",
+    "last_checked": "2026-07-25"
   }
 }
