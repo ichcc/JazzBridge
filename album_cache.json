@@ -10926,5 +10926,37 @@
     "apple_music_link": "https://music.apple.com/us/album/miles-54-the-prestige-recordings-remastered-2024/1756196611?uo=4",
     "first_seen": "2026-07-25",
     "last_checked": "2026-07-25"
+  },
+  "nicholas payton butcher brown||a supreme blue": {
+    "artist": "Nicholas Payton Butcher Brown",
+    "album": "A Supreme Blue",
+    "album_link": "https://album.link/i/6765482846",
+    "apple_music_link": "https://music.apple.com/us/album/a-supreme-blue/6765482846?uo=4",
+    "first_seen": "2026-07-26",
+    "last_checked": "2026-07-26"
+  },
+  "charles chen||the long way home": {
+    "artist": "Charles Chen",
+    "album": "The Long Way Home",
+    "album_link": "https://album.link/i/1895287547",
+    "apple_music_link": "https://music.apple.com/us/album/the-long-way-home/1895287547?uo=4",
+    "first_seen": "2026-07-26",
+    "last_checked": "2026-07-26"
+  },
+  "samuel blaser quartet||rosina": {
+    "artist": "Samuel Blaser Quartet",
+    "album": "Rosina",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-26",
+    "last_checked": "2026-07-26"
+  },
+  "rodrigo amado / joe mcphee / kent kessler / chris corsano||wailers": {
+    "artist": "Rodrigo Amado / Joe McPhee / Kent Kessler / Chris Corsano",
+    "album": "Wailers",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-26",
+    "last_checked": "2026-07-26"
   }
 }
