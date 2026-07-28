@@ -10982,5 +10982,37 @@
     "apple_music_link": null,
     "first_seen": "2026-07-27",
     "last_checked": "2026-07-27"
+  },
+  "kiri ra!||nen": {
+    "artist": "Kiri Ra!",
+    "album": "nen",
+    "album_link": "https://album.link/i/1884682855",
+    "apple_music_link": "https://music.apple.com/us/album/nen/1884682855?uo=4",
+    "first_seen": "2026-07-28",
+    "last_checked": "2026-07-28"
+  },
+  "tu-ner||rendezvous rodeo": {
+    "artist": "Tu-Ner",
+    "album": "Rendezvous Rodeo",
+    "album_link": "https://album.link/i/6792917089",
+    "apple_music_link": "https://music.apple.com/us/album/rendezvous-rodeo-live/6792917089?uo=4",
+    "first_seen": "2026-07-28",
+    "last_checked": "2026-07-28"
+  },
+  "cícero lee||light / beyond": {
+    "artist": "Cícero Lee",
+    "album": "light / beyond",
+    "album_link": "https://album.link/i/6769579166",
+    "apple_music_link": "https://music.apple.com/us/album/light-beyond/6769579166?uo=4",
+    "first_seen": "2026-07-28",
+    "last_checked": "2026-07-28"
+  },
+  "frank swart||this is the one! (raison d'être)": {
+    "artist": "Frank Swart",
+    "album": "This Is The One! (Raison D'êTre)",
+    "album_link": "https://album.link/i/1882933551",
+    "apple_music_link": "https://music.apple.com/us/album/this-is-the-one-raison-d%C3%AAtre-album-master-feat-frank-swart/1882933551?uo=4",
+    "first_seen": "2026-07-28",
+    "last_checked": "2026-07-28"
   }
 }
