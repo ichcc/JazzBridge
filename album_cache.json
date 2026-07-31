@@ -11046,5 +11046,53 @@
     "apple_music_link": "https://music.apple.com/us/album/margin-notes/6785440756?uo=4",
     "first_seen": "2026-07-30",
     "last_checked": "2026-07-30"
+  },
+  "denny zeitlin||odyssey": {
+    "artist": "Denny Zeitlin",
+    "album": "Odyssey",
+    "album_link": "https://album.link/i/6790843597",
+    "apple_music_link": "https://music.apple.com/us/album/odyssey/6790843597?uo=4",
+    "first_seen": "2026-07-31",
+    "last_checked": "2026-07-31"
+  },
+  "thelonious monk||monk live in paris 1967 volume one": {
+    "artist": "Thelonious Monk",
+    "album": "Monk Live In Paris 1967 Volume One",
+    "album_link": "https://album.link/i/6786814899",
+    "apple_music_link": "https://music.apple.com/us/album/monk-live-in-paris-1967-vol-1/6786814899?uo=4",
+    "first_seen": "2026-07-31",
+    "last_checked": "2026-07-31"
+  },
+  "ga20 with charlie musselwhite||blues now": {
+    "artist": "GA20 with Charlie Musselwhite",
+    "album": "Blues Now",
+    "album_link": "https://album.link/i/1889617630",
+    "apple_music_link": "https://music.apple.com/us/album/blues-now/1889617630?uo=4",
+    "first_seen": "2026-07-31",
+    "last_checked": "2026-07-31"
+  },
+  "chick corea||sometime ago": {
+    "artist": "Chick Corea",
+    "album": "Sometime Ago",
+    "album_link": "https://album.link/i/1591924319",
+    "apple_music_link": "https://music.apple.com/us/album/alma-likes-to-be-in-america/1591924319?uo=4",
+    "first_seen": "2026-07-31",
+    "last_checked": "2026-07-31"
+  },
+  "حمد [ahmed]||play monk": {
+    "artist": "حمد [Ahmed]",
+    "album": "Play Monk",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-31",
+    "last_checked": "2026-07-31"
+  },
+  "clark sommers||wabash": {
+    "artist": "Clark Sommers",
+    "album": "WaBaSH",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-07-31",
+    "last_checked": "2026-07-31"
   }
 }
