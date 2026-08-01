@@ -11094,5 +11094,21 @@
     "apple_music_link": null,
     "first_seen": "2026-07-31",
     "last_checked": "2026-07-31"
+  },
+  "editor's note||the tardy sun": {
+    "artist": "Editor's Note",
+    "album": "The Tardy Sun",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-01",
+    "last_checked": "2026-08-01"
+  },
+  "zbigniew namyslowski modern jazz quartet||'lola,' 1964": {
+    "artist": "Zbigniew Namyslowski Modern Jazz Quartet",
+    "album": "'Lola,' 1964",
+    "album_link": "https://album.link/i/1855520675",
+    "apple_music_link": "https://music.apple.com/us/album/lola/1855520675?uo=4",
+    "first_seen": "2026-08-01",
+    "last_checked": "2026-08-01"
   }
 }
