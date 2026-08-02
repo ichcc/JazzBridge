@@ -11110,5 +11110,45 @@
     "apple_music_link": "https://music.apple.com/us/album/lola/1855520675?uo=4",
     "first_seen": "2026-08-01",
     "last_checked": "2026-08-01"
+  },
+  "bob nell and michael bisio trios||trios: we are here": {
+    "artist": "Bob Nell and Michael Bisio Trios",
+    "album": "Trios: We Are Here",
+    "album_link": "https://album.link/i/6782779621",
+    "apple_music_link": "https://music.apple.com/us/album/trios-we-are-here/6782779621?uo=4",
+    "first_seen": "2026-08-02",
+    "last_checked": "2026-08-02"
+  },
+  "rob van bavel||the ghost, the king and i featuring scott hamilton and strings": {
+    "artist": "Rob van Bavel",
+    "album": "The Ghost, the King and I featuring Scott Hamilton and Strings",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-02",
+    "last_checked": "2026-08-02"
+  },
+  "gerry hemingway with izumi kimura - frank gratkowski - christian weber.||live at bau 4": {
+    "artist": "Gerry Hemingway with Izumi Kimura - Frank Gratkowski - Christian Weber.",
+    "album": "Live at Bau 4",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-02",
+    "last_checked": "2026-08-02"
+  },
+  "the scornful four||hopeful music for hopeless people": {
+    "artist": "The Scornful Four",
+    "album": "Hopeful Music for Hopeless People",
+    "album_link": "https://album.link/i/1891048804",
+    "apple_music_link": "https://music.apple.com/us/album/hopeful-music-for-hopeless-people/1891048804?uo=4",
+    "first_seen": "2026-08-02",
+    "last_checked": "2026-08-02"
+  },
+  "gerry hemingway||live at bau 4": {
+    "artist": "Gerry Hemingway",
+    "album": "Live at Bau 4",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-02",
+    "last_checked": "2026-08-02"
   }
 }
