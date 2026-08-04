@@ -11230,5 +11230,45 @@
     "apple_music_link": null,
     "first_seen": "2026-08-03",
     "last_checked": "2026-08-03"
+  },
+  "l'abîme||l'abîme ii": {
+    "artist": "L'Abîme",
+    "album": "L'Abîme II",
+    "album_link": "https://album.link/i/263104632",
+    "apple_music_link": "https://music.apple.com/us/album/songs-without-words-classical-music-from-ken-burns-the-war/263104632?uo=4",
+    "first_seen": "2026-08-04",
+    "last_checked": "2026-08-04"
+  },
+  "will lyle||the all seeing eye": {
+    "artist": "Will Lyle",
+    "album": "The All Seeing Eye",
+    "album_link": "https://album.link/i/1896064961",
+    "apple_music_link": "https://music.apple.com/us/album/the-all-seeing-eye/1896064961?uo=4",
+    "first_seen": "2026-08-04",
+    "last_checked": "2026-08-04"
+  },
+  "peter evans, mike pride||a window, basically": {
+    "artist": "Peter Evans, Mike Pride",
+    "album": "A Window, Basically",
+    "album_link": "https://album.link/i/1840483577",
+    "apple_music_link": "https://music.apple.com/us/album/a-window-basically/1840483577?uo=4",
+    "first_seen": "2026-08-04",
+    "last_checked": "2026-08-04"
+  },
+  "ivo perelman||synesthesia": {
+    "artist": "Ivo Perelman",
+    "album": "Synesthesia",
+    "album_link": "https://album.link/i/1884749708",
+    "apple_music_link": "https://music.apple.com/us/album/synesthesia/1884749708?uo=4",
+    "first_seen": "2026-08-04",
+    "last_checked": "2026-08-04"
+  },
+  "fjall||helt": {
+    "artist": "Fjall",
+    "album": "Helt",
+    "album_link": "https://album.link/i/1784695956",
+    "apple_music_link": "https://music.apple.com/us/album/fj%C3%A4llr%C3%A4ven-single/1784695956?uo=4",
+    "first_seen": "2026-08-04",
+    "last_checked": "2026-08-04"
   }
 }
