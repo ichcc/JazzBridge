@@ -11270,5 +11270,29 @@
     "apple_music_link": "https://music.apple.com/us/album/fj%C3%A4llr%C3%A4ven-single/1784695956?uo=4",
     "first_seen": "2026-08-04",
     "last_checked": "2026-08-04"
+  },
+  "david blake quartet||radio casual": {
+    "artist": "David Blake Quartet",
+    "album": "Radio Casual",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-05",
+    "last_checked": "2026-08-05"
+  },
+  "henry threadgill vijay iyer dafnis prieto||fifteen": {
+    "artist": "Henry Threadgill Vijay Iyer Dafnis Prieto",
+    "album": "Fifteen",
+    "album_link": "https://album.link/i/1896361251",
+    "apple_music_link": "https://music.apple.com/us/album/fifteen/1896361251?uo=4",
+    "first_seen": "2026-08-05",
+    "last_checked": "2026-08-05"
+  },
+  "eve cornelious||eve again... naturally": {
+    "artist": "Eve Cornelious",
+    "album": "Eve Again... Naturally",
+    "album_link": "https://album.link/i/6775694679",
+    "apple_music_link": "https://music.apple.com/us/album/again-naturally/6775694679?uo=4",
+    "first_seen": "2026-08-05",
+    "last_checked": "2026-08-05"
   }
 }
