@@ -11382,5 +11382,37 @@
     "apple_music_link": null,
     "first_seen": "2026-08-07",
     "last_checked": "2026-08-07"
+  },
+  "om||sudpol": {
+    "artist": "OM",
+    "album": "Sudpol",
+    "album_link": "https://album.link/i/6774252756",
+    "apple_music_link": "https://music.apple.com/us/album/s%C3%BCdpol-live/6774252756?uo=4",
+    "first_seen": "2026-08-08",
+    "last_checked": "2026-08-08"
+  },
+  "mike clark||kuon ganjo": {
+    "artist": "Mike Clark",
+    "album": "Kuon Ganjo",
+    "album_link": "https://album.link/i/6788122193",
+    "apple_music_link": "https://music.apple.com/us/album/kuon-ganjo-feat-eddie-henderson-patrice-rushen/6788122193?uo=4",
+    "first_seen": "2026-08-08",
+    "last_checked": "2026-08-08"
+  },
+  "glam sam and his combo||instrumentals in colour": {
+    "artist": "Glam Sam And His Combo",
+    "album": "Instrumentals In Colour",
+    "album_link": "https://album.link/i/6773403070",
+    "apple_music_link": "https://music.apple.com/us/album/instrumentals-in-colour-ep/6773403070?uo=4",
+    "first_seen": "2026-08-08",
+    "last_checked": "2026-08-08"
+  },
+  "ben crosland quintet||north york skies": {
+    "artist": "Ben Crosland Quintet",
+    "album": "North York Skies",
+    "album_link": "https://album.link/i/6790805024",
+    "apple_music_link": "https://music.apple.com/us/album/north-york-skies/6790805024?uo=4",
+    "first_seen": "2026-08-08",
+    "last_checked": "2026-08-08"
   }
 }
