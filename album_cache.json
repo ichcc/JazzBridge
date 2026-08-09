@@ -11414,5 +11414,21 @@
     "apple_music_link": "https://music.apple.com/us/album/north-york-skies/6790805024?uo=4",
     "first_seen": "2026-08-08",
     "last_checked": "2026-08-08"
+  },
+  "gergana velinova||free": {
+    "artist": "Gergana Velinova",
+    "album": "Free",
+    "album_link": "https://album.link/i/1886795881",
+    "apple_music_link": "https://music.apple.com/us/album/free/1886795881?uo=4",
+    "first_seen": "2026-08-09",
+    "last_checked": "2026-08-09"
+  },
+  "michael falzarano||sunrise over the unknown": {
+    "artist": "Michael Falzarano",
+    "album": "Sunrise Over The Unknown",
+    "album_link": "https://album.link/i/6784793439",
+    "apple_music_link": "https://music.apple.com/us/album/sunrise-over-the-unknown/6784793439?uo=4",
+    "first_seen": "2026-08-09",
+    "last_checked": "2026-08-09"
   }
 }
