@@ -11430,5 +11430,29 @@
     "apple_music_link": "https://music.apple.com/us/album/sunrise-over-the-unknown/6784793439?uo=4",
     "first_seen": "2026-08-09",
     "last_checked": "2026-08-09"
+  },
+  "john shannon||a day in tarifa": {
+    "artist": "John Shannon",
+    "album": "A Day In Tarifa",
+    "album_link": "https://album.link/i/1828333231",
+    "apple_music_link": "https://music.apple.com/us/album/a-day-in-tarifa/1828333231?uo=4",
+    "first_seen": "2026-08-10",
+    "last_checked": "2026-08-10"
+  },
+  "ronny smith||velvet vibe": {
+    "artist": "Ronny Smith",
+    "album": "Velvet Vibe",
+    "album_link": "https://album.link/i/1893481421",
+    "apple_music_link": "https://music.apple.com/us/album/velvet-vibe/1893481421?uo=4",
+    "first_seen": "2026-08-10",
+    "last_checked": "2026-08-10"
+  },
+  "ivo perelman / damon smith||duologue 6: core of existence": {
+    "artist": "Ivo Perelman / Damon Smith",
+    "album": "Duologue 6: Core of Existence",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-10",
+    "last_checked": "2026-08-10"
   }
 }
