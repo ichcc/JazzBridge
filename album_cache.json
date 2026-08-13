@@ -11574,5 +11574,45 @@
     "apple_music_link": null,
     "first_seen": "2026-08-12",
     "last_checked": "2026-08-12"
+  },
+  "'jazz goes mod||soho scene '68'": {
+    "artist": "'Jazz Goes Mod",
+    "album": "Soho Scene '68'",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-13",
+    "last_checked": "2026-08-13"
+  },
+  "contrafact mania||'pop + jazz = swing,' 1962": {
+    "artist": "Contrafact Mania",
+    "album": "'Pop + Jazz = Swing,' 1962",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-13",
+    "last_checked": "2026-08-13"
+  },
+  "denny zeitlin||'odyssey,' 2003-2025": {
+    "artist": "Denny Zeitlin",
+    "album": "'Odyssey,' 2003-2025",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-13",
+    "last_checked": "2026-08-13"
+  },
+  "editor's note||jazz on the green": {
+    "artist": "Editor's Note",
+    "album": "Jazz on the Green",
+    "album_link": "https://album.link/i/1550372297",
+    "apple_music_link": "https://music.apple.com/us/album/the-essential-teddy-pendergrass/1550372297?uo=4",
+    "first_seen": "2026-08-13",
+    "last_checked": "2026-08-13"
+  },
+  "richard 'groove' holmes||'the groover!,' 1968": {
+    "artist": "Richard 'Groove' Holmes",
+    "album": "'The Groover!,' 1968",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-13",
+    "last_checked": "2026-08-13"
   }
 }
