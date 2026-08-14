@@ -11614,5 +11614,45 @@
     "apple_music_link": null,
     "first_seen": "2026-08-13",
     "last_checked": "2026-08-13"
+  },
+  "pascal niggenkemper||d'une rive à l'autre": {
+    "artist": "Pascal Niggenkemper",
+    "album": "D'une rive à l'autre",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-14",
+    "last_checked": "2026-08-14"
+  },
+  "peter parcek||most of the time": {
+    "artist": "Peter Parcek",
+    "album": "Most Of The Time",
+    "album_link": "https://album.link/i/6781018025",
+    "apple_music_link": "https://music.apple.com/us/album/most-of-the-time/6781018025?uo=4",
+    "first_seen": "2026-08-14",
+    "last_checked": "2026-08-14"
+  },
+  "gabriele di franco||the value of choices": {
+    "artist": "Gabriele Di Franco",
+    "album": "The Value Of Choices",
+    "album_link": "https://album.link/i/1861823599",
+    "apple_music_link": "https://music.apple.com/us/album/the-value-of-choices/1861823599?uo=4",
+    "first_seen": "2026-08-14",
+    "last_checked": "2026-08-14"
+  },
+  "east of west||velella": {
+    "artist": "East of West",
+    "album": "Velella",
+    "album_link": "https://album.link/i/6792791908",
+    "apple_music_link": "https://music.apple.com/us/album/velella/6792791908?uo=4",
+    "first_seen": "2026-08-14",
+    "last_checked": "2026-08-14"
+  },
+  "rodrigo amado||wailers": {
+    "artist": "Rodrigo Amado",
+    "album": "Wailers",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-14",
+    "last_checked": "2026-08-14"
   }
 }
