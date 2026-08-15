@@ -11654,5 +11654,21 @@
     "apple_music_link": null,
     "first_seen": "2026-08-14",
     "last_checked": "2026-08-14"
+  },
+  "møster!||bolts": {
+    "artist": "Møster!",
+    "album": "Bolts",
+    "album_link": "https://album.link/i/1889869954",
+    "apple_music_link": "https://music.apple.com/us/album/bolts/1889869954?uo=4",
+    "first_seen": "2026-08-15",
+    "last_checked": "2026-08-15"
+  },
+  "julian wittich 紀安||tidelines": {
+    "artist": "Julian Wittich 紀安",
+    "album": "Tidelines",
+    "album_link": "https://album.link/i/6781222435",
+    "apple_music_link": "https://music.apple.com/us/album/tidelines/6781222435?uo=4",
+    "first_seen": "2026-08-15",
+    "last_checked": "2026-08-15"
   }
 }
