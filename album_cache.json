@@ -11718,5 +11718,37 @@
     "apple_music_link": "https://music.apple.com/us/album/island-of-flowers/1888063230?uo=4",
     "first_seen": "2026-08-18",
     "last_checked": "2026-08-18"
+  },
+  "count basie||tilburg, holand, 1971": {
+    "artist": "Count Basie",
+    "album": "Tilburg, Holand, 1971",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-19",
+    "last_checked": "2026-08-19"
+  },
+  "paula castle||'lost love,' 1955": {
+    "artist": "Paula Castle",
+    "album": "'Lost Love,' 1955",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/lost-love-remastered-2013/689039913?uo=4",
+    "first_seen": "2026-08-19",
+    "last_checked": "2026-08-19"
+  },
+  "john coltrane||'coltrane,' 1957": {
+    "artist": "John Coltrane",
+    "album": "'Coltrane,' 1957",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/the-complete-1957-riverside-recordings/1453155105?uo=4",
+    "first_seen": "2026-08-19",
+    "last_checked": "2026-08-19"
+  },
+  "editor's note||a pin-drop week": {
+    "artist": "Editor's Note",
+    "album": "A Pin-Drop Week",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-19",
+    "last_checked": "2026-08-19"
   }
 }
