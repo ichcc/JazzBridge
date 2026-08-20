@@ -11750,5 +11750,29 @@
     "apple_music_link": null,
     "first_seen": "2026-08-19",
     "last_checked": "2026-08-19"
+  },
+  "duke ellington||the making of new orleans suite by steve siegel": {
+    "artist": "Duke Ellington",
+    "album": "The Making of New Orleans Suite by Steve Siegel",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-20",
+    "last_checked": "2026-08-20"
+  },
+  "bill potts||arranger/conductor -  the jazz soul of porgy and bess  by andré previn and steve wallace": {
+    "artist": "Bill Potts",
+    "album": "arranger/conductor -  The Jazz Soul Of Porgy And Bess  by André Previn and Steve Wallace",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/honey-and-rue-kathleen-battle-edition-vol-5/1698041583?uo=4",
+    "first_seen": "2026-08-20",
+    "last_checked": "2026-08-20"
+  },
+  "paolo fresu||kind of porgy and bess": {
+    "artist": "Paolo Fresu",
+    "album": "Kind of Porgy and Bess",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-20",
+    "last_checked": "2026-08-20"
   }
 }
