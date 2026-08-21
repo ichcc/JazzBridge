@@ -11774,5 +11774,61 @@
     "apple_music_link": null,
     "first_seen": "2026-08-20",
     "last_checked": "2026-08-20"
+  },
+  "mike jones||mike jones with strings": {
+    "artist": "Mike Jones",
+    "album": "Mike Jones With Strings",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/mike-jones-with-strings/6790606020?uo=4",
+    "first_seen": "2026-08-21",
+    "last_checked": "2026-08-21"
+  },
+  "king crimson||2014 nyc": {
+    "artist": "King Crimson",
+    "album": "2014 NYC",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/2014-nyc-live-at-best-buy-theatre-new-york-2014/6788475735?uo=4",
+    "first_seen": "2026-08-21",
+    "last_checked": "2026-08-21"
+  },
+  "christian parker||american cosmic revival vol. 2: miles from nowhere": {
+    "artist": "Christian Parker",
+    "album": "American Cosmic Revival Vol. 2: Miles From Nowhere",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/american-cosmic-revival-vol-2-miles-from-nowhere/6771381297?uo=4",
+    "first_seen": "2026-08-21",
+    "last_checked": "2026-08-21"
+  },
+  "insufficient funs||chunk": {
+    "artist": "Insufficient Funs",
+    "album": "Chunk",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/chunk/1891503749?uo=4",
+    "first_seen": "2026-08-21",
+    "last_checked": "2026-08-21"
+  },
+  "charles downs||inner": {
+    "artist": "Charles Downs",
+    "album": "Inner",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-21",
+    "last_checked": "2026-08-21"
+  },
+  "nick mazzarella||siena sessions": {
+    "artist": "Nick Mazzarella",
+    "album": "Siena Sessions",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-21",
+    "last_checked": "2026-08-21"
+  },
+  "piero bittolo bon||spell//hunger": {
+    "artist": "Piero Bittolo Bon",
+    "album": "Spell//Hunger",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-21",
+    "last_checked": "2026-08-21"
   }
 }
