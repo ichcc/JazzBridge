@@ -11830,5 +11830,69 @@
     "apple_music_link": null,
     "first_seen": "2026-08-21",
     "last_checked": "2026-08-21"
+  },
+  "editor's note||back to the future": {
+    "artist": "Editor's Note",
+    "album": "Back to the Future",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-22",
+    "last_checked": "2026-08-22"
+  },
+  "wsj||jared harris": {
+    "artist": "WSJ",
+    "album": "Jared Harris",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-22",
+    "last_checked": "2026-08-22"
+  },
+  "wsj||‘boston’ turns 50": {
+    "artist": "WSJ",
+    "album": "‘Boston’ Turns 50",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-22",
+    "last_checked": "2026-08-22"
+  },
+  "wsj||jon lovitz": {
+    "artist": "WSJ",
+    "album": "Jon Lovitz",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-22",
+    "last_checked": "2026-08-22"
+  },
+  "wsj||ethan peck": {
+    "artist": "WSJ",
+    "album": "Ethan Peck",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-22",
+    "last_checked": "2026-08-22"
+  },
+  "wsj||tim robbins": {
+    "artist": "WSJ",
+    "album": "Tim Robbins",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-22",
+    "last_checked": "2026-08-22"
+  },
+  "jackie mclean||'plays fat jazz,' 1957": {
+    "artist": "Jackie McLean",
+    "album": "'Plays Fat Jazz,' 1957",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-22",
+    "last_checked": "2026-08-22"
+  },
+  "tower of power||top 10 ballads": {
+    "artist": "Tower of Power",
+    "album": "Top 10 Ballads",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/the-colour-of-my-love/1057578787?uo=4",
+    "first_seen": "2026-08-22",
+    "last_checked": "2026-08-22"
   }
 }
