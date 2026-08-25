@@ -11934,5 +11934,45 @@
     "apple_music_link": "https://music.apple.com/us/album/organ-ized/6767579549?uo=4",
     "first_seen": "2026-08-24",
     "last_checked": "2026-08-24"
+  },
+  "cc syndicate||flying high": {
+    "artist": "CC Syndicate",
+    "album": "Flying High",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/flying-high/6771993975?uo=4",
+    "first_seen": "2026-08-25",
+    "last_checked": "2026-08-25"
+  },
+  "new england jazz collaborative||tributaries": {
+    "artist": "New England Jazz Collaborative",
+    "album": "Tributaries",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/tributaries/1895367739?uo=4",
+    "first_seen": "2026-08-25",
+    "last_checked": "2026-08-25"
+  },
+  "mike lorenz||i'm not there": {
+    "artist": "Mike Lorenz",
+    "album": "I'm Not There",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/im-not-there-feat-sandy-eldred-matt-scarano/1876934031?uo=4",
+    "first_seen": "2026-08-25",
+    "last_checked": "2026-08-25"
+  },
+  "szakcsi lakatos bela quintet||jazz festival - 2022": {
+    "artist": "Szakcsi Lakatos Bela Quintet",
+    "album": "Jazz Festival - 2022",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-25",
+    "last_checked": "2026-08-25"
+  },
+  "kevin fort||chiaroscuro": {
+    "artist": "Kevin Fort",
+    "album": "Chiaroscuro",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-25",
+    "last_checked": "2026-08-25"
   }
 }
