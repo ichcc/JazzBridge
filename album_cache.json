@@ -11974,5 +11974,29 @@
     "apple_music_link": null,
     "first_seen": "2026-08-25",
     "last_checked": "2026-08-25"
+  },
+  "lee morgan||‘lee-way,’ 1960": {
+    "artist": "Lee Morgan",
+    "album": "‘Lee-Way,’ 1960",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/lee-way-rudy-van-gelder-edition/724120097?uo=4",
+    "first_seen": "2026-08-26",
+    "last_checked": "2026-08-26"
+  },
+  "wsj||dolly parton (1946-2026)": {
+    "artist": "WSJ",
+    "album": "Dolly Parton (1946-2026)",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-26",
+    "last_checked": "2026-08-26"
+  },
+  "thad jones||‘three and one,’ 1984": {
+    "artist": "Thad Jones",
+    "album": "‘Three and One,’ 1984",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/three-and-one/159415204?uo=4",
+    "first_seen": "2026-08-26",
+    "last_checked": "2026-08-26"
   }
 }
