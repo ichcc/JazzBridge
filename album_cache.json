@@ -12094,5 +12094,21 @@
     "apple_music_link": "https://music.apple.com/us/album/this-is-what-love-does/6773038836?uo=4",
     "first_seen": "2026-08-29",
     "last_checked": "2026-08-29"
+  },
+  "editor’s note||schwann song": {
+    "artist": "Editor’s Note",
+    "album": "Schwann Song",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-30",
+    "last_checked": "2026-08-30"
+  },
+  "new music of note||august": {
+    "artist": "New Music of Note",
+    "album": "August",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/on-the-sunny-side-of-the-street-recorded-live-at/1739410253?uo=4",
+    "first_seen": "2026-08-30",
+    "last_checked": "2026-08-30"
   }
 }
