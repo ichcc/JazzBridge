@@ -12110,5 +12110,45 @@
     "apple_music_link": "https://music.apple.com/us/album/on-the-sunny-side-of-the-street-recorded-live-at/1739410253?uo=4",
     "first_seen": "2026-08-30",
     "last_checked": "2026-08-30"
+  },
+  "josh warren||the path": {
+    "artist": "Josh Warren",
+    "album": "The Path",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/the-path/6786079231?uo=4",
+    "first_seen": "2026-08-31",
+    "last_checked": "2026-08-31"
+  },
+  "ilaria capalbo||the brightest sun": {
+    "artist": "Ilaria Capalbo",
+    "album": "The Brightest Sun",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/the-brightest-sun-feat-fredrik-nordstr%C3%B6m-andreas/6768983768?uo=4",
+    "first_seen": "2026-08-31",
+    "last_checked": "2026-08-31"
+  },
+  "satoko fujii||second attempt": {
+    "artist": "Satoko Fujii",
+    "album": "Second Attempt",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/second-attempt/6799547001?uo=4",
+    "first_seen": "2026-08-31",
+    "last_checked": "2026-08-31"
+  },
+  "david maranha / rodrigo amado||desolation row": {
+    "artist": "David Maranha / Rodrigo Amado",
+    "album": "Desolation Row",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-31",
+    "last_checked": "2026-08-31"
+  },
+  "the arab blues||deserted": {
+    "artist": "The Arab Blues",
+    "album": "Deserted",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-08-31",
+    "last_checked": "2026-08-31"
   }
 }
