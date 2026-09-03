@@ -12206,5 +12206,13 @@
     "apple_music_link": null,
     "first_seen": "2026-09-02",
     "last_checked": "2026-09-02"
+  },
+  "blue mitchell||‘the thing to do,’ 1964": {
+    "artist": "Blue Mitchell",
+    "album": "‘The Thing to Do,’ 1964",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/the-thing-to-do/1442992581?uo=4",
+    "first_seen": "2026-09-03",
+    "last_checked": "2026-09-03"
   }
 }
