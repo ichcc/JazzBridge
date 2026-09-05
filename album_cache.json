@@ -12262,5 +12262,37 @@
     "apple_music_link": null,
     "first_seen": "2026-09-04",
     "last_checked": "2026-09-04"
+  },
+  "editor’s note||the beaver": {
+    "artist": "Editor’s Note",
+    "album": "The Beaver",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-09-05",
+    "last_checked": "2026-09-05"
+  },
+  "wsj||bobby flay": {
+    "artist": "WSJ",
+    "album": "Bobby Flay",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/beat-bobby-flay-single/1598226482?uo=4",
+    "first_seen": "2026-09-05",
+    "last_checked": "2026-09-05"
+  },
+  "wsj||adam scott": {
+    "artist": "WSJ",
+    "album": "Adam Scott",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/let-me-know-the-wanna-ride-mix-single/1503011046?uo=4",
+    "first_seen": "2026-09-05",
+    "last_checked": "2026-09-05"
+  },
+  "george shearing||‘satin brass,’ 1959": {
+    "artist": "George Shearing",
+    "album": "‘Satin Brass,’ 1959",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/satin-brass/1392588356?uo=4",
+    "first_seen": "2026-09-05",
+    "last_checked": "2026-09-05"
   }
 }
