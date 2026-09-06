@@ -12294,5 +12294,37 @@
     "apple_music_link": "https://music.apple.com/us/album/satin-brass/1392588356?uo=4",
     "first_seen": "2026-09-05",
     "last_checked": "2026-09-05"
+  },
+  "steve rawlins||word on the street": {
+    "artist": "Steve Rawlins",
+    "album": "Word on the Street",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/word-on-the-street/6769879287?uo=4",
+    "first_seen": "2026-09-06",
+    "last_checked": "2026-09-06"
+  },
+  "geof bradfield / myra melford / ben goldberg / dana hall||open or close": {
+    "artist": "Geof Bradfield / Myra Melford / Ben Goldberg / Dana Hall",
+    "album": "Open Or Close",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/open-or-close/6806239564?uo=4",
+    "first_seen": "2026-09-06",
+    "last_checked": "2026-09-06"
+  },
+  "alexis marcelo||solo piano": {
+    "artist": "Alexis Marcelo",
+    "album": "Solo Piano",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/solo-piano/1862917164?uo=4",
+    "first_seen": "2026-09-06",
+    "last_checked": "2026-09-06"
+  },
+  "jalen baker||repaved": {
+    "artist": "Jalen Baker",
+    "album": "RePaved",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/repaved/6776776331?uo=4",
+    "first_seen": "2026-09-06",
+    "last_checked": "2026-09-06"
   }
 }
