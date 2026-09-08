@@ -12350,5 +12350,29 @@
     "apple_music_link": "https://music.apple.com/us/album/live-at-mackenzie-hall-jazz-live/6779761729?uo=4",
     "first_seen": "2026-09-07",
     "last_checked": "2026-09-07"
+  },
+  "irene schweizer||piano solo: prelude to a kiss and more": {
+    "artist": "Irene Schweizer",
+    "album": "Piano Solo: Prelude To A Kiss And More",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/prelude-to-a-kiss-and-more-live/6796071858?uo=4",
+    "first_seen": "2026-09-08",
+    "last_checked": "2026-09-08"
+  },
+  "wdr big band with sean jones||jagged edges elegant lines": {
+    "artist": "WDR Big Band with Sean Jones",
+    "album": "Jagged Edges Elegant Lines",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/jagged-edges-elegant-lines-the-music-of-ayn-inserto/6789272546?uo=4",
+    "first_seen": "2026-09-08",
+    "last_checked": "2026-09-08"
+  },
+  "technocats||passionata": {
+    "artist": "Technocats",
+    "album": "Passionata",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/passionata-the-music-of-gregg-hill-featuring/6801714214?uo=4",
+    "first_seen": "2026-09-08",
+    "last_checked": "2026-09-08"
   }
 }
