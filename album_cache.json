@@ -12398,5 +12398,37 @@
     "apple_music_link": "https://music.apple.com/us/album/doesnt-love-mean-more/1874348752?uo=4",
     "first_seen": "2026-09-09",
     "last_checked": "2026-09-09"
+  },
+  "andy sheppard||salt catchers": {
+    "artist": "Andy Sheppard",
+    "album": "Salt Catchers",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/salt-catchers/6788429102?uo=4",
+    "first_seen": "2026-09-10",
+    "last_checked": "2026-09-10"
+  },
+  "ivan valentini||camera funky": {
+    "artist": "Ivan Valentini",
+    "album": "Camera Funky",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/camera-funky/6765492524?uo=4",
+    "first_seen": "2026-09-10",
+    "last_checked": "2026-09-10"
+  },
+  "tara minton||the devil invites you to dance": {
+    "artist": "Tara Minton",
+    "album": "The Devil Invites You To Dance",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-09-10",
+    "last_checked": "2026-09-10"
+  },
+  "michael rabinowitz jazz quartet south||reunion": {
+    "artist": "Michael Rabinowitz Jazz Quartet South",
+    "album": "Reunion",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/reunion/6807129676?uo=4",
+    "first_seen": "2026-09-10",
+    "last_checked": "2026-09-10"
   }
 }
