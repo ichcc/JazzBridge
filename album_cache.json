@@ -12566,5 +12566,53 @@
     "apple_music_link": "https://music.apple.com/us/album/some-of-my-lies-are-true/1888564719?uo=4",
     "first_seen": "2026-09-15",
     "last_checked": "2026-09-15"
+  },
+  "rich halley 4||a distant land": {
+    "artist": "Rich Halley 4",
+    "album": "A Distant Land",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/a-distant-land/6806398839?uo=4",
+    "first_seen": "2026-09-16",
+    "last_checked": "2026-09-16"
+  },
+  "benny green||renovation": {
+    "artist": "Benny Green",
+    "album": "Renovation",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/renovation-recorded-live-at-dizzys-club-in-new-york/6809956054?uo=4",
+    "first_seen": "2026-09-16",
+    "last_checked": "2026-09-16"
+  },
+  "franklin kiermyer||scatter the atoms that remain": {
+    "artist": "Franklin Kiermyer",
+    "album": "Scatter The Atoms That Remain",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-09-16",
+    "last_checked": "2026-09-16"
+  },
+  "kevin sun||kevin sun, i.": {
+    "artist": "Kevin Sun",
+    "album": "Kevin Sun, I.",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/sun-live-smiling-from-finsbury-park-single/1771712621?uo=4",
+    "first_seen": "2026-09-16",
+    "last_checked": "2026-09-16"
+  },
+  "tommy muellner||solitary moon": {
+    "artist": "Tommy Muellner",
+    "album": "Solitary Moon",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-09-16",
+    "last_checked": "2026-09-16"
+  },
+  "peter sprague||guinnevere": {
+    "artist": "Peter Sprague",
+    "album": "Guinnevere",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/guinnevere/6801722378?uo=4",
+    "first_seen": "2026-09-16",
+    "last_checked": "2026-09-16"
   }
 }
