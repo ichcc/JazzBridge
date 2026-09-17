@@ -12614,5 +12614,37 @@
     "apple_music_link": "https://music.apple.com/us/album/guinnevere/6801722378?uo=4",
     "first_seen": "2026-09-16",
     "last_checked": "2026-09-16"
+  },
+  "pinheiro & balduino||‘music of donato,’ 2023": {
+    "artist": "Pinheiro & Balduino",
+    "album": "‘Music of Donato,’ 2023",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/donateando-the-music-of-jo%C3%A3o-donato-feat/1844467907?uo=4",
+    "first_seen": "2026-09-17",
+    "last_checked": "2026-09-17"
+  },
+  "herbie mann||‘roar of the greasepaint,’ 1965": {
+    "artist": "Herbie Mann",
+    "album": "‘Roar of the Greasepaint,’ 1965",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/the-roar-of-the-greasepaint-the-smell-of-the-crowd/76153404?uo=4",
+    "first_seen": "2026-09-17",
+    "last_checked": "2026-09-17"
+  },
+  "editor’s note||mourning the twins": {
+    "artist": "Editor’s Note",
+    "album": "Mourning the Twins",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-09-17",
+    "last_checked": "2026-09-17"
+  },
+  "jimmy giuffre||1954-’55": {
+    "artist": "Jimmy Giuffre",
+    "album": "1954-’55",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-09-17",
+    "last_checked": "2026-09-17"
   }
 }
