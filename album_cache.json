@@ -12742,5 +12742,45 @@
     "apple_music_link": null,
     "first_seen": "2026-09-20",
     "last_checked": "2026-09-20"
+  },
+  "frank london||touzle your kurchy": {
+    "artist": "Frank London",
+    "album": "Touzle Your Kurchy",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/touzle-your-kurchy/6773477605?uo=4",
+    "first_seen": "2026-09-21",
+    "last_checked": "2026-09-21"
+  },
+  "amber weekes||to oscar with love": {
+    "artist": "Amber Weekes",
+    "album": "To Oscar With Love",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/to-oscar-with-love/6781324806?uo=4",
+    "first_seen": "2026-09-21",
+    "last_checked": "2026-09-21"
+  },
+  "dave hanlon||studio sessions": {
+    "artist": "Dave Hanlon",
+    "album": "Studio Sessions",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/dave-hanlon-studio-sessions/1894965568?uo=4",
+    "first_seen": "2026-09-21",
+    "last_checked": "2026-09-21"
+  },
+  "david virelles||creative inspirations": {
+    "artist": "David Virelles",
+    "album": "Creative Inspirations",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-09-21",
+    "last_checked": "2026-09-21"
+  },
+  "idiotek||idiotek": {
+    "artist": "Idiotek",
+    "album": "IDIOTEK",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/idiotek/6796632902?uo=4",
+    "first_seen": "2026-09-21",
+    "last_checked": "2026-09-21"
   }
 }
