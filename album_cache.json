@@ -12782,5 +12782,29 @@
     "apple_music_link": "https://music.apple.com/us/album/idiotek/6796632902?uo=4",
     "first_seen": "2026-09-21",
     "last_checked": "2026-09-21"
+  },
+  "emil ingmar||polaroids": {
+    "artist": "Emil Ingmar",
+    "album": "Polaroids",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-09-22",
+    "last_checked": "2026-09-22"
+  },
+  "paul yonemura||first flight home": {
+    "artist": "Paul Yonemura",
+    "album": "First Flight Home",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/first-flight-home/6784745902?uo=4",
+    "first_seen": "2026-09-22",
+    "last_checked": "2026-09-22"
+  },
+  "las instancias||las instancias": {
+    "artist": "Las instancias",
+    "album": "Las Instancias",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/las-instancias/1895042694?uo=4",
+    "first_seen": "2026-09-22",
+    "last_checked": "2026-09-22"
   }
 }
