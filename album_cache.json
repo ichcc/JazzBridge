@@ -12830,5 +12830,45 @@
     "apple_music_link": "https://music.apple.com/us/album/a-trio-affair/6803176008?uo=4",
     "first_seen": "2026-09-23",
     "last_checked": "2026-09-23"
+  },
+  "sonny clark||‘art of the trio,’ 1957-’58": {
+    "artist": "Sonny Clark",
+    "album": "‘Art of the Trio,’ 1957-’58",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/sonny-clark-trio-the-rudy-van-gelder-edition/724456936?uo=4",
+    "first_seen": "2026-09-24",
+    "last_checked": "2026-09-24"
+  },
+  "shirley horn||‘garden of the blues,’ 1984": {
+    "artist": "Shirley Horn",
+    "album": "‘Garden of the Blues,’ 1984",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/the-garden-of-the-blues/159416931?uo=4",
+    "first_seen": "2026-09-24",
+    "last_checked": "2026-09-24"
+  },
+  "irish jazz||‘john wadham & friends’": {
+    "artist": "Irish Jazz",
+    "album": "‘John Wadham & Friends’",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-09-24",
+    "last_checked": "2026-09-24"
+  },
+  "editor’s note||get happy": {
+    "artist": "Editor’s Note",
+    "album": "Get Happy",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-09-24",
+    "last_checked": "2026-09-24"
+  },
+  "gene roland||‘swingin’ friends!,’ 1963": {
+    "artist": "Gene Roland",
+    "album": "‘Swingin’ Friends!,’ 1963",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-09-24",
+    "last_checked": "2026-09-24"
   }
 }
