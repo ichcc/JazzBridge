@@ -12870,5 +12870,53 @@
     "apple_music_link": null,
     "first_seen": "2026-09-24",
     "last_checked": "2026-09-24"
+  },
+  "corto alto||some small fortune": {
+    "artist": "Corto Alto",
+    "album": "Some Small Fortune",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-09-25",
+    "last_checked": "2026-09-25"
+  },
+  "matt wilson's good trouble||love is the whole thing, we are only pieces": {
+    "artist": "Matt Wilson's Good Trouble",
+    "album": "Love Is The Whole Thing, We Are Only Pieces",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/love-is-the-whole-thing-we-are-only-pieces/6789247559?uo=4",
+    "first_seen": "2026-09-25",
+    "last_checked": "2026-09-25"
+  },
+  "amalie dahl's dafnie||live at kafé hærverk": {
+    "artist": "Amalie Dahl's Dafnie",
+    "album": "Live at Kafé Hærverk",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/live-at-kaf%C3%A9-h%C3%A6rverk-live/6800781377?uo=4",
+    "first_seen": "2026-09-25",
+    "last_checked": "2026-09-25"
+  },
+  "jon lloyd||anima": {
+    "artist": "Jon Lloyd",
+    "album": "Anima",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/anima/6793048109?uo=4",
+    "first_seen": "2026-09-25",
+    "last_checked": "2026-09-25"
+  },
+  "stephanie borgani||mímica: música para quatro instrumentos": {
+    "artist": "Stephanie Borgani",
+    "album": "Mímica: Música para Quatro Instrumentos",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/m%C3%BAsica-para-quatro-instrumentos/6792734265?uo=4",
+    "first_seen": "2026-09-25",
+    "last_checked": "2026-09-25"
+  },
+  "wesley stace||one last heist": {
+    "artist": "Wesley Stace",
+    "album": "One Last Heist",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/one-last-heist/6798013309?uo=4",
+    "first_seen": "2026-09-25",
+    "last_checked": "2026-09-25"
   }
 }
