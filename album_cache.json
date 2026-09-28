@@ -12966,5 +12966,29 @@
     "apple_music_link": "https://music.apple.com/us/album/you-are-there/6788394573?uo=4",
     "first_seen": "2026-09-27",
     "last_checked": "2026-09-27"
+  },
+  "new music of note||september": {
+    "artist": "New Music of Note",
+    "album": "September",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/the-ambient-trip-of-tokyo/317845061?uo=4",
+    "first_seen": "2026-09-28",
+    "last_checked": "2026-09-28"
+  },
+  "editor’s note||in the mood": {
+    "artist": "Editor’s Note",
+    "album": "In the Mood",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/stay-home-stay-cool-relaxing-classical-vibes/1510802207?uo=4",
+    "first_seen": "2026-09-28",
+    "last_checked": "2026-09-28"
+  },
+  "beverly kenney||tv appearances": {
+    "artist": "Beverly Kenney",
+    "album": "TV Appearances",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-09-28",
+    "last_checked": "2026-09-28"
   }
 }
