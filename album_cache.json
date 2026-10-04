@@ -13150,5 +13150,21 @@
     "apple_music_link": "https://music.apple.com/us/album/identity/6776757056?uo=4",
     "first_seen": "2026-10-03",
     "last_checked": "2026-10-03"
+  },
+  "adam baldwych european quartet||endless": {
+    "artist": "Adam Baldwych European Quartet",
+    "album": "Endless",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-10-04",
+    "last_checked": "2026-10-04"
+  },
+  "digba ogunbiyi||stay still": {
+    "artist": "Digba Ogunbiyi",
+    "album": "Stay Still",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/stay-still/1889702426?uo=4",
+    "first_seen": "2026-10-04",
+    "last_checked": "2026-10-04"
   }
 }
