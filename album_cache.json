@@ -13478,5 +13478,45 @@
     "apple_music_link": null,
     "first_seen": "2026-10-12",
     "last_checked": "2026-10-12"
+  },
+  "clay giberson||moment's notice": {
+    "artist": "Clay Giberson",
+    "album": "Moment's Notice",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/moments-notice/6803602794?uo=4",
+    "first_seen": "2026-10-13",
+    "last_checked": "2026-10-13"
+  },
+  "bushman's revenge||ah, les vaches": {
+    "artist": "Bushman's Revenge",
+    "album": "Ah, Les Vaches",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/ah-les-vaches/1886737771?uo=4",
+    "first_seen": "2026-10-13",
+    "last_checked": "2026-10-13"
+  },
+  "ella thompson||triumph and sadness": {
+    "artist": "Ella Thompson",
+    "album": "Triumph and Sadness",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/triumph-sadness/6782147926?uo=4",
+    "first_seen": "2026-10-13",
+    "last_checked": "2026-10-13"
+  },
+  "fernando ferrarone||beautifully different": {
+    "artist": "Fernando Ferrarone",
+    "album": "Beautifully Different",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/beautifully-different/6807310302?uo=4",
+    "first_seen": "2026-10-13",
+    "last_checked": "2026-10-13"
+  },
+  "albert ayler quartet||reference: albert ayler quartet goin' home 1964": {
+    "artist": "Albert Ayler Quartet",
+    "album": "Reference: Albert Ayler Quartet Goin' Home 1964",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-10-13",
+    "last_checked": "2026-10-13"
   }
 }
