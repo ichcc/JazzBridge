@@ -13518,5 +13518,21 @@
     "apple_music_link": null,
     "first_seen": "2026-10-13",
     "last_checked": "2026-10-13"
+  },
+  "count basie||manchester, england, 1963": {
+    "artist": "Count Basie",
+    "album": "Manchester, England, 1963",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-10-14",
+    "last_checked": "2026-10-14"
+  },
+  "‘thelonious monk||live in paris, 1967’": {
+    "artist": "‘Thelonious Monk",
+    "album": "Live in Paris, 1967’",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/monk-live-in-paris-1967-vol-1/6786814899?uo=4",
+    "first_seen": "2026-10-14",
+    "last_checked": "2026-10-14"
   }
 }
