@@ -13710,5 +13710,29 @@
     "apple_music_link": "https://music.apple.com/us/album/clarinet-without-a-net/1896083427?uo=4",
     "first_seen": "2026-10-19",
     "last_checked": "2026-10-19"
+  },
+  "houston person||from the heart": {
+    "artist": "Houston Person",
+    "album": "From the Heart",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/houston-person-from-the-heart/6794562471?uo=4",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20"
+  },
+  "earl carter||495": {
+    "artist": "Earl Carter",
+    "album": "495",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/495/1553100139?uo=4",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20"
+  },
+  "us3||snap, crackle and bop!": {
+    "artist": "Us3",
+    "album": "Snap, Crackle and Bop!",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/snap-crackle-bop/6770812811?uo=4",
+    "first_seen": "2026-10-20",
+    "last_checked": "2026-10-20"
   }
 }
