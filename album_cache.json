@@ -13782,5 +13782,21 @@
     "apple_music_link": "https://music.apple.com/us/album/yokai-songs-of-the-japanese-supernatural/6812007179?uo=4",
     "first_seen": "2026-10-22",
     "last_checked": "2026-10-22"
+  },
+  "‘larry bunker quartette||at shelly’s manne-hole,’ 1963": {
+    "artist": "‘Larry Bunker Quartette",
+    "album": "At Shelly’s Manne-Hole,’ 1963",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/live-at-shellys-manne-hole-remastered/399609948?uo=4",
+    "first_seen": "2026-10-23",
+    "last_checked": "2026-10-23"
+  },
+  "editor’s note||autumn tease": {
+    "artist": "Editor’s Note",
+    "album": "Autumn Tease",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-10-23",
+    "last_checked": "2026-10-23"
   }
 }
