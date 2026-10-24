@@ -13798,5 +13798,53 @@
     "apple_music_link": null,
     "first_seen": "2026-10-23",
     "last_checked": "2026-10-23"
+  },
+  "satoko fujii orchestra tokyo||kappa ondo": {
+    "artist": "Satoko Fujii Orchestra Tokyo",
+    "album": "Kappa Ondo",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-10-24",
+    "last_checked": "2026-10-24"
+  },
+  "clifford jordan quartet||night of the mark vii": {
+    "artist": "Clifford Jordan Quartet",
+    "album": "Night of the Mark VII",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-10-24",
+    "last_checked": "2026-10-24"
+  },
+  "mali obomsawin||automatic": {
+    "artist": "Mali Obomsawin",
+    "album": "Automatic",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/automatic/6795223766?uo=4",
+    "first_seen": "2026-10-24",
+    "last_checked": "2026-10-24"
+  },
+  "mattia basilico||on the edge": {
+    "artist": "Mattia Basilico",
+    "album": "On The Edge",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-10-24",
+    "last_checked": "2026-10-24"
+  },
+  "cory weeds||hip to be square plays huey lewis and the news": {
+    "artist": "Cory Weeds",
+    "album": "Hip to Be Square Plays Huey Lewis and The News",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/hip-to-be-square-plays-huey-lewis-the-news/6766652091?uo=4",
+    "first_seen": "2026-10-24",
+    "last_checked": "2026-10-24"
+  },
+  "springfield symphony jazz orchestra||royalty: the music of duke ellington and count basie": {
+    "artist": "Springfield Symphony Jazz Orchestra",
+    "album": "Royalty: The Music of Duke Ellington and Count Basie",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-10-24",
+    "last_checked": "2026-10-24"
   }
 }
