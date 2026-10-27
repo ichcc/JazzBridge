@@ -13902,5 +13902,29 @@
     "apple_music_link": "https://music.apple.com/us/album/a-whole-system-of/6818630409?uo=4",
     "first_seen": "2026-10-26",
     "last_checked": "2026-10-26"
+  },
+  "billy mohler||live in europe": {
+    "artist": "Billy Mohler",
+    "album": "Live in Europe",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/live-in-europe/1868656800?uo=4",
+    "first_seen": "2026-10-27",
+    "last_checked": "2026-10-27"
+  },
+  "bobby wiens||live at dazzle": {
+    "artist": "Bobby Wiens",
+    "album": "Live at Dazzle",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/live-at-dazzle/6811251828?uo=4",
+    "first_seen": "2026-10-27",
+    "last_checked": "2026-10-27"
+  },
+  "bobby bradford / mark dresser / hafez modirzadeh||sonic house reunion": {
+    "artist": "Bobby Bradford / Mark Dresser / Hafez Modirzadeh",
+    "album": "Sonic House Reunion",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-10-27",
+    "last_checked": "2026-10-27"
   }
 }
