@@ -13998,5 +13998,53 @@
     "apple_music_link": null,
     "first_seen": "2026-10-30",
     "last_checked": "2026-10-30"
+  },
+  "andrew toombs||alloy": {
+    "artist": "Andrew Toombs",
+    "album": "Alloy",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/alloy/6795690509?uo=4",
+    "first_seen": "2026-10-31",
+    "last_checked": "2026-10-31"
+  },
+  "kelly green||eat your greens": {
+    "artist": "Kelly Green",
+    "album": "Eat Your Greens",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/eat-your-greens/1887931790?uo=4",
+    "first_seen": "2026-10-31",
+    "last_checked": "2026-10-31"
+  },
+  "red kite||this too shall pass": {
+    "artist": "Red Kite",
+    "album": "This Too Shall Pass",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/this-too-shall-pass/1888241741?uo=4",
+    "first_seen": "2026-10-31",
+    "last_checked": "2026-10-31"
+  },
+  "oded tzur||in the arms of a true believer": {
+    "artist": "Oded Tzur",
+    "album": "In The Arms Of A True Believer",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/in-the-arms-of-a-true-believer/6801613200?uo=4",
+    "first_seen": "2026-10-31",
+    "last_checked": "2026-10-31"
+  },
+  "rempis / abrams / ra + baker||the walls of the temple are made of sound": {
+    "artist": "Rempis / Abrams / Ra + Baker",
+    "album": "The Walls Of The Temple Are Made Of Sound",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-10-31",
+    "last_checked": "2026-10-31"
+  },
+  "joey van leeuwen||stray": {
+    "artist": "Joey van Leeuwen",
+    "album": "Stray",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-10-31",
+    "last_checked": "2026-10-31"
   }
 }
