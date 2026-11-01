@@ -14046,5 +14046,29 @@
     "apple_music_link": null,
     "first_seen": "2026-10-31",
     "last_checked": "2026-10-31"
+  },
+  "john coltrane||the tiberi tapes": {
+    "artist": "John Coltrane",
+    "album": "The Tiberi Tapes",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/giant-steps-226-bpm-live-from-the-tiberi-tapes-ep/6810433048?uo=4",
+    "first_seen": "2026-11-01",
+    "last_checked": "2026-11-01"
+  },
+  "sylvie courvoisier||amalthea": {
+    "artist": "Sylvie Courvoisier",
+    "album": "Amalthea",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/amalthea/6781061879?uo=4",
+    "first_seen": "2026-11-01",
+    "last_checked": "2026-11-01"
+  },
+  "sarah pillow||wanderer": {
+    "artist": "Sarah Pillow",
+    "album": "Wanderer",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/wanderer/6811093004?uo=4",
+    "first_seen": "2026-11-01",
+    "last_checked": "2026-11-01"
   }
 }
