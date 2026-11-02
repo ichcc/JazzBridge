@@ -14070,5 +14070,29 @@
     "apple_music_link": "https://music.apple.com/us/album/wanderer/6811093004?uo=4",
     "first_seen": "2026-11-01",
     "last_checked": "2026-11-01"
+  },
+  "tuomo uusitalo||homecoming": {
+    "artist": "Tuomo Uusitalo",
+    "album": "Homecoming",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/homecoming-feat-juuso-rinta-roope-kantonen/1707017311?uo=4",
+    "first_seen": "2026-11-02",
+    "last_checked": "2026-11-02"
+  },
+  "art blakey and the jazz messengers||blue moon over paris: ortf recordings 1963 and 1968": {
+    "artist": "Art Blakey and The Jazz Messengers",
+    "album": "Blue Moon Over Paris: ORTF Recordings 1963 and 1968",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-11-02",
+    "last_checked": "2026-11-02"
+  },
+  "stephen byth||growth in stasis": {
+    "artist": "Stephen Byth",
+    "album": "Growth in Stasis",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/growth-in-stasis/6773539722?uo=4",
+    "first_seen": "2026-11-02",
+    "last_checked": "2026-11-02"
   }
 }
