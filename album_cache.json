@@ -14118,5 +14118,45 @@
     "apple_music_link": null,
     "first_seen": "2026-11-03",
     "last_checked": "2026-11-03"
+  },
+  "neil cowley||built on bach": {
+    "artist": "Neil Cowley",
+    "album": "Built on Bach",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/built-on-bach/1892346347?uo=4",
+    "first_seen": "2026-11-04",
+    "last_checked": "2026-11-04"
+  },
+  "howard levy||heavy world": {
+    "artist": "Howard Levy",
+    "album": "Heavy World",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/heavy-world/6805259924?uo=4",
+    "first_seen": "2026-11-04",
+    "last_checked": "2026-11-04"
+  },
+  "marty ehrlich||open air: the complete saxophone quartet compositions of julius hemphill": {
+    "artist": "Marty Ehrlich",
+    "album": "Open Air: The Complete Saxophone Quartet Compositions Of Julius Hemphill",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/open-air-the-complete-saxophone-quartet-compositions/6797647379?uo=4",
+    "first_seen": "2026-11-04",
+    "last_checked": "2026-11-04"
+  },
+  "max richter||while the flood rages": {
+    "artist": "Max Richter",
+    "album": "While The Flood Rages",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/while-the-flood-rages/6812430659?uo=4",
+    "first_seen": "2026-11-04",
+    "last_checked": "2026-11-04"
+  },
+  "ernesto cervini||water pistols at dawn": {
+    "artist": "Ernesto Cervini",
+    "album": "Water Pistols at Dawn",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/quartet-water-pistols-at-dawn/6809925645?uo=4",
+    "first_seen": "2026-11-04",
+    "last_checked": "2026-11-04"
   }
 }
