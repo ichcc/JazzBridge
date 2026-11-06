@@ -14182,5 +14182,29 @@
     "apple_music_link": "https://music.apple.com/us/album/lost-in-geneva-feat-robert-hurst-johnathan-blake/1896348083?uo=4",
     "first_seen": "2026-11-05",
     "last_checked": "2026-11-05"
+  },
+  "darius brubeck quartet||live again": {
+    "artist": "Darius Brubeck Quartet",
+    "album": "Live Again",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/the-darius-brubeck-quartet-feat-dave-ohiggins-matt/1849223051?uo=4",
+    "first_seen": "2026-11-06",
+    "last_checked": "2026-11-06"
+  },
+  "jelly roll morton||new orleans joys: the earliest recordings, 1923-1926": {
+    "artist": "Jelly Roll Morton",
+    "album": "New Orleans Joys: The Earliest Recordings, 1923-1926",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-11-06",
+    "last_checked": "2026-11-06"
+  },
+  "war||war greatest hits (50th anniversary expanded edition)": {
+    "artist": "War",
+    "album": "War Greatest Hits (50th Anniversary Expanded Edition)",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/blizzard-of-ozz-40th-anniversary-expanded-edition/1531535089?uo=4",
+    "first_seen": "2026-11-06",
+    "last_checked": "2026-11-06"
   }
 }
