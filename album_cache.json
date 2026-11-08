@@ -14278,5 +14278,45 @@
     "apple_music_link": null,
     "first_seen": "2026-11-07",
     "last_checked": "2026-11-07"
+  },
+  "max light||unlearning": {
+    "artist": "Max Light",
+    "album": "Unlearning",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-11-08",
+    "last_checked": "2026-11-08"
+  },
+  "kirk knuffke / marilyn crispell / thommy andersson||paintbrush": {
+    "artist": "Kirk Knuffke / Marilyn Crispell / Thommy Andersson",
+    "album": "Paintbrush",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/paintbrush/6819438849?uo=4",
+    "first_seen": "2026-11-08",
+    "last_checked": "2026-11-08"
+  },
+  "blumer-dell-geisser-morgenthaler||live at loft köln": {
+    "artist": "Blumer-Dell-Geisser-Morgenthaler",
+    "album": "Live at Loft Köln",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-11-08",
+    "last_checked": "2026-11-08"
+  },
+  "rgg||the soul of soil": {
+    "artist": "RGG",
+    "album": "The Soul Of Soil",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-11-08",
+    "last_checked": "2026-11-08"
+  },
+  "bob marley and the wailers||roots rock reggae: bob marley and the wailers live at the hammersmith odeon": {
+    "artist": "Bob Marley and The Wailers",
+    "album": "Roots Rock Reggae: Bob Marley and The Wailers Live At The Hammersmith Odeon",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/roots-rock-reggae-live-at-the-hammersmith-odeon/6776371718?uo=4",
+    "first_seen": "2026-11-08",
+    "last_checked": "2026-11-08"
   }
 }
