@@ -14390,5 +14390,45 @@
     "apple_music_link": null,
     "first_seen": "2026-11-09",
     "last_checked": "2026-11-09"
+  },
+  "brad mehldau||fantasy and reveries": {
+    "artist": "Brad Mehldau",
+    "album": "Fantasy and Reveries",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/fantasy-reveries/6803109717?uo=4",
+    "first_seen": "2026-11-10",
+    "last_checked": "2026-11-10"
+  },
+  "bill laurance and michael league||close to home": {
+    "artist": "Bill Laurance And Michael League",
+    "album": "Close To Home",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/close-to-home/6795964175?uo=4",
+    "first_seen": "2026-11-10",
+    "last_checked": "2026-11-10"
+  },
+  "unlv jazz ensemble 1||my favorite things": {
+    "artist": "UNLV Jazz Ensemble 1",
+    "album": "My Favorite Things",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/my-favorite-things/6805575068?uo=4",
+    "first_seen": "2026-11-10",
+    "last_checked": "2026-11-10"
+  },
+  "héctor lavoe||¡que sentimiento!": {
+    "artist": "Héctor Lavoe",
+    "album": "¡Que Sentimiento!",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/qu%C3%A9-sentimiento/1464281522?uo=4",
+    "first_seen": "2026-11-10",
+    "last_checked": "2026-11-10"
+  },
+  "ken vandermark||a living poets group": {
+    "artist": "Ken Vandermark",
+    "album": "A Living Poets Group",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-11-10",
+    "last_checked": "2026-11-10"
   }
 }
