@@ -14454,5 +14454,29 @@
     "apple_music_link": "https://music.apple.com/us/album/swingin-with-the-flying-horse-big-band/6818333562?uo=4",
     "first_seen": "2026-11-11",
     "last_checked": "2026-11-11"
+  },
+  "choi cunliffe big band||east meets west": {
+    "artist": "Choi Cunliffe Big Band",
+    "album": "East Meets West",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/east-meets-west/6801014057?uo=4",
+    "first_seen": "2026-11-12",
+    "last_checked": "2026-11-12"
+  },
+  "oscar andreas haug||memoirs": {
+    "artist": "Oscar Andreas Haug",
+    "album": "Memoirs",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/memoirs/6795531026?uo=4",
+    "first_seen": "2026-11-12",
+    "last_checked": "2026-11-12"
+  },
+  "billie davies||time to cut loose": {
+    "artist": "Billie Davies",
+    "album": "Time to Cut Loose",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/time-to-cut-loose-ep/6791877844?uo=4",
+    "first_seen": "2026-11-12",
+    "last_checked": "2026-11-12"
   }
 }
