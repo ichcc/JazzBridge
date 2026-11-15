@@ -14526,5 +14526,37 @@
     "apple_music_link": "https://music.apple.com/us/album/alight/1894294717?uo=4",
     "first_seen": "2026-11-14",
     "last_checked": "2026-11-14"
+  },
+  "wsj||johnny depp": {
+    "artist": "WSJ",
+    "album": "Johnny Depp",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-11-15",
+    "last_checked": "2026-11-15"
+  },
+  "editor’s note||early thanksgiving": {
+    "artist": "Editor’s Note",
+    "album": "Early Thanksgiving",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-11-15",
+    "last_checked": "2026-11-15"
+  },
+  "tony moreno||'a celebration of elvin jones,' 2026": {
+    "artist": "Tony Moreno",
+    "album": "'A Celebration of Elvin Jones,' 2026",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/a-celebration-of-elvin-jones-feat-gene-perla/6816150853?uo=4",
+    "first_seen": "2026-11-15",
+    "last_checked": "2026-11-15"
+  },
+  "documentary||‘blue note: a story of modern jazz,’ 1997": {
+    "artist": "Documentary",
+    "album": "‘Blue Note: A Story of Modern Jazz,’ 1997",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-11-15",
+    "last_checked": "2026-11-15"
   }
 }
