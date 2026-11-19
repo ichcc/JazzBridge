@@ -14646,5 +14646,29 @@
     "apple_music_link": "https://music.apple.com/us/album/baile-as-baile/6815426674?uo=4",
     "first_seen": "2026-11-18",
     "last_checked": "2026-11-18"
+  },
+  "stan getz||‘sound in san francisco,’ 1976": {
+    "artist": "Stan Getz",
+    "album": "‘Sound in San Francisco,’ 1976",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/the-sound-in-san-francisco-live-at-keystone-korner/6819358650?uo=4",
+    "first_seen": "2026-11-19",
+    "last_checked": "2026-11-19"
+  },
+  "art blakey||‘blue moon over paris,’ 1963 and ’68": {
+    "artist": "Art Blakey",
+    "album": "‘Blue Moon Over Paris,’ 1963 and ’68",
+    "album_link": null,
+    "apple_music_link": null,
+    "first_seen": "2026-11-19",
+    "last_checked": "2026-11-19"
+  },
+  "bill evans||‘across the alps,’ 1967 and ’69": {
+    "artist": "Bill Evans",
+    "album": "‘Across the Alps,’ 1967 and ’69",
+    "album_link": null,
+    "apple_music_link": "https://music.apple.com/us/album/piano-cinema-iii/1734784595?uo=4",
+    "first_seen": "2026-11-19",
+    "last_checked": "2026-11-19"
   }
 }
